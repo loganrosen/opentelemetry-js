@@ -28,7 +28,8 @@ describeNode('osDetector() on Node.js', () => {
     sinon.restore();
   });
 
-  it('should return resource information from process', async () => {
+  it('should return resource information from process', () => {
+    // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
     const os = require('os');
 
     sinon.stub(os, 'platform').returns('win32');
@@ -44,7 +45,8 @@ describeNode('osDetector() on Node.js', () => {
     );
   });
 
-  it('should pass through type string if unknown', async () => {
+  it('should pass through type string if unknown', () => {
+    // eslint-disable-next-line @typescript-eslint/no-unsafe-assignment
     const os = require('os');
 
     sinon.stub(os, 'platform').returns('some-unknown-platform');

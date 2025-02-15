@@ -86,7 +86,7 @@ describe('tree-shaking', function () {
       });
 
       const fs = new Union();
-      fs.use(mfs as any).use(realFs);
+      fs.use(mfs as unknown as typeof realFs).use(realFs);
 
       // direct webpack to use unionfs for file input
       // needs workaround from https://github.com/webpack/webpack/issues/18242#issuecomment-2018116985 since webpack 5.91.0
@@ -94,8 +94,8 @@ describe('tree-shaking', function () {
       // direct webpack to output to memoryfs rather than to disk
       compiler.outputFileSystem = {
         ...mfs,
-        join: path.join,
-      } as any;
+        join: path.join.bind(path),
+      } as unknown as typeof compiler.outputFileSystem;
 
       const stats = await new Promise<Stats>((resolve, reject) => {
         compiler.run((err, stats) => {

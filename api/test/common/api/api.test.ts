@@ -18,9 +18,11 @@ import * as assert from 'assert';
 import api, {
   context,
   Context,
+  ContextManager,
   defaultTextMapGetter,
   defaultTextMapSetter,
   diag,
+  DiagLogger,
   metrics,
   propagation,
   ROOT_CONTEXT,
@@ -61,7 +63,7 @@ describe('API', () => {
     context.setGlobalContextManager({
       active: () => ctx,
       disable: () => {},
-    } as any);
+    } as unknown as ContextManager);
 
     const active = trace.getActiveSpan();
     assert.strictEqual(active, span);
@@ -193,9 +195,15 @@ describe('API', () => {
         let context = api.propagation.extract(ROOT_CONTEXT, carrier);
         let data: any = context.getValue(testKey);
         assert.ok(data != null);
-        assert.strictEqual(data.context, ROOT_CONTEXT);
-        assert.strictEqual(data.carrier, carrier);
-        assert.strictEqual(data.getter, defaultTextMapGetter);
+        assert.strictEqual(
+          (data as { context: Context }).context,
+          ROOT_CONTEXT
+        );
+        assert.strictEqual((data as { carrier: Carrier }).carrier, carrier);
+        assert.strictEqual(
+          (data as { getter: TextMapGetter }).getter,
+          defaultTextMapGetter
+        );
 
         const getter: TextMapGetter = {
           keys: () => [],
@@ -204,9 +212,12 @@ describe('API', () => {
         context = api.propagation.extract(ROOT_CONTEXT, carrier, getter);
         data = context.getValue(testKey);
         assert.ok(data != null);
-        assert.strictEqual(data.context, ROOT_CONTEXT);
-        assert.strictEqual(data.carrier, carrier);
-        assert.strictEqual(data.getter, getter);
+        assert.strictEqual(
+          (data as { context: Context }).context,
+          ROOT_CONTEXT
+        );
+        assert.strictEqual((data as { carrier: Carrier }).carrier, carrier);
+        assert.strictEqual((data as { getter: TextMapGetter }).getter, getter);
       });
 
       it('fields', () => {
@@ -235,21 +246,21 @@ describe('API', () => {
       });
 
       it(`null logger ${fName} message doesn't throw`, () => {
-        diag.setLogger(null as any);
+        diag.setLogger(null as unknown as DiagLogger);
         assert.doesNotThrow(() => {
           diag[fName](`${fName} message`);
         });
       });
 
       it(`undefined logger ${fName} message doesn't throw`, () => {
-        diag.setLogger(undefined as any);
+        diag.setLogger(undefined as unknown as DiagLogger);
         assert.doesNotThrow(() => {
           diag[fName](`${fName} message`);
         });
       });
 
       it(`empty logger ${fName} message doesn't throw`, () => {
-        diag.setLogger({} as any);
+        diag.setLogger({} as unknown as DiagLogger);
         assert.doesNotThrow(() => {
           diag[fName](`${fName} message`);
         });

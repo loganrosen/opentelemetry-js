@@ -691,7 +691,7 @@ describe('BasicTracerProvider', () => {
         NoopSpanProcessor.prototype,
         'forceFlush'
       );
-      forceFlushStub.returns(Promise.reject('Error'));
+      forceFlushStub.returns(Promise.reject(new Error('Error')));
 
       const spanProcessorOne = new NoopSpanProcessor();
       const spanProcessorTwo = new NoopSpanProcessor();

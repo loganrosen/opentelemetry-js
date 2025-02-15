@@ -30,7 +30,7 @@ module.exports = {
     {
       files: ['*.ts'],
       // Enable typescript-eslint for ts files.
-      extends: ["eslint:recommended", "plugin:@typescript-eslint/recommended", "plugin:prettier/recommended"],
+      extends: ["eslint:recommended", "plugin:@typescript-eslint/recommended-type-checked", "plugin:prettier/recommended"],
       parserOptions: {
         "projectService": true
       },

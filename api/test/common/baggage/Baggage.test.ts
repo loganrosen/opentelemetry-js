@@ -20,6 +20,7 @@ import {
   ROOT_CONTEXT,
   propagation,
   baggageEntryMetadataFromString,
+  ContextManager,
 } from '../../../src';
 
 describe('Baggage', () => {
@@ -143,7 +144,7 @@ describe('Baggage', () => {
       context.setGlobalContextManager({
         active: () => ctx,
         disable: () => {},
-      } as any);
+      } as unknown as ContextManager);
 
       assert.strictEqual(bag, propagation.getActiveBaggage());
 

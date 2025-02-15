@@ -24,7 +24,7 @@ describeNode('processDetector() on Node.js', () => {
     sinon.restore();
   });
 
-  it('should return resource information from process', async () => {
+  it('should return resource information from process', () => {
     const argv = ['/tmp/node', '/home/ot/test.js', 'arg1', 'arg2'];
     sinon.stub(process, 'pid').value(1234);
     sinon.stub(process, 'title').value('otProcess');
@@ -56,7 +56,7 @@ describeNode('processDetector() on Node.js', () => {
     });
   });
 
-  it('should return a resources if title, command and commandLine are missing', async () => {
+  it('should return a resources if title, command and commandLine are missing', () => {
     sinon.stub(process, 'pid').value(1234);
     sinon.stub(process, 'title').value('');
     sinon.stub(process, 'argv').value([]);

@@ -127,6 +127,7 @@ export const defaultTextMapGetter: TextMapGetter = {
     if (carrier == null) {
       return undefined;
     }
+    // eslint-disable-next-line @typescript-eslint/no-unsafe-return, @typescript-eslint/no-unsafe-member-access
     return carrier[key];
   },
 
@@ -134,6 +135,7 @@ export const defaultTextMapGetter: TextMapGetter = {
     if (carrier == null) {
       return [];
     }
+    // eslint-disable-next-line @typescript-eslint/no-unsafe-argument
     return Object.keys(carrier);
   },
 };
@@ -147,6 +149,7 @@ export const defaultTextMapSetter: TextMapSetter = {
       return;
     }
 
+    // eslint-disable-next-line @typescript-eslint/no-unsafe-member-access
     carrier[key] = value;
   },
 };

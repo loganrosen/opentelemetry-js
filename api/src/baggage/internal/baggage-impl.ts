@@ -20,7 +20,9 @@ export class BaggageImpl implements Baggage {
   private _entries: Map<string, BaggageEntry>;
 
   constructor(entries?: Map<string, BaggageEntry>) {
-    this._entries = entries ? new Map(entries) : new Map();
+    this._entries = entries
+      ? new Map<string, BaggageEntry>(entries)
+      : new Map<string, BaggageEntry>();
   }
 
   getEntry(key: string): BaggageEntry | undefined {

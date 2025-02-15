@@ -28,7 +28,9 @@ export const diagLoggerFunctions = [
   'error',
 ] as const;
 describe('DiagLogger functions', () => {
-  const calledArgs: any = {
+  const calledArgs: {
+    [key in (typeof diagLoggerFunctions)[number]]: unknown[] | null;
+  } = {
     error: null,
     warn: null,
     info: null,

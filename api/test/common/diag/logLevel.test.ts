@@ -32,7 +32,7 @@ export const diagLoggerFunctions = [
 ] as const;
 
 describe('LogLevelFilter DiagLogger', () => {
-  const calledArgs: any = {
+  const calledArgs: { [key in (typeof diagLoggerFunctions)[number]]: any } = {
     error: null,
     warn: null,
     info: null,
@@ -220,7 +220,7 @@ describe('LogLevelFilter DiagLogger', () => {
 
             const testLogger = createLogLevelDiagLogger(
               map.level,
-              invalidLogger as any
+              invalidLogger as unknown as DiagLogger
             );
             restoreCallHistory();
 

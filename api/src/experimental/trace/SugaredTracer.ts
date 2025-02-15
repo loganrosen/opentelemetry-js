@@ -90,7 +90,7 @@ export class SugaredTracer implements Tracer {
 
     return this._tracer.startActiveSpan(name, opts, ctx, (span: Span) =>
       handleFn(span, opts, fn)
-    ) as ReturnType<F>;
+    );
   }
 
   /**
@@ -144,7 +144,7 @@ export class SugaredTracer implements Tracer {
     const { opts, ctx, fn } = massageParams(arg2, arg3, arg4);
 
     const span = this._tracer.startSpan(name, opts, ctx);
-    return handleFn(span, opts, fn) as ReturnType<F>;
+    return handleFn(span, opts, fn);
   }
 }
 
@@ -171,7 +171,7 @@ function massageParams<F extends (span: Span) => ReturnType<F>>(
   } else {
     opts = arg as SugaredSpanOptions;
     ctx = arg2 as Context;
-    fn = arg3 as F;
+    fn = arg3;
   }
   opts = opts ?? {};
   ctx = ctx ?? context.active();
@@ -210,6 +210,12 @@ function handleFn<F extends (span: Span) => ReturnType<F>>(
     return ret as ReturnType<F>;
   } catch (e) {
     // add throw to signal the compiler that this will throw in the inner scope
-    throw errorHandler(e);
+    if (e instanceof Error) {
+      // eslint-disable-next-line @typescript-eslint/only-throw-error
+      throw errorHandler(e);
+    } else {
+      // eslint-disable-next-line @typescript-eslint/only-throw-error
+      throw errorHandler(new Error(String(e)));
+    }
   }
 }

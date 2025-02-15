@@ -79,7 +79,7 @@ export class PropagationAPI {
   public inject<Carrier>(
     context: Context,
     carrier: Carrier,
-    setter: TextMapSetter<Carrier> = defaultTextMapSetter
+    setter: TextMapSetter<Carrier> = defaultTextMapSetter as TextMapSetter<Carrier>
   ): void {
     return this._getGlobalPropagator().inject(context, carrier, setter);
   }
@@ -94,7 +94,7 @@ export class PropagationAPI {
   public extract<Carrier>(
     context: Context,
     carrier: Carrier,
-    getter: TextMapGetter<Carrier> = defaultTextMapGetter
+    getter: TextMapGetter<Carrier> = defaultTextMapGetter as TextMapGetter<Carrier>
   ): Context {
     return this._getGlobalPropagator().extract(context, carrier, getter);
   }

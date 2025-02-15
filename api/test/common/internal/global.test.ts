@@ -91,8 +91,12 @@ describe('Global Utils', () => {
     api1.diag.setLogger(logger1);
     const globalInstance = getGlobal('diag');
     assert.ok(globalInstance);
-    // @ts-expect-error we are modifying internals for testing purposes here
-    _globalThis[Symbol.for(GLOBAL_API_SYMBOL_KEY)].version = '0.0.1';
+    const globalApi = (_globalThis as { [key: symbol]: any })[
+      Symbol.for(GLOBAL_API_SYMBOL_KEY)
+    ] as { version: string } | undefined;
+    if (globalApi) {
+      globalApi.version = '0.0.1';
+    }
 
     assert.equal(false, api1.diag.setLogger(logger2)); // won't happen
 
@@ -124,7 +128,7 @@ describe('Global Utils', () => {
     sinon.assert.calledOnce(logger.error);
     assert.strictEqual(logger.error.firstCall.args.length, 1);
     assert.ok(
-      logger.error.firstCall.args[0].startsWith(
+      (logger.error.firstCall.args[0] as string).startsWith(
         'Error: @opentelemetry/api: Attempted duplicate registration of API: context'
       )
     );

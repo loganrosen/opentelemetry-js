@@ -43,6 +43,7 @@ export class StackContextManager implements ContextManager {
   ): T {
     const manager = this;
     const contextWrapper = function (this: unknown, ...args: unknown[]) {
+      // eslint-disable-next-line @typescript-eslint/no-unsafe-return
       return manager.with(context, () => target.apply(this, args));
     };
     Object.defineProperty(contextWrapper, 'length', {

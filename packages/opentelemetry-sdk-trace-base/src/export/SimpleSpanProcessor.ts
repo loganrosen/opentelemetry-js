@@ -81,7 +81,7 @@ export class SimpleSpanProcessor implements SpanProcessor {
     if (result.code !== ExportResultCode.SUCCESS) {
       throw (
         result.error ??
-        new Error(`SimpleSpanProcessor: span export failed (status ${result})`)
+        new Error(`SimpleSpanProcessor: span export failed (status ${result.code}, error: ${result.error?.message ?? 'unknown'})`)
       );
     }
   }
@@ -90,7 +90,7 @@ export class SimpleSpanProcessor implements SpanProcessor {
     return this._shutdownOnce.call();
   }
 
-  private _shutdown(): Promise<void> {
+  private _shutdown = (): Promise<void> => {
     return this._exporter.shutdown();
-  }
+  };
 }

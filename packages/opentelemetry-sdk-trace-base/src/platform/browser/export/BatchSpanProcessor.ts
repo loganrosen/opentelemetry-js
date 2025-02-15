@@ -14,6 +14,7 @@
  * limitations under the License.
  */
 
+import { Exception } from '@opentelemetry/api';
 import { BatchSpanProcessorBase } from '../../../export/BatchSpanProcessorBase';
 import { SpanExporter } from '../../../export/SpanExporter';
 import { BatchSpanProcessorBrowserConfig } from '../../../types';
@@ -39,13 +40,13 @@ export class BatchSpanProcessor extends BatchSpanProcessorBase<BatchSpanProcesso
       this._visibilityChangeListener = () => {
         if (document.visibilityState === 'hidden') {
           this.forceFlush().catch(error => {
-            globalErrorHandler(error);
+            globalErrorHandler(error as Exception);
           });
         }
       };
       this._pageHideListener = () => {
         this.forceFlush().catch(error => {
-          globalErrorHandler(error);
+          globalErrorHandler(error as Exception);
         });
       };
       document.addEventListener(

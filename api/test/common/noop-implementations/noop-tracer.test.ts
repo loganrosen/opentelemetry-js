@@ -93,6 +93,7 @@ describe('NoopTracer', () => {
     };
     const opts = { attributes: { foo: 'bar' } };
 
+    // eslint-disable-next-line @typescript-eslint/no-unsafe-call, @typescript-eslint/no-unsafe-member-access
     assert.strictEqual((tracer as any).startActiveSpan(name), undefined);
 
     assert.strictEqual(tracer.startActiveSpan(name, fn), 1);

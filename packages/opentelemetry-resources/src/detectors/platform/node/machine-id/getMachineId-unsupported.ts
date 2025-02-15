@@ -16,7 +16,7 @@
 
 import { diag } from '@opentelemetry/api';
 
-export async function getMachineId(): Promise<string | undefined> {
+export function getMachineId(): Promise<string | undefined> {
   diag.debug('could not read machine-id: unsupported platform');
-  return undefined;
+  return Promise.resolve(undefined);
 }

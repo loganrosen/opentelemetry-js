@@ -33,7 +33,8 @@ export const detectResources = (
       diag.debug(`${d.constructor.name} found resource.`, resource);
       return resource;
     } catch (e) {
-      diag.debug(`${d.constructor.name} failed: ${e.message}`);
+      const errorMessage = e instanceof Error ? e.message : String(e);
+      diag.debug(`${d.constructor.name} failed: ${errorMessage}`);
       return EMPTY_RESOURCE;
     }
   });

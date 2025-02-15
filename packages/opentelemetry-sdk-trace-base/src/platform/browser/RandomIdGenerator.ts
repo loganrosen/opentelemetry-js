@@ -45,7 +45,7 @@ function getIdGenerator(bytes: number): () => string {
     }
     return String.fromCharCode.apply(
       null,
-      SHARED_CHAR_CODES_ARRAY.slice(0, bytes * 2)
+      SHARED_CHAR_CODES_ARRAY.slice(0, bytes * 2) as number[]
     );
   };
 }

@@ -43,7 +43,9 @@ class BaseContext implements Context {
     // for minification
     const self = this;
 
-    self._currentContext = parentContext ? new Map(parentContext) : new Map();
+    self._currentContext = parentContext
+      ? new Map<symbol, unknown>(parentContext)
+      : new Map<symbol, unknown>();
 
     self.getValue = (key: symbol) => self._currentContext.get(key);
 
