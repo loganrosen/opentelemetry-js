@@ -15,5 +15,4 @@
  */
 
 /** only globals that common to node and browsers are allowed */
-// eslint-disable-next-line node/no-unsupported-features/es-builtins
 export const _globalThis = typeof globalThis === 'object' ? globalThis : global;

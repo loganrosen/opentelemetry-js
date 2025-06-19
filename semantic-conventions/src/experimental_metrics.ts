@@ -23,28 +23,32 @@
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_AZURE_COSMOSDB_CLIENT_ACTIVE_INSTANCE_COUNT = 'azure.cosmosdb.client.active_instance.count' as const;
+export const METRIC_AZURE_COSMOSDB_CLIENT_ACTIVE_INSTANCE_COUNT =
+  'azure.cosmosdb.client.active_instance.count' as const;
 
 /**
  * [Request units](https://learn.microsoft.com/azure/cosmos-db/request-units) consumed by the operation
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_AZURE_COSMOSDB_CLIENT_OPERATION_REQUEST_CHARGE = 'azure.cosmosdb.client.operation.request_charge' as const;
+export const METRIC_AZURE_COSMOSDB_CLIENT_OPERATION_REQUEST_CHARGE =
+  'azure.cosmosdb.client.operation.request_charge' as const;
 
 /**
  * The number of pipeline runs currently active in the system by state.
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_CICD_PIPELINE_RUN_ACTIVE = 'cicd.pipeline.run.active' as const;
+export const METRIC_CICD_PIPELINE_RUN_ACTIVE =
+  'cicd.pipeline.run.active' as const;
 
 /**
  * Duration of a pipeline run grouped by pipeline, state and result.
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_CICD_PIPELINE_RUN_DURATION = 'cicd.pipeline.run.duration' as const;
+export const METRIC_CICD_PIPELINE_RUN_DURATION =
+  'cicd.pipeline.run.duration' as const;
 
 /**
  * The number of errors encountered in pipeline runs (eg. compile, test failures).
@@ -54,7 +58,8 @@ export const METRIC_CICD_PIPELINE_RUN_DURATION = 'cicd.pipeline.run.duration' as
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_CICD_PIPELINE_RUN_ERRORS = 'cicd.pipeline.run.errors' as const;
+export const METRIC_CICD_PIPELINE_RUN_ERRORS =
+  'cicd.pipeline.run.errors' as const;
 
 /**
  * The number of errors in a component of the CICD system (eg. controller, scheduler, agent).
@@ -154,7 +159,8 @@ export const METRIC_CPU_UTILIZATION = 'cpu.utilization' as const;
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_CPYTHON_GC_COLLECTED_OBJECTS = 'cpython.gc.collected_objects' as const;
+export const METRIC_CPYTHON_GC_COLLECTED_OBJECTS =
+  'cpython.gc.collected_objects' as const;
 
 /**
  * The number of times a generation was collected since interpreter start.
@@ -172,70 +178,80 @@ export const METRIC_CPYTHON_GC_COLLECTIONS = 'cpython.gc.collections' as const;
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_CPYTHON_GC_UNCOLLECTABLE_OBJECTS = 'cpython.gc.uncollectable_objects' as const;
+export const METRIC_CPYTHON_GC_UNCOLLECTABLE_OBJECTS =
+  'cpython.gc.uncollectable_objects' as const;
 
 /**
  * The number of connections that are currently in state described by the `state` attribute
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_DB_CLIENT_CONNECTION_COUNT = 'db.client.connection.count' as const;
+export const METRIC_DB_CLIENT_CONNECTION_COUNT =
+  'db.client.connection.count' as const;
 
 /**
  * The time it took to create a new connection
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_DB_CLIENT_CONNECTION_CREATE_TIME = 'db.client.connection.create_time' as const;
+export const METRIC_DB_CLIENT_CONNECTION_CREATE_TIME =
+  'db.client.connection.create_time' as const;
 
 /**
  * The maximum number of idle open connections allowed
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_DB_CLIENT_CONNECTION_IDLE_MAX = 'db.client.connection.idle.max' as const;
+export const METRIC_DB_CLIENT_CONNECTION_IDLE_MAX =
+  'db.client.connection.idle.max' as const;
 
 /**
  * The minimum number of idle open connections allowed
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_DB_CLIENT_CONNECTION_IDLE_MIN = 'db.client.connection.idle.min' as const;
+export const METRIC_DB_CLIENT_CONNECTION_IDLE_MIN =
+  'db.client.connection.idle.min' as const;
 
 /**
  * The maximum number of open connections allowed
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_DB_CLIENT_CONNECTION_MAX = 'db.client.connection.max' as const;
+export const METRIC_DB_CLIENT_CONNECTION_MAX =
+  'db.client.connection.max' as const;
 
 /**
  * The number of current pending requests for an open connection
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_DB_CLIENT_CONNECTION_PENDING_REQUESTS = 'db.client.connection.pending_requests' as const;
+export const METRIC_DB_CLIENT_CONNECTION_PENDING_REQUESTS =
+  'db.client.connection.pending_requests' as const;
 
 /**
  * The number of connection timeouts that have occurred trying to obtain a connection from the pool
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_DB_CLIENT_CONNECTION_TIMEOUTS = 'db.client.connection.timeouts' as const;
+export const METRIC_DB_CLIENT_CONNECTION_TIMEOUTS =
+  'db.client.connection.timeouts' as const;
 
 /**
  * The time between borrowing a connection and returning it to the pool
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_DB_CLIENT_CONNECTION_USE_TIME = 'db.client.connection.use_time' as const;
+export const METRIC_DB_CLIENT_CONNECTION_USE_TIME =
+  'db.client.connection.use_time' as const;
 
 /**
  * The time it took to obtain an open connection from the pool
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_DB_CLIENT_CONNECTION_WAIT_TIME = 'db.client.connection.wait_time' as const;
+export const METRIC_DB_CLIENT_CONNECTION_WAIT_TIME =
+  'db.client.connection.wait_time' as const;
 
 /**
  * Deprecated, use `db.client.connection.create_time` instead. Note: the unit also changed from `ms` to `s`.
@@ -244,7 +260,8 @@ export const METRIC_DB_CLIENT_CONNECTION_WAIT_TIME = 'db.client.connection.wait_
  *
  * @deprecated Replaced by `db.client.connection.create_time` with unit `s`.
  */
-export const METRIC_DB_CLIENT_CONNECTIONS_CREATE_TIME = 'db.client.connections.create_time' as const;
+export const METRIC_DB_CLIENT_CONNECTIONS_CREATE_TIME =
+  'db.client.connections.create_time' as const;
 
 /**
  * Deprecated, use `db.client.connection.idle.max` instead.
@@ -253,7 +270,8 @@ export const METRIC_DB_CLIENT_CONNECTIONS_CREATE_TIME = 'db.client.connections.c
  *
  * @deprecated Replaced by `db.client.connection.idle.max`.
  */
-export const METRIC_DB_CLIENT_CONNECTIONS_IDLE_MAX = 'db.client.connections.idle.max' as const;
+export const METRIC_DB_CLIENT_CONNECTIONS_IDLE_MAX =
+  'db.client.connections.idle.max' as const;
 
 /**
  * Deprecated, use `db.client.connection.idle.min` instead.
@@ -262,7 +280,8 @@ export const METRIC_DB_CLIENT_CONNECTIONS_IDLE_MAX = 'db.client.connections.idle
  *
  * @deprecated Replaced by `db.client.connection.idle.min`.
  */
-export const METRIC_DB_CLIENT_CONNECTIONS_IDLE_MIN = 'db.client.connections.idle.min' as const;
+export const METRIC_DB_CLIENT_CONNECTIONS_IDLE_MIN =
+  'db.client.connections.idle.min' as const;
 
 /**
  * Deprecated, use `db.client.connection.max` instead.
@@ -271,7 +290,8 @@ export const METRIC_DB_CLIENT_CONNECTIONS_IDLE_MIN = 'db.client.connections.idle
  *
  * @deprecated Replaced by `db.client.connection.max`.
  */
-export const METRIC_DB_CLIENT_CONNECTIONS_MAX = 'db.client.connections.max' as const;
+export const METRIC_DB_CLIENT_CONNECTIONS_MAX =
+  'db.client.connections.max' as const;
 
 /**
  * Deprecated, use `db.client.connection.pending_requests` instead.
@@ -280,7 +300,8 @@ export const METRIC_DB_CLIENT_CONNECTIONS_MAX = 'db.client.connections.max' as c
  *
  * @deprecated Replaced by `db.client.connection.pending_requests`.
  */
-export const METRIC_DB_CLIENT_CONNECTIONS_PENDING_REQUESTS = 'db.client.connections.pending_requests' as const;
+export const METRIC_DB_CLIENT_CONNECTIONS_PENDING_REQUESTS =
+  'db.client.connections.pending_requests' as const;
 
 /**
  * Deprecated, use `db.client.connection.timeouts` instead.
@@ -289,7 +310,8 @@ export const METRIC_DB_CLIENT_CONNECTIONS_PENDING_REQUESTS = 'db.client.connecti
  *
  * @deprecated Replaced by `db.client.connection.timeouts`.
  */
-export const METRIC_DB_CLIENT_CONNECTIONS_TIMEOUTS = 'db.client.connections.timeouts' as const;
+export const METRIC_DB_CLIENT_CONNECTIONS_TIMEOUTS =
+  'db.client.connections.timeouts' as const;
 
 /**
  * Deprecated, use `db.client.connection.count` instead.
@@ -298,7 +320,8 @@ export const METRIC_DB_CLIENT_CONNECTIONS_TIMEOUTS = 'db.client.connections.time
  *
  * @deprecated Replaced by `db.client.connection.count`.
  */
-export const METRIC_DB_CLIENT_CONNECTIONS_USAGE = 'db.client.connections.usage' as const;
+export const METRIC_DB_CLIENT_CONNECTIONS_USAGE =
+  'db.client.connections.usage' as const;
 
 /**
  * Deprecated, use `db.client.connection.use_time` instead. Note: the unit also changed from `ms` to `s`.
@@ -307,7 +330,8 @@ export const METRIC_DB_CLIENT_CONNECTIONS_USAGE = 'db.client.connections.usage' 
  *
  * @deprecated Replaced by `db.client.connection.use_time` with unit `s`.
  */
-export const METRIC_DB_CLIENT_CONNECTIONS_USE_TIME = 'db.client.connections.use_time' as const;
+export const METRIC_DB_CLIENT_CONNECTIONS_USE_TIME =
+  'db.client.connections.use_time' as const;
 
 /**
  * Deprecated, use `db.client.connection.wait_time` instead. Note: the unit also changed from `ms` to `s`.
@@ -316,7 +340,8 @@ export const METRIC_DB_CLIENT_CONNECTIONS_USE_TIME = 'db.client.connections.use_
  *
  * @deprecated Replaced by `db.client.connection.wait_time` with unit `s`.
  */
-export const METRIC_DB_CLIENT_CONNECTIONS_WAIT_TIME = 'db.client.connections.wait_time' as const;
+export const METRIC_DB_CLIENT_CONNECTIONS_WAIT_TIME =
+  'db.client.connections.wait_time' as const;
 
 /**
  * Deprecated, use `azure.cosmosdb.client.active_instance.count` instead.
@@ -325,7 +350,8 @@ export const METRIC_DB_CLIENT_CONNECTIONS_WAIT_TIME = 'db.client.connections.wai
  *
  * @deprecated Replaced by `azure.cosmosdb.client.active_instance.count`.
  */
-export const METRIC_DB_CLIENT_COSMOSDB_ACTIVE_INSTANCE_COUNT = 'db.client.cosmosdb.active_instance.count' as const;
+export const METRIC_DB_CLIENT_COSMOSDB_ACTIVE_INSTANCE_COUNT =
+  'db.client.cosmosdb.active_instance.count' as const;
 
 /**
  * Deprecated, use `azure.cosmosdb.client.operation.request_charge` instead.
@@ -334,14 +360,16 @@ export const METRIC_DB_CLIENT_COSMOSDB_ACTIVE_INSTANCE_COUNT = 'db.client.cosmos
  *
  * @deprecated Replaced by `azure.cosmosdb.client.operation.request_charge`.
  */
-export const METRIC_DB_CLIENT_COSMOSDB_OPERATION_REQUEST_CHARGE = 'db.client.cosmosdb.operation.request_charge' as const;
+export const METRIC_DB_CLIENT_COSMOSDB_OPERATION_REQUEST_CHARGE =
+  'db.client.cosmosdb.operation.request_charge' as const;
 
 /**
  * The actual number of records returned by the database operation.
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_DB_CLIENT_RESPONSE_RETURNED_ROWS = 'db.client.response.returned_rows' as const;
+export const METRIC_DB_CLIENT_RESPONSE_RETURNED_ROWS =
+  'db.client.response.returned_rows' as const;
 
 /**
  * Measures the time taken to perform a DNS lookup.
@@ -418,35 +446,40 @@ export const METRIC_FAAS_TIMEOUTS = 'faas.timeouts' as const;
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_GEN_AI_CLIENT_OPERATION_DURATION = 'gen_ai.client.operation.duration' as const;
+export const METRIC_GEN_AI_CLIENT_OPERATION_DURATION =
+  'gen_ai.client.operation.duration' as const;
 
 /**
  * Measures number of input and output tokens used
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_GEN_AI_CLIENT_TOKEN_USAGE = 'gen_ai.client.token.usage' as const;
+export const METRIC_GEN_AI_CLIENT_TOKEN_USAGE =
+  'gen_ai.client.token.usage' as const;
 
 /**
  * Generative AI server request duration such as time-to-last byte or last output token
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_GEN_AI_SERVER_REQUEST_DURATION = 'gen_ai.server.request.duration' as const;
+export const METRIC_GEN_AI_SERVER_REQUEST_DURATION =
+  'gen_ai.server.request.duration' as const;
 
 /**
  * Time per output token generated after the first token for successful responses
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_GEN_AI_SERVER_TIME_PER_OUTPUT_TOKEN = 'gen_ai.server.time_per_output_token' as const;
+export const METRIC_GEN_AI_SERVER_TIME_PER_OUTPUT_TOKEN =
+  'gen_ai.server.time_per_output_token' as const;
 
 /**
  * Time to generate first token for successful responses
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_GEN_AI_SERVER_TIME_TO_FIRST_TOKEN = 'gen_ai.server.time_to_first_token' as const;
+export const METRIC_GEN_AI_SERVER_TIME_TO_FIRST_TOKEN =
+  'gen_ai.server.time_to_first_token' as const;
 
 /**
  * Heap size target percentage configured by the user, otherwise 100.
@@ -534,21 +567,24 @@ export const METRIC_GO_SCHEDULE_DURATION = 'go.schedule.duration' as const;
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_HTTP_CLIENT_ACTIVE_REQUESTS = 'http.client.active_requests' as const;
+export const METRIC_HTTP_CLIENT_ACTIVE_REQUESTS =
+  'http.client.active_requests' as const;
 
 /**
  * The duration of the successfully established outbound HTTP connections.
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_HTTP_CLIENT_CONNECTION_DURATION = 'http.client.connection.duration' as const;
+export const METRIC_HTTP_CLIENT_CONNECTION_DURATION =
+  'http.client.connection.duration' as const;
 
 /**
  * Number of outbound HTTP connections that are currently active or idle on the client.
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_HTTP_CLIENT_OPEN_CONNECTIONS = 'http.client.open_connections' as const;
+export const METRIC_HTTP_CLIENT_OPEN_CONNECTIONS =
+  'http.client.open_connections' as const;
 
 /**
  * Size of HTTP client request bodies.
@@ -557,7 +593,8 @@ export const METRIC_HTTP_CLIENT_OPEN_CONNECTIONS = 'http.client.open_connections
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_HTTP_CLIENT_REQUEST_BODY_SIZE = 'http.client.request.body.size' as const;
+export const METRIC_HTTP_CLIENT_REQUEST_BODY_SIZE =
+  'http.client.request.body.size' as const;
 
 /**
  * Size of HTTP client response bodies.
@@ -566,14 +603,16 @@ export const METRIC_HTTP_CLIENT_REQUEST_BODY_SIZE = 'http.client.request.body.si
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_HTTP_CLIENT_RESPONSE_BODY_SIZE = 'http.client.response.body.size' as const;
+export const METRIC_HTTP_CLIENT_RESPONSE_BODY_SIZE =
+  'http.client.response.body.size' as const;
 
 /**
  * Number of active HTTP server requests.
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_HTTP_SERVER_ACTIVE_REQUESTS = 'http.server.active_requests' as const;
+export const METRIC_HTTP_SERVER_ACTIVE_REQUESTS =
+  'http.server.active_requests' as const;
 
 /**
  * Size of HTTP server request bodies.
@@ -582,7 +621,8 @@ export const METRIC_HTTP_SERVER_ACTIVE_REQUESTS = 'http.server.active_requests' 
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_HTTP_SERVER_REQUEST_BODY_SIZE = 'http.server.request.body.size' as const;
+export const METRIC_HTTP_SERVER_REQUEST_BODY_SIZE =
+  'http.server.request.body.size' as const;
 
 /**
  * Size of HTTP server response bodies.
@@ -591,7 +631,8 @@ export const METRIC_HTTP_SERVER_REQUEST_BODY_SIZE = 'http.server.request.body.si
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_HTTP_SERVER_RESPONSE_BODY_SIZE = 'http.server.response.body.size' as const;
+export const METRIC_HTTP_SERVER_RESPONSE_BODY_SIZE =
+  'http.server.response.body.size' as const;
 
 /**
  * Energy consumed by the component
@@ -612,7 +653,8 @@ export const METRIC_HW_ERRORS = 'hw.errors' as const;
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_HW_HOST_AMBIENT_TEMPERATURE = 'hw.host.ambient_temperature' as const;
+export const METRIC_HW_HOST_AMBIENT_TEMPERATURE =
+  'hw.host.ambient_temperature' as const;
 
 /**
  * Total energy consumed by the entire physical host, in joules
@@ -669,7 +711,8 @@ export const METRIC_JVM_BUFFER_COUNT = 'jvm.buffer.count' as const;
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_JVM_BUFFER_MEMORY_LIMIT = 'jvm.buffer.memory.limit' as const;
+export const METRIC_JVM_BUFFER_MEMORY_LIMIT =
+  'jvm.buffer.memory.limit' as const;
 
 /**
  * Deprecated, use `jvm.buffer.memory.used` instead.
@@ -678,7 +721,8 @@ export const METRIC_JVM_BUFFER_MEMORY_LIMIT = 'jvm.buffer.memory.limit' as const
  *
  * @deprecated Replaced by `jvm.buffer.memory.used`.
  */
-export const METRIC_JVM_BUFFER_MEMORY_USAGE = 'jvm.buffer.memory.usage' as const;
+export const METRIC_JVM_BUFFER_MEMORY_USAGE =
+  'jvm.buffer.memory.usage' as const;
 
 /**
  * Measure of memory used by buffers.
@@ -692,7 +736,8 @@ export const METRIC_JVM_BUFFER_MEMORY_USED = 'jvm.buffer.memory.used' as const;
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_JVM_FILE_DESCRIPTOR_COUNT = 'jvm.file_descriptor.count' as const;
+export const METRIC_JVM_FILE_DESCRIPTOR_COUNT =
+  'jvm.file_descriptor.count' as const;
 
 /**
  * Measure of initial memory requested.
@@ -717,7 +762,8 @@ export const METRIC_JVM_SYSTEM_CPU_LOAD_1M = 'jvm.system.cpu.load_1m' as const;
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_JVM_SYSTEM_CPU_UTILIZATION = 'jvm.system.cpu.utilization' as const;
+export const METRIC_JVM_SYSTEM_CPU_UTILIZATION =
+  'jvm.system.cpu.utilization' as const;
 
 /**
  * The number of actively running jobs for a cronjob
@@ -730,7 +776,8 @@ export const METRIC_JVM_SYSTEM_CPU_UTILIZATION = 'jvm.system.cpu.utilization' as
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_K8S_CRONJOB_ACTIVE_JOBS = 'k8s.cronjob.active_jobs' as const;
+export const METRIC_K8S_CRONJOB_ACTIVE_JOBS =
+  'k8s.cronjob.active_jobs' as const;
 
 /**
  * Number of nodes that are running at least 1 daemon pod and are supposed to run the daemon pod
@@ -743,7 +790,8 @@ export const METRIC_K8S_CRONJOB_ACTIVE_JOBS = 'k8s.cronjob.active_jobs' as const
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_K8S_DAEMONSET_CURRENT_SCHEDULED_NODES = 'k8s.daemonset.current_scheduled_nodes' as const;
+export const METRIC_K8S_DAEMONSET_CURRENT_SCHEDULED_NODES =
+  'k8s.daemonset.current_scheduled_nodes' as const;
 
 /**
  * Number of nodes that should be running the daemon pod (including nodes currently running the daemon pod)
@@ -756,7 +804,8 @@ export const METRIC_K8S_DAEMONSET_CURRENT_SCHEDULED_NODES = 'k8s.daemonset.curre
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_K8S_DAEMONSET_DESIRED_SCHEDULED_NODES = 'k8s.daemonset.desired_scheduled_nodes' as const;
+export const METRIC_K8S_DAEMONSET_DESIRED_SCHEDULED_NODES =
+  'k8s.daemonset.desired_scheduled_nodes' as const;
 
 /**
  * Number of nodes that are running the daemon pod, but are not supposed to run the daemon pod
@@ -769,7 +818,8 @@ export const METRIC_K8S_DAEMONSET_DESIRED_SCHEDULED_NODES = 'k8s.daemonset.desir
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_K8S_DAEMONSET_MISSCHEDULED_NODES = 'k8s.daemonset.misscheduled_nodes' as const;
+export const METRIC_K8S_DAEMONSET_MISSCHEDULED_NODES =
+  'k8s.daemonset.misscheduled_nodes' as const;
 
 /**
  * Number of nodes that should be running the daemon pod and have one or more of the daemon pod running and ready
@@ -782,7 +832,8 @@ export const METRIC_K8S_DAEMONSET_MISSCHEDULED_NODES = 'k8s.daemonset.misschedul
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_K8S_DAEMONSET_READY_NODES = 'k8s.daemonset.ready_nodes' as const;
+export const METRIC_K8S_DAEMONSET_READY_NODES =
+  'k8s.daemonset.ready_nodes' as const;
 
 /**
  * Total number of available replica pods (ready for at least minReadySeconds) targeted by this deployment
@@ -795,7 +846,8 @@ export const METRIC_K8S_DAEMONSET_READY_NODES = 'k8s.daemonset.ready_nodes' as c
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_K8S_DEPLOYMENT_AVAILABLE_PODS = 'k8s.deployment.available_pods' as const;
+export const METRIC_K8S_DEPLOYMENT_AVAILABLE_PODS =
+  'k8s.deployment.available_pods' as const;
 
 /**
  * Number of desired replica pods in this deployment
@@ -808,7 +860,8 @@ export const METRIC_K8S_DEPLOYMENT_AVAILABLE_PODS = 'k8s.deployment.available_po
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_K8S_DEPLOYMENT_DESIRED_PODS = 'k8s.deployment.desired_pods' as const;
+export const METRIC_K8S_DEPLOYMENT_DESIRED_PODS =
+  'k8s.deployment.desired_pods' as const;
 
 /**
  * Current number of replica pods managed by this horizontal pod autoscaler, as last seen by the autoscaler
@@ -886,7 +939,8 @@ export const METRIC_K8S_JOB_ACTIVE_PODS = 'k8s.job.active_pods' as const;
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_K8S_JOB_DESIRED_SUCCESSFUL_PODS = 'k8s.job.desired_successful_pods' as const;
+export const METRIC_K8S_JOB_DESIRED_SUCCESSFUL_PODS =
+  'k8s.job.desired_successful_pods' as const;
 
 /**
  * The number of pods which reached phase Failed for a job
@@ -912,7 +966,8 @@ export const METRIC_K8S_JOB_FAILED_PODS = 'k8s.job.failed_pods' as const;
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_K8S_JOB_MAX_PARALLEL_PODS = 'k8s.job.max_parallel_pods' as const;
+export const METRIC_K8S_JOB_MAX_PARALLEL_PODS =
+  'k8s.job.max_parallel_pods' as const;
 
 /**
  * The number of pods which reached phase Succeeded for a job
@@ -925,7 +980,8 @@ export const METRIC_K8S_JOB_MAX_PARALLEL_PODS = 'k8s.job.max_parallel_pods' as c
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_K8S_JOB_SUCCESSFUL_PODS = 'k8s.job.successful_pods' as const;
+export const METRIC_K8S_JOB_SUCCESSFUL_PODS =
+  'k8s.job.successful_pods' as const;
 
 /**
  * Describes number of K8s namespaces that are currently in a given phase.
@@ -969,7 +1025,8 @@ export const METRIC_K8S_NODE_MEMORY_USAGE = 'k8s.node.memory.usage' as const;
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_K8S_NODE_NETWORK_ERRORS = 'k8s.node.network.errors' as const;
+export const METRIC_K8S_NODE_NETWORK_ERRORS =
+  'k8s.node.network.errors' as const;
 
 /**
  * Network bytes for the Node
@@ -1050,7 +1107,8 @@ export const METRIC_K8S_POD_UPTIME = 'k8s.pod.uptime' as const;
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_K8S_REPLICASET_AVAILABLE_PODS = 'k8s.replicaset.available_pods' as const;
+export const METRIC_K8S_REPLICASET_AVAILABLE_PODS =
+  'k8s.replicaset.available_pods' as const;
 
 /**
  * Number of desired replica pods in this replicaset
@@ -1063,7 +1121,8 @@ export const METRIC_K8S_REPLICASET_AVAILABLE_PODS = 'k8s.replicaset.available_po
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_K8S_REPLICASET_DESIRED_PODS = 'k8s.replicaset.desired_pods' as const;
+export const METRIC_K8S_REPLICASET_DESIRED_PODS =
+  'k8s.replicaset.desired_pods' as const;
 
 /**
  * Deprecated, use `k8s.replicationcontroller.available_pods` instead.
@@ -1072,7 +1131,8 @@ export const METRIC_K8S_REPLICASET_DESIRED_PODS = 'k8s.replicaset.desired_pods' 
  *
  * @deprecated Replaced by `k8s.replicationcontroller.available_pods`.
  */
-export const METRIC_K8S_REPLICATION_CONTROLLER_AVAILABLE_PODS = 'k8s.replication_controller.available_pods' as const;
+export const METRIC_K8S_REPLICATION_CONTROLLER_AVAILABLE_PODS =
+  'k8s.replication_controller.available_pods' as const;
 
 /**
  * Deprecated, use `k8s.replicationcontroller.desired_pods` instead.
@@ -1081,7 +1141,8 @@ export const METRIC_K8S_REPLICATION_CONTROLLER_AVAILABLE_PODS = 'k8s.replication
  *
  * @deprecated Replaced by `k8s.replicationcontroller.desired_pods`.
  */
-export const METRIC_K8S_REPLICATION_CONTROLLER_DESIRED_PODS = 'k8s.replication_controller.desired_pods' as const;
+export const METRIC_K8S_REPLICATION_CONTROLLER_DESIRED_PODS =
+  'k8s.replication_controller.desired_pods' as const;
 
 /**
  * Total number of available replica pods (ready for at least minReadySeconds) targeted by this replication controller
@@ -1094,7 +1155,8 @@ export const METRIC_K8S_REPLICATION_CONTROLLER_DESIRED_PODS = 'k8s.replication_c
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_K8S_REPLICATIONCONTROLLER_AVAILABLE_PODS = 'k8s.replicationcontroller.available_pods' as const;
+export const METRIC_K8S_REPLICATIONCONTROLLER_AVAILABLE_PODS =
+  'k8s.replicationcontroller.available_pods' as const;
 
 /**
  * Number of desired replica pods in this replication controller
@@ -1107,7 +1169,8 @@ export const METRIC_K8S_REPLICATIONCONTROLLER_AVAILABLE_PODS = 'k8s.replicationc
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_K8S_REPLICATIONCONTROLLER_DESIRED_PODS = 'k8s.replicationcontroller.desired_pods' as const;
+export const METRIC_K8S_REPLICATIONCONTROLLER_DESIRED_PODS =
+  'k8s.replicationcontroller.desired_pods' as const;
 
 /**
  * The number of replica pods created by the statefulset controller from the statefulset version indicated by currentRevision
@@ -1120,7 +1183,8 @@ export const METRIC_K8S_REPLICATIONCONTROLLER_DESIRED_PODS = 'k8s.replicationcon
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_K8S_STATEFULSET_CURRENT_PODS = 'k8s.statefulset.current_pods' as const;
+export const METRIC_K8S_STATEFULSET_CURRENT_PODS =
+  'k8s.statefulset.current_pods' as const;
 
 /**
  * Number of desired replica pods in this statefulset
@@ -1133,7 +1197,8 @@ export const METRIC_K8S_STATEFULSET_CURRENT_PODS = 'k8s.statefulset.current_pods
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_K8S_STATEFULSET_DESIRED_PODS = 'k8s.statefulset.desired_pods' as const;
+export const METRIC_K8S_STATEFULSET_DESIRED_PODS =
+  'k8s.statefulset.desired_pods' as const;
 
 /**
  * The number of replica pods created for this statefulset with a Ready Condition
@@ -1146,7 +1211,8 @@ export const METRIC_K8S_STATEFULSET_DESIRED_PODS = 'k8s.statefulset.desired_pods
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_K8S_STATEFULSET_READY_PODS = 'k8s.statefulset.ready_pods' as const;
+export const METRIC_K8S_STATEFULSET_READY_PODS =
+  'k8s.statefulset.ready_pods' as const;
 
 /**
  * Number of replica pods created by the statefulset controller from the statefulset version indicated by updateRevision
@@ -1159,7 +1225,8 @@ export const METRIC_K8S_STATEFULSET_READY_PODS = 'k8s.statefulset.ready_pods' as
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_K8S_STATEFULSET_UPDATED_PODS = 'k8s.statefulset.updated_pods' as const;
+export const METRIC_K8S_STATEFULSET_UPDATED_PODS =
+  'k8s.statefulset.updated_pods' as const;
 
 /**
  * Number of messages that were delivered to the application.
@@ -1169,7 +1236,8 @@ export const METRIC_K8S_STATEFULSET_UPDATED_PODS = 'k8s.statefulset.updated_pods
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_MESSAGING_CLIENT_CONSUMED_MESSAGES = 'messaging.client.consumed.messages' as const;
+export const METRIC_MESSAGING_CLIENT_CONSUMED_MESSAGES =
+  'messaging.client.consumed.messages' as const;
 
 /**
  * Duration of messaging operation initiated by a producer or consumer client.
@@ -1178,7 +1246,8 @@ export const METRIC_MESSAGING_CLIENT_CONSUMED_MESSAGES = 'messaging.client.consu
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_MESSAGING_CLIENT_OPERATION_DURATION = 'messaging.client.operation.duration' as const;
+export const METRIC_MESSAGING_CLIENT_OPERATION_DURATION =
+  'messaging.client.operation.duration' as const;
 
 /**
  * Deprecated. Use `messaging.client.sent.messages` instead.
@@ -1187,7 +1256,8 @@ export const METRIC_MESSAGING_CLIENT_OPERATION_DURATION = 'messaging.client.oper
  *
  * @deprecated Replaced by `messaging.client.sent.messages`.
  */
-export const METRIC_MESSAGING_CLIENT_PUBLISHED_MESSAGES = 'messaging.client.published.messages' as const;
+export const METRIC_MESSAGING_CLIENT_PUBLISHED_MESSAGES =
+  'messaging.client.published.messages' as const;
 
 /**
  * Number of messages producer attempted to send to the broker.
@@ -1196,7 +1266,8 @@ export const METRIC_MESSAGING_CLIENT_PUBLISHED_MESSAGES = 'messaging.client.publ
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_MESSAGING_CLIENT_SENT_MESSAGES = 'messaging.client.sent.messages' as const;
+export const METRIC_MESSAGING_CLIENT_SENT_MESSAGES =
+  'messaging.client.sent.messages' as const;
 
 /**
  * Duration of processing operation.
@@ -1205,7 +1276,8 @@ export const METRIC_MESSAGING_CLIENT_SENT_MESSAGES = 'messaging.client.sent.mess
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_MESSAGING_PROCESS_DURATION = 'messaging.process.duration' as const;
+export const METRIC_MESSAGING_PROCESS_DURATION =
+  'messaging.process.duration' as const;
 
 /**
  * Deprecated. Use `messaging.client.consumed.messages` instead.
@@ -1214,7 +1286,8 @@ export const METRIC_MESSAGING_PROCESS_DURATION = 'messaging.process.duration' as
  *
  * @deprecated Replaced by `messaging.client.consumed.messages`.
  */
-export const METRIC_MESSAGING_PROCESS_MESSAGES = 'messaging.process.messages' as const;
+export const METRIC_MESSAGING_PROCESS_MESSAGES =
+  'messaging.process.messages' as const;
 
 /**
  * Deprecated. Use `messaging.client.operation.duration` instead.
@@ -1223,7 +1296,8 @@ export const METRIC_MESSAGING_PROCESS_MESSAGES = 'messaging.process.messages' as
  *
  * @deprecated Replaced by `messaging.client.operation.duration`.
  */
-export const METRIC_MESSAGING_PUBLISH_DURATION = 'messaging.publish.duration' as const;
+export const METRIC_MESSAGING_PUBLISH_DURATION =
+  'messaging.publish.duration' as const;
 
 /**
  * Deprecated. Use `messaging.client.sent.messages` instead.
@@ -1232,7 +1306,8 @@ export const METRIC_MESSAGING_PUBLISH_DURATION = 'messaging.publish.duration' as
  *
  * @deprecated Replaced by `messaging.client.sent.messages`.
  */
-export const METRIC_MESSAGING_PUBLISH_MESSAGES = 'messaging.publish.messages' as const;
+export const METRIC_MESSAGING_PUBLISH_MESSAGES =
+  'messaging.publish.messages' as const;
 
 /**
  * Deprecated. Use `messaging.client.operation.duration` instead.
@@ -1241,7 +1316,8 @@ export const METRIC_MESSAGING_PUBLISH_MESSAGES = 'messaging.publish.messages' as
  *
  * @deprecated Replaced by `messaging.client.operation.duration`.
  */
-export const METRIC_MESSAGING_RECEIVE_DURATION = 'messaging.receive.duration' as const;
+export const METRIC_MESSAGING_RECEIVE_DURATION =
+  'messaging.receive.duration' as const;
 
 /**
  * Deprecated. Use `messaging.client.consumed.messages` instead.
@@ -1250,7 +1326,8 @@ export const METRIC_MESSAGING_RECEIVE_DURATION = 'messaging.receive.duration' as
  *
  * @deprecated Replaced by `messaging.client.consumed.messages`.
  */
-export const METRIC_MESSAGING_RECEIVE_MESSAGES = 'messaging.receive.messages' as const;
+export const METRIC_MESSAGING_RECEIVE_MESSAGES =
+  'messaging.receive.messages' as const;
 
 /**
  * Event loop maximum delay.
@@ -1259,7 +1336,8 @@ export const METRIC_MESSAGING_RECEIVE_MESSAGES = 'messaging.receive.messages' as
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_NODEJS_EVENTLOOP_DELAY_MAX = 'nodejs.eventloop.delay.max' as const;
+export const METRIC_NODEJS_EVENTLOOP_DELAY_MAX =
+  'nodejs.eventloop.delay.max' as const;
 
 /**
  * Event loop mean delay.
@@ -1268,7 +1346,8 @@ export const METRIC_NODEJS_EVENTLOOP_DELAY_MAX = 'nodejs.eventloop.delay.max' as
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_NODEJS_EVENTLOOP_DELAY_MEAN = 'nodejs.eventloop.delay.mean' as const;
+export const METRIC_NODEJS_EVENTLOOP_DELAY_MEAN =
+  'nodejs.eventloop.delay.mean' as const;
 
 /**
  * Event loop minimum delay.
@@ -1277,7 +1356,8 @@ export const METRIC_NODEJS_EVENTLOOP_DELAY_MEAN = 'nodejs.eventloop.delay.mean' 
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_NODEJS_EVENTLOOP_DELAY_MIN = 'nodejs.eventloop.delay.min' as const;
+export const METRIC_NODEJS_EVENTLOOP_DELAY_MIN =
+  'nodejs.eventloop.delay.min' as const;
 
 /**
  * Event loop 50 percentile delay.
@@ -1286,7 +1366,8 @@ export const METRIC_NODEJS_EVENTLOOP_DELAY_MIN = 'nodejs.eventloop.delay.min' as
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_NODEJS_EVENTLOOP_DELAY_P50 = 'nodejs.eventloop.delay.p50' as const;
+export const METRIC_NODEJS_EVENTLOOP_DELAY_P50 =
+  'nodejs.eventloop.delay.p50' as const;
 
 /**
  * Event loop 90 percentile delay.
@@ -1295,7 +1376,8 @@ export const METRIC_NODEJS_EVENTLOOP_DELAY_P50 = 'nodejs.eventloop.delay.p50' as
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_NODEJS_EVENTLOOP_DELAY_P90 = 'nodejs.eventloop.delay.p90' as const;
+export const METRIC_NODEJS_EVENTLOOP_DELAY_P90 =
+  'nodejs.eventloop.delay.p90' as const;
 
 /**
  * Event loop 99 percentile delay.
@@ -1304,7 +1386,8 @@ export const METRIC_NODEJS_EVENTLOOP_DELAY_P90 = 'nodejs.eventloop.delay.p90' as
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_NODEJS_EVENTLOOP_DELAY_P99 = 'nodejs.eventloop.delay.p99' as const;
+export const METRIC_NODEJS_EVENTLOOP_DELAY_P99 =
+  'nodejs.eventloop.delay.p99' as const;
 
 /**
  * Event loop standard deviation delay.
@@ -1313,7 +1396,8 @@ export const METRIC_NODEJS_EVENTLOOP_DELAY_P99 = 'nodejs.eventloop.delay.p99' as
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_NODEJS_EVENTLOOP_DELAY_STDDEV = 'nodejs.eventloop.delay.stddev' as const;
+export const METRIC_NODEJS_EVENTLOOP_DELAY_STDDEV =
+  'nodejs.eventloop.delay.stddev' as const;
 
 /**
  * Cumulative duration of time the event loop has been in each state.
@@ -1331,7 +1415,8 @@ export const METRIC_NODEJS_EVENTLOOP_TIME = 'nodejs.eventloop.time' as const;
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_NODEJS_EVENTLOOP_UTILIZATION = 'nodejs.eventloop.utilization' as const;
+export const METRIC_NODEJS_EVENTLOOP_UTILIZATION =
+  'nodejs.eventloop.utilization' as const;
 
 /**
  * The number of log records for which the export has finished, either successful or failed
@@ -1342,7 +1427,8 @@ export const METRIC_NODEJS_EVENTLOOP_UTILIZATION = 'nodejs.eventloop.utilization
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_OTEL_SDK_EXPORTER_LOG_EXPORTED = 'otel.sdk.exporter.log.exported' as const;
+export const METRIC_OTEL_SDK_EXPORTER_LOG_EXPORTED =
+  'otel.sdk.exporter.log.exported' as const;
 
 /**
  * The number of log records which were passed to the exporter, but that have not been exported yet (neither successful, nor failed)
@@ -1351,7 +1437,8 @@ export const METRIC_OTEL_SDK_EXPORTER_LOG_EXPORTED = 'otel.sdk.exporter.log.expo
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_OTEL_SDK_EXPORTER_LOG_INFLIGHT = 'otel.sdk.exporter.log.inflight' as const;
+export const METRIC_OTEL_SDK_EXPORTER_LOG_INFLIGHT =
+  'otel.sdk.exporter.log.inflight' as const;
 
 /**
  * The number of metric data points for which the export has finished, either successful or failed
@@ -1362,7 +1449,8 @@ export const METRIC_OTEL_SDK_EXPORTER_LOG_INFLIGHT = 'otel.sdk.exporter.log.infl
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_OTEL_SDK_EXPORTER_METRIC_DATA_POINT_EXPORTED = 'otel.sdk.exporter.metric_data_point.exported' as const;
+export const METRIC_OTEL_SDK_EXPORTER_METRIC_DATA_POINT_EXPORTED =
+  'otel.sdk.exporter.metric_data_point.exported' as const;
 
 /**
  * The number of metric data points which were passed to the exporter, but that have not been exported yet (neither successful, nor failed)
@@ -1371,7 +1459,8 @@ export const METRIC_OTEL_SDK_EXPORTER_METRIC_DATA_POINT_EXPORTED = 'otel.sdk.exp
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_OTEL_SDK_EXPORTER_METRIC_DATA_POINT_INFLIGHT = 'otel.sdk.exporter.metric_data_point.inflight' as const;
+export const METRIC_OTEL_SDK_EXPORTER_METRIC_DATA_POINT_INFLIGHT =
+  'otel.sdk.exporter.metric_data_point.inflight' as const;
 
 /**
  * The duration of exporting a batch of telemetry records.
@@ -1382,7 +1471,8 @@ export const METRIC_OTEL_SDK_EXPORTER_METRIC_DATA_POINT_INFLIGHT = 'otel.sdk.exp
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_OTEL_SDK_EXPORTER_OPERATION_DURATION = 'otel.sdk.exporter.operation.duration' as const;
+export const METRIC_OTEL_SDK_EXPORTER_OPERATION_DURATION =
+  'otel.sdk.exporter.operation.duration' as const;
 
 /**
  * The number of spans for which the export has finished, either successful or failed
@@ -1393,7 +1483,8 @@ export const METRIC_OTEL_SDK_EXPORTER_OPERATION_DURATION = 'otel.sdk.exporter.op
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_OTEL_SDK_EXPORTER_SPAN_EXPORTED = 'otel.sdk.exporter.span.exported' as const;
+export const METRIC_OTEL_SDK_EXPORTER_SPAN_EXPORTED =
+  'otel.sdk.exporter.span.exported' as const;
 
 /**
  * Deprecated, use `otel.sdk.exporter.span.exported` instead.
@@ -1402,7 +1493,8 @@ export const METRIC_OTEL_SDK_EXPORTER_SPAN_EXPORTED = 'otel.sdk.exporter.span.ex
  *
  * @deprecated Replaced by `otel.sdk.exporter.span.exported`.
  */
-export const METRIC_OTEL_SDK_EXPORTER_SPAN_EXPORTED_COUNT = 'otel.sdk.exporter.span.exported.count' as const;
+export const METRIC_OTEL_SDK_EXPORTER_SPAN_EXPORTED_COUNT =
+  'otel.sdk.exporter.span.exported.count' as const;
 
 /**
  * The number of spans which were passed to the exporter, but that have not been exported yet (neither successful, nor failed)
@@ -1411,7 +1503,8 @@ export const METRIC_OTEL_SDK_EXPORTER_SPAN_EXPORTED_COUNT = 'otel.sdk.exporter.s
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_OTEL_SDK_EXPORTER_SPAN_INFLIGHT = 'otel.sdk.exporter.span.inflight' as const;
+export const METRIC_OTEL_SDK_EXPORTER_SPAN_INFLIGHT =
+  'otel.sdk.exporter.span.inflight' as const;
 
 /**
  * Deprecated, use `otel.sdk.exporter.span.inflight` instead.
@@ -1420,7 +1513,8 @@ export const METRIC_OTEL_SDK_EXPORTER_SPAN_INFLIGHT = 'otel.sdk.exporter.span.in
  *
  * @deprecated Replaced by `otel.sdk.exporter.span.inflight`.
  */
-export const METRIC_OTEL_SDK_EXPORTER_SPAN_INFLIGHT_COUNT = 'otel.sdk.exporter.span.inflight.count' as const;
+export const METRIC_OTEL_SDK_EXPORTER_SPAN_INFLIGHT_COUNT =
+  'otel.sdk.exporter.span.inflight.count' as const;
 
 /**
  * The number of logs submitted to enabled SDK Loggers
@@ -1437,7 +1531,8 @@ export const METRIC_OTEL_SDK_LOG_CREATED = 'otel.sdk.log.created' as const;
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_OTEL_SDK_METRIC_READER_COLLECTION_DURATION = 'otel.sdk.metric_reader.collection.duration' as const;
+export const METRIC_OTEL_SDK_METRIC_READER_COLLECTION_DURATION =
+  'otel.sdk.metric_reader.collection.duration' as const;
 
 /**
  * The number of log records for which the processing has finished, either successful or failed
@@ -1448,7 +1543,8 @@ export const METRIC_OTEL_SDK_METRIC_READER_COLLECTION_DURATION = 'otel.sdk.metri
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_OTEL_SDK_PROCESSOR_LOG_PROCESSED = 'otel.sdk.processor.log.processed' as const;
+export const METRIC_OTEL_SDK_PROCESSOR_LOG_PROCESSED =
+  'otel.sdk.processor.log.processed' as const;
 
 /**
  * The maximum number of log records the queue of a given instance of an SDK Log Record processor can hold
@@ -1457,7 +1553,8 @@ export const METRIC_OTEL_SDK_PROCESSOR_LOG_PROCESSED = 'otel.sdk.processor.log.p
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_OTEL_SDK_PROCESSOR_LOG_QUEUE_CAPACITY = 'otel.sdk.processor.log.queue.capacity' as const;
+export const METRIC_OTEL_SDK_PROCESSOR_LOG_QUEUE_CAPACITY =
+  'otel.sdk.processor.log.queue.capacity' as const;
 
 /**
  * The number of log records in the queue of a given instance of an SDK log processor
@@ -1466,7 +1563,8 @@ export const METRIC_OTEL_SDK_PROCESSOR_LOG_QUEUE_CAPACITY = 'otel.sdk.processor.
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_OTEL_SDK_PROCESSOR_LOG_QUEUE_SIZE = 'otel.sdk.processor.log.queue.size' as const;
+export const METRIC_OTEL_SDK_PROCESSOR_LOG_QUEUE_SIZE =
+  'otel.sdk.processor.log.queue.size' as const;
 
 /**
  * The number of spans for which the processing has finished, either successful or failed
@@ -1476,7 +1574,8 @@ export const METRIC_OTEL_SDK_PROCESSOR_LOG_QUEUE_SIZE = 'otel.sdk.processor.log.
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_OTEL_SDK_PROCESSOR_SPAN_PROCESSED = 'otel.sdk.processor.span.processed' as const;
+export const METRIC_OTEL_SDK_PROCESSOR_SPAN_PROCESSED =
+  'otel.sdk.processor.span.processed' as const;
 
 /**
  * Deprecated, use `otel.sdk.processor.span.processed` instead.
@@ -1485,7 +1584,8 @@ export const METRIC_OTEL_SDK_PROCESSOR_SPAN_PROCESSED = 'otel.sdk.processor.span
  *
  * @deprecated Replaced by `otel.sdk.processor.span.processed`.
  */
-export const METRIC_OTEL_SDK_PROCESSOR_SPAN_PROCESSED_COUNT = 'otel.sdk.processor.span.processed.count' as const;
+export const METRIC_OTEL_SDK_PROCESSOR_SPAN_PROCESSED_COUNT =
+  'otel.sdk.processor.span.processed.count' as const;
 
 /**
  * The maximum number of spans the queue of a given instance of an SDK span processor can hold
@@ -1494,7 +1594,8 @@ export const METRIC_OTEL_SDK_PROCESSOR_SPAN_PROCESSED_COUNT = 'otel.sdk.processo
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_OTEL_SDK_PROCESSOR_SPAN_QUEUE_CAPACITY = 'otel.sdk.processor.span.queue.capacity' as const;
+export const METRIC_OTEL_SDK_PROCESSOR_SPAN_QUEUE_CAPACITY =
+  'otel.sdk.processor.span.queue.capacity' as const;
 
 /**
  * The number of spans in the queue of a given instance of an SDK span processor
@@ -1503,7 +1604,8 @@ export const METRIC_OTEL_SDK_PROCESSOR_SPAN_QUEUE_CAPACITY = 'otel.sdk.processor
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_OTEL_SDK_PROCESSOR_SPAN_QUEUE_SIZE = 'otel.sdk.processor.span.queue.size' as const;
+export const METRIC_OTEL_SDK_PROCESSOR_SPAN_QUEUE_SIZE =
+  'otel.sdk.processor.span.queue.size' as const;
 
 /**
  * The number of created spans for which the end operation was called
@@ -1522,7 +1624,8 @@ export const METRIC_OTEL_SDK_SPAN_ENDED = 'otel.sdk.span.ended' as const;
  *
  * @deprecated Replaced by `otel.sdk.span.ended`.
  */
-export const METRIC_OTEL_SDK_SPAN_ENDED_COUNT = 'otel.sdk.span.ended.count' as const;
+export const METRIC_OTEL_SDK_SPAN_ENDED_COUNT =
+  'otel.sdk.span.ended.count' as const;
 
 /**
  * The number of created spans for which the end operation has not been called yet
@@ -1541,14 +1644,16 @@ export const METRIC_OTEL_SDK_SPAN_LIVE = 'otel.sdk.span.live' as const;
  *
  * @deprecated Replaced by `otel.sdk.span.live`.
  */
-export const METRIC_OTEL_SDK_SPAN_LIVE_COUNT = 'otel.sdk.span.live.count' as const;
+export const METRIC_OTEL_SDK_SPAN_LIVE_COUNT =
+  'otel.sdk.span.live.count' as const;
 
 /**
  * Number of times the process has been context switched.
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_PROCESS_CONTEXT_SWITCHES = 'process.context_switches' as const;
+export const METRIC_PROCESS_CONTEXT_SWITCHES =
+  'process.context_switches' as const;
 
 /**
  * Total CPU seconds broken down by different states.
@@ -1562,7 +1667,8 @@ export const METRIC_PROCESS_CPU_TIME = 'process.cpu.time' as const;
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_PROCESS_CPU_UTILIZATION = 'process.cpu.utilization' as const;
+export const METRIC_PROCESS_CPU_UTILIZATION =
+  'process.cpu.utilization' as const;
 
 /**
  * Disk bytes transferred.
@@ -1597,7 +1703,8 @@ export const METRIC_PROCESS_NETWORK_IO = 'process.network.io' as const;
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_PROCESS_OPEN_FILE_DESCRIPTOR_COUNT = 'process.open_file_descriptor.count' as const;
+export const METRIC_PROCESS_OPEN_FILE_DESCRIPTOR_COUNT =
+  'process.open_file_descriptor.count' as const;
 
 /**
  * Number of page faults the process has made.
@@ -1642,7 +1749,8 @@ export const METRIC_RPC_CLIENT_DURATION = 'rpc.client.duration' as const;
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_RPC_CLIENT_REQUEST_SIZE = 'rpc.client.request.size' as const;
+export const METRIC_RPC_CLIENT_REQUEST_SIZE =
+  'rpc.client.request.size' as const;
 
 /**
  * Measures the number of messages received per RPC.
@@ -1653,7 +1761,8 @@ export const METRIC_RPC_CLIENT_REQUEST_SIZE = 'rpc.client.request.size' as const
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_RPC_CLIENT_REQUESTS_PER_RPC = 'rpc.client.requests_per_rpc' as const;
+export const METRIC_RPC_CLIENT_REQUESTS_PER_RPC =
+  'rpc.client.requests_per_rpc' as const;
 
 /**
  * Measures the size of RPC response messages (uncompressed).
@@ -1662,7 +1771,8 @@ export const METRIC_RPC_CLIENT_REQUESTS_PER_RPC = 'rpc.client.requests_per_rpc' 
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_RPC_CLIENT_RESPONSE_SIZE = 'rpc.client.response.size' as const;
+export const METRIC_RPC_CLIENT_RESPONSE_SIZE =
+  'rpc.client.response.size' as const;
 
 /**
  * Measures the number of messages sent per RPC.
@@ -1673,7 +1783,8 @@ export const METRIC_RPC_CLIENT_RESPONSE_SIZE = 'rpc.client.response.size' as con
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_RPC_CLIENT_RESPONSES_PER_RPC = 'rpc.client.responses_per_rpc' as const;
+export const METRIC_RPC_CLIENT_RESPONSES_PER_RPC =
+  'rpc.client.responses_per_rpc' as const;
 
 /**
  * Measures the duration of inbound RPC.
@@ -1694,7 +1805,8 @@ export const METRIC_RPC_SERVER_DURATION = 'rpc.server.duration' as const;
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_RPC_SERVER_REQUEST_SIZE = 'rpc.server.request.size' as const;
+export const METRIC_RPC_SERVER_REQUEST_SIZE =
+  'rpc.server.request.size' as const;
 
 /**
  * Measures the number of messages received per RPC.
@@ -1705,7 +1817,8 @@ export const METRIC_RPC_SERVER_REQUEST_SIZE = 'rpc.server.request.size' as const
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_RPC_SERVER_REQUESTS_PER_RPC = 'rpc.server.requests_per_rpc' as const;
+export const METRIC_RPC_SERVER_REQUESTS_PER_RPC =
+  'rpc.server.requests_per_rpc' as const;
 
 /**
  * Measures the size of RPC response messages (uncompressed).
@@ -1714,7 +1827,8 @@ export const METRIC_RPC_SERVER_REQUESTS_PER_RPC = 'rpc.server.requests_per_rpc' 
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_RPC_SERVER_RESPONSE_SIZE = 'rpc.server.response.size' as const;
+export const METRIC_RPC_SERVER_RESPONSE_SIZE =
+  'rpc.server.response.size' as const;
 
 /**
  * Measures the number of messages sent per RPC.
@@ -1725,7 +1839,8 @@ export const METRIC_RPC_SERVER_RESPONSE_SIZE = 'rpc.server.response.size' as con
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_RPC_SERVER_RESPONSES_PER_RPC = 'rpc.server.responses_per_rpc' as const;
+export const METRIC_RPC_SERVER_RESPONSES_PER_RPC =
+  'rpc.server.responses_per_rpc' as const;
 
 /**
  * Deprecated. Use `cpu.frequency` instead.
@@ -1742,7 +1857,8 @@ export const METRIC_SYSTEM_CPU_FREQUENCY = 'system.cpu.frequency' as const;
  * @note Calculated by multiplying the number of sockets by the number of cores per socket, and then by the number of threads per core
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_SYSTEM_CPU_LOGICAL_COUNT = 'system.cpu.logical.count' as const;
+export const METRIC_SYSTEM_CPU_LOGICAL_COUNT =
+  'system.cpu.logical.count' as const;
 
 /**
  * Reports the number of actual physical processor cores on the hardware
@@ -1750,7 +1866,8 @@ export const METRIC_SYSTEM_CPU_LOGICAL_COUNT = 'system.cpu.logical.count' as con
  * @note Calculated by multiplying the number of sockets by the number of cores per socket
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_SYSTEM_CPU_PHYSICAL_COUNT = 'system.cpu.physical.count' as const;
+export const METRIC_SYSTEM_CPU_PHYSICAL_COUNT =
+  'system.cpu.physical.count' as const;
 
 /**
  * Deprecated. Use `cpu.time` instead.
@@ -1811,7 +1928,8 @@ export const METRIC_SYSTEM_DISK_MERGED = 'system.disk.merged' as const;
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_SYSTEM_DISK_OPERATION_TIME = 'system.disk.operation_time' as const;
+export const METRIC_SYSTEM_DISK_OPERATION_TIME =
+  'system.disk.operation_time' as const;
 
 /**
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
@@ -1823,7 +1941,8 @@ export const METRIC_SYSTEM_DISK_OPERATIONS = 'system.disk.operations' as const;
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_SYSTEM_FILESYSTEM_LIMIT = 'system.filesystem.limit' as const;
+export const METRIC_SYSTEM_FILESYSTEM_LIMIT =
+  'system.filesystem.limit' as const;
 
 /**
  * Reports a filesystem's space usage across different states.
@@ -1833,12 +1952,14 @@ export const METRIC_SYSTEM_FILESYSTEM_LIMIT = 'system.filesystem.limit' as const
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_SYSTEM_FILESYSTEM_USAGE = 'system.filesystem.usage' as const;
+export const METRIC_SYSTEM_FILESYSTEM_USAGE =
+  'system.filesystem.usage' as const;
 
 /**
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_SYSTEM_FILESYSTEM_UTILIZATION = 'system.filesystem.utilization' as const;
+export const METRIC_SYSTEM_FILESYSTEM_UTILIZATION =
+  'system.filesystem.utilization' as const;
 
 /**
  * An estimate of how much memory is available for starting new applications, without causing swapping
@@ -1851,7 +1972,8 @@ export const METRIC_SYSTEM_FILESYSTEM_UTILIZATION = 'system.filesystem.utilizati
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_SYSTEM_LINUX_MEMORY_AVAILABLE = 'system.linux.memory.available' as const;
+export const METRIC_SYSTEM_LINUX_MEMORY_AVAILABLE =
+  'system.linux.memory.available' as const;
 
 /**
  * Reports the memory used by the Linux kernel for managing caches of frequently used objects.
@@ -1862,7 +1984,8 @@ export const METRIC_SYSTEM_LINUX_MEMORY_AVAILABLE = 'system.linux.memory.availab
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_SYSTEM_LINUX_MEMORY_SLAB_USAGE = 'system.linux.memory.slab.usage' as const;
+export const METRIC_SYSTEM_LINUX_MEMORY_SLAB_USAGE =
+  'system.linux.memory.slab.usage' as const;
 
 /**
  * Total memory available in the system.
@@ -1896,12 +2019,14 @@ export const METRIC_SYSTEM_MEMORY_USAGE = 'system.memory.usage' as const;
 /**
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_SYSTEM_MEMORY_UTILIZATION = 'system.memory.utilization' as const;
+export const METRIC_SYSTEM_MEMORY_UTILIZATION =
+  'system.memory.utilization' as const;
 
 /**
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_SYSTEM_NETWORK_CONNECTIONS = 'system.network.connections' as const;
+export const METRIC_SYSTEM_NETWORK_CONNECTIONS =
+  'system.network.connections' as const;
 
 /**
  * Count of packets that are dropped or discarded even though there was no error
@@ -1947,7 +2072,8 @@ export const METRIC_SYSTEM_PAGING_FAULTS = 'system.paging.faults' as const;
 /**
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_SYSTEM_PAGING_OPERATIONS = 'system.paging.operations' as const;
+export const METRIC_SYSTEM_PAGING_OPERATIONS =
+  'system.paging.operations' as const;
 
 /**
  * Unix swap or windows pagefile usage
@@ -1959,7 +2085,8 @@ export const METRIC_SYSTEM_PAGING_USAGE = 'system.paging.usage' as const;
 /**
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_SYSTEM_PAGING_UTILIZATION = 'system.paging.utilization' as const;
+export const METRIC_SYSTEM_PAGING_UTILIZATION =
+  'system.paging.utilization' as const;
 
 /**
  * Total number of processes in each state
@@ -2001,7 +2128,8 @@ export const METRIC_V8JS_GC_DURATION = 'v8js.gc.duration' as const;
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_V8JS_HEAP_SPACE_AVAILABLE_SIZE = 'v8js.heap.space.available_size' as const;
+export const METRIC_V8JS_HEAP_SPACE_AVAILABLE_SIZE =
+  'v8js.heap.space.available_size' as const;
 
 /**
  * Committed size of a heap space.
@@ -2010,7 +2138,8 @@ export const METRIC_V8JS_HEAP_SPACE_AVAILABLE_SIZE = 'v8js.heap.space.available_
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_V8JS_HEAP_SPACE_PHYSICAL_SIZE = 'v8js.heap.space.physical_size' as const;
+export const METRIC_V8JS_HEAP_SPACE_PHYSICAL_SIZE =
+  'v8js.heap.space.physical_size' as const;
 
 /**
  * Total heap memory size pre-allocated.
@@ -2049,14 +2178,16 @@ export const METRIC_VCS_CHANGE_DURATION = 'vcs.change.duration' as const;
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_VCS_CHANGE_TIME_TO_APPROVAL = 'vcs.change.time_to_approval' as const;
+export const METRIC_VCS_CHANGE_TIME_TO_APPROVAL =
+  'vcs.change.time_to_approval' as const;
 
 /**
  * The amount of time since its creation it took a change (pull request/merge request/changelist) to get merged into the target(base) ref.
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_VCS_CHANGE_TIME_TO_MERGE = 'vcs.change.time_to_merge' as const;
+export const METRIC_VCS_CHANGE_TIME_TO_MERGE =
+  'vcs.change.time_to_merge' as const;
 
 /**
  * The number of unique contributors to a repository
@@ -2091,7 +2222,8 @@ export const METRIC_VCS_REF_LINES_DELTA = 'vcs.ref.lines_delta' as const;
  *
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const METRIC_VCS_REF_REVISIONS_DELTA = 'vcs.ref.revisions_delta' as const;
+export const METRIC_VCS_REF_REVISIONS_DELTA =
+  'vcs.ref.revisions_delta' as const;
 
 /**
  * Time a ref (branch) created from the default branch (trunk) has existed. The `ref.type` attribute will always be `branch`
@@ -2106,4 +2238,3 @@ export const METRIC_VCS_REF_TIME = 'vcs.ref.time' as const;
  * @experimental This metric is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
 export const METRIC_VCS_REPOSITORY_COUNT = 'vcs.repository.count' as const;
-

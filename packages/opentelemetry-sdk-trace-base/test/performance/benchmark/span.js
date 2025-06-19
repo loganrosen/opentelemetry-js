@@ -18,7 +18,7 @@ const Benchmark = require('benchmark');
 const { BasicTracerProvider } = require('../../../build/src');
 
 const tracerProvider = new BasicTracerProvider();
-const tracer = tracerProvider.getTracer('test')
+const tracer = tracerProvider.getTracer('test');
 
 const suite = new Benchmark.Suite();
 
@@ -26,7 +26,7 @@ suite.on('cycle', event => {
   console.log(String(event.target));
 });
 
-suite.add('create spans (10 attributes)', function() {
+suite.add('create spans (10 attributes)', function () {
   const span = tracer.startSpan('span');
   span.setAttribute('aaaaaaaaaaaaaaaaaaaa', 'aaaaaaaaaaaaaaaaaaaa');
   span.setAttribute('bbbbbbbbbbbbbbbbbbbb', 'aaaaaaaaaaaaaaaaaaaa');

@@ -13,6 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
 import { ExponentMapping } from './ExponentMapping';
 import { LogarithmMapping } from './LogarithmMapping';
 import { MappingError, Mapping } from './types';

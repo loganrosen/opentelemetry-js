@@ -32,17 +32,17 @@ export const ATTR_ANDROID_APP_STATE = 'android.app.state' as const;
 /**
  * Enum value "background" for attribute {@link ATTR_ANDROID_APP_STATE}.
  */
-export const ANDROID_APP_STATE_VALUE_BACKGROUND = "background" as const;
+export const ANDROID_APP_STATE_VALUE_BACKGROUND = 'background' as const;
 
 /**
  * Enum value "created" for attribute {@link ATTR_ANDROID_APP_STATE}.
  */
-export const ANDROID_APP_STATE_VALUE_CREATED = "created" as const;
+export const ANDROID_APP_STATE_VALUE_CREATED = 'created' as const;
 
 /**
  * Enum value "foreground" for attribute {@link ATTR_ANDROID_APP_STATE}.
  */
-export const ANDROID_APP_STATE_VALUE_FOREGROUND = "foreground" as const;
+export const ANDROID_APP_STATE_VALUE_FOREGROUND = 'foreground' as const;
 
 /**
  * Uniquely identifies the framework API revision offered by a version (`os.version`) of the android operating system. More information can be found [here](https://developer.android.com/guide/topics/manifest/uses-sdk-element#ApiLevels).
@@ -66,17 +66,17 @@ export const ATTR_ANDROID_STATE = 'android.state' as const;
 /**
  * Enum value "background" for attribute {@link ATTR_ANDROID_STATE}.
  */
-export const ANDROID_STATE_VALUE_BACKGROUND = "background" as const;
+export const ANDROID_STATE_VALUE_BACKGROUND = 'background' as const;
 
 /**
  * Enum value "created" for attribute {@link ATTR_ANDROID_STATE}.
  */
-export const ANDROID_STATE_VALUE_CREATED = "created" as const;
+export const ANDROID_STATE_VALUE_CREATED = 'created' as const;
 
 /**
  * Enum value "foreground" for attribute {@link ATTR_ANDROID_STATE}.
  */
-export const ANDROID_STATE_VALUE_FOREGROUND = "foreground" as const;
+export const ANDROID_STATE_VALUE_FOREGROUND = 'foreground' as const;
 
 /**
  * A unique identifier representing the installation of an application on a specific device
@@ -160,7 +160,8 @@ export const ATTR_APP_WIDGET_NAME = 'app.widget.name' as const;
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_ARTIFACT_ATTESTATION_FILENAME = 'artifact.attestation.filename' as const;
+export const ATTR_ARTIFACT_ATTESTATION_FILENAME =
+  'artifact.attestation.filename' as const;
 
 /**
  * The full [hash value (see glossary)](https://nvlpubs.nist.gov/nistpubs/FIPS/NIST.FIPS.186-5.pdf), of the built attestation. Some envelopes in the [software attestation space](https://github.com/in-toto/attestation/tree/main/spec) also refer to this as the **digest**.
@@ -169,7 +170,8 @@ export const ATTR_ARTIFACT_ATTESTATION_FILENAME = 'artifact.attestation.filename
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_ARTIFACT_ATTESTATION_HASH = 'artifact.attestation.hash' as const;
+export const ATTR_ARTIFACT_ATTESTATION_HASH =
+  'artifact.attestation.hash' as const;
 
 /**
  * The id of the build [software attestation](https://slsa.dev/attestation-model).
@@ -243,7 +245,8 @@ export const ATTR_ARTIFACT_VERSION = 'artifact.version' as const;
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_AWS_BEDROCK_GUARDRAIL_ID = 'aws.bedrock.guardrail.id' as const;
+export const ATTR_AWS_BEDROCK_GUARDRAIL_ID =
+  'aws.bedrock.guardrail.id' as const;
 
 /**
  * The unique identifier of the AWS Bedrock Knowledge base. A [knowledge base](https://docs.aws.amazon.com/bedrock/latest/userguide/knowledge-base.html) is a bank of information that can be queried by models to generate more relevant responses and augment prompts.
@@ -252,7 +255,8 @@ export const ATTR_AWS_BEDROCK_GUARDRAIL_ID = 'aws.bedrock.guardrail.id' as const
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_AWS_BEDROCK_KNOWLEDGE_BASE_ID = 'aws.bedrock.knowledge_base.id' as const;
+export const ATTR_AWS_BEDROCK_KNOWLEDGE_BASE_ID =
+  'aws.bedrock.knowledge_base.id' as const;
 
 /**
  * The JSON-serialized value of each item in the `AttributeDefinitions` request field.
@@ -261,7 +265,8 @@ export const ATTR_AWS_BEDROCK_KNOWLEDGE_BASE_ID = 'aws.bedrock.knowledge_base.id
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_AWS_DYNAMODB_ATTRIBUTE_DEFINITIONS = 'aws.dynamodb.attribute_definitions' as const;
+export const ATTR_AWS_DYNAMODB_ATTRIBUTE_DEFINITIONS =
+  'aws.dynamodb.attribute_definitions' as const;
 
 /**
  * The value of the `AttributesToGet` request parameter.
@@ -270,14 +275,16 @@ export const ATTR_AWS_DYNAMODB_ATTRIBUTE_DEFINITIONS = 'aws.dynamodb.attribute_d
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_AWS_DYNAMODB_ATTRIBUTES_TO_GET = 'aws.dynamodb.attributes_to_get' as const;
+export const ATTR_AWS_DYNAMODB_ATTRIBUTES_TO_GET =
+  'aws.dynamodb.attributes_to_get' as const;
 
 /**
  * The value of the `ConsistentRead` request parameter.
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_AWS_DYNAMODB_CONSISTENT_READ = 'aws.dynamodb.consistent_read' as const;
+export const ATTR_AWS_DYNAMODB_CONSISTENT_READ =
+  'aws.dynamodb.consistent_read' as const;
 
 /**
  * The JSON-serialized value of each item in the `ConsumedCapacity` response field.
@@ -286,7 +293,8 @@ export const ATTR_AWS_DYNAMODB_CONSISTENT_READ = 'aws.dynamodb.consistent_read' 
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_AWS_DYNAMODB_CONSUMED_CAPACITY = 'aws.dynamodb.consumed_capacity' as const;
+export const ATTR_AWS_DYNAMODB_CONSUMED_CAPACITY =
+  'aws.dynamodb.consumed_capacity' as const;
 
 /**
  * The value of the `Count` response parameter.
@@ -305,7 +313,8 @@ export const ATTR_AWS_DYNAMODB_COUNT = 'aws.dynamodb.count' as const;
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_AWS_DYNAMODB_EXCLUSIVE_START_TABLE = 'aws.dynamodb.exclusive_start_table' as const;
+export const ATTR_AWS_DYNAMODB_EXCLUSIVE_START_TABLE =
+  'aws.dynamodb.exclusive_start_table' as const;
 
 /**
  * The JSON-serialized value of each item in the `GlobalSecondaryIndexUpdates` request field.
@@ -314,7 +323,8 @@ export const ATTR_AWS_DYNAMODB_EXCLUSIVE_START_TABLE = 'aws.dynamodb.exclusive_s
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_AWS_DYNAMODB_GLOBAL_SECONDARY_INDEX_UPDATES = 'aws.dynamodb.global_secondary_index_updates' as const;
+export const ATTR_AWS_DYNAMODB_GLOBAL_SECONDARY_INDEX_UPDATES =
+  'aws.dynamodb.global_secondary_index_updates' as const;
 
 /**
  * The JSON-serialized value of each item of the `GlobalSecondaryIndexes` request field
@@ -323,7 +333,8 @@ export const ATTR_AWS_DYNAMODB_GLOBAL_SECONDARY_INDEX_UPDATES = 'aws.dynamodb.gl
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_AWS_DYNAMODB_GLOBAL_SECONDARY_INDEXES = 'aws.dynamodb.global_secondary_indexes' as const;
+export const ATTR_AWS_DYNAMODB_GLOBAL_SECONDARY_INDEXES =
+  'aws.dynamodb.global_secondary_indexes' as const;
 
 /**
  * The value of the `IndexName` request parameter.
@@ -341,7 +352,8 @@ export const ATTR_AWS_DYNAMODB_INDEX_NAME = 'aws.dynamodb.index_name' as const;
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_AWS_DYNAMODB_ITEM_COLLECTION_METRICS = 'aws.dynamodb.item_collection_metrics' as const;
+export const ATTR_AWS_DYNAMODB_ITEM_COLLECTION_METRICS =
+  'aws.dynamodb.item_collection_metrics' as const;
 
 /**
  * The value of the `Limit` request parameter.
@@ -359,7 +371,8 @@ export const ATTR_AWS_DYNAMODB_LIMIT = 'aws.dynamodb.limit' as const;
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_AWS_DYNAMODB_LOCAL_SECONDARY_INDEXES = 'aws.dynamodb.local_secondary_indexes' as const;
+export const ATTR_AWS_DYNAMODB_LOCAL_SECONDARY_INDEXES =
+  'aws.dynamodb.local_secondary_indexes' as const;
 
 /**
  * The value of the `ProjectionExpression` request parameter.
@@ -380,7 +393,8 @@ export const ATTR_AWS_DYNAMODB_PROJECTION = 'aws.dynamodb.projection' as const;
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_AWS_DYNAMODB_PROVISIONED_READ_CAPACITY = 'aws.dynamodb.provisioned_read_capacity' as const;
+export const ATTR_AWS_DYNAMODB_PROVISIONED_READ_CAPACITY =
+  'aws.dynamodb.provisioned_read_capacity' as const;
 
 /**
  * The value of the `ProvisionedThroughput.WriteCapacityUnits` request parameter.
@@ -390,14 +404,16 @@ export const ATTR_AWS_DYNAMODB_PROVISIONED_READ_CAPACITY = 'aws.dynamodb.provisi
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_AWS_DYNAMODB_PROVISIONED_WRITE_CAPACITY = 'aws.dynamodb.provisioned_write_capacity' as const;
+export const ATTR_AWS_DYNAMODB_PROVISIONED_WRITE_CAPACITY =
+  'aws.dynamodb.provisioned_write_capacity' as const;
 
 /**
  * The value of the `ScanIndexForward` request parameter.
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_AWS_DYNAMODB_SCAN_FORWARD = 'aws.dynamodb.scan_forward' as const;
+export const ATTR_AWS_DYNAMODB_SCAN_FORWARD =
+  'aws.dynamodb.scan_forward' as const;
 
 /**
  * The value of the `ScannedCount` response parameter.
@@ -406,7 +422,8 @@ export const ATTR_AWS_DYNAMODB_SCAN_FORWARD = 'aws.dynamodb.scan_forward' as con
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_AWS_DYNAMODB_SCANNED_COUNT = 'aws.dynamodb.scanned_count' as const;
+export const ATTR_AWS_DYNAMODB_SCANNED_COUNT =
+  'aws.dynamodb.scanned_count' as const;
 
 /**
  * The value of the `Segment` request parameter.
@@ -434,7 +451,8 @@ export const ATTR_AWS_DYNAMODB_SELECT = 'aws.dynamodb.select' as const;
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_AWS_DYNAMODB_TABLE_COUNT = 'aws.dynamodb.table_count' as const;
+export const ATTR_AWS_DYNAMODB_TABLE_COUNT =
+  'aws.dynamodb.table_count' as const;
 
 /**
  * The keys in the `RequestItems` object field.
@@ -443,7 +461,8 @@ export const ATTR_AWS_DYNAMODB_TABLE_COUNT = 'aws.dynamodb.table_count' as const
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_AWS_DYNAMODB_TABLE_NAMES = 'aws.dynamodb.table_names' as const;
+export const ATTR_AWS_DYNAMODB_TABLE_NAMES =
+  'aws.dynamodb.table_names' as const;
 
 /**
  * The value of the `TotalSegments` request parameter.
@@ -452,7 +471,8 @@ export const ATTR_AWS_DYNAMODB_TABLE_NAMES = 'aws.dynamodb.table_names' as const
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_AWS_DYNAMODB_TOTAL_SEGMENTS = 'aws.dynamodb.total_segments' as const;
+export const ATTR_AWS_DYNAMODB_TOTAL_SEGMENTS =
+  'aws.dynamodb.total_segments' as const;
 
 /**
  * The ARN of an [ECS cluster](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/clusters.html).
@@ -482,12 +502,12 @@ export const ATTR_AWS_ECS_LAUNCHTYPE = 'aws.ecs.launchtype' as const;
 /**
  * Enum value "ec2" for attribute {@link ATTR_AWS_ECS_LAUNCHTYPE}.
  */
-export const AWS_ECS_LAUNCHTYPE_VALUE_EC2 = "ec2" as const;
+export const AWS_ECS_LAUNCHTYPE_VALUE_EC2 = 'ec2' as const;
 
 /**
  * Enum value "fargate" for attribute {@link ATTR_AWS_ECS_LAUNCHTYPE}.
  */
-export const AWS_ECS_LAUNCHTYPE_VALUE_FARGATE = "fargate" as const;
+export const AWS_ECS_LAUNCHTYPE_VALUE_FARGATE = 'fargate' as const;
 
 /**
  * The ARN of a running [ECS task](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/ecs-account-settings.html#ecs-resource-ids).
@@ -572,7 +592,8 @@ export const ATTR_AWS_LAMBDA_INVOKED_ARN = 'aws.lambda.invoked_arn' as const;
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_AWS_LAMBDA_RESOURCE_MAPPING_ID = 'aws.lambda.resource_mapping.id' as const;
+export const ATTR_AWS_LAMBDA_RESOURCE_MAPPING_ID =
+  'aws.lambda.resource_mapping.id' as const;
 
 /**
  * The Amazon Resource Name(s) (ARN) of the AWS log group(s).
@@ -733,7 +754,8 @@ export const ATTR_AWS_S3_UPLOAD_ID = 'aws.s3.upload_id' as const;
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_AWS_SECRETSMANAGER_SECRET_ARN = 'aws.secretsmanager.secret.arn' as const;
+export const ATTR_AWS_SECRETSMANAGER_SECRET_ARN =
+  'aws.secretsmanager.secret.arn' as const;
 
 /**
  * The ARN of the AWS SNS Topic. An Amazon SNS [topic](https://docs.aws.amazon.com/sns/latest/dg/sns-create-topic.html) is a logical access point that acts as a communication channel.
@@ -760,7 +782,8 @@ export const ATTR_AWS_SQS_QUEUE_URL = 'aws.sqs.queue.url' as const;
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_AWS_STEP_FUNCTIONS_ACTIVITY_ARN = 'aws.step_functions.activity.arn' as const;
+export const ATTR_AWS_STEP_FUNCTIONS_ACTIVITY_ARN =
+  'aws.step_functions.activity.arn' as const;
 
 /**
  * The ARN of the AWS Step Functions State Machine.
@@ -769,7 +792,8 @@ export const ATTR_AWS_STEP_FUNCTIONS_ACTIVITY_ARN = 'aws.step_functions.activity
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_AWS_STEP_FUNCTIONS_STATE_MACHINE_ARN = 'aws.step_functions.state_machine.arn' as const;
+export const ATTR_AWS_STEP_FUNCTIONS_STATE_MACHINE_ARN =
+  'aws.step_functions.state_machine.arn' as const;
 
 /**
  * [Azure Resource Provider Namespace](https://learn.microsoft.com/azure/azure-resource-manager/management/azure-services-resource-providers) as recognized by the client.
@@ -806,17 +830,18 @@ export const ATTR_AZURE_CLIENT_ID = 'azure.client.id' as const;
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_AZURE_COSMOSDB_CONNECTION_MODE = 'azure.cosmosdb.connection.mode' as const;
+export const ATTR_AZURE_COSMOSDB_CONNECTION_MODE =
+  'azure.cosmosdb.connection.mode' as const;
 
 /**
  * Enum value "direct" for attribute {@link ATTR_AZURE_COSMOSDB_CONNECTION_MODE}.
  */
-export const AZURE_COSMOSDB_CONNECTION_MODE_VALUE_DIRECT = "direct" as const;
+export const AZURE_COSMOSDB_CONNECTION_MODE_VALUE_DIRECT = 'direct' as const;
 
 /**
  * Enum value "gateway" for attribute {@link ATTR_AZURE_COSMOSDB_CONNECTION_MODE}.
  */
-export const AZURE_COSMOSDB_CONNECTION_MODE_VALUE_GATEWAY = "gateway" as const;
+export const AZURE_COSMOSDB_CONNECTION_MODE_VALUE_GATEWAY = 'gateway' as const;
 
 /**
  * Account or request [consistency level](https://learn.microsoft.com/azure/cosmos-db/consistency-levels).
@@ -829,32 +854,37 @@ export const AZURE_COSMOSDB_CONNECTION_MODE_VALUE_GATEWAY = "gateway" as const;
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_AZURE_COSMOSDB_CONSISTENCY_LEVEL = 'azure.cosmosdb.consistency.level' as const;
+export const ATTR_AZURE_COSMOSDB_CONSISTENCY_LEVEL =
+  'azure.cosmosdb.consistency.level' as const;
 
 /**
  * Enum value "BoundedStaleness" for attribute {@link ATTR_AZURE_COSMOSDB_CONSISTENCY_LEVEL}.
  */
-export const AZURE_COSMOSDB_CONSISTENCY_LEVEL_VALUE_BOUNDED_STALENESS = "BoundedStaleness" as const;
+export const AZURE_COSMOSDB_CONSISTENCY_LEVEL_VALUE_BOUNDED_STALENESS =
+  'BoundedStaleness' as const;
 
 /**
  * Enum value "ConsistentPrefix" for attribute {@link ATTR_AZURE_COSMOSDB_CONSISTENCY_LEVEL}.
  */
-export const AZURE_COSMOSDB_CONSISTENCY_LEVEL_VALUE_CONSISTENT_PREFIX = "ConsistentPrefix" as const;
+export const AZURE_COSMOSDB_CONSISTENCY_LEVEL_VALUE_CONSISTENT_PREFIX =
+  'ConsistentPrefix' as const;
 
 /**
  * Enum value "Eventual" for attribute {@link ATTR_AZURE_COSMOSDB_CONSISTENCY_LEVEL}.
  */
-export const AZURE_COSMOSDB_CONSISTENCY_LEVEL_VALUE_EVENTUAL = "Eventual" as const;
+export const AZURE_COSMOSDB_CONSISTENCY_LEVEL_VALUE_EVENTUAL =
+  'Eventual' as const;
 
 /**
  * Enum value "Session" for attribute {@link ATTR_AZURE_COSMOSDB_CONSISTENCY_LEVEL}.
  */
-export const AZURE_COSMOSDB_CONSISTENCY_LEVEL_VALUE_SESSION = "Session" as const;
+export const AZURE_COSMOSDB_CONSISTENCY_LEVEL_VALUE_SESSION =
+  'Session' as const;
 
 /**
  * Enum value "Strong" for attribute {@link ATTR_AZURE_COSMOSDB_CONSISTENCY_LEVEL}.
  */
-export const AZURE_COSMOSDB_CONSISTENCY_LEVEL_VALUE_STRONG = "Strong" as const;
+export const AZURE_COSMOSDB_CONSISTENCY_LEVEL_VALUE_STRONG = 'Strong' as const;
 
 /**
  * List of regions contacted during operation in the order that they were contacted. If there is more than one region listed, it indicates that the operation was performed on multiple regions i.e. cross-regional call.
@@ -865,7 +895,8 @@ export const AZURE_COSMOSDB_CONSISTENCY_LEVEL_VALUE_STRONG = "Strong" as const;
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_AZURE_COSMOSDB_OPERATION_CONTACTED_REGIONS = 'azure.cosmosdb.operation.contacted_regions' as const;
+export const ATTR_AZURE_COSMOSDB_OPERATION_CONTACTED_REGIONS =
+  'azure.cosmosdb.operation.contacted_regions' as const;
 
 /**
  * The number of request units consumed by the operation.
@@ -875,14 +906,16 @@ export const ATTR_AZURE_COSMOSDB_OPERATION_CONTACTED_REGIONS = 'azure.cosmosdb.o
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_AZURE_COSMOSDB_OPERATION_REQUEST_CHARGE = 'azure.cosmosdb.operation.request_charge' as const;
+export const ATTR_AZURE_COSMOSDB_OPERATION_REQUEST_CHARGE =
+  'azure.cosmosdb.operation.request_charge' as const;
 
 /**
  * Request payload size in bytes.
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_AZURE_COSMOSDB_REQUEST_BODY_SIZE = 'azure.cosmosdb.request.body.size' as const;
+export const ATTR_AZURE_COSMOSDB_REQUEST_BODY_SIZE =
+  'azure.cosmosdb.request.body.size' as const;
 
 /**
  * Cosmos DB sub status code.
@@ -892,7 +925,8 @@ export const ATTR_AZURE_COSMOSDB_REQUEST_BODY_SIZE = 'azure.cosmosdb.request.bod
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_AZURE_COSMOSDB_RESPONSE_SUB_STATUS_CODE = 'azure.cosmosdb.response.sub_status_code' as const;
+export const ATTR_AZURE_COSMOSDB_RESPONSE_SUB_STATUS_CODE =
+  'azure.cosmosdb.response.sub_status_code' as const;
 
 /**
  * Array of brand name and version separated by a space
@@ -947,62 +981,66 @@ export const ATTR_BROWSER_PLATFORM = 'browser.platform' as const;
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_CASSANDRA_CONSISTENCY_LEVEL = 'cassandra.consistency.level' as const;
+export const ATTR_CASSANDRA_CONSISTENCY_LEVEL =
+  'cassandra.consistency.level' as const;
 
 /**
  * Enum value "all" for attribute {@link ATTR_CASSANDRA_CONSISTENCY_LEVEL}.
  */
-export const CASSANDRA_CONSISTENCY_LEVEL_VALUE_ALL = "all" as const;
+export const CASSANDRA_CONSISTENCY_LEVEL_VALUE_ALL = 'all' as const;
 
 /**
  * Enum value "any" for attribute {@link ATTR_CASSANDRA_CONSISTENCY_LEVEL}.
  */
-export const CASSANDRA_CONSISTENCY_LEVEL_VALUE_ANY = "any" as const;
+export const CASSANDRA_CONSISTENCY_LEVEL_VALUE_ANY = 'any' as const;
 
 /**
  * Enum value "each_quorum" for attribute {@link ATTR_CASSANDRA_CONSISTENCY_LEVEL}.
  */
-export const CASSANDRA_CONSISTENCY_LEVEL_VALUE_EACH_QUORUM = "each_quorum" as const;
+export const CASSANDRA_CONSISTENCY_LEVEL_VALUE_EACH_QUORUM =
+  'each_quorum' as const;
 
 /**
  * Enum value "local_one" for attribute {@link ATTR_CASSANDRA_CONSISTENCY_LEVEL}.
  */
-export const CASSANDRA_CONSISTENCY_LEVEL_VALUE_LOCAL_ONE = "local_one" as const;
+export const CASSANDRA_CONSISTENCY_LEVEL_VALUE_LOCAL_ONE = 'local_one' as const;
 
 /**
  * Enum value "local_quorum" for attribute {@link ATTR_CASSANDRA_CONSISTENCY_LEVEL}.
  */
-export const CASSANDRA_CONSISTENCY_LEVEL_VALUE_LOCAL_QUORUM = "local_quorum" as const;
+export const CASSANDRA_CONSISTENCY_LEVEL_VALUE_LOCAL_QUORUM =
+  'local_quorum' as const;
 
 /**
  * Enum value "local_serial" for attribute {@link ATTR_CASSANDRA_CONSISTENCY_LEVEL}.
  */
-export const CASSANDRA_CONSISTENCY_LEVEL_VALUE_LOCAL_SERIAL = "local_serial" as const;
+export const CASSANDRA_CONSISTENCY_LEVEL_VALUE_LOCAL_SERIAL =
+  'local_serial' as const;
 
 /**
  * Enum value "one" for attribute {@link ATTR_CASSANDRA_CONSISTENCY_LEVEL}.
  */
-export const CASSANDRA_CONSISTENCY_LEVEL_VALUE_ONE = "one" as const;
+export const CASSANDRA_CONSISTENCY_LEVEL_VALUE_ONE = 'one' as const;
 
 /**
  * Enum value "quorum" for attribute {@link ATTR_CASSANDRA_CONSISTENCY_LEVEL}.
  */
-export const CASSANDRA_CONSISTENCY_LEVEL_VALUE_QUORUM = "quorum" as const;
+export const CASSANDRA_CONSISTENCY_LEVEL_VALUE_QUORUM = 'quorum' as const;
 
 /**
  * Enum value "serial" for attribute {@link ATTR_CASSANDRA_CONSISTENCY_LEVEL}.
  */
-export const CASSANDRA_CONSISTENCY_LEVEL_VALUE_SERIAL = "serial" as const;
+export const CASSANDRA_CONSISTENCY_LEVEL_VALUE_SERIAL = 'serial' as const;
 
 /**
  * Enum value "three" for attribute {@link ATTR_CASSANDRA_CONSISTENCY_LEVEL}.
  */
-export const CASSANDRA_CONSISTENCY_LEVEL_VALUE_THREE = "three" as const;
+export const CASSANDRA_CONSISTENCY_LEVEL_VALUE_THREE = 'three' as const;
 
 /**
  * Enum value "two" for attribute {@link ATTR_CASSANDRA_CONSISTENCY_LEVEL}.
  */
-export const CASSANDRA_CONSISTENCY_LEVEL_VALUE_TWO = "two" as const;
+export const CASSANDRA_CONSISTENCY_LEVEL_VALUE_TWO = 'two' as const;
 
 /**
  * The data center of the coordinating node for a query.
@@ -1011,7 +1049,8 @@ export const CASSANDRA_CONSISTENCY_LEVEL_VALUE_TWO = "two" as const;
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_CASSANDRA_COORDINATOR_DC = 'cassandra.coordinator.dc' as const;
+export const ATTR_CASSANDRA_COORDINATOR_DC =
+  'cassandra.coordinator.dc' as const;
 
 /**
  * The ID of the coordinating node for a query.
@@ -1020,7 +1059,8 @@ export const ATTR_CASSANDRA_COORDINATOR_DC = 'cassandra.coordinator.dc' as const
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_CASSANDRA_COORDINATOR_ID = 'cassandra.coordinator.id' as const;
+export const ATTR_CASSANDRA_COORDINATOR_ID =
+  'cassandra.coordinator.id' as const;
 
 /**
  * The fetch size used for paging, i.e. how many rows will be returned at once.
@@ -1036,7 +1076,8 @@ export const ATTR_CASSANDRA_PAGE_SIZE = 'cassandra.page.size' as const;
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_CASSANDRA_QUERY_IDEMPOTENT = 'cassandra.query.idempotent' as const;
+export const ATTR_CASSANDRA_QUERY_IDEMPOTENT =
+  'cassandra.query.idempotent' as const;
 
 /**
  * The number of times a query was speculatively executed. Not set or `0` if the query was not executed speculatively.
@@ -1046,7 +1087,8 @@ export const ATTR_CASSANDRA_QUERY_IDEMPOTENT = 'cassandra.query.idempotent' as c
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_CASSANDRA_SPECULATIVE_EXECUTION_COUNT = 'cassandra.speculative_execution.count' as const;
+export const ATTR_CASSANDRA_SPECULATIVE_EXECUTION_COUNT =
+  'cassandra.speculative_execution.count' as const;
 
 /**
  * The kind of action a pipeline run is performing.
@@ -1057,22 +1099,23 @@ export const ATTR_CASSANDRA_SPECULATIVE_EXECUTION_COUNT = 'cassandra.speculative
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_CICD_PIPELINE_ACTION_NAME = 'cicd.pipeline.action.name' as const;
+export const ATTR_CICD_PIPELINE_ACTION_NAME =
+  'cicd.pipeline.action.name' as const;
 
 /**
  * Enum value "BUILD" for attribute {@link ATTR_CICD_PIPELINE_ACTION_NAME}.
  */
-export const CICD_PIPELINE_ACTION_NAME_VALUE_BUILD = "BUILD" as const;
+export const CICD_PIPELINE_ACTION_NAME_VALUE_BUILD = 'BUILD' as const;
 
 /**
  * Enum value "RUN" for attribute {@link ATTR_CICD_PIPELINE_ACTION_NAME}.
  */
-export const CICD_PIPELINE_ACTION_NAME_VALUE_RUN = "RUN" as const;
+export const CICD_PIPELINE_ACTION_NAME_VALUE_RUN = 'RUN' as const;
 
 /**
  * Enum value "SYNC" for attribute {@link ATTR_CICD_PIPELINE_ACTION_NAME}.
  */
-export const CICD_PIPELINE_ACTION_NAME_VALUE_SYNC = "SYNC" as const;
+export const CICD_PIPELINE_ACTION_NAME_VALUE_SYNC = 'SYNC' as const;
 
 /**
  * The human readable name of the pipeline within a CI/CD system.
@@ -1101,32 +1144,32 @@ export const ATTR_CICD_PIPELINE_RESULT = 'cicd.pipeline.result' as const;
 /**
  * Enum value "cancellation" for attribute {@link ATTR_CICD_PIPELINE_RESULT}.
  */
-export const CICD_PIPELINE_RESULT_VALUE_CANCELLATION = "cancellation" as const;
+export const CICD_PIPELINE_RESULT_VALUE_CANCELLATION = 'cancellation' as const;
 
 /**
  * Enum value "error" for attribute {@link ATTR_CICD_PIPELINE_RESULT}.
  */
-export const CICD_PIPELINE_RESULT_VALUE_ERROR = "error" as const;
+export const CICD_PIPELINE_RESULT_VALUE_ERROR = 'error' as const;
 
 /**
  * Enum value "failure" for attribute {@link ATTR_CICD_PIPELINE_RESULT}.
  */
-export const CICD_PIPELINE_RESULT_VALUE_FAILURE = "failure" as const;
+export const CICD_PIPELINE_RESULT_VALUE_FAILURE = 'failure' as const;
 
 /**
  * Enum value "skip" for attribute {@link ATTR_CICD_PIPELINE_RESULT}.
  */
-export const CICD_PIPELINE_RESULT_VALUE_SKIP = "skip" as const;
+export const CICD_PIPELINE_RESULT_VALUE_SKIP = 'skip' as const;
 
 /**
  * Enum value "success" for attribute {@link ATTR_CICD_PIPELINE_RESULT}.
  */
-export const CICD_PIPELINE_RESULT_VALUE_SUCCESS = "success" as const;
+export const CICD_PIPELINE_RESULT_VALUE_SUCCESS = 'success' as const;
 
 /**
  * Enum value "timeout" for attribute {@link ATTR_CICD_PIPELINE_RESULT}.
  */
-export const CICD_PIPELINE_RESULT_VALUE_TIMEOUT = "timeout" as const;
+export const CICD_PIPELINE_RESULT_VALUE_TIMEOUT = 'timeout' as const;
 
 /**
  * The unique identifier of a pipeline run within a CI/CD system.
@@ -1151,17 +1194,17 @@ export const ATTR_CICD_PIPELINE_RUN_STATE = 'cicd.pipeline.run.state' as const;
 /**
  * Enum value "executing" for attribute {@link ATTR_CICD_PIPELINE_RUN_STATE}.
  */
-export const CICD_PIPELINE_RUN_STATE_VALUE_EXECUTING = "executing" as const;
+export const CICD_PIPELINE_RUN_STATE_VALUE_EXECUTING = 'executing' as const;
 
 /**
  * Enum value "finalizing" for attribute {@link ATTR_CICD_PIPELINE_RUN_STATE}.
  */
-export const CICD_PIPELINE_RUN_STATE_VALUE_FINALIZING = "finalizing" as const;
+export const CICD_PIPELINE_RUN_STATE_VALUE_FINALIZING = 'finalizing' as const;
 
 /**
  * Enum value "pending" for attribute {@link ATTR_CICD_PIPELINE_RUN_STATE}.
  */
-export const CICD_PIPELINE_RUN_STATE_VALUE_PENDING = "pending" as const;
+export const CICD_PIPELINE_RUN_STATE_VALUE_PENDING = 'pending' as const;
 
 /**
  * The [URL](https://wikipedia.org/wiki/URL) of the pipeline run, providing the complete address in order to locate and identify the pipeline run.
@@ -1170,7 +1213,8 @@ export const CICD_PIPELINE_RUN_STATE_VALUE_PENDING = "pending" as const;
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_CICD_PIPELINE_RUN_URL_FULL = 'cicd.pipeline.run.url.full' as const;
+export const ATTR_CICD_PIPELINE_RUN_URL_FULL =
+  'cicd.pipeline.run.url.full' as const;
 
 /**
  * The human readable name of a task within a pipeline. Task here most closely aligns with a [computing process](https://wikipedia.org/wiki/Pipeline_(computing)) in a pipeline. Other terms for tasks include commands, steps, and procedures.
@@ -1191,7 +1235,8 @@ export const ATTR_CICD_PIPELINE_TASK_NAME = 'cicd.pipeline.task.name' as const;
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_CICD_PIPELINE_TASK_RUN_ID = 'cicd.pipeline.task.run.id' as const;
+export const ATTR_CICD_PIPELINE_TASK_RUN_ID =
+  'cicd.pipeline.task.run.id' as const;
 
 /**
  * The result of a task run.
@@ -1203,37 +1248,39 @@ export const ATTR_CICD_PIPELINE_TASK_RUN_ID = 'cicd.pipeline.task.run.id' as con
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_CICD_PIPELINE_TASK_RUN_RESULT = 'cicd.pipeline.task.run.result' as const;
+export const ATTR_CICD_PIPELINE_TASK_RUN_RESULT =
+  'cicd.pipeline.task.run.result' as const;
 
 /**
  * Enum value "cancellation" for attribute {@link ATTR_CICD_PIPELINE_TASK_RUN_RESULT}.
  */
-export const CICD_PIPELINE_TASK_RUN_RESULT_VALUE_CANCELLATION = "cancellation" as const;
+export const CICD_PIPELINE_TASK_RUN_RESULT_VALUE_CANCELLATION =
+  'cancellation' as const;
 
 /**
  * Enum value "error" for attribute {@link ATTR_CICD_PIPELINE_TASK_RUN_RESULT}.
  */
-export const CICD_PIPELINE_TASK_RUN_RESULT_VALUE_ERROR = "error" as const;
+export const CICD_PIPELINE_TASK_RUN_RESULT_VALUE_ERROR = 'error' as const;
 
 /**
  * Enum value "failure" for attribute {@link ATTR_CICD_PIPELINE_TASK_RUN_RESULT}.
  */
-export const CICD_PIPELINE_TASK_RUN_RESULT_VALUE_FAILURE = "failure" as const;
+export const CICD_PIPELINE_TASK_RUN_RESULT_VALUE_FAILURE = 'failure' as const;
 
 /**
  * Enum value "skip" for attribute {@link ATTR_CICD_PIPELINE_TASK_RUN_RESULT}.
  */
-export const CICD_PIPELINE_TASK_RUN_RESULT_VALUE_SKIP = "skip" as const;
+export const CICD_PIPELINE_TASK_RUN_RESULT_VALUE_SKIP = 'skip' as const;
 
 /**
  * Enum value "success" for attribute {@link ATTR_CICD_PIPELINE_TASK_RUN_RESULT}.
  */
-export const CICD_PIPELINE_TASK_RUN_RESULT_VALUE_SUCCESS = "success" as const;
+export const CICD_PIPELINE_TASK_RUN_RESULT_VALUE_SUCCESS = 'success' as const;
 
 /**
  * Enum value "timeout" for attribute {@link ATTR_CICD_PIPELINE_TASK_RUN_RESULT}.
  */
-export const CICD_PIPELINE_TASK_RUN_RESULT_VALUE_TIMEOUT = "timeout" as const;
+export const CICD_PIPELINE_TASK_RUN_RESULT_VALUE_TIMEOUT = 'timeout' as const;
 
 /**
  * The [URL](https://wikipedia.org/wiki/URL) of the pipeline task run, providing the complete address in order to locate and identify the pipeline task run.
@@ -1242,7 +1289,8 @@ export const CICD_PIPELINE_TASK_RUN_RESULT_VALUE_TIMEOUT = "timeout" as const;
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_CICD_PIPELINE_TASK_RUN_URL_FULL = 'cicd.pipeline.task.run.url.full' as const;
+export const ATTR_CICD_PIPELINE_TASK_RUN_URL_FULL =
+  'cicd.pipeline.task.run.url.full' as const;
 
 /**
  * The type of the task within a pipeline.
@@ -1258,17 +1306,17 @@ export const ATTR_CICD_PIPELINE_TASK_TYPE = 'cicd.pipeline.task.type' as const;
 /**
  * Enum value "build" for attribute {@link ATTR_CICD_PIPELINE_TASK_TYPE}.
  */
-export const CICD_PIPELINE_TASK_TYPE_VALUE_BUILD = "build" as const;
+export const CICD_PIPELINE_TASK_TYPE_VALUE_BUILD = 'build' as const;
 
 /**
  * Enum value "deploy" for attribute {@link ATTR_CICD_PIPELINE_TASK_TYPE}.
  */
-export const CICD_PIPELINE_TASK_TYPE_VALUE_DEPLOY = "deploy" as const;
+export const CICD_PIPELINE_TASK_TYPE_VALUE_DEPLOY = 'deploy' as const;
 
 /**
  * Enum value "test" for attribute {@link ATTR_CICD_PIPELINE_TASK_TYPE}.
  */
-export const CICD_PIPELINE_TASK_TYPE_VALUE_TEST = "test" as const;
+export const CICD_PIPELINE_TASK_TYPE_VALUE_TEST = 'test' as const;
 
 /**
  * The name of a component of the CICD system.
@@ -1317,17 +1365,17 @@ export const ATTR_CICD_WORKER_STATE = 'cicd.worker.state' as const;
 /**
  * Enum value "available" for attribute {@link ATTR_CICD_WORKER_STATE}.
  */
-export const CICD_WORKER_STATE_VALUE_AVAILABLE = "available" as const;
+export const CICD_WORKER_STATE_VALUE_AVAILABLE = 'available' as const;
 
 /**
  * Enum value "busy" for attribute {@link ATTR_CICD_WORKER_STATE}.
  */
-export const CICD_WORKER_STATE_VALUE_BUSY = "busy" as const;
+export const CICD_WORKER_STATE_VALUE_BUSY = 'busy' as const;
 
 /**
  * Enum value "offline" for attribute {@link ATTR_CICD_WORKER_STATE}.
  */
-export const CICD_WORKER_STATE_VALUE_OFFLINE = "offline" as const;
+export const CICD_WORKER_STATE_VALUE_OFFLINE = 'offline' as const;
 
 /**
  * The [URL](https://wikipedia.org/wiki/URL) of the worker, providing the complete address in order to locate and identify the worker.
@@ -1371,152 +1419,169 @@ export const ATTR_CLOUD_PLATFORM = 'cloud.platform' as const;
 /**
  * Enum value "alibaba_cloud_ecs" for attribute {@link ATTR_CLOUD_PLATFORM}.
  */
-export const CLOUD_PLATFORM_VALUE_ALIBABA_CLOUD_ECS = "alibaba_cloud_ecs" as const;
+export const CLOUD_PLATFORM_VALUE_ALIBABA_CLOUD_ECS =
+  'alibaba_cloud_ecs' as const;
 
 /**
  * Enum value "alibaba_cloud_fc" for attribute {@link ATTR_CLOUD_PLATFORM}.
  */
-export const CLOUD_PLATFORM_VALUE_ALIBABA_CLOUD_FC = "alibaba_cloud_fc" as const;
+export const CLOUD_PLATFORM_VALUE_ALIBABA_CLOUD_FC =
+  'alibaba_cloud_fc' as const;
 
 /**
  * Enum value "alibaba_cloud_openshift" for attribute {@link ATTR_CLOUD_PLATFORM}.
  */
-export const CLOUD_PLATFORM_VALUE_ALIBABA_CLOUD_OPENSHIFT = "alibaba_cloud_openshift" as const;
+export const CLOUD_PLATFORM_VALUE_ALIBABA_CLOUD_OPENSHIFT =
+  'alibaba_cloud_openshift' as const;
 
 /**
  * Enum value "aws_app_runner" for attribute {@link ATTR_CLOUD_PLATFORM}.
  */
-export const CLOUD_PLATFORM_VALUE_AWS_APP_RUNNER = "aws_app_runner" as const;
+export const CLOUD_PLATFORM_VALUE_AWS_APP_RUNNER = 'aws_app_runner' as const;
 
 /**
  * Enum value "aws_ec2" for attribute {@link ATTR_CLOUD_PLATFORM}.
  */
-export const CLOUD_PLATFORM_VALUE_AWS_EC2 = "aws_ec2" as const;
+export const CLOUD_PLATFORM_VALUE_AWS_EC2 = 'aws_ec2' as const;
 
 /**
  * Enum value "aws_ecs" for attribute {@link ATTR_CLOUD_PLATFORM}.
  */
-export const CLOUD_PLATFORM_VALUE_AWS_ECS = "aws_ecs" as const;
+export const CLOUD_PLATFORM_VALUE_AWS_ECS = 'aws_ecs' as const;
 
 /**
  * Enum value "aws_eks" for attribute {@link ATTR_CLOUD_PLATFORM}.
  */
-export const CLOUD_PLATFORM_VALUE_AWS_EKS = "aws_eks" as const;
+export const CLOUD_PLATFORM_VALUE_AWS_EKS = 'aws_eks' as const;
 
 /**
  * Enum value "aws_elastic_beanstalk" for attribute {@link ATTR_CLOUD_PLATFORM}.
  */
-export const CLOUD_PLATFORM_VALUE_AWS_ELASTIC_BEANSTALK = "aws_elastic_beanstalk" as const;
+export const CLOUD_PLATFORM_VALUE_AWS_ELASTIC_BEANSTALK =
+  'aws_elastic_beanstalk' as const;
 
 /**
  * Enum value "aws_lambda" for attribute {@link ATTR_CLOUD_PLATFORM}.
  */
-export const CLOUD_PLATFORM_VALUE_AWS_LAMBDA = "aws_lambda" as const;
+export const CLOUD_PLATFORM_VALUE_AWS_LAMBDA = 'aws_lambda' as const;
 
 /**
  * Enum value "aws_openshift" for attribute {@link ATTR_CLOUD_PLATFORM}.
  */
-export const CLOUD_PLATFORM_VALUE_AWS_OPENSHIFT = "aws_openshift" as const;
+export const CLOUD_PLATFORM_VALUE_AWS_OPENSHIFT = 'aws_openshift' as const;
 
 /**
  * Enum value "azure_aks" for attribute {@link ATTR_CLOUD_PLATFORM}.
  */
-export const CLOUD_PLATFORM_VALUE_AZURE_AKS = "azure_aks" as const;
+export const CLOUD_PLATFORM_VALUE_AZURE_AKS = 'azure_aks' as const;
 
 /**
  * Enum value "azure_app_service" for attribute {@link ATTR_CLOUD_PLATFORM}.
  */
-export const CLOUD_PLATFORM_VALUE_AZURE_APP_SERVICE = "azure_app_service" as const;
+export const CLOUD_PLATFORM_VALUE_AZURE_APP_SERVICE =
+  'azure_app_service' as const;
 
 /**
  * Enum value "azure_container_apps" for attribute {@link ATTR_CLOUD_PLATFORM}.
  */
-export const CLOUD_PLATFORM_VALUE_AZURE_CONTAINER_APPS = "azure_container_apps" as const;
+export const CLOUD_PLATFORM_VALUE_AZURE_CONTAINER_APPS =
+  'azure_container_apps' as const;
 
 /**
  * Enum value "azure_container_instances" for attribute {@link ATTR_CLOUD_PLATFORM}.
  */
-export const CLOUD_PLATFORM_VALUE_AZURE_CONTAINER_INSTANCES = "azure_container_instances" as const;
+export const CLOUD_PLATFORM_VALUE_AZURE_CONTAINER_INSTANCES =
+  'azure_container_instances' as const;
 
 /**
  * Enum value "azure_functions" for attribute {@link ATTR_CLOUD_PLATFORM}.
  */
-export const CLOUD_PLATFORM_VALUE_AZURE_FUNCTIONS = "azure_functions" as const;
+export const CLOUD_PLATFORM_VALUE_AZURE_FUNCTIONS = 'azure_functions' as const;
 
 /**
  * Enum value "azure_openshift" for attribute {@link ATTR_CLOUD_PLATFORM}.
  */
-export const CLOUD_PLATFORM_VALUE_AZURE_OPENSHIFT = "azure_openshift" as const;
+export const CLOUD_PLATFORM_VALUE_AZURE_OPENSHIFT = 'azure_openshift' as const;
 
 /**
  * Enum value "azure_vm" for attribute {@link ATTR_CLOUD_PLATFORM}.
  */
-export const CLOUD_PLATFORM_VALUE_AZURE_VM = "azure_vm" as const;
+export const CLOUD_PLATFORM_VALUE_AZURE_VM = 'azure_vm' as const;
 
 /**
  * Enum value "gcp_app_engine" for attribute {@link ATTR_CLOUD_PLATFORM}.
  */
-export const CLOUD_PLATFORM_VALUE_GCP_APP_ENGINE = "gcp_app_engine" as const;
+export const CLOUD_PLATFORM_VALUE_GCP_APP_ENGINE = 'gcp_app_engine' as const;
 
 /**
  * Enum value "gcp_bare_metal_solution" for attribute {@link ATTR_CLOUD_PLATFORM}.
  */
-export const CLOUD_PLATFORM_VALUE_GCP_BARE_METAL_SOLUTION = "gcp_bare_metal_solution" as const;
+export const CLOUD_PLATFORM_VALUE_GCP_BARE_METAL_SOLUTION =
+  'gcp_bare_metal_solution' as const;
 
 /**
  * Enum value "gcp_cloud_functions" for attribute {@link ATTR_CLOUD_PLATFORM}.
  */
-export const CLOUD_PLATFORM_VALUE_GCP_CLOUD_FUNCTIONS = "gcp_cloud_functions" as const;
+export const CLOUD_PLATFORM_VALUE_GCP_CLOUD_FUNCTIONS =
+  'gcp_cloud_functions' as const;
 
 /**
  * Enum value "gcp_cloud_run" for attribute {@link ATTR_CLOUD_PLATFORM}.
  */
-export const CLOUD_PLATFORM_VALUE_GCP_CLOUD_RUN = "gcp_cloud_run" as const;
+export const CLOUD_PLATFORM_VALUE_GCP_CLOUD_RUN = 'gcp_cloud_run' as const;
 
 /**
  * Enum value "gcp_compute_engine" for attribute {@link ATTR_CLOUD_PLATFORM}.
  */
-export const CLOUD_PLATFORM_VALUE_GCP_COMPUTE_ENGINE = "gcp_compute_engine" as const;
+export const CLOUD_PLATFORM_VALUE_GCP_COMPUTE_ENGINE =
+  'gcp_compute_engine' as const;
 
 /**
  * Enum value "gcp_kubernetes_engine" for attribute {@link ATTR_CLOUD_PLATFORM}.
  */
-export const CLOUD_PLATFORM_VALUE_GCP_KUBERNETES_ENGINE = "gcp_kubernetes_engine" as const;
+export const CLOUD_PLATFORM_VALUE_GCP_KUBERNETES_ENGINE =
+  'gcp_kubernetes_engine' as const;
 
 /**
  * Enum value "gcp_openshift" for attribute {@link ATTR_CLOUD_PLATFORM}.
  */
-export const CLOUD_PLATFORM_VALUE_GCP_OPENSHIFT = "gcp_openshift" as const;
+export const CLOUD_PLATFORM_VALUE_GCP_OPENSHIFT = 'gcp_openshift' as const;
 
 /**
  * Enum value "ibm_cloud_openshift" for attribute {@link ATTR_CLOUD_PLATFORM}.
  */
-export const CLOUD_PLATFORM_VALUE_IBM_CLOUD_OPENSHIFT = "ibm_cloud_openshift" as const;
+export const CLOUD_PLATFORM_VALUE_IBM_CLOUD_OPENSHIFT =
+  'ibm_cloud_openshift' as const;
 
 /**
  * Enum value "oracle_cloud_compute" for attribute {@link ATTR_CLOUD_PLATFORM}.
  */
-export const CLOUD_PLATFORM_VALUE_ORACLE_CLOUD_COMPUTE = "oracle_cloud_compute" as const;
+export const CLOUD_PLATFORM_VALUE_ORACLE_CLOUD_COMPUTE =
+  'oracle_cloud_compute' as const;
 
 /**
  * Enum value "oracle_cloud_oke" for attribute {@link ATTR_CLOUD_PLATFORM}.
  */
-export const CLOUD_PLATFORM_VALUE_ORACLE_CLOUD_OKE = "oracle_cloud_oke" as const;
+export const CLOUD_PLATFORM_VALUE_ORACLE_CLOUD_OKE =
+  'oracle_cloud_oke' as const;
 
 /**
  * Enum value "tencent_cloud_cvm" for attribute {@link ATTR_CLOUD_PLATFORM}.
  */
-export const CLOUD_PLATFORM_VALUE_TENCENT_CLOUD_CVM = "tencent_cloud_cvm" as const;
+export const CLOUD_PLATFORM_VALUE_TENCENT_CLOUD_CVM =
+  'tencent_cloud_cvm' as const;
 
 /**
  * Enum value "tencent_cloud_eks" for attribute {@link ATTR_CLOUD_PLATFORM}.
  */
-export const CLOUD_PLATFORM_VALUE_TENCENT_CLOUD_EKS = "tencent_cloud_eks" as const;
+export const CLOUD_PLATFORM_VALUE_TENCENT_CLOUD_EKS =
+  'tencent_cloud_eks' as const;
 
 /**
  * Enum value "tencent_cloud_scf" for attribute {@link ATTR_CLOUD_PLATFORM}.
  */
-export const CLOUD_PLATFORM_VALUE_TENCENT_CLOUD_SCF = "tencent_cloud_scf" as const;
+export const CLOUD_PLATFORM_VALUE_TENCENT_CLOUD_SCF =
+  'tencent_cloud_scf' as const;
 
 /**
  * Name of the cloud provider.
@@ -1528,42 +1593,42 @@ export const ATTR_CLOUD_PROVIDER = 'cloud.provider' as const;
 /**
  * Enum value "alibaba_cloud" for attribute {@link ATTR_CLOUD_PROVIDER}.
  */
-export const CLOUD_PROVIDER_VALUE_ALIBABA_CLOUD = "alibaba_cloud" as const;
+export const CLOUD_PROVIDER_VALUE_ALIBABA_CLOUD = 'alibaba_cloud' as const;
 
 /**
  * Enum value "aws" for attribute {@link ATTR_CLOUD_PROVIDER}.
  */
-export const CLOUD_PROVIDER_VALUE_AWS = "aws" as const;
+export const CLOUD_PROVIDER_VALUE_AWS = 'aws' as const;
 
 /**
  * Enum value "azure" for attribute {@link ATTR_CLOUD_PROVIDER}.
  */
-export const CLOUD_PROVIDER_VALUE_AZURE = "azure" as const;
+export const CLOUD_PROVIDER_VALUE_AZURE = 'azure' as const;
 
 /**
  * Enum value "gcp" for attribute {@link ATTR_CLOUD_PROVIDER}.
  */
-export const CLOUD_PROVIDER_VALUE_GCP = "gcp" as const;
+export const CLOUD_PROVIDER_VALUE_GCP = 'gcp' as const;
 
 /**
  * Enum value "heroku" for attribute {@link ATTR_CLOUD_PROVIDER}.
  */
-export const CLOUD_PROVIDER_VALUE_HEROKU = "heroku" as const;
+export const CLOUD_PROVIDER_VALUE_HEROKU = 'heroku' as const;
 
 /**
  * Enum value "ibm_cloud" for attribute {@link ATTR_CLOUD_PROVIDER}.
  */
-export const CLOUD_PROVIDER_VALUE_IBM_CLOUD = "ibm_cloud" as const;
+export const CLOUD_PROVIDER_VALUE_IBM_CLOUD = 'ibm_cloud' as const;
 
 /**
  * Enum value "oracle_cloud" for attribute {@link ATTR_CLOUD_PROVIDER}.
  */
-export const CLOUD_PROVIDER_VALUE_ORACLE_CLOUD = "oracle_cloud" as const;
+export const CLOUD_PROVIDER_VALUE_ORACLE_CLOUD = 'oracle_cloud' as const;
 
 /**
  * Enum value "tencent_cloud" for attribute {@link ATTR_CLOUD_PROVIDER}.
  */
-export const CLOUD_PROVIDER_VALUE_TENCENT_CLOUD = "tencent_cloud" as const;
+export const CLOUD_PROVIDER_VALUE_TENCENT_CLOUD = 'tencent_cloud' as const;
 
 /**
  * The geographical region within a cloud provider. When associated with a resource, this attribute specifies the region where the resource operates. When calling services or APIs deployed on a cloud, this attribute identifies the region where the called destination is deployed.
@@ -1625,7 +1690,8 @@ export const ATTR_CLOUDEVENTS_EVENT_ID = 'cloudevents.event_id' as const;
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_CLOUDEVENTS_EVENT_SOURCE = 'cloudevents.event_source' as const;
+export const ATTR_CLOUDEVENTS_EVENT_SOURCE =
+  'cloudevents.event_source' as const;
 
 /**
  * The [version of the CloudEvents specification](https://github.com/cloudevents/spec/blob/v1.0.2/cloudevents/spec.md#specversion) which the event uses.
@@ -1634,7 +1700,8 @@ export const ATTR_CLOUDEVENTS_EVENT_SOURCE = 'cloudevents.event_source' as const
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_CLOUDEVENTS_EVENT_SPEC_VERSION = 'cloudevents.event_spec_version' as const;
+export const ATTR_CLOUDEVENTS_EVENT_SPEC_VERSION =
+  'cloudevents.event_spec_version' as const;
 
 /**
  * The [subject](https://github.com/cloudevents/spec/blob/v1.0.2/cloudevents/spec.md#subject) of the event in the context of the event producer (identified by source).
@@ -1643,7 +1710,8 @@ export const ATTR_CLOUDEVENTS_EVENT_SPEC_VERSION = 'cloudevents.event_spec_versi
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_CLOUDEVENTS_EVENT_SUBJECT = 'cloudevents.event_subject' as const;
+export const ATTR_CLOUDEVENTS_EVENT_SUBJECT =
+  'cloudevents.event_subject' as const;
 
 /**
  * The [event_type](https://github.com/cloudevents/spec/blob/v1.0.2/cloudevents/spec.md#type) contains a value describing the type of event related to the originating occurrence.
@@ -1684,7 +1752,8 @@ export const ATTR_CLOUDFOUNDRY_APP_ID = 'cloudfoundry.app.id' as const;
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_CLOUDFOUNDRY_APP_INSTANCE_ID = 'cloudfoundry.app.instance.id' as const;
+export const ATTR_CLOUDFOUNDRY_APP_INSTANCE_ID =
+  'cloudfoundry.app.instance.id' as const;
 
 /**
  * The name of the application.
@@ -1750,7 +1819,8 @@ export const ATTR_CLOUDFOUNDRY_PROCESS_ID = 'cloudfoundry.process.id' as const;
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_CLOUDFOUNDRY_PROCESS_TYPE = 'cloudfoundry.process.type' as const;
+export const ATTR_CLOUDFOUNDRY_PROCESS_TYPE =
+  'cloudfoundry.process.type' as const;
 
 /**
  * The guid of the CloudFoundry space the application is running in.
@@ -1812,7 +1882,8 @@ export const ATTR_CLOUDFOUNDRY_SYSTEM_ID = 'cloudfoundry.system.id' as const;
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_CLOUDFOUNDRY_SYSTEM_INSTANCE_ID = 'cloudfoundry.system.instance.id' as const;
+export const ATTR_CLOUDFOUNDRY_SYSTEM_INSTANCE_ID =
+  'cloudfoundry.system.instance.id' as const;
 
 /**
  * Deprecated, use `code.column.number`
@@ -1913,17 +1984,17 @@ export const ATTR_CONTAINER_CPU_STATE = 'container.cpu.state' as const;
 /**
  * Enum value "kernel" for attribute {@link ATTR_CONTAINER_CPU_STATE}.
  */
-export const CONTAINER_CPU_STATE_VALUE_KERNEL = "kernel" as const;
+export const CONTAINER_CPU_STATE_VALUE_KERNEL = 'kernel' as const;
 
 /**
  * Enum value "system" for attribute {@link ATTR_CONTAINER_CPU_STATE}.
  */
-export const CONTAINER_CPU_STATE_VALUE_SYSTEM = "system" as const;
+export const CONTAINER_CPU_STATE_VALUE_SYSTEM = 'system' as const;
 
 /**
  * Enum value "user" for attribute {@link ATTR_CONTAINER_CPU_STATE}.
  */
-export const CONTAINER_CPU_STATE_VALUE_USER = "user" as const;
+export const CONTAINER_CPU_STATE_VALUE_USER = 'user' as const;
 
 /**
  * The name of the CSI ([Container Storage Interface](https://github.com/container-storage-interface/spec)) plugin used by the volume.
@@ -1934,7 +2005,8 @@ export const CONTAINER_CPU_STATE_VALUE_USER = "user" as const;
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_CONTAINER_CSI_PLUGIN_NAME = 'container.csi.plugin.name' as const;
+export const ATTR_CONTAINER_CSI_PLUGIN_NAME =
+  'container.csi.plugin.name' as const;
 
 /**
  * The unique volume ID returned by the CSI ([Container Storage Interface](https://github.com/container-storage-interface/spec)) plugin.
@@ -1987,7 +2059,8 @@ export const ATTR_CONTAINER_IMAGE_NAME = 'container.image.name' as const;
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_CONTAINER_IMAGE_REPO_DIGESTS = 'container.image.repo_digests' as const;
+export const ATTR_CONTAINER_IMAGE_REPO_DIGESTS =
+  'container.image.repo_digests' as const;
 
 /**
  * Container image tags. An example can be found in [Docker Image Inspect](https://docs.docker.com/engine/api/v1.43/#tag/Image/operation/ImageInspect). Should be only the `<tag>` section of the full name for example from `registry.example.com/my-org/my-image:<tag>`.
@@ -2062,42 +2135,42 @@ export const ATTR_CPU_MODE = 'cpu.mode' as const;
 /**
  * Enum value "idle" for attribute {@link ATTR_CPU_MODE}.
  */
-export const CPU_MODE_VALUE_IDLE = "idle" as const;
+export const CPU_MODE_VALUE_IDLE = 'idle' as const;
 
 /**
  * Enum value "interrupt" for attribute {@link ATTR_CPU_MODE}.
  */
-export const CPU_MODE_VALUE_INTERRUPT = "interrupt" as const;
+export const CPU_MODE_VALUE_INTERRUPT = 'interrupt' as const;
 
 /**
  * Enum value "iowait" for attribute {@link ATTR_CPU_MODE}.
  */
-export const CPU_MODE_VALUE_IOWAIT = "iowait" as const;
+export const CPU_MODE_VALUE_IOWAIT = 'iowait' as const;
 
 /**
  * Enum value "kernel" for attribute {@link ATTR_CPU_MODE}.
  */
-export const CPU_MODE_VALUE_KERNEL = "kernel" as const;
+export const CPU_MODE_VALUE_KERNEL = 'kernel' as const;
 
 /**
  * Enum value "nice" for attribute {@link ATTR_CPU_MODE}.
  */
-export const CPU_MODE_VALUE_NICE = "nice" as const;
+export const CPU_MODE_VALUE_NICE = 'nice' as const;
 
 /**
  * Enum value "steal" for attribute {@link ATTR_CPU_MODE}.
  */
-export const CPU_MODE_VALUE_STEAL = "steal" as const;
+export const CPU_MODE_VALUE_STEAL = 'steal' as const;
 
 /**
  * Enum value "system" for attribute {@link ATTR_CPU_MODE}.
  */
-export const CPU_MODE_VALUE_SYSTEM = "system" as const;
+export const CPU_MODE_VALUE_SYSTEM = 'system' as const;
 
 /**
  * Enum value "user" for attribute {@link ATTR_CPU_MODE}.
  */
-export const CPU_MODE_VALUE_USER = "user" as const;
+export const CPU_MODE_VALUE_USER = 'user' as const;
 
 /**
  * Value of the garbage collector collection generation.
@@ -2132,62 +2205,67 @@ export const CPYTHON_GC_GENERATION_VALUE_GENERATION_2 = 2 as const;
  *
  * @deprecated Replaced by `cassandra.consistency.level`.
  */
-export const ATTR_DB_CASSANDRA_CONSISTENCY_LEVEL = 'db.cassandra.consistency_level' as const;
+export const ATTR_DB_CASSANDRA_CONSISTENCY_LEVEL =
+  'db.cassandra.consistency_level' as const;
 
 /**
  * Enum value "all" for attribute {@link ATTR_DB_CASSANDRA_CONSISTENCY_LEVEL}.
  */
-export const DB_CASSANDRA_CONSISTENCY_LEVEL_VALUE_ALL = "all" as const;
+export const DB_CASSANDRA_CONSISTENCY_LEVEL_VALUE_ALL = 'all' as const;
 
 /**
  * Enum value "any" for attribute {@link ATTR_DB_CASSANDRA_CONSISTENCY_LEVEL}.
  */
-export const DB_CASSANDRA_CONSISTENCY_LEVEL_VALUE_ANY = "any" as const;
+export const DB_CASSANDRA_CONSISTENCY_LEVEL_VALUE_ANY = 'any' as const;
 
 /**
  * Enum value "each_quorum" for attribute {@link ATTR_DB_CASSANDRA_CONSISTENCY_LEVEL}.
  */
-export const DB_CASSANDRA_CONSISTENCY_LEVEL_VALUE_EACH_QUORUM = "each_quorum" as const;
+export const DB_CASSANDRA_CONSISTENCY_LEVEL_VALUE_EACH_QUORUM =
+  'each_quorum' as const;
 
 /**
  * Enum value "local_one" for attribute {@link ATTR_DB_CASSANDRA_CONSISTENCY_LEVEL}.
  */
-export const DB_CASSANDRA_CONSISTENCY_LEVEL_VALUE_LOCAL_ONE = "local_one" as const;
+export const DB_CASSANDRA_CONSISTENCY_LEVEL_VALUE_LOCAL_ONE =
+  'local_one' as const;
 
 /**
  * Enum value "local_quorum" for attribute {@link ATTR_DB_CASSANDRA_CONSISTENCY_LEVEL}.
  */
-export const DB_CASSANDRA_CONSISTENCY_LEVEL_VALUE_LOCAL_QUORUM = "local_quorum" as const;
+export const DB_CASSANDRA_CONSISTENCY_LEVEL_VALUE_LOCAL_QUORUM =
+  'local_quorum' as const;
 
 /**
  * Enum value "local_serial" for attribute {@link ATTR_DB_CASSANDRA_CONSISTENCY_LEVEL}.
  */
-export const DB_CASSANDRA_CONSISTENCY_LEVEL_VALUE_LOCAL_SERIAL = "local_serial" as const;
+export const DB_CASSANDRA_CONSISTENCY_LEVEL_VALUE_LOCAL_SERIAL =
+  'local_serial' as const;
 
 /**
  * Enum value "one" for attribute {@link ATTR_DB_CASSANDRA_CONSISTENCY_LEVEL}.
  */
-export const DB_CASSANDRA_CONSISTENCY_LEVEL_VALUE_ONE = "one" as const;
+export const DB_CASSANDRA_CONSISTENCY_LEVEL_VALUE_ONE = 'one' as const;
 
 /**
  * Enum value "quorum" for attribute {@link ATTR_DB_CASSANDRA_CONSISTENCY_LEVEL}.
  */
-export const DB_CASSANDRA_CONSISTENCY_LEVEL_VALUE_QUORUM = "quorum" as const;
+export const DB_CASSANDRA_CONSISTENCY_LEVEL_VALUE_QUORUM = 'quorum' as const;
 
 /**
  * Enum value "serial" for attribute {@link ATTR_DB_CASSANDRA_CONSISTENCY_LEVEL}.
  */
-export const DB_CASSANDRA_CONSISTENCY_LEVEL_VALUE_SERIAL = "serial" as const;
+export const DB_CASSANDRA_CONSISTENCY_LEVEL_VALUE_SERIAL = 'serial' as const;
 
 /**
  * Enum value "three" for attribute {@link ATTR_DB_CASSANDRA_CONSISTENCY_LEVEL}.
  */
-export const DB_CASSANDRA_CONSISTENCY_LEVEL_VALUE_THREE = "three" as const;
+export const DB_CASSANDRA_CONSISTENCY_LEVEL_VALUE_THREE = 'three' as const;
 
 /**
  * Enum value "two" for attribute {@link ATTR_DB_CASSANDRA_CONSISTENCY_LEVEL}.
  */
-export const DB_CASSANDRA_CONSISTENCY_LEVEL_VALUE_TWO = "two" as const;
+export const DB_CASSANDRA_CONSISTENCY_LEVEL_VALUE_TWO = 'two' as const;
 
 /**
  * Deprecated, use `cassandra.coordinator.dc` instead.
@@ -2198,7 +2276,8 @@ export const DB_CASSANDRA_CONSISTENCY_LEVEL_VALUE_TWO = "two" as const;
  *
  * @deprecated Replaced by `cassandra.coordinator.dc`.
  */
-export const ATTR_DB_CASSANDRA_COORDINATOR_DC = 'db.cassandra.coordinator.dc' as const;
+export const ATTR_DB_CASSANDRA_COORDINATOR_DC =
+  'db.cassandra.coordinator.dc' as const;
 
 /**
  * Deprecated, use `cassandra.coordinator.id` instead.
@@ -2209,7 +2288,8 @@ export const ATTR_DB_CASSANDRA_COORDINATOR_DC = 'db.cassandra.coordinator.dc' as
  *
  * @deprecated Replaced by `cassandra.coordinator.id`.
  */
-export const ATTR_DB_CASSANDRA_COORDINATOR_ID = 'db.cassandra.coordinator.id' as const;
+export const ATTR_DB_CASSANDRA_COORDINATOR_ID =
+  'db.cassandra.coordinator.id' as const;
 
 /**
  * Deprecated, use `cassandra.query.idempotent` instead.
@@ -2218,7 +2298,8 @@ export const ATTR_DB_CASSANDRA_COORDINATOR_ID = 'db.cassandra.coordinator.id' as
  *
  * @deprecated Replaced by `cassandra.query.idempotent`.
  */
-export const ATTR_DB_CASSANDRA_IDEMPOTENCE = 'db.cassandra.idempotence' as const;
+export const ATTR_DB_CASSANDRA_IDEMPOTENCE =
+  'db.cassandra.idempotence' as const;
 
 /**
  * Deprecated, use `cassandra.page.size` instead.
@@ -2241,7 +2322,8 @@ export const ATTR_DB_CASSANDRA_PAGE_SIZE = 'db.cassandra.page_size' as const;
  *
  * @deprecated Replaced by `cassandra.speculative_execution.count`.
  */
-export const ATTR_DB_CASSANDRA_SPECULATIVE_EXECUTION_COUNT = 'db.cassandra.speculative_execution_count' as const;
+export const ATTR_DB_CASSANDRA_SPECULATIVE_EXECUTION_COUNT =
+  'db.cassandra.speculative_execution_count' as const;
 
 /**
  * Deprecated, use `db.collection.name` instead.
@@ -2261,7 +2343,8 @@ export const ATTR_DB_CASSANDRA_TABLE = 'db.cassandra.table' as const;
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_DB_CLIENT_CONNECTION_POOL_NAME = 'db.client.connection.pool.name' as const;
+export const ATTR_DB_CLIENT_CONNECTION_POOL_NAME =
+  'db.client.connection.pool.name' as const;
 
 /**
  * The state of a connection in the pool
@@ -2270,17 +2353,18 @@ export const ATTR_DB_CLIENT_CONNECTION_POOL_NAME = 'db.client.connection.pool.na
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_DB_CLIENT_CONNECTION_STATE = 'db.client.connection.state' as const;
+export const ATTR_DB_CLIENT_CONNECTION_STATE =
+  'db.client.connection.state' as const;
 
 /**
  * Enum value "idle" for attribute {@link ATTR_DB_CLIENT_CONNECTION_STATE}.
  */
-export const DB_CLIENT_CONNECTION_STATE_VALUE_IDLE = "idle" as const;
+export const DB_CLIENT_CONNECTION_STATE_VALUE_IDLE = 'idle' as const;
 
 /**
  * Enum value "used" for attribute {@link ATTR_DB_CLIENT_CONNECTION_STATE}.
  */
-export const DB_CLIENT_CONNECTION_STATE_VALUE_USED = "used" as const;
+export const DB_CLIENT_CONNECTION_STATE_VALUE_USED = 'used' as const;
 
 /**
  * Deprecated, use `db.client.connection.pool.name` instead.
@@ -2291,7 +2375,8 @@ export const DB_CLIENT_CONNECTION_STATE_VALUE_USED = "used" as const;
  *
  * @deprecated Replaced by `db.client.connection.pool.name`.
  */
-export const ATTR_DB_CLIENT_CONNECTIONS_POOL_NAME = 'db.client.connections.pool.name' as const;
+export const ATTR_DB_CLIENT_CONNECTIONS_POOL_NAME =
+  'db.client.connections.pool.name' as const;
 
 /**
  * Deprecated, use `db.client.connection.state` instead.
@@ -2302,17 +2387,18 @@ export const ATTR_DB_CLIENT_CONNECTIONS_POOL_NAME = 'db.client.connections.pool.
  *
  * @deprecated Replaced by `db.client.connection.state`.
  */
-export const ATTR_DB_CLIENT_CONNECTIONS_STATE = 'db.client.connections.state' as const;
+export const ATTR_DB_CLIENT_CONNECTIONS_STATE =
+  'db.client.connections.state' as const;
 
 /**
  * Enum value "idle" for attribute {@link ATTR_DB_CLIENT_CONNECTIONS_STATE}.
  */
-export const DB_CLIENT_CONNECTIONS_STATE_VALUE_IDLE = "idle" as const;
+export const DB_CLIENT_CONNECTIONS_STATE_VALUE_IDLE = 'idle' as const;
 
 /**
  * Enum value "used" for attribute {@link ATTR_DB_CLIENT_CONNECTIONS_STATE}.
  */
-export const DB_CLIENT_CONNECTIONS_STATE_VALUE_USED = "used" as const;
+export const DB_CLIENT_CONNECTIONS_STATE_VALUE_USED = 'used' as const;
 
 /**
  * Deprecated, use `server.address`, `server.port` attributes instead.
@@ -2343,17 +2429,18 @@ export const ATTR_DB_COSMOSDB_CLIENT_ID = 'db.cosmosdb.client_id' as const;
  *
  * @deprecated Replaced by `azure.cosmosdb.connection.mode`.
  */
-export const ATTR_DB_COSMOSDB_CONNECTION_MODE = 'db.cosmosdb.connection_mode' as const;
+export const ATTR_DB_COSMOSDB_CONNECTION_MODE =
+  'db.cosmosdb.connection_mode' as const;
 
 /**
  * Enum value "direct" for attribute {@link ATTR_DB_COSMOSDB_CONNECTION_MODE}.
  */
-export const DB_COSMOSDB_CONNECTION_MODE_VALUE_DIRECT = "direct" as const;
+export const DB_COSMOSDB_CONNECTION_MODE_VALUE_DIRECT = 'direct' as const;
 
 /**
  * Enum value "gateway" for attribute {@link ATTR_DB_COSMOSDB_CONNECTION_MODE}.
  */
-export const DB_COSMOSDB_CONNECTION_MODE_VALUE_GATEWAY = "gateway" as const;
+export const DB_COSMOSDB_CONNECTION_MODE_VALUE_GATEWAY = 'gateway' as const;
 
 /**
  * Deprecated, use `cosmosdb.consistency.level` instead.
@@ -2368,32 +2455,35 @@ export const DB_COSMOSDB_CONNECTION_MODE_VALUE_GATEWAY = "gateway" as const;
  *
  * @deprecated Replaced by `azure.cosmosdb.consistency.level`.
  */
-export const ATTR_DB_COSMOSDB_CONSISTENCY_LEVEL = 'db.cosmosdb.consistency_level' as const;
+export const ATTR_DB_COSMOSDB_CONSISTENCY_LEVEL =
+  'db.cosmosdb.consistency_level' as const;
 
 /**
  * Enum value "BoundedStaleness" for attribute {@link ATTR_DB_COSMOSDB_CONSISTENCY_LEVEL}.
  */
-export const DB_COSMOSDB_CONSISTENCY_LEVEL_VALUE_BOUNDED_STALENESS = "BoundedStaleness" as const;
+export const DB_COSMOSDB_CONSISTENCY_LEVEL_VALUE_BOUNDED_STALENESS =
+  'BoundedStaleness' as const;
 
 /**
  * Enum value "ConsistentPrefix" for attribute {@link ATTR_DB_COSMOSDB_CONSISTENCY_LEVEL}.
  */
-export const DB_COSMOSDB_CONSISTENCY_LEVEL_VALUE_CONSISTENT_PREFIX = "ConsistentPrefix" as const;
+export const DB_COSMOSDB_CONSISTENCY_LEVEL_VALUE_CONSISTENT_PREFIX =
+  'ConsistentPrefix' as const;
 
 /**
  * Enum value "Eventual" for attribute {@link ATTR_DB_COSMOSDB_CONSISTENCY_LEVEL}.
  */
-export const DB_COSMOSDB_CONSISTENCY_LEVEL_VALUE_EVENTUAL = "Eventual" as const;
+export const DB_COSMOSDB_CONSISTENCY_LEVEL_VALUE_EVENTUAL = 'Eventual' as const;
 
 /**
  * Enum value "Session" for attribute {@link ATTR_DB_COSMOSDB_CONSISTENCY_LEVEL}.
  */
-export const DB_COSMOSDB_CONSISTENCY_LEVEL_VALUE_SESSION = "Session" as const;
+export const DB_COSMOSDB_CONSISTENCY_LEVEL_VALUE_SESSION = 'Session' as const;
 
 /**
  * Enum value "Strong" for attribute {@link ATTR_DB_COSMOSDB_CONSISTENCY_LEVEL}.
  */
-export const DB_COSMOSDB_CONSISTENCY_LEVEL_VALUE_STRONG = "Strong" as const;
+export const DB_COSMOSDB_CONSISTENCY_LEVEL_VALUE_STRONG = 'Strong' as const;
 
 /**
  * Deprecated, use `db.collection.name` instead.
@@ -2413,82 +2503,85 @@ export const ATTR_DB_COSMOSDB_CONTAINER = 'db.cosmosdb.container' as const;
  *
  * @deprecated Removed, no replacement at this time.
  */
-export const ATTR_DB_COSMOSDB_OPERATION_TYPE = 'db.cosmosdb.operation_type' as const;
+export const ATTR_DB_COSMOSDB_OPERATION_TYPE =
+  'db.cosmosdb.operation_type' as const;
 
 /**
  * Enum value "batch" for attribute {@link ATTR_DB_COSMOSDB_OPERATION_TYPE}.
  */
-export const DB_COSMOSDB_OPERATION_TYPE_VALUE_BATCH = "batch" as const;
+export const DB_COSMOSDB_OPERATION_TYPE_VALUE_BATCH = 'batch' as const;
 
 /**
  * Enum value "create" for attribute {@link ATTR_DB_COSMOSDB_OPERATION_TYPE}.
  */
-export const DB_COSMOSDB_OPERATION_TYPE_VALUE_CREATE = "create" as const;
+export const DB_COSMOSDB_OPERATION_TYPE_VALUE_CREATE = 'create' as const;
 
 /**
  * Enum value "delete" for attribute {@link ATTR_DB_COSMOSDB_OPERATION_TYPE}.
  */
-export const DB_COSMOSDB_OPERATION_TYPE_VALUE_DELETE = "delete" as const;
+export const DB_COSMOSDB_OPERATION_TYPE_VALUE_DELETE = 'delete' as const;
 
 /**
  * Enum value "execute" for attribute {@link ATTR_DB_COSMOSDB_OPERATION_TYPE}.
  */
-export const DB_COSMOSDB_OPERATION_TYPE_VALUE_EXECUTE = "execute" as const;
+export const DB_COSMOSDB_OPERATION_TYPE_VALUE_EXECUTE = 'execute' as const;
 
 /**
  * Enum value "execute_javascript" for attribute {@link ATTR_DB_COSMOSDB_OPERATION_TYPE}.
  */
-export const DB_COSMOSDB_OPERATION_TYPE_VALUE_EXECUTE_JAVASCRIPT = "execute_javascript" as const;
+export const DB_COSMOSDB_OPERATION_TYPE_VALUE_EXECUTE_JAVASCRIPT =
+  'execute_javascript' as const;
 
 /**
  * Enum value "head" for attribute {@link ATTR_DB_COSMOSDB_OPERATION_TYPE}.
  */
-export const DB_COSMOSDB_OPERATION_TYPE_VALUE_HEAD = "head" as const;
+export const DB_COSMOSDB_OPERATION_TYPE_VALUE_HEAD = 'head' as const;
 
 /**
  * Enum value "head_feed" for attribute {@link ATTR_DB_COSMOSDB_OPERATION_TYPE}.
  */
-export const DB_COSMOSDB_OPERATION_TYPE_VALUE_HEAD_FEED = "head_feed" as const;
+export const DB_COSMOSDB_OPERATION_TYPE_VALUE_HEAD_FEED = 'head_feed' as const;
 
 /**
  * Enum value "invalid" for attribute {@link ATTR_DB_COSMOSDB_OPERATION_TYPE}.
  */
-export const DB_COSMOSDB_OPERATION_TYPE_VALUE_INVALID = "invalid" as const;
+export const DB_COSMOSDB_OPERATION_TYPE_VALUE_INVALID = 'invalid' as const;
 
 /**
  * Enum value "patch" for attribute {@link ATTR_DB_COSMOSDB_OPERATION_TYPE}.
  */
-export const DB_COSMOSDB_OPERATION_TYPE_VALUE_PATCH = "patch" as const;
+export const DB_COSMOSDB_OPERATION_TYPE_VALUE_PATCH = 'patch' as const;
 
 /**
  * Enum value "query" for attribute {@link ATTR_DB_COSMOSDB_OPERATION_TYPE}.
  */
-export const DB_COSMOSDB_OPERATION_TYPE_VALUE_QUERY = "query" as const;
+export const DB_COSMOSDB_OPERATION_TYPE_VALUE_QUERY = 'query' as const;
 
 /**
  * Enum value "query_plan" for attribute {@link ATTR_DB_COSMOSDB_OPERATION_TYPE}.
  */
-export const DB_COSMOSDB_OPERATION_TYPE_VALUE_QUERY_PLAN = "query_plan" as const;
+export const DB_COSMOSDB_OPERATION_TYPE_VALUE_QUERY_PLAN =
+  'query_plan' as const;
 
 /**
  * Enum value "read" for attribute {@link ATTR_DB_COSMOSDB_OPERATION_TYPE}.
  */
-export const DB_COSMOSDB_OPERATION_TYPE_VALUE_READ = "read" as const;
+export const DB_COSMOSDB_OPERATION_TYPE_VALUE_READ = 'read' as const;
 
 /**
  * Enum value "read_feed" for attribute {@link ATTR_DB_COSMOSDB_OPERATION_TYPE}.
  */
-export const DB_COSMOSDB_OPERATION_TYPE_VALUE_READ_FEED = "read_feed" as const;
+export const DB_COSMOSDB_OPERATION_TYPE_VALUE_READ_FEED = 'read_feed' as const;
 
 /**
  * Enum value "replace" for attribute {@link ATTR_DB_COSMOSDB_OPERATION_TYPE}.
  */
-export const DB_COSMOSDB_OPERATION_TYPE_VALUE_REPLACE = "replace" as const;
+export const DB_COSMOSDB_OPERATION_TYPE_VALUE_REPLACE = 'replace' as const;
 
 /**
  * Enum value "upsert" for attribute {@link ATTR_DB_COSMOSDB_OPERATION_TYPE}.
  */
-export const DB_COSMOSDB_OPERATION_TYPE_VALUE_UPSERT = "upsert" as const;
+export const DB_COSMOSDB_OPERATION_TYPE_VALUE_UPSERT = 'upsert' as const;
 
 /**
  * Deprecated, use `azure.cosmosdb.operation.contacted_regions` instead.
@@ -2499,7 +2592,8 @@ export const DB_COSMOSDB_OPERATION_TYPE_VALUE_UPSERT = "upsert" as const;
  *
  * @deprecated Replaced by `azure.cosmosdb.operation.contacted_regions`.
  */
-export const ATTR_DB_COSMOSDB_REGIONS_CONTACTED = 'db.cosmosdb.regions_contacted' as const;
+export const ATTR_DB_COSMOSDB_REGIONS_CONTACTED =
+  'db.cosmosdb.regions_contacted' as const;
 
 /**
  * Deprecated, use `azure.cosmosdb.operation.request_charge` instead.
@@ -2511,7 +2605,8 @@ export const ATTR_DB_COSMOSDB_REGIONS_CONTACTED = 'db.cosmosdb.regions_contacted
  *
  * @deprecated Replaced by `azure.cosmosdb.operation.request_charge`.
  */
-export const ATTR_DB_COSMOSDB_REQUEST_CHARGE = 'db.cosmosdb.request_charge' as const;
+export const ATTR_DB_COSMOSDB_REQUEST_CHARGE =
+  'db.cosmosdb.request_charge' as const;
 
 /**
  * Deprecated, use `azure.cosmosdb.request.body.size` instead.
@@ -2520,7 +2615,8 @@ export const ATTR_DB_COSMOSDB_REQUEST_CHARGE = 'db.cosmosdb.request_charge' as c
  *
  * @deprecated Replaced by `azure.cosmosdb.request.body.size`.
  */
-export const ATTR_DB_COSMOSDB_REQUEST_CONTENT_LENGTH = 'db.cosmosdb.request_content_length' as const;
+export const ATTR_DB_COSMOSDB_REQUEST_CONTENT_LENGTH =
+  'db.cosmosdb.request_content_length' as const;
 
 /**
  * Deprecated, use `db.response.status_code` instead.
@@ -2544,7 +2640,8 @@ export const ATTR_DB_COSMOSDB_STATUS_CODE = 'db.cosmosdb.status_code' as const;
  *
  * @deprecated Replaced by `azure.cosmosdb.response.sub_status_code`.
  */
-export const ATTR_DB_COSMOSDB_SUB_STATUS_CODE = 'db.cosmosdb.sub_status_code' as const;
+export const ATTR_DB_COSMOSDB_SUB_STATUS_CODE =
+  'db.cosmosdb.sub_status_code' as const;
 
 /**
  * Deprecated, use `db.namespace` instead.
@@ -2555,7 +2652,8 @@ export const ATTR_DB_COSMOSDB_SUB_STATUS_CODE = 'db.cosmosdb.sub_status_code' as
  *
  * @deprecated Replaced by `db.namespace`.
  */
-export const ATTR_DB_ELASTICSEARCH_CLUSTER_NAME = 'db.elasticsearch.cluster.name' as const;
+export const ATTR_DB_ELASTICSEARCH_CLUSTER_NAME =
+  'db.elasticsearch.cluster.name' as const;
 
 /**
  * Deprecated, use `elasticsearch.node.name` instead.
@@ -2566,7 +2664,8 @@ export const ATTR_DB_ELASTICSEARCH_CLUSTER_NAME = 'db.elasticsearch.cluster.name
  *
  * @deprecated Replaced by `elasticsearch.node.name`.
  */
-export const ATTR_DB_ELASTICSEARCH_NODE_NAME = 'db.elasticsearch.node.name' as const;
+export const ATTR_DB_ELASTICSEARCH_NODE_NAME =
+  'db.elasticsearch.node.name' as const;
 
 /**
  * Deprecated, use `db.operation.parameter` instead.
@@ -2578,7 +2677,8 @@ export const ATTR_DB_ELASTICSEARCH_NODE_NAME = 'db.elasticsearch.node.name' as c
  *
  * @deprecated Replaced by `db.operation.parameter`.
  */
-export const ATTR_DB_ELASTICSEARCH_PATH_PARTS = (key: string) => `db.elasticsearch.path_parts.${key}`;
+export const ATTR_DB_ELASTICSEARCH_PATH_PARTS = (key: string) =>
+  `db.elasticsearch.path_parts.${key}`;
 
 /**
  * Deprecated, no general replacement at this time. For Elasticsearch, use `db.elasticsearch.node.name` instead.
@@ -2601,7 +2701,8 @@ export const ATTR_DB_INSTANCE_ID = 'db.instance.id' as const;
  *
  * @deprecated Removed, no replacement at this time.
  */
-export const ATTR_DB_JDBC_DRIVER_CLASSNAME = 'db.jdbc.driver_classname' as const;
+export const ATTR_DB_JDBC_DRIVER_CLASSNAME =
+  'db.jdbc.driver_classname' as const;
 
 /**
  * Deprecated, use `db.collection.name` instead.
@@ -2664,7 +2765,8 @@ export const ATTR_DB_OPERATION = 'db.operation' as const;
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_DB_OPERATION_PARAMETER = (key: string) => `db.operation.parameter.${key}`;
+export const ATTR_DB_OPERATION_PARAMETER = (key: string) =>
+  `db.operation.parameter.${key}`;
 
 /**
  * A database query parameter, with `<key>` being the parameter name, and the attribute value being a string representation of the parameter value.
@@ -2689,7 +2791,8 @@ export const ATTR_DB_OPERATION_PARAMETER = (key: string) => `db.operation.parame
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_DB_QUERY_PARAMETER = (key: string) => `db.query.parameter.${key}`;
+export const ATTR_DB_QUERY_PARAMETER = (key: string) =>
+  `db.query.parameter.${key}`;
 
 /**
  * Deprecated, use `db.namespace` instead.
@@ -2713,7 +2816,8 @@ export const ATTR_DB_REDIS_DATABASE_INDEX = 'db.redis.database_index' as const;
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_DB_RESPONSE_RETURNED_ROWS = 'db.response.returned_rows' as const;
+export const ATTR_DB_RESPONSE_RETURNED_ROWS =
+  'db.response.returned_rows' as const;
 
 /**
  * Deprecated, use `db.collection.name` instead.
@@ -2750,457 +2854,459 @@ export const ATTR_DB_SYSTEM = 'db.system' as const;
 /**
  * Enum value "adabas" for attribute {@link ATTR_DB_SYSTEM}.
  */
-export const DB_SYSTEM_VALUE_ADABAS = "adabas" as const;
+export const DB_SYSTEM_VALUE_ADABAS = 'adabas' as const;
 
 /**
  * Enum value "cache" for attribute {@link ATTR_DB_SYSTEM}.
  */
-export const DB_SYSTEM_VALUE_CACHE = "cache" as const;
+export const DB_SYSTEM_VALUE_CACHE = 'cache' as const;
 
 /**
  * Enum value "cassandra" for attribute {@link ATTR_DB_SYSTEM}.
  */
-export const DB_SYSTEM_VALUE_CASSANDRA = "cassandra" as const;
+export const DB_SYSTEM_VALUE_CASSANDRA = 'cassandra' as const;
 
 /**
  * Enum value "clickhouse" for attribute {@link ATTR_DB_SYSTEM}.
  */
-export const DB_SYSTEM_VALUE_CLICKHOUSE = "clickhouse" as const;
+export const DB_SYSTEM_VALUE_CLICKHOUSE = 'clickhouse' as const;
 
 /**
  * Enum value "cloudscape" for attribute {@link ATTR_DB_SYSTEM}.
  */
-export const DB_SYSTEM_VALUE_CLOUDSCAPE = "cloudscape" as const;
+export const DB_SYSTEM_VALUE_CLOUDSCAPE = 'cloudscape' as const;
 
 /**
  * Enum value "cockroachdb" for attribute {@link ATTR_DB_SYSTEM}.
  */
-export const DB_SYSTEM_VALUE_COCKROACHDB = "cockroachdb" as const;
+export const DB_SYSTEM_VALUE_COCKROACHDB = 'cockroachdb' as const;
 
 /**
  * Enum value "coldfusion" for attribute {@link ATTR_DB_SYSTEM}.
  */
-export const DB_SYSTEM_VALUE_COLDFUSION = "coldfusion" as const;
+export const DB_SYSTEM_VALUE_COLDFUSION = 'coldfusion' as const;
 
 /**
  * Enum value "cosmosdb" for attribute {@link ATTR_DB_SYSTEM}.
  */
-export const DB_SYSTEM_VALUE_COSMOSDB = "cosmosdb" as const;
+export const DB_SYSTEM_VALUE_COSMOSDB = 'cosmosdb' as const;
 
 /**
  * Enum value "couchbase" for attribute {@link ATTR_DB_SYSTEM}.
  */
-export const DB_SYSTEM_VALUE_COUCHBASE = "couchbase" as const;
+export const DB_SYSTEM_VALUE_COUCHBASE = 'couchbase' as const;
 
 /**
  * Enum value "couchdb" for attribute {@link ATTR_DB_SYSTEM}.
  */
-export const DB_SYSTEM_VALUE_COUCHDB = "couchdb" as const;
+export const DB_SYSTEM_VALUE_COUCHDB = 'couchdb' as const;
 
 /**
  * Enum value "db2" for attribute {@link ATTR_DB_SYSTEM}.
  */
-export const DB_SYSTEM_VALUE_DB2 = "db2" as const;
+export const DB_SYSTEM_VALUE_DB2 = 'db2' as const;
 
 /**
  * Enum value "derby" for attribute {@link ATTR_DB_SYSTEM}.
  */
-export const DB_SYSTEM_VALUE_DERBY = "derby" as const;
+export const DB_SYSTEM_VALUE_DERBY = 'derby' as const;
 
 /**
  * Enum value "dynamodb" for attribute {@link ATTR_DB_SYSTEM}.
  */
-export const DB_SYSTEM_VALUE_DYNAMODB = "dynamodb" as const;
+export const DB_SYSTEM_VALUE_DYNAMODB = 'dynamodb' as const;
 
 /**
  * Enum value "edb" for attribute {@link ATTR_DB_SYSTEM}.
  */
-export const DB_SYSTEM_VALUE_EDB = "edb" as const;
+export const DB_SYSTEM_VALUE_EDB = 'edb' as const;
 
 /**
  * Enum value "elasticsearch" for attribute {@link ATTR_DB_SYSTEM}.
  */
-export const DB_SYSTEM_VALUE_ELASTICSEARCH = "elasticsearch" as const;
+export const DB_SYSTEM_VALUE_ELASTICSEARCH = 'elasticsearch' as const;
 
 /**
  * Enum value "filemaker" for attribute {@link ATTR_DB_SYSTEM}.
  */
-export const DB_SYSTEM_VALUE_FILEMAKER = "filemaker" as const;
+export const DB_SYSTEM_VALUE_FILEMAKER = 'filemaker' as const;
 
 /**
  * Enum value "firebird" for attribute {@link ATTR_DB_SYSTEM}.
  */
-export const DB_SYSTEM_VALUE_FIREBIRD = "firebird" as const;
+export const DB_SYSTEM_VALUE_FIREBIRD = 'firebird' as const;
 
 /**
  * Enum value "firstsql" for attribute {@link ATTR_DB_SYSTEM}.
  */
-export const DB_SYSTEM_VALUE_FIRSTSQL = "firstsql" as const;
+export const DB_SYSTEM_VALUE_FIRSTSQL = 'firstsql' as const;
 
 /**
  * Enum value "geode" for attribute {@link ATTR_DB_SYSTEM}.
  */
-export const DB_SYSTEM_VALUE_GEODE = "geode" as const;
+export const DB_SYSTEM_VALUE_GEODE = 'geode' as const;
 
 /**
  * Enum value "h2" for attribute {@link ATTR_DB_SYSTEM}.
  */
-export const DB_SYSTEM_VALUE_H2 = "h2" as const;
+export const DB_SYSTEM_VALUE_H2 = 'h2' as const;
 
 /**
  * Enum value "hanadb" for attribute {@link ATTR_DB_SYSTEM}.
  */
-export const DB_SYSTEM_VALUE_HANADB = "hanadb" as const;
+export const DB_SYSTEM_VALUE_HANADB = 'hanadb' as const;
 
 /**
  * Enum value "hbase" for attribute {@link ATTR_DB_SYSTEM}.
  */
-export const DB_SYSTEM_VALUE_HBASE = "hbase" as const;
+export const DB_SYSTEM_VALUE_HBASE = 'hbase' as const;
 
 /**
  * Enum value "hive" for attribute {@link ATTR_DB_SYSTEM}.
  */
-export const DB_SYSTEM_VALUE_HIVE = "hive" as const;
+export const DB_SYSTEM_VALUE_HIVE = 'hive' as const;
 
 /**
  * Enum value "hsqldb" for attribute {@link ATTR_DB_SYSTEM}.
  */
-export const DB_SYSTEM_VALUE_HSQLDB = "hsqldb" as const;
+export const DB_SYSTEM_VALUE_HSQLDB = 'hsqldb' as const;
 
 /**
  * Enum value "influxdb" for attribute {@link ATTR_DB_SYSTEM}.
  */
-export const DB_SYSTEM_VALUE_INFLUXDB = "influxdb" as const;
+export const DB_SYSTEM_VALUE_INFLUXDB = 'influxdb' as const;
 
 /**
  * Enum value "informix" for attribute {@link ATTR_DB_SYSTEM}.
  */
-export const DB_SYSTEM_VALUE_INFORMIX = "informix" as const;
+export const DB_SYSTEM_VALUE_INFORMIX = 'informix' as const;
 
 /**
  * Enum value "ingres" for attribute {@link ATTR_DB_SYSTEM}.
  */
-export const DB_SYSTEM_VALUE_INGRES = "ingres" as const;
+export const DB_SYSTEM_VALUE_INGRES = 'ingres' as const;
 
 /**
  * Enum value "instantdb" for attribute {@link ATTR_DB_SYSTEM}.
  */
-export const DB_SYSTEM_VALUE_INSTANTDB = "instantdb" as const;
+export const DB_SYSTEM_VALUE_INSTANTDB = 'instantdb' as const;
 
 /**
  * Enum value "interbase" for attribute {@link ATTR_DB_SYSTEM}.
  */
-export const DB_SYSTEM_VALUE_INTERBASE = "interbase" as const;
+export const DB_SYSTEM_VALUE_INTERBASE = 'interbase' as const;
 
 /**
  * Enum value "intersystems_cache" for attribute {@link ATTR_DB_SYSTEM}.
  */
-export const DB_SYSTEM_VALUE_INTERSYSTEMS_CACHE = "intersystems_cache" as const;
+export const DB_SYSTEM_VALUE_INTERSYSTEMS_CACHE = 'intersystems_cache' as const;
 
 /**
  * Enum value "mariadb" for attribute {@link ATTR_DB_SYSTEM}.
  */
-export const DB_SYSTEM_VALUE_MARIADB = "mariadb" as const;
+export const DB_SYSTEM_VALUE_MARIADB = 'mariadb' as const;
 
 /**
  * Enum value "maxdb" for attribute {@link ATTR_DB_SYSTEM}.
  */
-export const DB_SYSTEM_VALUE_MAXDB = "maxdb" as const;
+export const DB_SYSTEM_VALUE_MAXDB = 'maxdb' as const;
 
 /**
  * Enum value "memcached" for attribute {@link ATTR_DB_SYSTEM}.
  */
-export const DB_SYSTEM_VALUE_MEMCACHED = "memcached" as const;
+export const DB_SYSTEM_VALUE_MEMCACHED = 'memcached' as const;
 
 /**
  * Enum value "mongodb" for attribute {@link ATTR_DB_SYSTEM}.
  */
-export const DB_SYSTEM_VALUE_MONGODB = "mongodb" as const;
+export const DB_SYSTEM_VALUE_MONGODB = 'mongodb' as const;
 
 /**
  * Enum value "mssql" for attribute {@link ATTR_DB_SYSTEM}.
  */
-export const DB_SYSTEM_VALUE_MSSQL = "mssql" as const;
+export const DB_SYSTEM_VALUE_MSSQL = 'mssql' as const;
 
 /**
  * Enum value "mssqlcompact" for attribute {@link ATTR_DB_SYSTEM}.
  */
-export const DB_SYSTEM_VALUE_MSSQLCOMPACT = "mssqlcompact" as const;
+export const DB_SYSTEM_VALUE_MSSQLCOMPACT = 'mssqlcompact' as const;
 
 /**
  * Enum value "mysql" for attribute {@link ATTR_DB_SYSTEM}.
  */
-export const DB_SYSTEM_VALUE_MYSQL = "mysql" as const;
+export const DB_SYSTEM_VALUE_MYSQL = 'mysql' as const;
 
 /**
  * Enum value "neo4j" for attribute {@link ATTR_DB_SYSTEM}.
  */
-export const DB_SYSTEM_VALUE_NEO4J = "neo4j" as const;
+export const DB_SYSTEM_VALUE_NEO4J = 'neo4j' as const;
 
 /**
  * Enum value "netezza" for attribute {@link ATTR_DB_SYSTEM}.
  */
-export const DB_SYSTEM_VALUE_NETEZZA = "netezza" as const;
+export const DB_SYSTEM_VALUE_NETEZZA = 'netezza' as const;
 
 /**
  * Enum value "opensearch" for attribute {@link ATTR_DB_SYSTEM}.
  */
-export const DB_SYSTEM_VALUE_OPENSEARCH = "opensearch" as const;
+export const DB_SYSTEM_VALUE_OPENSEARCH = 'opensearch' as const;
 
 /**
  * Enum value "oracle" for attribute {@link ATTR_DB_SYSTEM}.
  */
-export const DB_SYSTEM_VALUE_ORACLE = "oracle" as const;
+export const DB_SYSTEM_VALUE_ORACLE = 'oracle' as const;
 
 /**
  * Enum value "other_sql" for attribute {@link ATTR_DB_SYSTEM}.
  */
-export const DB_SYSTEM_VALUE_OTHER_SQL = "other_sql" as const;
+export const DB_SYSTEM_VALUE_OTHER_SQL = 'other_sql' as const;
 
 /**
  * Enum value "pervasive" for attribute {@link ATTR_DB_SYSTEM}.
  */
-export const DB_SYSTEM_VALUE_PERVASIVE = "pervasive" as const;
+export const DB_SYSTEM_VALUE_PERVASIVE = 'pervasive' as const;
 
 /**
  * Enum value "pointbase" for attribute {@link ATTR_DB_SYSTEM}.
  */
-export const DB_SYSTEM_VALUE_POINTBASE = "pointbase" as const;
+export const DB_SYSTEM_VALUE_POINTBASE = 'pointbase' as const;
 
 /**
  * Enum value "postgresql" for attribute {@link ATTR_DB_SYSTEM}.
  */
-export const DB_SYSTEM_VALUE_POSTGRESQL = "postgresql" as const;
+export const DB_SYSTEM_VALUE_POSTGRESQL = 'postgresql' as const;
 
 /**
  * Enum value "progress" for attribute {@link ATTR_DB_SYSTEM}.
  */
-export const DB_SYSTEM_VALUE_PROGRESS = "progress" as const;
+export const DB_SYSTEM_VALUE_PROGRESS = 'progress' as const;
 
 /**
  * Enum value "redis" for attribute {@link ATTR_DB_SYSTEM}.
  */
-export const DB_SYSTEM_VALUE_REDIS = "redis" as const;
+export const DB_SYSTEM_VALUE_REDIS = 'redis' as const;
 
 /**
  * Enum value "redshift" for attribute {@link ATTR_DB_SYSTEM}.
  */
-export const DB_SYSTEM_VALUE_REDSHIFT = "redshift" as const;
+export const DB_SYSTEM_VALUE_REDSHIFT = 'redshift' as const;
 
 /**
  * Enum value "spanner" for attribute {@link ATTR_DB_SYSTEM}.
  */
-export const DB_SYSTEM_VALUE_SPANNER = "spanner" as const;
+export const DB_SYSTEM_VALUE_SPANNER = 'spanner' as const;
 
 /**
  * Enum value "sqlite" for attribute {@link ATTR_DB_SYSTEM}.
  */
-export const DB_SYSTEM_VALUE_SQLITE = "sqlite" as const;
+export const DB_SYSTEM_VALUE_SQLITE = 'sqlite' as const;
 
 /**
  * Enum value "sybase" for attribute {@link ATTR_DB_SYSTEM}.
  */
-export const DB_SYSTEM_VALUE_SYBASE = "sybase" as const;
+export const DB_SYSTEM_VALUE_SYBASE = 'sybase' as const;
 
 /**
  * Enum value "teradata" for attribute {@link ATTR_DB_SYSTEM}.
  */
-export const DB_SYSTEM_VALUE_TERADATA = "teradata" as const;
+export const DB_SYSTEM_VALUE_TERADATA = 'teradata' as const;
 
 /**
  * Enum value "trino" for attribute {@link ATTR_DB_SYSTEM}.
  */
-export const DB_SYSTEM_VALUE_TRINO = "trino" as const;
+export const DB_SYSTEM_VALUE_TRINO = 'trino' as const;
 
 /**
  * Enum value "vertica" for attribute {@link ATTR_DB_SYSTEM}.
  */
-export const DB_SYSTEM_VALUE_VERTICA = "vertica" as const;
+export const DB_SYSTEM_VALUE_VERTICA = 'vertica' as const;
 
 /**
  * Enum value "actian.ingres" for attribute {@link ATTR_DB_SYSTEM_NAME}.
  */
-export const DB_SYSTEM_NAME_VALUE_ACTIAN_INGRES = "actian.ingres" as const;
+export const DB_SYSTEM_NAME_VALUE_ACTIAN_INGRES = 'actian.ingres' as const;
 
 /**
  * Enum value "aws.dynamodb" for attribute {@link ATTR_DB_SYSTEM_NAME}.
  */
-export const DB_SYSTEM_NAME_VALUE_AWS_DYNAMODB = "aws.dynamodb" as const;
+export const DB_SYSTEM_NAME_VALUE_AWS_DYNAMODB = 'aws.dynamodb' as const;
 
 /**
  * Enum value "aws.redshift" for attribute {@link ATTR_DB_SYSTEM_NAME}.
  */
-export const DB_SYSTEM_NAME_VALUE_AWS_REDSHIFT = "aws.redshift" as const;
+export const DB_SYSTEM_NAME_VALUE_AWS_REDSHIFT = 'aws.redshift' as const;
 
 /**
  * Enum value "azure.cosmosdb" for attribute {@link ATTR_DB_SYSTEM_NAME}.
  */
-export const DB_SYSTEM_NAME_VALUE_AZURE_COSMOSDB = "azure.cosmosdb" as const;
+export const DB_SYSTEM_NAME_VALUE_AZURE_COSMOSDB = 'azure.cosmosdb' as const;
 
 /**
  * Enum value "cassandra" for attribute {@link ATTR_DB_SYSTEM_NAME}.
  */
-export const DB_SYSTEM_NAME_VALUE_CASSANDRA = "cassandra" as const;
+export const DB_SYSTEM_NAME_VALUE_CASSANDRA = 'cassandra' as const;
 
 /**
  * Enum value "clickhouse" for attribute {@link ATTR_DB_SYSTEM_NAME}.
  */
-export const DB_SYSTEM_NAME_VALUE_CLICKHOUSE = "clickhouse" as const;
+export const DB_SYSTEM_NAME_VALUE_CLICKHOUSE = 'clickhouse' as const;
 
 /**
  * Enum value "cockroachdb" for attribute {@link ATTR_DB_SYSTEM_NAME}.
  */
-export const DB_SYSTEM_NAME_VALUE_COCKROACHDB = "cockroachdb" as const;
+export const DB_SYSTEM_NAME_VALUE_COCKROACHDB = 'cockroachdb' as const;
 
 /**
  * Enum value "couchbase" for attribute {@link ATTR_DB_SYSTEM_NAME}.
  */
-export const DB_SYSTEM_NAME_VALUE_COUCHBASE = "couchbase" as const;
+export const DB_SYSTEM_NAME_VALUE_COUCHBASE = 'couchbase' as const;
 
 /**
  * Enum value "couchdb" for attribute {@link ATTR_DB_SYSTEM_NAME}.
  */
-export const DB_SYSTEM_NAME_VALUE_COUCHDB = "couchdb" as const;
+export const DB_SYSTEM_NAME_VALUE_COUCHDB = 'couchdb' as const;
 
 /**
  * Enum value "derby" for attribute {@link ATTR_DB_SYSTEM_NAME}.
  */
-export const DB_SYSTEM_NAME_VALUE_DERBY = "derby" as const;
+export const DB_SYSTEM_NAME_VALUE_DERBY = 'derby' as const;
 
 /**
  * Enum value "elasticsearch" for attribute {@link ATTR_DB_SYSTEM_NAME}.
  */
-export const DB_SYSTEM_NAME_VALUE_ELASTICSEARCH = "elasticsearch" as const;
+export const DB_SYSTEM_NAME_VALUE_ELASTICSEARCH = 'elasticsearch' as const;
 
 /**
  * Enum value "firebirdsql" for attribute {@link ATTR_DB_SYSTEM_NAME}.
  */
-export const DB_SYSTEM_NAME_VALUE_FIREBIRDSQL = "firebirdsql" as const;
+export const DB_SYSTEM_NAME_VALUE_FIREBIRDSQL = 'firebirdsql' as const;
 
 /**
  * Enum value "gcp.spanner" for attribute {@link ATTR_DB_SYSTEM_NAME}.
  */
-export const DB_SYSTEM_NAME_VALUE_GCP_SPANNER = "gcp.spanner" as const;
+export const DB_SYSTEM_NAME_VALUE_GCP_SPANNER = 'gcp.spanner' as const;
 
 /**
  * Enum value "geode" for attribute {@link ATTR_DB_SYSTEM_NAME}.
  */
-export const DB_SYSTEM_NAME_VALUE_GEODE = "geode" as const;
+export const DB_SYSTEM_NAME_VALUE_GEODE = 'geode' as const;
 
 /**
  * Enum value "h2database" for attribute {@link ATTR_DB_SYSTEM_NAME}.
  */
-export const DB_SYSTEM_NAME_VALUE_H2DATABASE = "h2database" as const;
+export const DB_SYSTEM_NAME_VALUE_H2DATABASE = 'h2database' as const;
 
 /**
  * Enum value "hbase" for attribute {@link ATTR_DB_SYSTEM_NAME}.
  */
-export const DB_SYSTEM_NAME_VALUE_HBASE = "hbase" as const;
+export const DB_SYSTEM_NAME_VALUE_HBASE = 'hbase' as const;
 
 /**
  * Enum value "hive" for attribute {@link ATTR_DB_SYSTEM_NAME}.
  */
-export const DB_SYSTEM_NAME_VALUE_HIVE = "hive" as const;
+export const DB_SYSTEM_NAME_VALUE_HIVE = 'hive' as const;
 
 /**
  * Enum value "hsqldb" for attribute {@link ATTR_DB_SYSTEM_NAME}.
  */
-export const DB_SYSTEM_NAME_VALUE_HSQLDB = "hsqldb" as const;
+export const DB_SYSTEM_NAME_VALUE_HSQLDB = 'hsqldb' as const;
 
 /**
  * Enum value "ibm.db2" for attribute {@link ATTR_DB_SYSTEM_NAME}.
  */
-export const DB_SYSTEM_NAME_VALUE_IBM_DB2 = "ibm.db2" as const;
+export const DB_SYSTEM_NAME_VALUE_IBM_DB2 = 'ibm.db2' as const;
 
 /**
  * Enum value "ibm.informix" for attribute {@link ATTR_DB_SYSTEM_NAME}.
  */
-export const DB_SYSTEM_NAME_VALUE_IBM_INFORMIX = "ibm.informix" as const;
+export const DB_SYSTEM_NAME_VALUE_IBM_INFORMIX = 'ibm.informix' as const;
 
 /**
  * Enum value "ibm.netezza" for attribute {@link ATTR_DB_SYSTEM_NAME}.
  */
-export const DB_SYSTEM_NAME_VALUE_IBM_NETEZZA = "ibm.netezza" as const;
+export const DB_SYSTEM_NAME_VALUE_IBM_NETEZZA = 'ibm.netezza' as const;
 
 /**
  * Enum value "influxdb" for attribute {@link ATTR_DB_SYSTEM_NAME}.
  */
-export const DB_SYSTEM_NAME_VALUE_INFLUXDB = "influxdb" as const;
+export const DB_SYSTEM_NAME_VALUE_INFLUXDB = 'influxdb' as const;
 
 /**
  * Enum value "instantdb" for attribute {@link ATTR_DB_SYSTEM_NAME}.
  */
-export const DB_SYSTEM_NAME_VALUE_INSTANTDB = "instantdb" as const;
+export const DB_SYSTEM_NAME_VALUE_INSTANTDB = 'instantdb' as const;
 
 /**
  * Enum value "intersystems.cache" for attribute {@link ATTR_DB_SYSTEM_NAME}.
  */
-export const DB_SYSTEM_NAME_VALUE_INTERSYSTEMS_CACHE = "intersystems.cache" as const;
+export const DB_SYSTEM_NAME_VALUE_INTERSYSTEMS_CACHE =
+  'intersystems.cache' as const;
 
 /**
  * Enum value "memcached" for attribute {@link ATTR_DB_SYSTEM_NAME}.
  */
-export const DB_SYSTEM_NAME_VALUE_MEMCACHED = "memcached" as const;
+export const DB_SYSTEM_NAME_VALUE_MEMCACHED = 'memcached' as const;
 
 /**
  * Enum value "mongodb" for attribute {@link ATTR_DB_SYSTEM_NAME}.
  */
-export const DB_SYSTEM_NAME_VALUE_MONGODB = "mongodb" as const;
+export const DB_SYSTEM_NAME_VALUE_MONGODB = 'mongodb' as const;
 
 /**
  * Enum value "neo4j" for attribute {@link ATTR_DB_SYSTEM_NAME}.
  */
-export const DB_SYSTEM_NAME_VALUE_NEO4J = "neo4j" as const;
+export const DB_SYSTEM_NAME_VALUE_NEO4J = 'neo4j' as const;
 
 /**
  * Enum value "opensearch" for attribute {@link ATTR_DB_SYSTEM_NAME}.
  */
-export const DB_SYSTEM_NAME_VALUE_OPENSEARCH = "opensearch" as const;
+export const DB_SYSTEM_NAME_VALUE_OPENSEARCH = 'opensearch' as const;
 
 /**
  * Enum value "oracle.db" for attribute {@link ATTR_DB_SYSTEM_NAME}.
  */
-export const DB_SYSTEM_NAME_VALUE_ORACLE_DB = "oracle.db" as const;
+export const DB_SYSTEM_NAME_VALUE_ORACLE_DB = 'oracle.db' as const;
 
 /**
  * Enum value "other_sql" for attribute {@link ATTR_DB_SYSTEM_NAME}.
  */
-export const DB_SYSTEM_NAME_VALUE_OTHER_SQL = "other_sql" as const;
+export const DB_SYSTEM_NAME_VALUE_OTHER_SQL = 'other_sql' as const;
 
 /**
  * Enum value "redis" for attribute {@link ATTR_DB_SYSTEM_NAME}.
  */
-export const DB_SYSTEM_NAME_VALUE_REDIS = "redis" as const;
+export const DB_SYSTEM_NAME_VALUE_REDIS = 'redis' as const;
 
 /**
  * Enum value "sap.hana" for attribute {@link ATTR_DB_SYSTEM_NAME}.
  */
-export const DB_SYSTEM_NAME_VALUE_SAP_HANA = "sap.hana" as const;
+export const DB_SYSTEM_NAME_VALUE_SAP_HANA = 'sap.hana' as const;
 
 /**
  * Enum value "sap.maxdb" for attribute {@link ATTR_DB_SYSTEM_NAME}.
  */
-export const DB_SYSTEM_NAME_VALUE_SAP_MAXDB = "sap.maxdb" as const;
+export const DB_SYSTEM_NAME_VALUE_SAP_MAXDB = 'sap.maxdb' as const;
 
 /**
  * Enum value "softwareag.adabas" for attribute {@link ATTR_DB_SYSTEM_NAME}.
  */
-export const DB_SYSTEM_NAME_VALUE_SOFTWAREAG_ADABAS = "softwareag.adabas" as const;
+export const DB_SYSTEM_NAME_VALUE_SOFTWAREAG_ADABAS =
+  'softwareag.adabas' as const;
 
 /**
  * Enum value "sqlite" for attribute {@link ATTR_DB_SYSTEM_NAME}.
  */
-export const DB_SYSTEM_NAME_VALUE_SQLITE = "sqlite" as const;
+export const DB_SYSTEM_NAME_VALUE_SQLITE = 'sqlite' as const;
 
 /**
  * Enum value "teradata" for attribute {@link ATTR_DB_SYSTEM_NAME}.
  */
-export const DB_SYSTEM_NAME_VALUE_TERADATA = "teradata" as const;
+export const DB_SYSTEM_NAME_VALUE_TERADATA = 'teradata' as const;
 
 /**
  * Enum value "trino" for attribute {@link ATTR_DB_SYSTEM_NAME}.
  */
-export const DB_SYSTEM_NAME_VALUE_TRINO = "trino" as const;
+export const DB_SYSTEM_NAME_VALUE_TRINO = 'trino' as const;
 
 /**
  * Deprecated, no replacement at this time.
@@ -3242,7 +3348,8 @@ export const ATTR_DEPLOYMENT_ENVIRONMENT = 'deployment.environment' as const;
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_DEPLOYMENT_ENVIRONMENT_NAME = 'deployment.environment.name' as const;
+export const ATTR_DEPLOYMENT_ENVIRONMENT_NAME =
+  'deployment.environment.name' as const;
 
 /**
  * The id of the deployment.
@@ -3273,12 +3380,12 @@ export const ATTR_DEPLOYMENT_STATUS = 'deployment.status' as const;
 /**
  * Enum value "failed" for attribute {@link ATTR_DEPLOYMENT_STATUS}.
  */
-export const DEPLOYMENT_STATUS_VALUE_FAILED = "failed" as const;
+export const DEPLOYMENT_STATUS_VALUE_FAILED = 'failed' as const;
 
 /**
  * Enum value "succeeded" for attribute {@link ATTR_DEPLOYMENT_STATUS}.
  */
-export const DEPLOYMENT_STATUS_VALUE_SUCCEEDED = "succeeded" as const;
+export const DEPLOYMENT_STATUS_VALUE_SUCCEEDED = 'succeeded' as const;
 
 /**
  * Destination address - domain name if available without reverse DNS lookup; otherwise, IP address or Unix domain socket name.
@@ -3372,12 +3479,12 @@ export const ATTR_DISK_IO_DIRECTION = 'disk.io.direction' as const;
 /**
  * Enum value "read" for attribute {@link ATTR_DISK_IO_DIRECTION}.
  */
-export const DISK_IO_DIRECTION_VALUE_READ = "read" as const;
+export const DISK_IO_DIRECTION_VALUE_READ = 'read' as const;
 
 /**
  * Enum value "write" for attribute {@link ATTR_DISK_IO_DIRECTION}.
  */
-export const DISK_IO_DIRECTION_VALUE_WRITE = "write" as const;
+export const DISK_IO_DIRECTION_VALUE_WRITE = 'write' as const;
 
 /**
  * The name being queried.
@@ -3502,7 +3609,8 @@ export const ATTR_FAAS_CRON = 'faas.cron' as const;
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_FAAS_DOCUMENT_COLLECTION = 'faas.document.collection' as const;
+export const ATTR_FAAS_DOCUMENT_COLLECTION =
+  'faas.document.collection' as const;
 
 /**
  * The document name/table subjected to the operation. For example, in Cloud Storage or S3 is the name of the file, and in Cosmos DB the table name.
@@ -3524,17 +3632,17 @@ export const ATTR_FAAS_DOCUMENT_OPERATION = 'faas.document.operation' as const;
 /**
  * Enum value "delete" for attribute {@link ATTR_FAAS_DOCUMENT_OPERATION}.
  */
-export const FAAS_DOCUMENT_OPERATION_VALUE_DELETE = "delete" as const;
+export const FAAS_DOCUMENT_OPERATION_VALUE_DELETE = 'delete' as const;
 
 /**
  * Enum value "edit" for attribute {@link ATTR_FAAS_DOCUMENT_OPERATION}.
  */
-export const FAAS_DOCUMENT_OPERATION_VALUE_EDIT = "edit" as const;
+export const FAAS_DOCUMENT_OPERATION_VALUE_EDIT = 'edit' as const;
 
 /**
  * Enum value "insert" for attribute {@link ATTR_FAAS_DOCUMENT_OPERATION}.
  */
-export const FAAS_DOCUMENT_OPERATION_VALUE_INSERT = "insert" as const;
+export const FAAS_DOCUMENT_OPERATION_VALUE_INSERT = 'insert' as const;
 
 /**
  * A string containing the time when the data was accessed in the [ISO 8601](https://www.iso.org/iso-8601-date-and-time-format.html) format expressed in [UTC](https://www.w3.org/TR/NOTE-datetime).
@@ -3588,27 +3696,29 @@ export const ATTR_FAAS_INVOKED_PROVIDER = 'faas.invoked_provider' as const;
 /**
  * Enum value "alibaba_cloud" for attribute {@link ATTR_FAAS_INVOKED_PROVIDER}.
  */
-export const FAAS_INVOKED_PROVIDER_VALUE_ALIBABA_CLOUD = "alibaba_cloud" as const;
+export const FAAS_INVOKED_PROVIDER_VALUE_ALIBABA_CLOUD =
+  'alibaba_cloud' as const;
 
 /**
  * Enum value "aws" for attribute {@link ATTR_FAAS_INVOKED_PROVIDER}.
  */
-export const FAAS_INVOKED_PROVIDER_VALUE_AWS = "aws" as const;
+export const FAAS_INVOKED_PROVIDER_VALUE_AWS = 'aws' as const;
 
 /**
  * Enum value "azure" for attribute {@link ATTR_FAAS_INVOKED_PROVIDER}.
  */
-export const FAAS_INVOKED_PROVIDER_VALUE_AZURE = "azure" as const;
+export const FAAS_INVOKED_PROVIDER_VALUE_AZURE = 'azure' as const;
 
 /**
  * Enum value "gcp" for attribute {@link ATTR_FAAS_INVOKED_PROVIDER}.
  */
-export const FAAS_INVOKED_PROVIDER_VALUE_GCP = "gcp" as const;
+export const FAAS_INVOKED_PROVIDER_VALUE_GCP = 'gcp' as const;
 
 /**
  * Enum value "tencent_cloud" for attribute {@link ATTR_FAAS_INVOKED_PROVIDER}.
  */
-export const FAAS_INVOKED_PROVIDER_VALUE_TENCENT_CLOUD = "tencent_cloud" as const;
+export const FAAS_INVOKED_PROVIDER_VALUE_TENCENT_CLOUD =
+  'tencent_cloud' as const;
 
 /**
  * The cloud region of the invoked function.
@@ -3678,27 +3788,27 @@ export const ATTR_FAAS_TRIGGER = 'faas.trigger' as const;
 /**
  * Enum value "datasource" for attribute {@link ATTR_FAAS_TRIGGER}.
  */
-export const FAAS_TRIGGER_VALUE_DATASOURCE = "datasource" as const;
+export const FAAS_TRIGGER_VALUE_DATASOURCE = 'datasource' as const;
 
 /**
  * Enum value "http" for attribute {@link ATTR_FAAS_TRIGGER}.
  */
-export const FAAS_TRIGGER_VALUE_HTTP = "http" as const;
+export const FAAS_TRIGGER_VALUE_HTTP = 'http' as const;
 
 /**
  * Enum value "other" for attribute {@link ATTR_FAAS_TRIGGER}.
  */
-export const FAAS_TRIGGER_VALUE_OTHER = "other" as const;
+export const FAAS_TRIGGER_VALUE_OTHER = 'other' as const;
 
 /**
  * Enum value "pubsub" for attribute {@link ATTR_FAAS_TRIGGER}.
  */
-export const FAAS_TRIGGER_VALUE_PUBSUB = "pubsub" as const;
+export const FAAS_TRIGGER_VALUE_PUBSUB = 'pubsub' as const;
 
 /**
  * Enum value "timer" for attribute {@link ATTR_FAAS_TRIGGER}.
  */
-export const FAAS_TRIGGER_VALUE_TIMER = "timer" as const;
+export const FAAS_TRIGGER_VALUE_TIMER = 'timer' as const;
 
 /**
  * The immutable version of the function being executed.
@@ -3738,7 +3848,8 @@ export const ATTR_FEATURE_FLAG_CONTEXT_ID = 'feature_flag.context.id' as const;
  *
  * @deprecated Replaced by `error.message`.
  */
-export const ATTR_FEATURE_FLAG_EVALUATION_ERROR_MESSAGE = 'feature_flag.evaluation.error.message' as const;
+export const ATTR_FEATURE_FLAG_EVALUATION_ERROR_MESSAGE =
+  'feature_flag.evaluation.error.message' as const;
 
 /**
  * Deprecated, use `feature_flag.result.reason` instead.
@@ -3752,52 +3863,55 @@ export const ATTR_FEATURE_FLAG_EVALUATION_ERROR_MESSAGE = 'feature_flag.evaluati
  *
  * @deprecated Replaced by `feature_flag.result.reason`.
  */
-export const ATTR_FEATURE_FLAG_EVALUATION_REASON = 'feature_flag.evaluation.reason' as const;
+export const ATTR_FEATURE_FLAG_EVALUATION_REASON =
+  'feature_flag.evaluation.reason' as const;
 
 /**
  * Enum value "cached" for attribute {@link ATTR_FEATURE_FLAG_EVALUATION_REASON}.
  */
-export const FEATURE_FLAG_EVALUATION_REASON_VALUE_CACHED = "cached" as const;
+export const FEATURE_FLAG_EVALUATION_REASON_VALUE_CACHED = 'cached' as const;
 
 /**
  * Enum value "default" for attribute {@link ATTR_FEATURE_FLAG_EVALUATION_REASON}.
  */
-export const FEATURE_FLAG_EVALUATION_REASON_VALUE_DEFAULT = "default" as const;
+export const FEATURE_FLAG_EVALUATION_REASON_VALUE_DEFAULT = 'default' as const;
 
 /**
  * Enum value "disabled" for attribute {@link ATTR_FEATURE_FLAG_EVALUATION_REASON}.
  */
-export const FEATURE_FLAG_EVALUATION_REASON_VALUE_DISABLED = "disabled" as const;
+export const FEATURE_FLAG_EVALUATION_REASON_VALUE_DISABLED =
+  'disabled' as const;
 
 /**
  * Enum value "error" for attribute {@link ATTR_FEATURE_FLAG_EVALUATION_REASON}.
  */
-export const FEATURE_FLAG_EVALUATION_REASON_VALUE_ERROR = "error" as const;
+export const FEATURE_FLAG_EVALUATION_REASON_VALUE_ERROR = 'error' as const;
 
 /**
  * Enum value "split" for attribute {@link ATTR_FEATURE_FLAG_EVALUATION_REASON}.
  */
-export const FEATURE_FLAG_EVALUATION_REASON_VALUE_SPLIT = "split" as const;
+export const FEATURE_FLAG_EVALUATION_REASON_VALUE_SPLIT = 'split' as const;
 
 /**
  * Enum value "stale" for attribute {@link ATTR_FEATURE_FLAG_EVALUATION_REASON}.
  */
-export const FEATURE_FLAG_EVALUATION_REASON_VALUE_STALE = "stale" as const;
+export const FEATURE_FLAG_EVALUATION_REASON_VALUE_STALE = 'stale' as const;
 
 /**
  * Enum value "static" for attribute {@link ATTR_FEATURE_FLAG_EVALUATION_REASON}.
  */
-export const FEATURE_FLAG_EVALUATION_REASON_VALUE_STATIC = "static" as const;
+export const FEATURE_FLAG_EVALUATION_REASON_VALUE_STATIC = 'static' as const;
 
 /**
  * Enum value "targeting_match" for attribute {@link ATTR_FEATURE_FLAG_EVALUATION_REASON}.
  */
-export const FEATURE_FLAG_EVALUATION_REASON_VALUE_TARGETING_MATCH = "targeting_match" as const;
+export const FEATURE_FLAG_EVALUATION_REASON_VALUE_TARGETING_MATCH =
+  'targeting_match' as const;
 
 /**
  * Enum value "unknown" for attribute {@link ATTR_FEATURE_FLAG_EVALUATION_REASON}.
  */
-export const FEATURE_FLAG_EVALUATION_REASON_VALUE_UNKNOWN = "unknown" as const;
+export const FEATURE_FLAG_EVALUATION_REASON_VALUE_UNKNOWN = 'unknown' as const;
 
 /**
  * The lookup key of the feature flag.
@@ -3815,7 +3929,8 @@ export const ATTR_FEATURE_FLAG_KEY = 'feature_flag.key' as const;
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_FEATURE_FLAG_PROVIDER_NAME = 'feature_flag.provider.name' as const;
+export const ATTR_FEATURE_FLAG_PROVIDER_NAME =
+  'feature_flag.provider.name' as const;
 
 /**
  * The reason code which shows how a feature flag value was determined.
@@ -3827,52 +3942,54 @@ export const ATTR_FEATURE_FLAG_PROVIDER_NAME = 'feature_flag.provider.name' as c
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_FEATURE_FLAG_RESULT_REASON = 'feature_flag.result.reason' as const;
+export const ATTR_FEATURE_FLAG_RESULT_REASON =
+  'feature_flag.result.reason' as const;
 
 /**
  * Enum value "cached" for attribute {@link ATTR_FEATURE_FLAG_RESULT_REASON}.
  */
-export const FEATURE_FLAG_RESULT_REASON_VALUE_CACHED = "cached" as const;
+export const FEATURE_FLAG_RESULT_REASON_VALUE_CACHED = 'cached' as const;
 
 /**
  * Enum value "default" for attribute {@link ATTR_FEATURE_FLAG_RESULT_REASON}.
  */
-export const FEATURE_FLAG_RESULT_REASON_VALUE_DEFAULT = "default" as const;
+export const FEATURE_FLAG_RESULT_REASON_VALUE_DEFAULT = 'default' as const;
 
 /**
  * Enum value "disabled" for attribute {@link ATTR_FEATURE_FLAG_RESULT_REASON}.
  */
-export const FEATURE_FLAG_RESULT_REASON_VALUE_DISABLED = "disabled" as const;
+export const FEATURE_FLAG_RESULT_REASON_VALUE_DISABLED = 'disabled' as const;
 
 /**
  * Enum value "error" for attribute {@link ATTR_FEATURE_FLAG_RESULT_REASON}.
  */
-export const FEATURE_FLAG_RESULT_REASON_VALUE_ERROR = "error" as const;
+export const FEATURE_FLAG_RESULT_REASON_VALUE_ERROR = 'error' as const;
 
 /**
  * Enum value "split" for attribute {@link ATTR_FEATURE_FLAG_RESULT_REASON}.
  */
-export const FEATURE_FLAG_RESULT_REASON_VALUE_SPLIT = "split" as const;
+export const FEATURE_FLAG_RESULT_REASON_VALUE_SPLIT = 'split' as const;
 
 /**
  * Enum value "stale" for attribute {@link ATTR_FEATURE_FLAG_RESULT_REASON}.
  */
-export const FEATURE_FLAG_RESULT_REASON_VALUE_STALE = "stale" as const;
+export const FEATURE_FLAG_RESULT_REASON_VALUE_STALE = 'stale' as const;
 
 /**
  * Enum value "static" for attribute {@link ATTR_FEATURE_FLAG_RESULT_REASON}.
  */
-export const FEATURE_FLAG_RESULT_REASON_VALUE_STATIC = "static" as const;
+export const FEATURE_FLAG_RESULT_REASON_VALUE_STATIC = 'static' as const;
 
 /**
  * Enum value "targeting_match" for attribute {@link ATTR_FEATURE_FLAG_RESULT_REASON}.
  */
-export const FEATURE_FLAG_RESULT_REASON_VALUE_TARGETING_MATCH = "targeting_match" as const;
+export const FEATURE_FLAG_RESULT_REASON_VALUE_TARGETING_MATCH =
+  'targeting_match' as const;
 
 /**
  * Enum value "unknown" for attribute {@link ATTR_FEATURE_FLAG_RESULT_REASON}.
  */
-export const FEATURE_FLAG_RESULT_REASON_VALUE_UNKNOWN = "unknown" as const;
+export const FEATURE_FLAG_RESULT_REASON_VALUE_UNKNOWN = 'unknown' as const;
 
 /**
  * The evaluated value of the feature flag.
@@ -3889,7 +4006,8 @@ export const FEATURE_FLAG_RESULT_REASON_VALUE_UNKNOWN = "unknown" as const;
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_FEATURE_FLAG_RESULT_VALUE = 'feature_flag.result.value' as const;
+export const ATTR_FEATURE_FLAG_RESULT_VALUE =
+  'feature_flag.result.value' as const;
 
 /**
  * A semantic identifier for an evaluated flag value.
@@ -3904,7 +4022,8 @@ export const ATTR_FEATURE_FLAG_RESULT_VALUE = 'feature_flag.result.value' as con
  * For example, the variant `red` maybe be used for the value `#c05543`.
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_FEATURE_FLAG_RESULT_VARIANT = 'feature_flag.result.variant' as const;
+export const ATTR_FEATURE_FLAG_RESULT_VARIANT =
+  'feature_flag.result.variant' as const;
 
 /**
  * The identifier of the [flag set](https://openfeature.dev/specification/glossary/#flag-set) to which the feature flag belongs.
@@ -4116,7 +4235,8 @@ export const ATTR_FILE_SIZE = 'file.size' as const;
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_FILE_SYMBOLIC_LINK_TARGET_PATH = 'file.symbolic_link.target_path' as const;
+export const ATTR_FILE_SYMBOLIC_LINK_TARGET_PATH =
+  'file.symbolic_link.target_path' as const;
 
 /**
  * The container within GCP where the AppHub application is defined.
@@ -4125,7 +4245,8 @@ export const ATTR_FILE_SYMBOLIC_LINK_TARGET_PATH = 'file.symbolic_link.target_pa
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_GCP_APPHUB_APPLICATION_CONTAINER = 'gcp.apphub.application.container' as const;
+export const ATTR_GCP_APPHUB_APPLICATION_CONTAINER =
+  'gcp.apphub.application.container' as const;
 
 /**
  * The name of the application as configured in AppHub.
@@ -4134,7 +4255,8 @@ export const ATTR_GCP_APPHUB_APPLICATION_CONTAINER = 'gcp.apphub.application.con
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_GCP_APPHUB_APPLICATION_ID = 'gcp.apphub.application.id' as const;
+export const ATTR_GCP_APPHUB_APPLICATION_ID =
+  'gcp.apphub.application.id' as const;
 
 /**
  * The GCP zone or region where the application is defined.
@@ -4143,7 +4265,8 @@ export const ATTR_GCP_APPHUB_APPLICATION_ID = 'gcp.apphub.application.id' as con
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_GCP_APPHUB_APPLICATION_LOCATION = 'gcp.apphub.application.location' as const;
+export const ATTR_GCP_APPHUB_APPLICATION_LOCATION =
+  'gcp.apphub.application.location' as const;
 
 /**
  * Criticality of a service indicates its importance to the business.
@@ -4152,27 +4275,30 @@ export const ATTR_GCP_APPHUB_APPLICATION_LOCATION = 'gcp.apphub.application.loca
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_GCP_APPHUB_SERVICE_CRITICALITY_TYPE = 'gcp.apphub.service.criticality_type' as const;
+export const ATTR_GCP_APPHUB_SERVICE_CRITICALITY_TYPE =
+  'gcp.apphub.service.criticality_type' as const;
 
 /**
  * Enum value "HIGH" for attribute {@link ATTR_GCP_APPHUB_SERVICE_CRITICALITY_TYPE}.
  */
-export const GCP_APPHUB_SERVICE_CRITICALITY_TYPE_VALUE_HIGH = "HIGH" as const;
+export const GCP_APPHUB_SERVICE_CRITICALITY_TYPE_VALUE_HIGH = 'HIGH' as const;
 
 /**
  * Enum value "LOW" for attribute {@link ATTR_GCP_APPHUB_SERVICE_CRITICALITY_TYPE}.
  */
-export const GCP_APPHUB_SERVICE_CRITICALITY_TYPE_VALUE_LOW = "LOW" as const;
+export const GCP_APPHUB_SERVICE_CRITICALITY_TYPE_VALUE_LOW = 'LOW' as const;
 
 /**
  * Enum value "MEDIUM" for attribute {@link ATTR_GCP_APPHUB_SERVICE_CRITICALITY_TYPE}.
  */
-export const GCP_APPHUB_SERVICE_CRITICALITY_TYPE_VALUE_MEDIUM = "MEDIUM" as const;
+export const GCP_APPHUB_SERVICE_CRITICALITY_TYPE_VALUE_MEDIUM =
+  'MEDIUM' as const;
 
 /**
  * Enum value "MISSION_CRITICAL" for attribute {@link ATTR_GCP_APPHUB_SERVICE_CRITICALITY_TYPE}.
  */
-export const GCP_APPHUB_SERVICE_CRITICALITY_TYPE_VALUE_MISSION_CRITICAL = "MISSION_CRITICAL" as const;
+export const GCP_APPHUB_SERVICE_CRITICALITY_TYPE_VALUE_MISSION_CRITICAL =
+  'MISSION_CRITICAL' as const;
 
 /**
  * Environment of a service is the stage of a software lifecycle.
@@ -4181,27 +4307,31 @@ export const GCP_APPHUB_SERVICE_CRITICALITY_TYPE_VALUE_MISSION_CRITICAL = "MISSI
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_GCP_APPHUB_SERVICE_ENVIRONMENT_TYPE = 'gcp.apphub.service.environment_type' as const;
+export const ATTR_GCP_APPHUB_SERVICE_ENVIRONMENT_TYPE =
+  'gcp.apphub.service.environment_type' as const;
 
 /**
  * Enum value "DEVELOPMENT" for attribute {@link ATTR_GCP_APPHUB_SERVICE_ENVIRONMENT_TYPE}.
  */
-export const GCP_APPHUB_SERVICE_ENVIRONMENT_TYPE_VALUE_DEVELOPMENT = "DEVELOPMENT" as const;
+export const GCP_APPHUB_SERVICE_ENVIRONMENT_TYPE_VALUE_DEVELOPMENT =
+  'DEVELOPMENT' as const;
 
 /**
  * Enum value "PRODUCTION" for attribute {@link ATTR_GCP_APPHUB_SERVICE_ENVIRONMENT_TYPE}.
  */
-export const GCP_APPHUB_SERVICE_ENVIRONMENT_TYPE_VALUE_PRODUCTION = "PRODUCTION" as const;
+export const GCP_APPHUB_SERVICE_ENVIRONMENT_TYPE_VALUE_PRODUCTION =
+  'PRODUCTION' as const;
 
 /**
  * Enum value "STAGING" for attribute {@link ATTR_GCP_APPHUB_SERVICE_ENVIRONMENT_TYPE}.
  */
-export const GCP_APPHUB_SERVICE_ENVIRONMENT_TYPE_VALUE_STAGING = "STAGING" as const;
+export const GCP_APPHUB_SERVICE_ENVIRONMENT_TYPE_VALUE_STAGING =
+  'STAGING' as const;
 
 /**
  * Enum value "TEST" for attribute {@link ATTR_GCP_APPHUB_SERVICE_ENVIRONMENT_TYPE}.
  */
-export const GCP_APPHUB_SERVICE_ENVIRONMENT_TYPE_VALUE_TEST = "TEST" as const;
+export const GCP_APPHUB_SERVICE_ENVIRONMENT_TYPE_VALUE_TEST = 'TEST' as const;
 
 /**
  * The name of the service as configured in AppHub.
@@ -4219,27 +4349,30 @@ export const ATTR_GCP_APPHUB_SERVICE_ID = 'gcp.apphub.service.id' as const;
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_GCP_APPHUB_WORKLOAD_CRITICALITY_TYPE = 'gcp.apphub.workload.criticality_type' as const;
+export const ATTR_GCP_APPHUB_WORKLOAD_CRITICALITY_TYPE =
+  'gcp.apphub.workload.criticality_type' as const;
 
 /**
  * Enum value "HIGH" for attribute {@link ATTR_GCP_APPHUB_WORKLOAD_CRITICALITY_TYPE}.
  */
-export const GCP_APPHUB_WORKLOAD_CRITICALITY_TYPE_VALUE_HIGH = "HIGH" as const;
+export const GCP_APPHUB_WORKLOAD_CRITICALITY_TYPE_VALUE_HIGH = 'HIGH' as const;
 
 /**
  * Enum value "LOW" for attribute {@link ATTR_GCP_APPHUB_WORKLOAD_CRITICALITY_TYPE}.
  */
-export const GCP_APPHUB_WORKLOAD_CRITICALITY_TYPE_VALUE_LOW = "LOW" as const;
+export const GCP_APPHUB_WORKLOAD_CRITICALITY_TYPE_VALUE_LOW = 'LOW' as const;
 
 /**
  * Enum value "MEDIUM" for attribute {@link ATTR_GCP_APPHUB_WORKLOAD_CRITICALITY_TYPE}.
  */
-export const GCP_APPHUB_WORKLOAD_CRITICALITY_TYPE_VALUE_MEDIUM = "MEDIUM" as const;
+export const GCP_APPHUB_WORKLOAD_CRITICALITY_TYPE_VALUE_MEDIUM =
+  'MEDIUM' as const;
 
 /**
  * Enum value "MISSION_CRITICAL" for attribute {@link ATTR_GCP_APPHUB_WORKLOAD_CRITICALITY_TYPE}.
  */
-export const GCP_APPHUB_WORKLOAD_CRITICALITY_TYPE_VALUE_MISSION_CRITICAL = "MISSION_CRITICAL" as const;
+export const GCP_APPHUB_WORKLOAD_CRITICALITY_TYPE_VALUE_MISSION_CRITICAL =
+  'MISSION_CRITICAL' as const;
 
 /**
  * Environment of a workload is the stage of a software lifecycle.
@@ -4248,27 +4381,31 @@ export const GCP_APPHUB_WORKLOAD_CRITICALITY_TYPE_VALUE_MISSION_CRITICAL = "MISS
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_GCP_APPHUB_WORKLOAD_ENVIRONMENT_TYPE = 'gcp.apphub.workload.environment_type' as const;
+export const ATTR_GCP_APPHUB_WORKLOAD_ENVIRONMENT_TYPE =
+  'gcp.apphub.workload.environment_type' as const;
 
 /**
  * Enum value "DEVELOPMENT" for attribute {@link ATTR_GCP_APPHUB_WORKLOAD_ENVIRONMENT_TYPE}.
  */
-export const GCP_APPHUB_WORKLOAD_ENVIRONMENT_TYPE_VALUE_DEVELOPMENT = "DEVELOPMENT" as const;
+export const GCP_APPHUB_WORKLOAD_ENVIRONMENT_TYPE_VALUE_DEVELOPMENT =
+  'DEVELOPMENT' as const;
 
 /**
  * Enum value "PRODUCTION" for attribute {@link ATTR_GCP_APPHUB_WORKLOAD_ENVIRONMENT_TYPE}.
  */
-export const GCP_APPHUB_WORKLOAD_ENVIRONMENT_TYPE_VALUE_PRODUCTION = "PRODUCTION" as const;
+export const GCP_APPHUB_WORKLOAD_ENVIRONMENT_TYPE_VALUE_PRODUCTION =
+  'PRODUCTION' as const;
 
 /**
  * Enum value "STAGING" for attribute {@link ATTR_GCP_APPHUB_WORKLOAD_ENVIRONMENT_TYPE}.
  */
-export const GCP_APPHUB_WORKLOAD_ENVIRONMENT_TYPE_VALUE_STAGING = "STAGING" as const;
+export const GCP_APPHUB_WORKLOAD_ENVIRONMENT_TYPE_VALUE_STAGING =
+  'STAGING' as const;
 
 /**
  * Enum value "TEST" for attribute {@link ATTR_GCP_APPHUB_WORKLOAD_ENVIRONMENT_TYPE}.
  */
-export const GCP_APPHUB_WORKLOAD_ENVIRONMENT_TYPE_VALUE_TEST = "TEST" as const;
+export const GCP_APPHUB_WORKLOAD_ENVIRONMENT_TYPE_VALUE_TEST = 'TEST' as const;
 
 /**
  * The name of the workload as configured in AppHub.
@@ -4302,7 +4439,8 @@ export const ATTR_GCP_CLIENT_SERVICE = 'gcp.client.service' as const;
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_GCP_CLOUD_RUN_JOB_EXECUTION = 'gcp.cloud_run.job.execution' as const;
+export const ATTR_GCP_CLOUD_RUN_JOB_EXECUTION =
+  'gcp.cloud_run.job.execution' as const;
 
 /**
  * The index for a task within an execution as provided by the [`CLOUD_RUN_TASK_INDEX`](https://cloud.google.com/run/docs/container-contract#jobs-env-vars) environment variable.
@@ -4312,7 +4450,8 @@ export const ATTR_GCP_CLOUD_RUN_JOB_EXECUTION = 'gcp.cloud_run.job.execution' as
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_GCP_CLOUD_RUN_JOB_TASK_INDEX = 'gcp.cloud_run.job.task_index' as const;
+export const ATTR_GCP_CLOUD_RUN_JOB_TASK_INDEX =
+  'gcp.cloud_run.job.task_index' as const;
 
 /**
  * The hostname of a GCE instance. This is the full value of the default or [custom hostname](https://cloud.google.com/compute/docs/instances/custom-hostname-vm).
@@ -4322,7 +4461,8 @@ export const ATTR_GCP_CLOUD_RUN_JOB_TASK_INDEX = 'gcp.cloud_run.job.task_index' 
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_GCP_GCE_INSTANCE_HOSTNAME = 'gcp.gce.instance.hostname' as const;
+export const ATTR_GCP_GCE_INSTANCE_HOSTNAME =
+  'gcp.gce.instance.hostname' as const;
 
 /**
  * The instance name of a GCE instance. This is the value provided by `host.name`, the visible name of the instance in the Cloud Console UI, and the prefix for the default hostname of the instance as defined by the [default internal DNS name](https://cloud.google.com/compute/docs/internal-dns#instance-fully-qualified-domain-names).
@@ -4342,7 +4482,8 @@ export const ATTR_GCP_GCE_INSTANCE_NAME = 'gcp.gce.instance.name' as const;
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_GEN_AI_AGENT_DESCRIPTION = 'gen_ai.agent.description' as const;
+export const ATTR_GEN_AI_AGENT_DESCRIPTION =
+  'gen_ai.agent.description' as const;
 
 /**
  * The unique identifier of the GenAI agent.
@@ -4401,22 +4542,25 @@ export const ATTR_GEN_AI_DATA_SOURCE_ID = 'gen_ai.data_source.id' as const;
  *
  * @deprecated Replaced by `gen_ai.output.type`.
  */
-export const ATTR_GEN_AI_OPENAI_REQUEST_RESPONSE_FORMAT = 'gen_ai.openai.request.response_format' as const;
+export const ATTR_GEN_AI_OPENAI_REQUEST_RESPONSE_FORMAT =
+  'gen_ai.openai.request.response_format' as const;
 
 /**
  * Enum value "json_object" for attribute {@link ATTR_GEN_AI_OPENAI_REQUEST_RESPONSE_FORMAT}.
  */
-export const GEN_AI_OPENAI_REQUEST_RESPONSE_FORMAT_VALUE_JSON_OBJECT = "json_object" as const;
+export const GEN_AI_OPENAI_REQUEST_RESPONSE_FORMAT_VALUE_JSON_OBJECT =
+  'json_object' as const;
 
 /**
  * Enum value "json_schema" for attribute {@link ATTR_GEN_AI_OPENAI_REQUEST_RESPONSE_FORMAT}.
  */
-export const GEN_AI_OPENAI_REQUEST_RESPONSE_FORMAT_VALUE_JSON_SCHEMA = "json_schema" as const;
+export const GEN_AI_OPENAI_REQUEST_RESPONSE_FORMAT_VALUE_JSON_SCHEMA =
+  'json_schema' as const;
 
 /**
  * Enum value "text" for attribute {@link ATTR_GEN_AI_OPENAI_REQUEST_RESPONSE_FORMAT}.
  */
-export const GEN_AI_OPENAI_REQUEST_RESPONSE_FORMAT_VALUE_TEXT = "text" as const;
+export const GEN_AI_OPENAI_REQUEST_RESPONSE_FORMAT_VALUE_TEXT = 'text' as const;
 
 /**
  * Deprecated, use `gen_ai.request.seed`.
@@ -4427,7 +4571,8 @@ export const GEN_AI_OPENAI_REQUEST_RESPONSE_FORMAT_VALUE_TEXT = "text" as const;
  *
  * @deprecated Replaced by `gen_ai.request.seed`.
  */
-export const ATTR_GEN_AI_OPENAI_REQUEST_SEED = 'gen_ai.openai.request.seed' as const;
+export const ATTR_GEN_AI_OPENAI_REQUEST_SEED =
+  'gen_ai.openai.request.seed' as const;
 
 /**
  * The service tier requested. May be a specific tier, default, or auto.
@@ -4437,17 +4582,19 @@ export const ATTR_GEN_AI_OPENAI_REQUEST_SEED = 'gen_ai.openai.request.seed' as c
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_GEN_AI_OPENAI_REQUEST_SERVICE_TIER = 'gen_ai.openai.request.service_tier' as const;
+export const ATTR_GEN_AI_OPENAI_REQUEST_SERVICE_TIER =
+  'gen_ai.openai.request.service_tier' as const;
 
 /**
  * Enum value "auto" for attribute {@link ATTR_GEN_AI_OPENAI_REQUEST_SERVICE_TIER}.
  */
-export const GEN_AI_OPENAI_REQUEST_SERVICE_TIER_VALUE_AUTO = "auto" as const;
+export const GEN_AI_OPENAI_REQUEST_SERVICE_TIER_VALUE_AUTO = 'auto' as const;
 
 /**
  * Enum value "default" for attribute {@link ATTR_GEN_AI_OPENAI_REQUEST_SERVICE_TIER}.
  */
-export const GEN_AI_OPENAI_REQUEST_SERVICE_TIER_VALUE_DEFAULT = "default" as const;
+export const GEN_AI_OPENAI_REQUEST_SERVICE_TIER_VALUE_DEFAULT =
+  'default' as const;
 
 /**
  * The service tier used for the response.
@@ -4457,7 +4604,8 @@ export const GEN_AI_OPENAI_REQUEST_SERVICE_TIER_VALUE_DEFAULT = "default" as con
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_GEN_AI_OPENAI_RESPONSE_SERVICE_TIER = 'gen_ai.openai.response.service_tier' as const;
+export const ATTR_GEN_AI_OPENAI_RESPONSE_SERVICE_TIER =
+  'gen_ai.openai.response.service_tier' as const;
 
 /**
  * A fingerprint to track any eventual change in the Generative AI environment.
@@ -4466,7 +4614,8 @@ export const ATTR_GEN_AI_OPENAI_RESPONSE_SERVICE_TIER = 'gen_ai.openai.response.
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_GEN_AI_OPENAI_RESPONSE_SYSTEM_FINGERPRINT = 'gen_ai.openai.response.system_fingerprint' as const;
+export const ATTR_GEN_AI_OPENAI_RESPONSE_SYSTEM_FINGERPRINT =
+  'gen_ai.openai.response.system_fingerprint' as const;
 
 /**
  * The name of the operation being performed.
@@ -4480,37 +4629,39 @@ export const ATTR_GEN_AI_OPERATION_NAME = 'gen_ai.operation.name' as const;
 /**
  * Enum value "chat" for attribute {@link ATTR_GEN_AI_OPERATION_NAME}.
  */
-export const GEN_AI_OPERATION_NAME_VALUE_CHAT = "chat" as const;
+export const GEN_AI_OPERATION_NAME_VALUE_CHAT = 'chat' as const;
 
 /**
  * Enum value "create_agent" for attribute {@link ATTR_GEN_AI_OPERATION_NAME}.
  */
-export const GEN_AI_OPERATION_NAME_VALUE_CREATE_AGENT = "create_agent" as const;
+export const GEN_AI_OPERATION_NAME_VALUE_CREATE_AGENT = 'create_agent' as const;
 
 /**
  * Enum value "embeddings" for attribute {@link ATTR_GEN_AI_OPERATION_NAME}.
  */
-export const GEN_AI_OPERATION_NAME_VALUE_EMBEDDINGS = "embeddings" as const;
+export const GEN_AI_OPERATION_NAME_VALUE_EMBEDDINGS = 'embeddings' as const;
 
 /**
  * Enum value "execute_tool" for attribute {@link ATTR_GEN_AI_OPERATION_NAME}.
  */
-export const GEN_AI_OPERATION_NAME_VALUE_EXECUTE_TOOL = "execute_tool" as const;
+export const GEN_AI_OPERATION_NAME_VALUE_EXECUTE_TOOL = 'execute_tool' as const;
 
 /**
  * Enum value "generate_content" for attribute {@link ATTR_GEN_AI_OPERATION_NAME}.
  */
-export const GEN_AI_OPERATION_NAME_VALUE_GENERATE_CONTENT = "generate_content" as const;
+export const GEN_AI_OPERATION_NAME_VALUE_GENERATE_CONTENT =
+  'generate_content' as const;
 
 /**
  * Enum value "invoke_agent" for attribute {@link ATTR_GEN_AI_OPERATION_NAME}.
  */
-export const GEN_AI_OPERATION_NAME_VALUE_INVOKE_AGENT = "invoke_agent" as const;
+export const GEN_AI_OPERATION_NAME_VALUE_INVOKE_AGENT = 'invoke_agent' as const;
 
 /**
  * Enum value "text_completion" for attribute {@link ATTR_GEN_AI_OPERATION_NAME}.
  */
-export const GEN_AI_OPERATION_NAME_VALUE_TEXT_COMPLETION = "text_completion" as const;
+export const GEN_AI_OPERATION_NAME_VALUE_TEXT_COMPLETION =
+  'text_completion' as const;
 
 /**
  * Represents the content type requested by the client.
@@ -4526,22 +4677,22 @@ export const ATTR_GEN_AI_OUTPUT_TYPE = 'gen_ai.output.type' as const;
 /**
  * Enum value "image" for attribute {@link ATTR_GEN_AI_OUTPUT_TYPE}.
  */
-export const GEN_AI_OUTPUT_TYPE_VALUE_IMAGE = "image" as const;
+export const GEN_AI_OUTPUT_TYPE_VALUE_IMAGE = 'image' as const;
 
 /**
  * Enum value "json" for attribute {@link ATTR_GEN_AI_OUTPUT_TYPE}.
  */
-export const GEN_AI_OUTPUT_TYPE_VALUE_JSON = "json" as const;
+export const GEN_AI_OUTPUT_TYPE_VALUE_JSON = 'json' as const;
 
 /**
  * Enum value "speech" for attribute {@link ATTR_GEN_AI_OUTPUT_TYPE}.
  */
-export const GEN_AI_OUTPUT_TYPE_VALUE_SPEECH = "speech" as const;
+export const GEN_AI_OUTPUT_TYPE_VALUE_SPEECH = 'speech' as const;
 
 /**
  * Enum value "text" for attribute {@link ATTR_GEN_AI_OUTPUT_TYPE}.
  */
-export const GEN_AI_OUTPUT_TYPE_VALUE_TEXT = "text" as const;
+export const GEN_AI_OUTPUT_TYPE_VALUE_TEXT = 'text' as const;
 
 /**
  * Deprecated, use Event API to report prompt contents.
@@ -4561,7 +4712,8 @@ export const ATTR_GEN_AI_PROMPT = 'gen_ai.prompt' as const;
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_GEN_AI_REQUEST_CHOICE_COUNT = 'gen_ai.request.choice.count' as const;
+export const ATTR_GEN_AI_REQUEST_CHOICE_COUNT =
+  'gen_ai.request.choice.count' as const;
 
 /**
  * The encoding formats requested in an embeddings operation, if specified.
@@ -4573,7 +4725,8 @@ export const ATTR_GEN_AI_REQUEST_CHOICE_COUNT = 'gen_ai.request.choice.count' as
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_GEN_AI_REQUEST_ENCODING_FORMATS = 'gen_ai.request.encoding_formats' as const;
+export const ATTR_GEN_AI_REQUEST_ENCODING_FORMATS =
+  'gen_ai.request.encoding_formats' as const;
 
 /**
  * The frequency penalty setting for the GenAI request.
@@ -4582,7 +4735,8 @@ export const ATTR_GEN_AI_REQUEST_ENCODING_FORMATS = 'gen_ai.request.encoding_for
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_GEN_AI_REQUEST_FREQUENCY_PENALTY = 'gen_ai.request.frequency_penalty' as const;
+export const ATTR_GEN_AI_REQUEST_FREQUENCY_PENALTY =
+  'gen_ai.request.frequency_penalty' as const;
 
 /**
  * The maximum number of tokens the model generates for a request.
@@ -4591,7 +4745,8 @@ export const ATTR_GEN_AI_REQUEST_FREQUENCY_PENALTY = 'gen_ai.request.frequency_p
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_GEN_AI_REQUEST_MAX_TOKENS = 'gen_ai.request.max_tokens' as const;
+export const ATTR_GEN_AI_REQUEST_MAX_TOKENS =
+  'gen_ai.request.max_tokens' as const;
 
 /**
  * The name of the GenAI model a request is being made to.
@@ -4609,7 +4764,8 @@ export const ATTR_GEN_AI_REQUEST_MODEL = 'gen_ai.request.model' as const;
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_GEN_AI_REQUEST_PRESENCE_PENALTY = 'gen_ai.request.presence_penalty' as const;
+export const ATTR_GEN_AI_REQUEST_PRESENCE_PENALTY =
+  'gen_ai.request.presence_penalty' as const;
 
 /**
  * Requests with same seed value more likely to return same result.
@@ -4627,7 +4783,8 @@ export const ATTR_GEN_AI_REQUEST_SEED = 'gen_ai.request.seed' as const;
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_GEN_AI_REQUEST_STOP_SEQUENCES = 'gen_ai.request.stop_sequences' as const;
+export const ATTR_GEN_AI_REQUEST_STOP_SEQUENCES =
+  'gen_ai.request.stop_sequences' as const;
 
 /**
  * The temperature setting for the GenAI request.
@@ -4636,7 +4793,8 @@ export const ATTR_GEN_AI_REQUEST_STOP_SEQUENCES = 'gen_ai.request.stop_sequences
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_GEN_AI_REQUEST_TEMPERATURE = 'gen_ai.request.temperature' as const;
+export const ATTR_GEN_AI_REQUEST_TEMPERATURE =
+  'gen_ai.request.temperature' as const;
 
 /**
  * The top_k sampling setting for the GenAI request.
@@ -4664,7 +4822,8 @@ export const ATTR_GEN_AI_REQUEST_TOP_P = 'gen_ai.request.top_p' as const;
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_GEN_AI_RESPONSE_FINISH_REASONS = 'gen_ai.response.finish_reasons' as const;
+export const ATTR_GEN_AI_RESPONSE_FINISH_REASONS =
+  'gen_ai.response.finish_reasons' as const;
 
 /**
  * The unique identifier for the completion.
@@ -4708,87 +4867,87 @@ export const ATTR_GEN_AI_SYSTEM = 'gen_ai.system' as const;
 /**
  * Enum value "anthropic" for attribute {@link ATTR_GEN_AI_SYSTEM}.
  */
-export const GEN_AI_SYSTEM_VALUE_ANTHROPIC = "anthropic" as const;
+export const GEN_AI_SYSTEM_VALUE_ANTHROPIC = 'anthropic' as const;
 
 /**
  * Enum value "aws.bedrock" for attribute {@link ATTR_GEN_AI_SYSTEM}.
  */
-export const GEN_AI_SYSTEM_VALUE_AWS_BEDROCK = "aws.bedrock" as const;
+export const GEN_AI_SYSTEM_VALUE_AWS_BEDROCK = 'aws.bedrock' as const;
 
 /**
  * Enum value "az.ai.inference" for attribute {@link ATTR_GEN_AI_SYSTEM}.
  */
-export const GEN_AI_SYSTEM_VALUE_AZ_AI_INFERENCE = "az.ai.inference" as const;
+export const GEN_AI_SYSTEM_VALUE_AZ_AI_INFERENCE = 'az.ai.inference' as const;
 
 /**
  * Enum value "az.ai.openai" for attribute {@link ATTR_GEN_AI_SYSTEM}.
  */
-export const GEN_AI_SYSTEM_VALUE_AZ_AI_OPENAI = "az.ai.openai" as const;
+export const GEN_AI_SYSTEM_VALUE_AZ_AI_OPENAI = 'az.ai.openai' as const;
 
 /**
  * Enum value "cohere" for attribute {@link ATTR_GEN_AI_SYSTEM}.
  */
-export const GEN_AI_SYSTEM_VALUE_COHERE = "cohere" as const;
+export const GEN_AI_SYSTEM_VALUE_COHERE = 'cohere' as const;
 
 /**
  * Enum value "deepseek" for attribute {@link ATTR_GEN_AI_SYSTEM}.
  */
-export const GEN_AI_SYSTEM_VALUE_DEEPSEEK = "deepseek" as const;
+export const GEN_AI_SYSTEM_VALUE_DEEPSEEK = 'deepseek' as const;
 
 /**
  * Enum value "gcp.gemini" for attribute {@link ATTR_GEN_AI_SYSTEM}.
  */
-export const GEN_AI_SYSTEM_VALUE_GCP_GEMINI = "gcp.gemini" as const;
+export const GEN_AI_SYSTEM_VALUE_GCP_GEMINI = 'gcp.gemini' as const;
 
 /**
  * Enum value "gcp.gen_ai" for attribute {@link ATTR_GEN_AI_SYSTEM}.
  */
-export const GEN_AI_SYSTEM_VALUE_GCP_GEN_AI = "gcp.gen_ai" as const;
+export const GEN_AI_SYSTEM_VALUE_GCP_GEN_AI = 'gcp.gen_ai' as const;
 
 /**
  * Enum value "gcp.vertex_ai" for attribute {@link ATTR_GEN_AI_SYSTEM}.
  */
-export const GEN_AI_SYSTEM_VALUE_GCP_VERTEX_AI = "gcp.vertex_ai" as const;
+export const GEN_AI_SYSTEM_VALUE_GCP_VERTEX_AI = 'gcp.vertex_ai' as const;
 
 /**
  * Enum value "gemini" for attribute {@link ATTR_GEN_AI_SYSTEM}.
  */
-export const GEN_AI_SYSTEM_VALUE_GEMINI = "gemini" as const;
+export const GEN_AI_SYSTEM_VALUE_GEMINI = 'gemini' as const;
 
 /**
  * Enum value "groq" for attribute {@link ATTR_GEN_AI_SYSTEM}.
  */
-export const GEN_AI_SYSTEM_VALUE_GROQ = "groq" as const;
+export const GEN_AI_SYSTEM_VALUE_GROQ = 'groq' as const;
 
 /**
  * Enum value "ibm.watsonx.ai" for attribute {@link ATTR_GEN_AI_SYSTEM}.
  */
-export const GEN_AI_SYSTEM_VALUE_IBM_WATSONX_AI = "ibm.watsonx.ai" as const;
+export const GEN_AI_SYSTEM_VALUE_IBM_WATSONX_AI = 'ibm.watsonx.ai' as const;
 
 /**
  * Enum value "mistral_ai" for attribute {@link ATTR_GEN_AI_SYSTEM}.
  */
-export const GEN_AI_SYSTEM_VALUE_MISTRAL_AI = "mistral_ai" as const;
+export const GEN_AI_SYSTEM_VALUE_MISTRAL_AI = 'mistral_ai' as const;
 
 /**
  * Enum value "openai" for attribute {@link ATTR_GEN_AI_SYSTEM}.
  */
-export const GEN_AI_SYSTEM_VALUE_OPENAI = "openai" as const;
+export const GEN_AI_SYSTEM_VALUE_OPENAI = 'openai' as const;
 
 /**
  * Enum value "perplexity" for attribute {@link ATTR_GEN_AI_SYSTEM}.
  */
-export const GEN_AI_SYSTEM_VALUE_PERPLEXITY = "perplexity" as const;
+export const GEN_AI_SYSTEM_VALUE_PERPLEXITY = 'perplexity' as const;
 
 /**
  * Enum value "vertex_ai" for attribute {@link ATTR_GEN_AI_SYSTEM}.
  */
-export const GEN_AI_SYSTEM_VALUE_VERTEX_AI = "vertex_ai" as const;
+export const GEN_AI_SYSTEM_VALUE_VERTEX_AI = 'vertex_ai' as const;
 
 /**
  * Enum value "xai" for attribute {@link ATTR_GEN_AI_SYSTEM}.
  */
-export const GEN_AI_SYSTEM_VALUE_XAI = "xai" as const;
+export const GEN_AI_SYSTEM_VALUE_XAI = 'xai' as const;
 
 /**
  * The type of token being counted.
@@ -4803,17 +4962,17 @@ export const ATTR_GEN_AI_TOKEN_TYPE = 'gen_ai.token.type' as const;
 /**
  * Enum value "input" for attribute {@link ATTR_GEN_AI_TOKEN_TYPE}.
  */
-export const GEN_AI_TOKEN_TYPE_VALUE_INPUT = "input" as const;
+export const GEN_AI_TOKEN_TYPE_VALUE_INPUT = 'input' as const;
 
 /**
  * Enum value "output" for attribute {@link ATTR_GEN_AI_TOKEN_TYPE}.
  */
-export const GEN_AI_TOKEN_TYPE_VALUE_COMPLETION = "output" as const;
+export const GEN_AI_TOKEN_TYPE_VALUE_COMPLETION = 'output' as const;
 
 /**
  * Enum value "output" for attribute {@link ATTR_GEN_AI_TOKEN_TYPE}.
  */
-export const GEN_AI_TOKEN_TYPE_VALUE_OUTPUT = "output" as const;
+export const GEN_AI_TOKEN_TYPE_VALUE_OUTPUT = 'output' as const;
 
 /**
  * The tool call identifier.
@@ -4868,7 +5027,8 @@ export const ATTR_GEN_AI_TOOL_TYPE = 'gen_ai.tool.type' as const;
  *
  * @deprecated Replaced by `gen_ai.usage.output_tokens`.
  */
-export const ATTR_GEN_AI_USAGE_COMPLETION_TOKENS = 'gen_ai.usage.completion_tokens' as const;
+export const ATTR_GEN_AI_USAGE_COMPLETION_TOKENS =
+  'gen_ai.usage.completion_tokens' as const;
 
 /**
  * The number of tokens used in the GenAI input (prompt).
@@ -4877,7 +5037,8 @@ export const ATTR_GEN_AI_USAGE_COMPLETION_TOKENS = 'gen_ai.usage.completion_toke
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_GEN_AI_USAGE_INPUT_TOKENS = 'gen_ai.usage.input_tokens' as const;
+export const ATTR_GEN_AI_USAGE_INPUT_TOKENS =
+  'gen_ai.usage.input_tokens' as const;
 
 /**
  * The number of tokens used in the GenAI response (completion).
@@ -4886,7 +5047,8 @@ export const ATTR_GEN_AI_USAGE_INPUT_TOKENS = 'gen_ai.usage.input_tokens' as con
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_GEN_AI_USAGE_OUTPUT_TOKENS = 'gen_ai.usage.output_tokens' as const;
+export const ATTR_GEN_AI_USAGE_OUTPUT_TOKENS =
+  'gen_ai.usage.output_tokens' as const;
 
 /**
  * Deprecated, use `gen_ai.usage.input_tokens` instead.
@@ -4897,7 +5059,8 @@ export const ATTR_GEN_AI_USAGE_OUTPUT_TOKENS = 'gen_ai.usage.output_tokens' as c
  *
  * @deprecated Replaced by `gen_ai.usage.input_tokens`.
  */
-export const ATTR_GEN_AI_USAGE_PROMPT_TOKENS = 'gen_ai.usage.prompt_tokens' as const;
+export const ATTR_GEN_AI_USAGE_PROMPT_TOKENS =
+  'gen_ai.usage.prompt_tokens' as const;
 
 /**
  * Two-letter code representing continent’s name.
@@ -4909,37 +5072,37 @@ export const ATTR_GEO_CONTINENT_CODE = 'geo.continent.code' as const;
 /**
  * Enum value "AF" for attribute {@link ATTR_GEO_CONTINENT_CODE}.
  */
-export const GEO_CONTINENT_CODE_VALUE_AF = "AF" as const;
+export const GEO_CONTINENT_CODE_VALUE_AF = 'AF' as const;
 
 /**
  * Enum value "AN" for attribute {@link ATTR_GEO_CONTINENT_CODE}.
  */
-export const GEO_CONTINENT_CODE_VALUE_AN = "AN" as const;
+export const GEO_CONTINENT_CODE_VALUE_AN = 'AN' as const;
 
 /**
  * Enum value "AS" for attribute {@link ATTR_GEO_CONTINENT_CODE}.
  */
-export const GEO_CONTINENT_CODE_VALUE_AS = "AS" as const;
+export const GEO_CONTINENT_CODE_VALUE_AS = 'AS' as const;
 
 /**
  * Enum value "EU" for attribute {@link ATTR_GEO_CONTINENT_CODE}.
  */
-export const GEO_CONTINENT_CODE_VALUE_EU = "EU" as const;
+export const GEO_CONTINENT_CODE_VALUE_EU = 'EU' as const;
 
 /**
  * Enum value "NA" for attribute {@link ATTR_GEO_CONTINENT_CODE}.
  */
-export const GEO_CONTINENT_CODE_VALUE_NA = "NA" as const;
+export const GEO_CONTINENT_CODE_VALUE_NA = 'NA' as const;
 
 /**
  * Enum value "OC" for attribute {@link ATTR_GEO_CONTINENT_CODE}.
  */
-export const GEO_CONTINENT_CODE_VALUE_OC = "OC" as const;
+export const GEO_CONTINENT_CODE_VALUE_OC = 'OC' as const;
 
 /**
  * Enum value "SA" for attribute {@link ATTR_GEO_CONTINENT_CODE}.
  */
-export const GEO_CONTINENT_CODE_VALUE_SA = "SA" as const;
+export const GEO_CONTINENT_CODE_VALUE_SA = 'SA' as const;
 
 /**
  * Two-letter ISO Country Code ([ISO 3166-1 alpha2](https://wikipedia.org/wiki/ISO_3166-1#Codes)).
@@ -5009,12 +5172,12 @@ export const ATTR_GO_MEMORY_TYPE = 'go.memory.type' as const;
 /**
  * Enum value "other" for attribute {@link ATTR_GO_MEMORY_TYPE}.
  */
-export const GO_MEMORY_TYPE_VALUE_OTHER = "other" as const;
+export const GO_MEMORY_TYPE_VALUE_OTHER = 'other' as const;
 
 /**
  * Enum value "stack" for attribute {@link ATTR_GO_MEMORY_TYPE}.
  */
-export const GO_MEMORY_TYPE_VALUE_STACK = "stack" as const;
+export const GO_MEMORY_TYPE_VALUE_STACK = 'stack' as const;
 
 /**
  * The GraphQL document being executed.
@@ -5049,17 +5212,18 @@ export const ATTR_GRAPHQL_OPERATION_TYPE = 'graphql.operation.type' as const;
 /**
  * Enum value "mutation" for attribute {@link ATTR_GRAPHQL_OPERATION_TYPE}.
  */
-export const GRAPHQL_OPERATION_TYPE_VALUE_MUTATION = "mutation" as const;
+export const GRAPHQL_OPERATION_TYPE_VALUE_MUTATION = 'mutation' as const;
 
 /**
  * Enum value "query" for attribute {@link ATTR_GRAPHQL_OPERATION_TYPE}.
  */
-export const GRAPHQL_OPERATION_TYPE_VALUE_QUERY = "query" as const;
+export const GRAPHQL_OPERATION_TYPE_VALUE_QUERY = 'query' as const;
 
 /**
  * Enum value "subscription" for attribute {@link ATTR_GRAPHQL_OPERATION_TYPE}.
  */
-export const GRAPHQL_OPERATION_TYPE_VALUE_SUBSCRIPTION = "subscription" as const;
+export const GRAPHQL_OPERATION_TYPE_VALUE_SUBSCRIPTION =
+  'subscription' as const;
 
 /**
  * Unique identifier for the application
@@ -5086,7 +5250,8 @@ export const ATTR_HEROKU_RELEASE_COMMIT = 'heroku.release.commit' as const;
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_HEROKU_RELEASE_CREATION_TIMESTAMP = 'heroku.release.creation_timestamp' as const;
+export const ATTR_HEROKU_RELEASE_CREATION_TIMESTAMP =
+  'heroku.release.creation_timestamp' as const;
 
 /**
  * The CPU architecture the host system is running on.
@@ -5098,42 +5263,42 @@ export const ATTR_HOST_ARCH = 'host.arch' as const;
 /**
  * Enum value "amd64" for attribute {@link ATTR_HOST_ARCH}.
  */
-export const HOST_ARCH_VALUE_AMD64 = "amd64" as const;
+export const HOST_ARCH_VALUE_AMD64 = 'amd64' as const;
 
 /**
  * Enum value "arm32" for attribute {@link ATTR_HOST_ARCH}.
  */
-export const HOST_ARCH_VALUE_ARM32 = "arm32" as const;
+export const HOST_ARCH_VALUE_ARM32 = 'arm32' as const;
 
 /**
  * Enum value "arm64" for attribute {@link ATTR_HOST_ARCH}.
  */
-export const HOST_ARCH_VALUE_ARM64 = "arm64" as const;
+export const HOST_ARCH_VALUE_ARM64 = 'arm64' as const;
 
 /**
  * Enum value "ia64" for attribute {@link ATTR_HOST_ARCH}.
  */
-export const HOST_ARCH_VALUE_IA64 = "ia64" as const;
+export const HOST_ARCH_VALUE_IA64 = 'ia64' as const;
 
 /**
  * Enum value "ppc32" for attribute {@link ATTR_HOST_ARCH}.
  */
-export const HOST_ARCH_VALUE_PPC32 = "ppc32" as const;
+export const HOST_ARCH_VALUE_PPC32 = 'ppc32' as const;
 
 /**
  * Enum value "ppc64" for attribute {@link ATTR_HOST_ARCH}.
  */
-export const HOST_ARCH_VALUE_PPC64 = "ppc64" as const;
+export const HOST_ARCH_VALUE_PPC64 = 'ppc64' as const;
 
 /**
  * Enum value "s390x" for attribute {@link ATTR_HOST_ARCH}.
  */
-export const HOST_ARCH_VALUE_S390X = "s390x" as const;
+export const HOST_ARCH_VALUE_S390X = 's390x' as const;
 
 /**
  * Enum value "x86" for attribute {@link ATTR_HOST_ARCH}.
  */
-export const HOST_ARCH_VALUE_X86 = "x86" as const;
+export const HOST_ARCH_VALUE_X86 = 'x86' as const;
 
 /**
  * The amount of level 2 memory cache available to the processor (in Bytes).
@@ -5295,12 +5460,12 @@ export const ATTR_HTTP_CONNECTION_STATE = 'http.connection.state' as const;
 /**
  * Enum value "active" for attribute {@link ATTR_HTTP_CONNECTION_STATE}.
  */
-export const HTTP_CONNECTION_STATE_VALUE_ACTIVE = "active" as const;
+export const HTTP_CONNECTION_STATE_VALUE_ACTIVE = 'active' as const;
 
 /**
  * Enum value "idle" for attribute {@link ATTR_HTTP_CONNECTION_STATE}.
  */
-export const HTTP_CONNECTION_STATE_VALUE_IDLE = "idle" as const;
+export const HTTP_CONNECTION_STATE_VALUE_IDLE = 'idle' as const;
 
 /**
  * Deprecated, use `network.protocol.name` instead.
@@ -5314,32 +5479,32 @@ export const ATTR_HTTP_FLAVOR = 'http.flavor' as const;
 /**
  * Enum value "1.0" for attribute {@link ATTR_HTTP_FLAVOR}.
  */
-export const HTTP_FLAVOR_VALUE_HTTP_1_0 = "1.0" as const;
+export const HTTP_FLAVOR_VALUE_HTTP_1_0 = '1.0' as const;
 
 /**
  * Enum value "1.1" for attribute {@link ATTR_HTTP_FLAVOR}.
  */
-export const HTTP_FLAVOR_VALUE_HTTP_1_1 = "1.1" as const;
+export const HTTP_FLAVOR_VALUE_HTTP_1_1 = '1.1' as const;
 
 /**
  * Enum value "2.0" for attribute {@link ATTR_HTTP_FLAVOR}.
  */
-export const HTTP_FLAVOR_VALUE_HTTP_2_0 = "2.0" as const;
+export const HTTP_FLAVOR_VALUE_HTTP_2_0 = '2.0' as const;
 
 /**
  * Enum value "3.0" for attribute {@link ATTR_HTTP_FLAVOR}.
  */
-export const HTTP_FLAVOR_VALUE_HTTP_3_0 = "3.0" as const;
+export const HTTP_FLAVOR_VALUE_HTTP_3_0 = '3.0' as const;
 
 /**
  * Enum value "QUIC" for attribute {@link ATTR_HTTP_FLAVOR}.
  */
-export const HTTP_FLAVOR_VALUE_QUIC = "QUIC" as const;
+export const HTTP_FLAVOR_VALUE_QUIC = 'QUIC' as const;
 
 /**
  * Enum value "SPDY" for attribute {@link ATTR_HTTP_FLAVOR}.
  */
-export const HTTP_FLAVOR_VALUE_SPDY = "SPDY" as const;
+export const HTTP_FLAVOR_VALUE_SPDY = 'SPDY' as const;
 
 /**
  * Deprecated, use one of `server.address`, `client.address` or `http.request.header.host` instead, depending on the usage.
@@ -5392,7 +5557,8 @@ export const ATTR_HTTP_REQUEST_SIZE = 'http.request.size' as const;
  *
  * @deprecated Replaced by `http.request.header.content-length`.
  */
-export const ATTR_HTTP_REQUEST_CONTENT_LENGTH = 'http.request_content_length' as const;
+export const ATTR_HTTP_REQUEST_CONTENT_LENGTH =
+  'http.request_content_length' as const;
 
 /**
  * Deprecated, use `http.request.body.size` instead.
@@ -5403,7 +5569,8 @@ export const ATTR_HTTP_REQUEST_CONTENT_LENGTH = 'http.request_content_length' as
  *
  * @deprecated Replaced by `http.request.body.size`.
  */
-export const ATTR_HTTP_REQUEST_CONTENT_LENGTH_UNCOMPRESSED = 'http.request_content_length_uncompressed' as const;
+export const ATTR_HTTP_REQUEST_CONTENT_LENGTH_UNCOMPRESSED =
+  'http.request_content_length_uncompressed' as const;
 
 /**
  * The size of the response payload body in bytes. This is the number of bytes transferred excluding headers and is often, but not always, present as the [Content-Length](https://www.rfc-editor.org/rfc/rfc9110.html#field.content-length) header. For requests using transport encoding, this should be the compressed size.
@@ -5432,7 +5599,8 @@ export const ATTR_HTTP_RESPONSE_SIZE = 'http.response.size' as const;
  *
  * @deprecated hp.response.header.content-length
  */
-export const ATTR_HTTP_RESPONSE_CONTENT_LENGTH = 'http.response_content_length' as const;
+export const ATTR_HTTP_RESPONSE_CONTENT_LENGTH =
+  'http.response_content_length' as const;
 
 /**
  * Deprecated, use `http.response.body.size` instead.
@@ -5443,7 +5611,8 @@ export const ATTR_HTTP_RESPONSE_CONTENT_LENGTH = 'http.response_content_length' 
  *
  * @deprecated Replaced by `http.response.body.size`.
  */
-export const ATTR_HTTP_RESPONSE_CONTENT_LENGTH_UNCOMPRESSED = 'http.response_content_length_uncompressed' as const;
+export const ATTR_HTTP_RESPONSE_CONTENT_LENGTH_UNCOMPRESSED =
+  'http.response_content_length_uncompressed' as const;
 
 /**
  * Deprecated, use `url.scheme` instead.
@@ -5550,17 +5719,17 @@ export const ATTR_HW_STATE = 'hw.state' as const;
 /**
  * Enum value "degraded" for attribute {@link ATTR_HW_STATE}.
  */
-export const HW_STATE_VALUE_DEGRADED = "degraded" as const;
+export const HW_STATE_VALUE_DEGRADED = 'degraded' as const;
 
 /**
  * Enum value "failed" for attribute {@link ATTR_HW_STATE}.
  */
-export const HW_STATE_VALUE_FAILED = "failed" as const;
+export const HW_STATE_VALUE_FAILED = 'failed' as const;
 
 /**
  * Enum value "ok" for attribute {@link ATTR_HW_STATE}.
  */
-export const HW_STATE_VALUE_OK = "ok" as const;
+export const HW_STATE_VALUE_OK = 'ok' as const;
 
 /**
  * Type of the component
@@ -5574,72 +5743,72 @@ export const ATTR_HW_TYPE = 'hw.type' as const;
 /**
  * Enum value "battery" for attribute {@link ATTR_HW_TYPE}.
  */
-export const HW_TYPE_VALUE_BATTERY = "battery" as const;
+export const HW_TYPE_VALUE_BATTERY = 'battery' as const;
 
 /**
  * Enum value "cpu" for attribute {@link ATTR_HW_TYPE}.
  */
-export const HW_TYPE_VALUE_CPU = "cpu" as const;
+export const HW_TYPE_VALUE_CPU = 'cpu' as const;
 
 /**
  * Enum value "disk_controller" for attribute {@link ATTR_HW_TYPE}.
  */
-export const HW_TYPE_VALUE_DISK_CONTROLLER = "disk_controller" as const;
+export const HW_TYPE_VALUE_DISK_CONTROLLER = 'disk_controller' as const;
 
 /**
  * Enum value "enclosure" for attribute {@link ATTR_HW_TYPE}.
  */
-export const HW_TYPE_VALUE_ENCLOSURE = "enclosure" as const;
+export const HW_TYPE_VALUE_ENCLOSURE = 'enclosure' as const;
 
 /**
  * Enum value "fan" for attribute {@link ATTR_HW_TYPE}.
  */
-export const HW_TYPE_VALUE_FAN = "fan" as const;
+export const HW_TYPE_VALUE_FAN = 'fan' as const;
 
 /**
  * Enum value "gpu" for attribute {@link ATTR_HW_TYPE}.
  */
-export const HW_TYPE_VALUE_GPU = "gpu" as const;
+export const HW_TYPE_VALUE_GPU = 'gpu' as const;
 
 /**
  * Enum value "logical_disk" for attribute {@link ATTR_HW_TYPE}.
  */
-export const HW_TYPE_VALUE_LOGICAL_DISK = "logical_disk" as const;
+export const HW_TYPE_VALUE_LOGICAL_DISK = 'logical_disk' as const;
 
 /**
  * Enum value "memory" for attribute {@link ATTR_HW_TYPE}.
  */
-export const HW_TYPE_VALUE_MEMORY = "memory" as const;
+export const HW_TYPE_VALUE_MEMORY = 'memory' as const;
 
 /**
  * Enum value "network" for attribute {@link ATTR_HW_TYPE}.
  */
-export const HW_TYPE_VALUE_NETWORK = "network" as const;
+export const HW_TYPE_VALUE_NETWORK = 'network' as const;
 
 /**
  * Enum value "physical_disk" for attribute {@link ATTR_HW_TYPE}.
  */
-export const HW_TYPE_VALUE_PHYSICAL_DISK = "physical_disk" as const;
+export const HW_TYPE_VALUE_PHYSICAL_DISK = 'physical_disk' as const;
 
 /**
  * Enum value "power_supply" for attribute {@link ATTR_HW_TYPE}.
  */
-export const HW_TYPE_VALUE_POWER_SUPPLY = "power_supply" as const;
+export const HW_TYPE_VALUE_POWER_SUPPLY = 'power_supply' as const;
 
 /**
  * Enum value "tape_drive" for attribute {@link ATTR_HW_TYPE}.
  */
-export const HW_TYPE_VALUE_TAPE_DRIVE = "tape_drive" as const;
+export const HW_TYPE_VALUE_TAPE_DRIVE = 'tape_drive' as const;
 
 /**
  * Enum value "temperature" for attribute {@link ATTR_HW_TYPE}.
  */
-export const HW_TYPE_VALUE_TEMPERATURE = "temperature" as const;
+export const HW_TYPE_VALUE_TEMPERATURE = 'temperature' as const;
 
 /**
  * Enum value "voltage" for attribute {@link ATTR_HW_TYPE}.
  */
-export const HW_TYPE_VALUE_VOLTAGE = "voltage" as const;
+export const HW_TYPE_VALUE_VOLTAGE = 'voltage' as const;
 
 /**
  * This attribute represents the state of the application.
@@ -5653,27 +5822,27 @@ export const ATTR_IOS_APP_STATE = 'ios.app.state' as const;
 /**
  * Enum value "active" for attribute {@link ATTR_IOS_APP_STATE}.
  */
-export const IOS_APP_STATE_VALUE_ACTIVE = "active" as const;
+export const IOS_APP_STATE_VALUE_ACTIVE = 'active' as const;
 
 /**
  * Enum value "background" for attribute {@link ATTR_IOS_APP_STATE}.
  */
-export const IOS_APP_STATE_VALUE_BACKGROUND = "background" as const;
+export const IOS_APP_STATE_VALUE_BACKGROUND = 'background' as const;
 
 /**
  * Enum value "foreground" for attribute {@link ATTR_IOS_APP_STATE}.
  */
-export const IOS_APP_STATE_VALUE_FOREGROUND = "foreground" as const;
+export const IOS_APP_STATE_VALUE_FOREGROUND = 'foreground' as const;
 
 /**
  * Enum value "inactive" for attribute {@link ATTR_IOS_APP_STATE}.
  */
-export const IOS_APP_STATE_VALUE_INACTIVE = "inactive" as const;
+export const IOS_APP_STATE_VALUE_INACTIVE = 'inactive' as const;
 
 /**
  * Enum value "terminate" for attribute {@link ATTR_IOS_APP_STATE}.
  */
-export const IOS_APP_STATE_VALUE_TERMINATE = "terminate" as const;
+export const IOS_APP_STATE_VALUE_TERMINATE = 'terminate' as const;
 
 /**
  * @note The iOS lifecycle states are defined in the [UIApplicationDelegate documentation](https://developer.apple.com/documentation/uikit/uiapplicationdelegate), and from which the `OS terminology` column values are derived.
@@ -5687,27 +5856,27 @@ export const ATTR_IOS_STATE = 'ios.state' as const;
 /**
  * Enum value "active" for attribute {@link ATTR_IOS_STATE}.
  */
-export const IOS_STATE_VALUE_ACTIVE = "active" as const;
+export const IOS_STATE_VALUE_ACTIVE = 'active' as const;
 
 /**
  * Enum value "background" for attribute {@link ATTR_IOS_STATE}.
  */
-export const IOS_STATE_VALUE_BACKGROUND = "background" as const;
+export const IOS_STATE_VALUE_BACKGROUND = 'background' as const;
 
 /**
  * Enum value "foreground" for attribute {@link ATTR_IOS_STATE}.
  */
-export const IOS_STATE_VALUE_FOREGROUND = "foreground" as const;
+export const IOS_STATE_VALUE_FOREGROUND = 'foreground' as const;
 
 /**
  * Enum value "inactive" for attribute {@link ATTR_IOS_STATE}.
  */
-export const IOS_STATE_VALUE_INACTIVE = "inactive" as const;
+export const IOS_STATE_VALUE_INACTIVE = 'inactive' as const;
 
 /**
  * Enum value "terminate" for attribute {@link ATTR_IOS_STATE}.
  */
-export const IOS_STATE_VALUE_TERMINATE = "terminate" as const;
+export const IOS_STATE_VALUE_TERMINATE = 'terminate' as const;
 
 /**
  * Name of the buffer pool.
@@ -5788,7 +5957,8 @@ export const ATTR_K8S_CONTAINER_NAME = 'k8s.container.name' as const;
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_K8S_CONTAINER_RESTART_COUNT = 'k8s.container.restart_count' as const;
+export const ATTR_K8S_CONTAINER_RESTART_COUNT =
+  'k8s.container.restart_count' as const;
 
 /**
  * Last terminated reason of the Container.
@@ -5798,7 +5968,8 @@ export const ATTR_K8S_CONTAINER_RESTART_COUNT = 'k8s.container.restart_count' as
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_K8S_CONTAINER_STATUS_LAST_TERMINATED_REASON = 'k8s.container.status.last_terminated_reason' as const;
+export const ATTR_K8S_CONTAINER_STATUS_LAST_TERMINATED_REASON =
+  'k8s.container.status.last_terminated_reason' as const;
 
 /**
  * The cronjob annotation placed on the CronJob, the `<key>` being the annotation name, the value being the annotation value.
@@ -5815,7 +5986,8 @@ export const ATTR_K8S_CONTAINER_STATUS_LAST_TERMINATED_REASON = 'k8s.container.s
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_K8S_CRONJOB_ANNOTATION = (key: string) => `k8s.cronjob.annotation.${key}`;
+export const ATTR_K8S_CRONJOB_ANNOTATION = (key: string) =>
+  `k8s.cronjob.annotation.${key}`;
 
 /**
  * The label placed on the CronJob, the `<key>` being the label name, the value being the label value.
@@ -5832,7 +6004,8 @@ export const ATTR_K8S_CRONJOB_ANNOTATION = (key: string) => `k8s.cronjob.annotat
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_K8S_CRONJOB_LABEL = (key: string) => `k8s.cronjob.label.${key}`;
+export const ATTR_K8S_CRONJOB_LABEL = (key: string) =>
+  `k8s.cronjob.label.${key}`;
 
 /**
  * The name of the CronJob.
@@ -5862,7 +6035,8 @@ export const ATTR_K8S_CRONJOB_UID = 'k8s.cronjob.uid' as const;
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_K8S_DAEMONSET_ANNOTATION = (key: string) => `k8s.daemonset.annotation.${key}`;
+export const ATTR_K8S_DAEMONSET_ANNOTATION = (key: string) =>
+  `k8s.daemonset.annotation.${key}`;
 
 /**
  * The label key-value pairs placed on the DaemonSet.
@@ -5874,7 +6048,8 @@ export const ATTR_K8S_DAEMONSET_ANNOTATION = (key: string) => `k8s.daemonset.ann
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_K8S_DAEMONSET_LABEL = (key: string) => `k8s.daemonset.label.${key}`;
+export const ATTR_K8S_DAEMONSET_LABEL = (key: string) =>
+  `k8s.daemonset.label.${key}`;
 
 /**
  * The name of the DaemonSet.
@@ -5904,7 +6079,8 @@ export const ATTR_K8S_DAEMONSET_UID = 'k8s.daemonset.uid' as const;
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_K8S_DEPLOYMENT_ANNOTATION = (key: string) => `k8s.deployment.annotation.${key}`;
+export const ATTR_K8S_DEPLOYMENT_ANNOTATION = (key: string) =>
+  `k8s.deployment.annotation.${key}`;
 
 /**
  * The label key-value pairs placed on the Deployment.
@@ -5916,7 +6092,8 @@ export const ATTR_K8S_DEPLOYMENT_ANNOTATION = (key: string) => `k8s.deployment.a
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_K8S_DEPLOYMENT_LABEL = (key: string) => `k8s.deployment.label.${key}`;
+export const ATTR_K8S_DEPLOYMENT_LABEL = (key: string) =>
+  `k8s.deployment.label.${key}`;
 
 /**
  * The name of the Deployment.
@@ -5964,7 +6141,8 @@ export const ATTR_K8S_HPA_UID = 'k8s.hpa.uid' as const;
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_K8S_JOB_ANNOTATION = (key: string) => `k8s.job.annotation.${key}`;
+export const ATTR_K8S_JOB_ANNOTATION = (key: string) =>
+  `k8s.job.annotation.${key}`;
 
 /**
  * The label key-value pairs placed on the Job.
@@ -6006,7 +6184,8 @@ export const ATTR_K8S_JOB_UID = 'k8s.job.uid' as const;
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_K8S_NAMESPACE_ANNOTATION = (key: string) => `k8s.namespace.annotation.${key}`;
+export const ATTR_K8S_NAMESPACE_ANNOTATION = (key: string) =>
+  `k8s.namespace.annotation.${key}`;
 
 /**
  * The label key-value pairs placed on the Namespace.
@@ -6018,7 +6197,8 @@ export const ATTR_K8S_NAMESPACE_ANNOTATION = (key: string) => `k8s.namespace.ann
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_K8S_NAMESPACE_LABEL = (key: string) => `k8s.namespace.label.${key}`;
+export const ATTR_K8S_NAMESPACE_LABEL = (key: string) =>
+  `k8s.namespace.label.${key}`;
 
 /**
  * The name of the namespace that the pod is running in.
@@ -6045,12 +6225,12 @@ export const ATTR_K8S_NAMESPACE_PHASE = 'k8s.namespace.phase' as const;
 /**
  * Enum value "active" for attribute {@link ATTR_K8S_NAMESPACE_PHASE}.
  */
-export const K8S_NAMESPACE_PHASE_VALUE_ACTIVE = "active" as const;
+export const K8S_NAMESPACE_PHASE_VALUE_ACTIVE = 'active' as const;
 
 /**
  * Enum value "terminating" for attribute {@link ATTR_K8S_NAMESPACE_PHASE}.
  */
-export const K8S_NAMESPACE_PHASE_VALUE_TERMINATING = "terminating" as const;
+export const K8S_NAMESPACE_PHASE_VALUE_TERMINATING = 'terminating' as const;
 
 /**
  * The annotation placed on the Node, the `<key>` being the annotation name, the value being the annotation value, even if the value is empty.
@@ -6067,7 +6247,8 @@ export const K8S_NAMESPACE_PHASE_VALUE_TERMINATING = "terminating" as const;
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_K8S_NODE_ANNOTATION = (key: string) => `k8s.node.annotation.${key}`;
+export const ATTR_K8S_NODE_ANNOTATION = (key: string) =>
+  `k8s.node.annotation.${key}`;
 
 /**
  * The label placed on the Node, the `<key>` being the label name, the value being the label value, even if the value is empty.
@@ -6122,7 +6303,8 @@ export const ATTR_K8S_NODE_UID = 'k8s.node.uid' as const;
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_K8S_POD_ANNOTATION = (key: string) => `k8s.pod.annotation.${key}`;
+export const ATTR_K8S_POD_ANNOTATION = (key: string) =>
+  `k8s.pod.annotation.${key}`;
 
 /**
  * The label placed on the Pod, the `<key>` being the label name, the value being the label value.
@@ -6183,7 +6365,8 @@ export const ATTR_K8S_POD_UID = 'k8s.pod.uid' as const;
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_K8S_REPLICASET_ANNOTATION = (key: string) => `k8s.replicaset.annotation.${key}`;
+export const ATTR_K8S_REPLICASET_ANNOTATION = (key: string) =>
+  `k8s.replicaset.annotation.${key}`;
 
 /**
  * The label key-value pairs placed on the ReplicaSet.
@@ -6195,7 +6378,8 @@ export const ATTR_K8S_REPLICASET_ANNOTATION = (key: string) => `k8s.replicaset.a
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_K8S_REPLICASET_LABEL = (key: string) => `k8s.replicaset.label.${key}`;
+export const ATTR_K8S_REPLICASET_LABEL = (key: string) =>
+  `k8s.replicaset.label.${key}`;
 
 /**
  * The name of the ReplicaSet.
@@ -6222,7 +6406,8 @@ export const ATTR_K8S_REPLICASET_UID = 'k8s.replicaset.uid' as const;
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_K8S_REPLICATIONCONTROLLER_NAME = 'k8s.replicationcontroller.name' as const;
+export const ATTR_K8S_REPLICATIONCONTROLLER_NAME =
+  'k8s.replicationcontroller.name' as const;
 
 /**
  * The UID of the replication controller.
@@ -6231,7 +6416,8 @@ export const ATTR_K8S_REPLICATIONCONTROLLER_NAME = 'k8s.replicationcontroller.na
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_K8S_REPLICATIONCONTROLLER_UID = 'k8s.replicationcontroller.uid' as const;
+export const ATTR_K8S_REPLICATIONCONTROLLER_UID =
+  'k8s.replicationcontroller.uid' as const;
 
 /**
  * The name of the resource quota.
@@ -6261,7 +6447,8 @@ export const ATTR_K8S_RESOURCEQUOTA_UID = 'k8s.resourcequota.uid' as const;
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_K8S_STATEFULSET_ANNOTATION = (key: string) => `k8s.statefulset.annotation.${key}`;
+export const ATTR_K8S_STATEFULSET_ANNOTATION = (key: string) =>
+  `k8s.statefulset.annotation.${key}`;
 
 /**
  * The label key-value pairs placed on the StatefulSet.
@@ -6273,7 +6460,8 @@ export const ATTR_K8S_STATEFULSET_ANNOTATION = (key: string) => `k8s.statefulset
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_K8S_STATEFULSET_LABEL = (key: string) => `k8s.statefulset.label.${key}`;
+export const ATTR_K8S_STATEFULSET_LABEL = (key: string) =>
+  `k8s.statefulset.label.${key}`;
 
 /**
  * The name of the StatefulSet.
@@ -6315,32 +6503,33 @@ export const ATTR_K8S_VOLUME_TYPE = 'k8s.volume.type' as const;
 /**
  * Enum value "configMap" for attribute {@link ATTR_K8S_VOLUME_TYPE}.
  */
-export const K8S_VOLUME_TYPE_VALUE_CONFIG_MAP = "configMap" as const;
+export const K8S_VOLUME_TYPE_VALUE_CONFIG_MAP = 'configMap' as const;
 
 /**
  * Enum value "downwardAPI" for attribute {@link ATTR_K8S_VOLUME_TYPE}.
  */
-export const K8S_VOLUME_TYPE_VALUE_DOWNWARD_API = "downwardAPI" as const;
+export const K8S_VOLUME_TYPE_VALUE_DOWNWARD_API = 'downwardAPI' as const;
 
 /**
  * Enum value "emptyDir" for attribute {@link ATTR_K8S_VOLUME_TYPE}.
  */
-export const K8S_VOLUME_TYPE_VALUE_EMPTY_DIR = "emptyDir" as const;
+export const K8S_VOLUME_TYPE_VALUE_EMPTY_DIR = 'emptyDir' as const;
 
 /**
  * Enum value "local" for attribute {@link ATTR_K8S_VOLUME_TYPE}.
  */
-export const K8S_VOLUME_TYPE_VALUE_LOCAL = "local" as const;
+export const K8S_VOLUME_TYPE_VALUE_LOCAL = 'local' as const;
 
 /**
  * Enum value "persistentVolumeClaim" for attribute {@link ATTR_K8S_VOLUME_TYPE}.
  */
-export const K8S_VOLUME_TYPE_VALUE_PERSISTENT_VOLUME_CLAIM = "persistentVolumeClaim" as const;
+export const K8S_VOLUME_TYPE_VALUE_PERSISTENT_VOLUME_CLAIM =
+  'persistentVolumeClaim' as const;
 
 /**
  * Enum value "secret" for attribute {@link ATTR_K8S_VOLUME_TYPE}.
  */
-export const K8S_VOLUME_TYPE_VALUE_SECRET = "secret" as const;
+export const K8S_VOLUME_TYPE_VALUE_SECRET = 'secret' as const;
 
 /**
  * The Linux Slab memory state
@@ -6355,12 +6544,13 @@ export const ATTR_LINUX_MEMORY_SLAB_STATE = 'linux.memory.slab.state' as const;
 /**
  * Enum value "reclaimable" for attribute {@link ATTR_LINUX_MEMORY_SLAB_STATE}.
  */
-export const LINUX_MEMORY_SLAB_STATE_VALUE_RECLAIMABLE = "reclaimable" as const;
+export const LINUX_MEMORY_SLAB_STATE_VALUE_RECLAIMABLE = 'reclaimable' as const;
 
 /**
  * Enum value "unreclaimable" for attribute {@link ATTR_LINUX_MEMORY_SLAB_STATE}.
  */
-export const LINUX_MEMORY_SLAB_STATE_VALUE_UNRECLAIMABLE = "unreclaimable" as const;
+export const LINUX_MEMORY_SLAB_STATE_VALUE_UNRECLAIMABLE =
+  'unreclaimable' as const;
 
 /**
  * The basename of the file.
@@ -6408,12 +6598,12 @@ export const ATTR_LOG_IOSTREAM = 'log.iostream' as const;
 /**
  * Enum value "stderr" for attribute {@link ATTR_LOG_IOSTREAM}.
  */
-export const LOG_IOSTREAM_VALUE_STDERR = "stderr" as const;
+export const LOG_IOSTREAM_VALUE_STDERR = 'stderr' as const;
 
 /**
  * Enum value "stdout" for attribute {@link ATTR_LOG_IOSTREAM}.
  */
-export const LOG_IOSTREAM_VALUE_STDOUT = "stdout" as const;
+export const LOG_IOSTREAM_VALUE_STDOUT = 'stdout' as const;
 
 /**
  * The complete original Log Record.
@@ -6469,12 +6659,12 @@ export const ATTR_MESSAGE_TYPE = 'message.type' as const;
 /**
  * Enum value "RECEIVED" for attribute {@link ATTR_MESSAGE_TYPE}.
  */
-export const MESSAGE_TYPE_VALUE_RECEIVED = "RECEIVED" as const;
+export const MESSAGE_TYPE_VALUE_RECEIVED = 'RECEIVED' as const;
 
 /**
  * Enum value "SENT" for attribute {@link ATTR_MESSAGE_TYPE}.
  */
-export const MESSAGE_TYPE_VALUE_SENT = "SENT" as const;
+export const MESSAGE_TYPE_VALUE_SENT = 'SENT' as const;
 
 /**
  * Deprecated, use `rpc.message.uncompressed_size` instead.
@@ -6483,7 +6673,8 @@ export const MESSAGE_TYPE_VALUE_SENT = "SENT" as const;
  *
  * @deprecated Replaced by `rpc.message.uncompressed_size`.
  */
-export const ATTR_MESSAGE_UNCOMPRESSED_SIZE = 'message.uncompressed_size' as const;
+export const ATTR_MESSAGE_UNCOMPRESSED_SIZE =
+  'message.uncompressed_size' as const;
 
 /**
  * The number of messages sent, received, or processed in the scope of the batching operation.
@@ -6496,7 +6687,8 @@ export const ATTR_MESSAGE_UNCOMPRESSED_SIZE = 'message.uncompressed_size' as con
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_MESSAGING_BATCH_MESSAGE_COUNT = 'messaging.batch.message_count' as const;
+export const ATTR_MESSAGING_BATCH_MESSAGE_COUNT =
+  'messaging.batch.message_count' as const;
 
 /**
  * A unique identifier for the client that consumes or produces a message.
@@ -6518,14 +6710,16 @@ export const ATTR_MESSAGING_CLIENT_ID = 'messaging.client.id' as const;
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_MESSAGING_CONSUMER_GROUP_NAME = 'messaging.consumer.group.name' as const;
+export const ATTR_MESSAGING_CONSUMER_GROUP_NAME =
+  'messaging.consumer.group.name' as const;
 
 /**
  * A boolean that is true if the message destination is anonymous (could be unnamed or have auto-generated name).
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_MESSAGING_DESTINATION_ANONYMOUS = 'messaging.destination.anonymous' as const;
+export const ATTR_MESSAGING_DESTINATION_ANONYMOUS =
+  'messaging.destination.anonymous' as const;
 
 /**
  * The message destination name
@@ -6538,7 +6732,8 @@ export const ATTR_MESSAGING_DESTINATION_ANONYMOUS = 'messaging.destination.anony
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_MESSAGING_DESTINATION_NAME = 'messaging.destination.name' as const;
+export const ATTR_MESSAGING_DESTINATION_NAME =
+  'messaging.destination.name' as const;
 
 /**
  * The identifier of the partition messages are sent to or received from, unique within the `messaging.destination.name`.
@@ -6547,7 +6742,8 @@ export const ATTR_MESSAGING_DESTINATION_NAME = 'messaging.destination.name' as c
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_MESSAGING_DESTINATION_PARTITION_ID = 'messaging.destination.partition.id' as const;
+export const ATTR_MESSAGING_DESTINATION_PARTITION_ID =
+  'messaging.destination.partition.id' as const;
 
 /**
  * The name of the destination subscription from which a message is consumed.
@@ -6558,7 +6754,8 @@ export const ATTR_MESSAGING_DESTINATION_PARTITION_ID = 'messaging.destination.pa
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_MESSAGING_DESTINATION_SUBSCRIPTION_NAME = 'messaging.destination.subscription.name' as const;
+export const ATTR_MESSAGING_DESTINATION_SUBSCRIPTION_NAME =
+  'messaging.destination.subscription.name' as const;
 
 /**
  * Low cardinality representation of the messaging destination name
@@ -6569,14 +6766,16 @@ export const ATTR_MESSAGING_DESTINATION_SUBSCRIPTION_NAME = 'messaging.destinati
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_MESSAGING_DESTINATION_TEMPLATE = 'messaging.destination.template' as const;
+export const ATTR_MESSAGING_DESTINATION_TEMPLATE =
+  'messaging.destination.template' as const;
 
 /**
  * A boolean that is true if the message destination is temporary and might not exist anymore after messages are processed.
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_MESSAGING_DESTINATION_TEMPORARY = 'messaging.destination.temporary' as const;
+export const ATTR_MESSAGING_DESTINATION_TEMPORARY =
+  'messaging.destination.temporary' as const;
 
 /**
  * Deprecated, no replacement at this time.
@@ -6585,7 +6784,8 @@ export const ATTR_MESSAGING_DESTINATION_TEMPORARY = 'messaging.destination.tempo
  *
  * @deprecated Removed. No replacement at this time.
  */
-export const ATTR_MESSAGING_DESTINATION_PUBLISH_ANONYMOUS = 'messaging.destination_publish.anonymous' as const;
+export const ATTR_MESSAGING_DESTINATION_PUBLISH_ANONYMOUS =
+  'messaging.destination_publish.anonymous' as const;
 
 /**
  * Deprecated, no replacement at this time.
@@ -6597,7 +6797,8 @@ export const ATTR_MESSAGING_DESTINATION_PUBLISH_ANONYMOUS = 'messaging.destinati
  *
  * @deprecated Removed. No replacement at this time.
  */
-export const ATTR_MESSAGING_DESTINATION_PUBLISH_NAME = 'messaging.destination_publish.name' as const;
+export const ATTR_MESSAGING_DESTINATION_PUBLISH_NAME =
+  'messaging.destination_publish.name' as const;
 
 /**
  * Deprecated, use `messaging.consumer.group.name` instead.
@@ -6608,7 +6809,8 @@ export const ATTR_MESSAGING_DESTINATION_PUBLISH_NAME = 'messaging.destination_pu
  *
  * @deprecated Replaced by `messaging.consumer.group.name`.
  */
-export const ATTR_MESSAGING_EVENTHUBS_CONSUMER_GROUP = 'messaging.eventhubs.consumer.group' as const;
+export const ATTR_MESSAGING_EVENTHUBS_CONSUMER_GROUP =
+  'messaging.eventhubs.consumer.group' as const;
 
 /**
  * The UTC epoch seconds at which the message has been accepted and stored in the entity.
@@ -6617,7 +6819,8 @@ export const ATTR_MESSAGING_EVENTHUBS_CONSUMER_GROUP = 'messaging.eventhubs.cons
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_MESSAGING_EVENTHUBS_MESSAGE_ENQUEUED_TIME = 'messaging.eventhubs.message.enqueued_time' as const;
+export const ATTR_MESSAGING_EVENTHUBS_MESSAGE_ENQUEUED_TIME =
+  'messaging.eventhubs.message.enqueued_time' as const;
 
 /**
  * The ack deadline in seconds set for the modify ack deadline request.
@@ -6626,7 +6829,8 @@ export const ATTR_MESSAGING_EVENTHUBS_MESSAGE_ENQUEUED_TIME = 'messaging.eventhu
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_MESSAGING_GCP_PUBSUB_MESSAGE_ACK_DEADLINE = 'messaging.gcp_pubsub.message.ack_deadline' as const;
+export const ATTR_MESSAGING_GCP_PUBSUB_MESSAGE_ACK_DEADLINE =
+  'messaging.gcp_pubsub.message.ack_deadline' as const;
 
 /**
  * The ack id for a given message.
@@ -6635,7 +6839,8 @@ export const ATTR_MESSAGING_GCP_PUBSUB_MESSAGE_ACK_DEADLINE = 'messaging.gcp_pub
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_MESSAGING_GCP_PUBSUB_MESSAGE_ACK_ID = 'messaging.gcp_pubsub.message.ack_id' as const;
+export const ATTR_MESSAGING_GCP_PUBSUB_MESSAGE_ACK_ID =
+  'messaging.gcp_pubsub.message.ack_id' as const;
 
 /**
  * The delivery attempt for a given message.
@@ -6644,7 +6849,8 @@ export const ATTR_MESSAGING_GCP_PUBSUB_MESSAGE_ACK_ID = 'messaging.gcp_pubsub.me
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_MESSAGING_GCP_PUBSUB_MESSAGE_DELIVERY_ATTEMPT = 'messaging.gcp_pubsub.message.delivery_attempt' as const;
+export const ATTR_MESSAGING_GCP_PUBSUB_MESSAGE_DELIVERY_ATTEMPT =
+  'messaging.gcp_pubsub.message.delivery_attempt' as const;
 
 /**
  * The ordering key for a given message. If the attribute is not present, the message does not have an ordering key.
@@ -6653,7 +6859,8 @@ export const ATTR_MESSAGING_GCP_PUBSUB_MESSAGE_DELIVERY_ATTEMPT = 'messaging.gcp
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_MESSAGING_GCP_PUBSUB_MESSAGE_ORDERING_KEY = 'messaging.gcp_pubsub.message.ordering_key' as const;
+export const ATTR_MESSAGING_GCP_PUBSUB_MESSAGE_ORDERING_KEY =
+  'messaging.gcp_pubsub.message.ordering_key' as const;
 
 /**
  * Deprecated, use `messaging.consumer.group.name` instead.
@@ -6664,7 +6871,8 @@ export const ATTR_MESSAGING_GCP_PUBSUB_MESSAGE_ORDERING_KEY = 'messaging.gcp_pub
  *
  * @deprecated Replaced by `messaging.consumer.group.name`.
  */
-export const ATTR_MESSAGING_KAFKA_CONSUMER_GROUP = 'messaging.kafka.consumer.group' as const;
+export const ATTR_MESSAGING_KAFKA_CONSUMER_GROUP =
+  'messaging.kafka.consumer.group' as const;
 
 /**
  * Deprecated, use `messaging.destination.partition.id` instead.
@@ -6675,7 +6883,8 @@ export const ATTR_MESSAGING_KAFKA_CONSUMER_GROUP = 'messaging.kafka.consumer.gro
  *
  * @deprecated Replaced by `messaging.destination.partition.id`.
  */
-export const ATTR_MESSAGING_KAFKA_DESTINATION_PARTITION = 'messaging.kafka.destination.partition' as const;
+export const ATTR_MESSAGING_KAFKA_DESTINATION_PARTITION =
+  'messaging.kafka.destination.partition' as const;
 
 /**
  * Message keys in Kafka are used for grouping alike messages to ensure they're processed on the same partition. They differ from `messaging.message.id` in that they're not unique. If the key is `null`, the attribute **MUST NOT** be set.
@@ -6686,7 +6895,8 @@ export const ATTR_MESSAGING_KAFKA_DESTINATION_PARTITION = 'messaging.kafka.desti
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_MESSAGING_KAFKA_MESSAGE_KEY = 'messaging.kafka.message.key' as const;
+export const ATTR_MESSAGING_KAFKA_MESSAGE_KEY =
+  'messaging.kafka.message.key' as const;
 
 /**
  * Deprecated, use `messaging.kafka.offset` instead.
@@ -6697,14 +6907,16 @@ export const ATTR_MESSAGING_KAFKA_MESSAGE_KEY = 'messaging.kafka.message.key' as
  *
  * @deprecated Replaced by `messaging.kafka.offset`.
  */
-export const ATTR_MESSAGING_KAFKA_MESSAGE_OFFSET = 'messaging.kafka.message.offset' as const;
+export const ATTR_MESSAGING_KAFKA_MESSAGE_OFFSET =
+  'messaging.kafka.message.offset' as const;
 
 /**
  * A boolean that is true if the message is a tombstone.
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_MESSAGING_KAFKA_MESSAGE_TOMBSTONE = 'messaging.kafka.message.tombstone' as const;
+export const ATTR_MESSAGING_KAFKA_MESSAGE_TOMBSTONE =
+  'messaging.kafka.message.tombstone' as const;
 
 /**
  * The offset of a record in the corresponding Kafka partition.
@@ -6725,7 +6937,8 @@ export const ATTR_MESSAGING_KAFKA_OFFSET = 'messaging.kafka.offset' as const;
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_MESSAGING_MESSAGE_BODY_SIZE = 'messaging.message.body.size' as const;
+export const ATTR_MESSAGING_MESSAGE_BODY_SIZE =
+  'messaging.message.body.size' as const;
 
 /**
  * The conversation ID identifying the conversation to which the message belongs, represented as a string. Sometimes called "Correlation ID".
@@ -6734,7 +6947,8 @@ export const ATTR_MESSAGING_MESSAGE_BODY_SIZE = 'messaging.message.body.size' as
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_MESSAGING_MESSAGE_CONVERSATION_ID = 'messaging.message.conversation_id' as const;
+export const ATTR_MESSAGING_MESSAGE_CONVERSATION_ID =
+  'messaging.message.conversation_id' as const;
 
 /**
  * The size of the message body and metadata in bytes.
@@ -6746,7 +6960,8 @@ export const ATTR_MESSAGING_MESSAGE_CONVERSATION_ID = 'messaging.message.convers
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_MESSAGING_MESSAGE_ENVELOPE_SIZE = 'messaging.message.envelope.size' as const;
+export const ATTR_MESSAGING_MESSAGE_ENVELOPE_SIZE =
+  'messaging.message.envelope.size' as const;
 
 /**
  * A value used by the messaging system as an identifier for the message, represented as a string.
@@ -6779,7 +6994,8 @@ export const ATTR_MESSAGING_OPERATION = 'messaging.operation' as const;
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_MESSAGING_OPERATION_NAME = 'messaging.operation.name' as const;
+export const ATTR_MESSAGING_OPERATION_NAME =
+  'messaging.operation.name' as const;
 
 /**
  * A string identifying the type of the messaging operation.
@@ -6787,42 +7003,43 @@ export const ATTR_MESSAGING_OPERATION_NAME = 'messaging.operation.name' as const
  * @note If a custom value is used, it **MUST** be of low cardinality.
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_MESSAGING_OPERATION_TYPE = 'messaging.operation.type' as const;
+export const ATTR_MESSAGING_OPERATION_TYPE =
+  'messaging.operation.type' as const;
 
 /**
  * Enum value "create" for attribute {@link ATTR_MESSAGING_OPERATION_TYPE}.
  */
-export const MESSAGING_OPERATION_TYPE_VALUE_CREATE = "create" as const;
+export const MESSAGING_OPERATION_TYPE_VALUE_CREATE = 'create' as const;
 
 /**
  * Enum value "deliver" for attribute {@link ATTR_MESSAGING_OPERATION_TYPE}.
  */
-export const MESSAGING_OPERATION_TYPE_VALUE_DELIVER = "deliver" as const;
+export const MESSAGING_OPERATION_TYPE_VALUE_DELIVER = 'deliver' as const;
 
 /**
  * Enum value "process" for attribute {@link ATTR_MESSAGING_OPERATION_TYPE}.
  */
-export const MESSAGING_OPERATION_TYPE_VALUE_PROCESS = "process" as const;
+export const MESSAGING_OPERATION_TYPE_VALUE_PROCESS = 'process' as const;
 
 /**
  * Enum value "publish" for attribute {@link ATTR_MESSAGING_OPERATION_TYPE}.
  */
-export const MESSAGING_OPERATION_TYPE_VALUE_PUBLISH = "publish" as const;
+export const MESSAGING_OPERATION_TYPE_VALUE_PUBLISH = 'publish' as const;
 
 /**
  * Enum value "receive" for attribute {@link ATTR_MESSAGING_OPERATION_TYPE}.
  */
-export const MESSAGING_OPERATION_TYPE_VALUE_RECEIVE = "receive" as const;
+export const MESSAGING_OPERATION_TYPE_VALUE_RECEIVE = 'receive' as const;
 
 /**
  * Enum value "send" for attribute {@link ATTR_MESSAGING_OPERATION_TYPE}.
  */
-export const MESSAGING_OPERATION_TYPE_VALUE_SEND = "send" as const;
+export const MESSAGING_OPERATION_TYPE_VALUE_SEND = 'send' as const;
 
 /**
  * Enum value "settle" for attribute {@link ATTR_MESSAGING_OPERATION_TYPE}.
  */
-export const MESSAGING_OPERATION_TYPE_VALUE_SETTLE = "settle" as const;
+export const MESSAGING_OPERATION_TYPE_VALUE_SETTLE = 'settle' as const;
 
 /**
  * RabbitMQ message routing key.
@@ -6831,7 +7048,8 @@ export const MESSAGING_OPERATION_TYPE_VALUE_SETTLE = "settle" as const;
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_MESSAGING_RABBITMQ_DESTINATION_ROUTING_KEY = 'messaging.rabbitmq.destination.routing_key' as const;
+export const ATTR_MESSAGING_RABBITMQ_DESTINATION_ROUTING_KEY =
+  'messaging.rabbitmq.destination.routing_key' as const;
 
 /**
  * RabbitMQ message delivery tag
@@ -6840,7 +7058,8 @@ export const ATTR_MESSAGING_RABBITMQ_DESTINATION_ROUTING_KEY = 'messaging.rabbit
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_MESSAGING_RABBITMQ_MESSAGE_DELIVERY_TAG = 'messaging.rabbitmq.message.delivery_tag' as const;
+export const ATTR_MESSAGING_RABBITMQ_MESSAGE_DELIVERY_TAG =
+  'messaging.rabbitmq.message.delivery_tag' as const;
 
 /**
  * Deprecated, use `messaging.consumer.group.name` instead.
@@ -6851,24 +7070,28 @@ export const ATTR_MESSAGING_RABBITMQ_MESSAGE_DELIVERY_TAG = 'messaging.rabbitmq.
  *
  * @deprecated Replaced by `messaging.consumer.group.name` on the consumer spans. No replacement for producer spans.
  */
-export const ATTR_MESSAGING_ROCKETMQ_CLIENT_GROUP = 'messaging.rocketmq.client_group' as const;
+export const ATTR_MESSAGING_ROCKETMQ_CLIENT_GROUP =
+  'messaging.rocketmq.client_group' as const;
 
 /**
  * Model of message consumption. This only applies to consumer spans.
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_MESSAGING_ROCKETMQ_CONSUMPTION_MODEL = 'messaging.rocketmq.consumption_model' as const;
+export const ATTR_MESSAGING_ROCKETMQ_CONSUMPTION_MODEL =
+  'messaging.rocketmq.consumption_model' as const;
 
 /**
  * Enum value "broadcasting" for attribute {@link ATTR_MESSAGING_ROCKETMQ_CONSUMPTION_MODEL}.
  */
-export const MESSAGING_ROCKETMQ_CONSUMPTION_MODEL_VALUE_BROADCASTING = "broadcasting" as const;
+export const MESSAGING_ROCKETMQ_CONSUMPTION_MODEL_VALUE_BROADCASTING =
+  'broadcasting' as const;
 
 /**
  * Enum value "clustering" for attribute {@link ATTR_MESSAGING_ROCKETMQ_CONSUMPTION_MODEL}.
  */
-export const MESSAGING_ROCKETMQ_CONSUMPTION_MODEL_VALUE_CLUSTERING = "clustering" as const;
+export const MESSAGING_ROCKETMQ_CONSUMPTION_MODEL_VALUE_CLUSTERING =
+  'clustering' as const;
 
 /**
  * The delay time level for delay message, which determines the message delay time.
@@ -6877,7 +7100,8 @@ export const MESSAGING_ROCKETMQ_CONSUMPTION_MODEL_VALUE_CLUSTERING = "clustering
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_MESSAGING_ROCKETMQ_MESSAGE_DELAY_TIME_LEVEL = 'messaging.rocketmq.message.delay_time_level' as const;
+export const ATTR_MESSAGING_ROCKETMQ_MESSAGE_DELAY_TIME_LEVEL =
+  'messaging.rocketmq.message.delay_time_level' as const;
 
 /**
  * The timestamp in milliseconds that the delay message is expected to be delivered to consumer.
@@ -6886,7 +7110,8 @@ export const ATTR_MESSAGING_ROCKETMQ_MESSAGE_DELAY_TIME_LEVEL = 'messaging.rocke
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_MESSAGING_ROCKETMQ_MESSAGE_DELIVERY_TIMESTAMP = 'messaging.rocketmq.message.delivery_timestamp' as const;
+export const ATTR_MESSAGING_ROCKETMQ_MESSAGE_DELIVERY_TIMESTAMP =
+  'messaging.rocketmq.message.delivery_timestamp' as const;
 
 /**
  * It is essential for FIFO message. Messages that belong to the same message group are always processed one by one within the same consumer group.
@@ -6895,7 +7120,8 @@ export const ATTR_MESSAGING_ROCKETMQ_MESSAGE_DELIVERY_TIMESTAMP = 'messaging.roc
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_MESSAGING_ROCKETMQ_MESSAGE_GROUP = 'messaging.rocketmq.message.group' as const;
+export const ATTR_MESSAGING_ROCKETMQ_MESSAGE_GROUP =
+  'messaging.rocketmq.message.group' as const;
 
 /**
  * Key(s) of message, another way to mark message besides message id.
@@ -6904,7 +7130,8 @@ export const ATTR_MESSAGING_ROCKETMQ_MESSAGE_GROUP = 'messaging.rocketmq.message
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_MESSAGING_ROCKETMQ_MESSAGE_KEYS = 'messaging.rocketmq.message.keys' as const;
+export const ATTR_MESSAGING_ROCKETMQ_MESSAGE_KEYS =
+  'messaging.rocketmq.message.keys' as const;
 
 /**
  * The secondary classifier of message besides topic.
@@ -6913,34 +7140,37 @@ export const ATTR_MESSAGING_ROCKETMQ_MESSAGE_KEYS = 'messaging.rocketmq.message.
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_MESSAGING_ROCKETMQ_MESSAGE_TAG = 'messaging.rocketmq.message.tag' as const;
+export const ATTR_MESSAGING_ROCKETMQ_MESSAGE_TAG =
+  'messaging.rocketmq.message.tag' as const;
 
 /**
  * Type of message.
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_MESSAGING_ROCKETMQ_MESSAGE_TYPE = 'messaging.rocketmq.message.type' as const;
+export const ATTR_MESSAGING_ROCKETMQ_MESSAGE_TYPE =
+  'messaging.rocketmq.message.type' as const;
 
 /**
  * Enum value "delay" for attribute {@link ATTR_MESSAGING_ROCKETMQ_MESSAGE_TYPE}.
  */
-export const MESSAGING_ROCKETMQ_MESSAGE_TYPE_VALUE_DELAY = "delay" as const;
+export const MESSAGING_ROCKETMQ_MESSAGE_TYPE_VALUE_DELAY = 'delay' as const;
 
 /**
  * Enum value "fifo" for attribute {@link ATTR_MESSAGING_ROCKETMQ_MESSAGE_TYPE}.
  */
-export const MESSAGING_ROCKETMQ_MESSAGE_TYPE_VALUE_FIFO = "fifo" as const;
+export const MESSAGING_ROCKETMQ_MESSAGE_TYPE_VALUE_FIFO = 'fifo' as const;
 
 /**
  * Enum value "normal" for attribute {@link ATTR_MESSAGING_ROCKETMQ_MESSAGE_TYPE}.
  */
-export const MESSAGING_ROCKETMQ_MESSAGE_TYPE_VALUE_NORMAL = "normal" as const;
+export const MESSAGING_ROCKETMQ_MESSAGE_TYPE_VALUE_NORMAL = 'normal' as const;
 
 /**
  * Enum value "transaction" for attribute {@link ATTR_MESSAGING_ROCKETMQ_MESSAGE_TYPE}.
  */
-export const MESSAGING_ROCKETMQ_MESSAGE_TYPE_VALUE_TRANSACTION = "transaction" as const;
+export const MESSAGING_ROCKETMQ_MESSAGE_TYPE_VALUE_TRANSACTION =
+  'transaction' as const;
 
 /**
  * Namespace of RocketMQ resources, resources in different namespaces are individual.
@@ -6949,7 +7179,8 @@ export const MESSAGING_ROCKETMQ_MESSAGE_TYPE_VALUE_TRANSACTION = "transaction" a
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_MESSAGING_ROCKETMQ_NAMESPACE = 'messaging.rocketmq.namespace' as const;
+export const ATTR_MESSAGING_ROCKETMQ_NAMESPACE =
+  'messaging.rocketmq.namespace' as const;
 
 /**
  * Deprecated, use `messaging.destination.subscription.name` instead.
@@ -6960,34 +7191,40 @@ export const ATTR_MESSAGING_ROCKETMQ_NAMESPACE = 'messaging.rocketmq.namespace' 
  *
  * @deprecated Replaced by `messaging.destination.subscription.name`.
  */
-export const ATTR_MESSAGING_SERVICEBUS_DESTINATION_SUBSCRIPTION_NAME = 'messaging.servicebus.destination.subscription_name' as const;
+export const ATTR_MESSAGING_SERVICEBUS_DESTINATION_SUBSCRIPTION_NAME =
+  'messaging.servicebus.destination.subscription_name' as const;
 
 /**
  * Describes the [settlement type](https://learn.microsoft.com/azure/service-bus-messaging/message-transfers-locks-settlement#peeklock).
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_MESSAGING_SERVICEBUS_DISPOSITION_STATUS = 'messaging.servicebus.disposition_status' as const;
+export const ATTR_MESSAGING_SERVICEBUS_DISPOSITION_STATUS =
+  'messaging.servicebus.disposition_status' as const;
 
 /**
  * Enum value "abandon" for attribute {@link ATTR_MESSAGING_SERVICEBUS_DISPOSITION_STATUS}.
  */
-export const MESSAGING_SERVICEBUS_DISPOSITION_STATUS_VALUE_ABANDON = "abandon" as const;
+export const MESSAGING_SERVICEBUS_DISPOSITION_STATUS_VALUE_ABANDON =
+  'abandon' as const;
 
 /**
  * Enum value "complete" for attribute {@link ATTR_MESSAGING_SERVICEBUS_DISPOSITION_STATUS}.
  */
-export const MESSAGING_SERVICEBUS_DISPOSITION_STATUS_VALUE_COMPLETE = "complete" as const;
+export const MESSAGING_SERVICEBUS_DISPOSITION_STATUS_VALUE_COMPLETE =
+  'complete' as const;
 
 /**
  * Enum value "dead_letter" for attribute {@link ATTR_MESSAGING_SERVICEBUS_DISPOSITION_STATUS}.
  */
-export const MESSAGING_SERVICEBUS_DISPOSITION_STATUS_VALUE_DEAD_LETTER = "dead_letter" as const;
+export const MESSAGING_SERVICEBUS_DISPOSITION_STATUS_VALUE_DEAD_LETTER =
+  'dead_letter' as const;
 
 /**
  * Enum value "defer" for attribute {@link ATTR_MESSAGING_SERVICEBUS_DISPOSITION_STATUS}.
  */
-export const MESSAGING_SERVICEBUS_DISPOSITION_STATUS_VALUE_DEFER = "defer" as const;
+export const MESSAGING_SERVICEBUS_DISPOSITION_STATUS_VALUE_DEFER =
+  'defer' as const;
 
 /**
  * Number of deliveries that have been attempted for this message.
@@ -6996,7 +7233,8 @@ export const MESSAGING_SERVICEBUS_DISPOSITION_STATUS_VALUE_DEFER = "defer" as co
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_MESSAGING_SERVICEBUS_MESSAGE_DELIVERY_COUNT = 'messaging.servicebus.message.delivery_count' as const;
+export const ATTR_MESSAGING_SERVICEBUS_MESSAGE_DELIVERY_COUNT =
+  'messaging.servicebus.message.delivery_count' as const;
 
 /**
  * The UTC epoch seconds at which the message has been accepted and stored in the entity.
@@ -7005,7 +7243,8 @@ export const ATTR_MESSAGING_SERVICEBUS_MESSAGE_DELIVERY_COUNT = 'messaging.servi
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_MESSAGING_SERVICEBUS_MESSAGE_ENQUEUED_TIME = 'messaging.servicebus.message.enqueued_time' as const;
+export const ATTR_MESSAGING_SERVICEBUS_MESSAGE_ENQUEUED_TIME =
+  'messaging.servicebus.message.enqueued_time' as const;
 
 /**
  * The messaging system as identified by the client instrumentation.
@@ -7019,57 +7258,57 @@ export const ATTR_MESSAGING_SYSTEM = 'messaging.system' as const;
 /**
  * Enum value "activemq" for attribute {@link ATTR_MESSAGING_SYSTEM}.
  */
-export const MESSAGING_SYSTEM_VALUE_ACTIVEMQ = "activemq" as const;
+export const MESSAGING_SYSTEM_VALUE_ACTIVEMQ = 'activemq' as const;
 
 /**
  * Enum value "aws_sqs" for attribute {@link ATTR_MESSAGING_SYSTEM}.
  */
-export const MESSAGING_SYSTEM_VALUE_AWS_SQS = "aws_sqs" as const;
+export const MESSAGING_SYSTEM_VALUE_AWS_SQS = 'aws_sqs' as const;
 
 /**
  * Enum value "eventgrid" for attribute {@link ATTR_MESSAGING_SYSTEM}.
  */
-export const MESSAGING_SYSTEM_VALUE_EVENTGRID = "eventgrid" as const;
+export const MESSAGING_SYSTEM_VALUE_EVENTGRID = 'eventgrid' as const;
 
 /**
  * Enum value "eventhubs" for attribute {@link ATTR_MESSAGING_SYSTEM}.
  */
-export const MESSAGING_SYSTEM_VALUE_EVENTHUBS = "eventhubs" as const;
+export const MESSAGING_SYSTEM_VALUE_EVENTHUBS = 'eventhubs' as const;
 
 /**
  * Enum value "gcp_pubsub" for attribute {@link ATTR_MESSAGING_SYSTEM}.
  */
-export const MESSAGING_SYSTEM_VALUE_GCP_PUBSUB = "gcp_pubsub" as const;
+export const MESSAGING_SYSTEM_VALUE_GCP_PUBSUB = 'gcp_pubsub' as const;
 
 /**
  * Enum value "jms" for attribute {@link ATTR_MESSAGING_SYSTEM}.
  */
-export const MESSAGING_SYSTEM_VALUE_JMS = "jms" as const;
+export const MESSAGING_SYSTEM_VALUE_JMS = 'jms' as const;
 
 /**
  * Enum value "kafka" for attribute {@link ATTR_MESSAGING_SYSTEM}.
  */
-export const MESSAGING_SYSTEM_VALUE_KAFKA = "kafka" as const;
+export const MESSAGING_SYSTEM_VALUE_KAFKA = 'kafka' as const;
 
 /**
  * Enum value "pulsar" for attribute {@link ATTR_MESSAGING_SYSTEM}.
  */
-export const MESSAGING_SYSTEM_VALUE_PULSAR = "pulsar" as const;
+export const MESSAGING_SYSTEM_VALUE_PULSAR = 'pulsar' as const;
 
 /**
  * Enum value "rabbitmq" for attribute {@link ATTR_MESSAGING_SYSTEM}.
  */
-export const MESSAGING_SYSTEM_VALUE_RABBITMQ = "rabbitmq" as const;
+export const MESSAGING_SYSTEM_VALUE_RABBITMQ = 'rabbitmq' as const;
 
 /**
  * Enum value "rocketmq" for attribute {@link ATTR_MESSAGING_SYSTEM}.
  */
-export const MESSAGING_SYSTEM_VALUE_ROCKETMQ = "rocketmq" as const;
+export const MESSAGING_SYSTEM_VALUE_ROCKETMQ = 'rocketmq' as const;
 
 /**
  * Enum value "servicebus" for attribute {@link ATTR_MESSAGING_SYSTEM}.
  */
-export const MESSAGING_SYSTEM_VALUE_SERVICEBUS = "servicebus" as const;
+export const MESSAGING_SYSTEM_VALUE_SERVICEBUS = 'servicebus' as const;
 
 /**
  * Deprecated, use `network.local.address`.
@@ -7173,17 +7412,17 @@ export const ATTR_NET_SOCK_FAMILY = 'net.sock.family' as const;
 /**
  * Enum value "inet" for attribute {@link ATTR_NET_SOCK_FAMILY}.
  */
-export const NET_SOCK_FAMILY_VALUE_INET = "inet" as const;
+export const NET_SOCK_FAMILY_VALUE_INET = 'inet' as const;
 
 /**
  * Enum value "inet6" for attribute {@link ATTR_NET_SOCK_FAMILY}.
  */
-export const NET_SOCK_FAMILY_VALUE_INET6 = "inet6" as const;
+export const NET_SOCK_FAMILY_VALUE_INET6 = 'inet6' as const;
 
 /**
  * Enum value "unix" for attribute {@link ATTR_NET_SOCK_FAMILY}.
  */
-export const NET_SOCK_FAMILY_VALUE_UNIX = "unix" as const;
+export const NET_SOCK_FAMILY_VALUE_UNIX = 'unix' as const;
 
 /**
  * Deprecated, use `network.local.address`.
@@ -7252,27 +7491,27 @@ export const ATTR_NET_TRANSPORT = 'net.transport' as const;
 /**
  * Enum value "inproc" for attribute {@link ATTR_NET_TRANSPORT}.
  */
-export const NET_TRANSPORT_VALUE_INPROC = "inproc" as const;
+export const NET_TRANSPORT_VALUE_INPROC = 'inproc' as const;
 
 /**
  * Enum value "ip_tcp" for attribute {@link ATTR_NET_TRANSPORT}.
  */
-export const NET_TRANSPORT_VALUE_IP_TCP = "ip_tcp" as const;
+export const NET_TRANSPORT_VALUE_IP_TCP = 'ip_tcp' as const;
 
 /**
  * Enum value "ip_udp" for attribute {@link ATTR_NET_TRANSPORT}.
  */
-export const NET_TRANSPORT_VALUE_IP_UDP = "ip_udp" as const;
+export const NET_TRANSPORT_VALUE_IP_UDP = 'ip_udp' as const;
 
 /**
  * Enum value "other" for attribute {@link ATTR_NET_TRANSPORT}.
  */
-export const NET_TRANSPORT_VALUE_OTHER = "other" as const;
+export const NET_TRANSPORT_VALUE_OTHER = 'other' as const;
 
 /**
  * Enum value "pipe" for attribute {@link ATTR_NET_TRANSPORT}.
  */
-export const NET_TRANSPORT_VALUE_PIPE = "pipe" as const;
+export const NET_TRANSPORT_VALUE_PIPE = 'pipe' as const;
 
 /**
  * The ISO 3166-1 alpha-2 2-character country code associated with the mobile carrier network.
@@ -7318,62 +7557,65 @@ export const ATTR_NETWORK_CARRIER_NAME = 'network.carrier.name' as const;
  * @note Connection states are defined as part of the [rfc9293](https://datatracker.ietf.org/doc/html/rfc9293#section-3.3.2)
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_NETWORK_CONNECTION_STATE = 'network.connection.state' as const;
+export const ATTR_NETWORK_CONNECTION_STATE =
+  'network.connection.state' as const;
 
 /**
  * Enum value "close_wait" for attribute {@link ATTR_NETWORK_CONNECTION_STATE}.
  */
-export const NETWORK_CONNECTION_STATE_VALUE_CLOSE_WAIT = "close_wait" as const;
+export const NETWORK_CONNECTION_STATE_VALUE_CLOSE_WAIT = 'close_wait' as const;
 
 /**
  * Enum value "closed" for attribute {@link ATTR_NETWORK_CONNECTION_STATE}.
  */
-export const NETWORK_CONNECTION_STATE_VALUE_CLOSED = "closed" as const;
+export const NETWORK_CONNECTION_STATE_VALUE_CLOSED = 'closed' as const;
 
 /**
  * Enum value "closing" for attribute {@link ATTR_NETWORK_CONNECTION_STATE}.
  */
-export const NETWORK_CONNECTION_STATE_VALUE_CLOSING = "closing" as const;
+export const NETWORK_CONNECTION_STATE_VALUE_CLOSING = 'closing' as const;
 
 /**
  * Enum value "established" for attribute {@link ATTR_NETWORK_CONNECTION_STATE}.
  */
-export const NETWORK_CONNECTION_STATE_VALUE_ESTABLISHED = "established" as const;
+export const NETWORK_CONNECTION_STATE_VALUE_ESTABLISHED =
+  'established' as const;
 
 /**
  * Enum value "fin_wait_1" for attribute {@link ATTR_NETWORK_CONNECTION_STATE}.
  */
-export const NETWORK_CONNECTION_STATE_VALUE_FIN_WAIT_1 = "fin_wait_1" as const;
+export const NETWORK_CONNECTION_STATE_VALUE_FIN_WAIT_1 = 'fin_wait_1' as const;
 
 /**
  * Enum value "fin_wait_2" for attribute {@link ATTR_NETWORK_CONNECTION_STATE}.
  */
-export const NETWORK_CONNECTION_STATE_VALUE_FIN_WAIT_2 = "fin_wait_2" as const;
+export const NETWORK_CONNECTION_STATE_VALUE_FIN_WAIT_2 = 'fin_wait_2' as const;
 
 /**
  * Enum value "last_ack" for attribute {@link ATTR_NETWORK_CONNECTION_STATE}.
  */
-export const NETWORK_CONNECTION_STATE_VALUE_LAST_ACK = "last_ack" as const;
+export const NETWORK_CONNECTION_STATE_VALUE_LAST_ACK = 'last_ack' as const;
 
 /**
  * Enum value "listen" for attribute {@link ATTR_NETWORK_CONNECTION_STATE}.
  */
-export const NETWORK_CONNECTION_STATE_VALUE_LISTEN = "listen" as const;
+export const NETWORK_CONNECTION_STATE_VALUE_LISTEN = 'listen' as const;
 
 /**
  * Enum value "syn_received" for attribute {@link ATTR_NETWORK_CONNECTION_STATE}.
  */
-export const NETWORK_CONNECTION_STATE_VALUE_SYN_RECEIVED = "syn_received" as const;
+export const NETWORK_CONNECTION_STATE_VALUE_SYN_RECEIVED =
+  'syn_received' as const;
 
 /**
  * Enum value "syn_sent" for attribute {@link ATTR_NETWORK_CONNECTION_STATE}.
  */
-export const NETWORK_CONNECTION_STATE_VALUE_SYN_SENT = "syn_sent" as const;
+export const NETWORK_CONNECTION_STATE_VALUE_SYN_SENT = 'syn_sent' as const;
 
 /**
  * Enum value "time_wait" for attribute {@link ATTR_NETWORK_CONNECTION_STATE}.
  */
-export const NETWORK_CONNECTION_STATE_VALUE_TIME_WAIT = "time_wait" as const;
+export const NETWORK_CONNECTION_STATE_VALUE_TIME_WAIT = 'time_wait' as const;
 
 /**
  * This describes more details regarding the connection.type. It may be the type of cell technology connection, but it could be used for describing details about a wifi connection.
@@ -7382,112 +7624,114 @@ export const NETWORK_CONNECTION_STATE_VALUE_TIME_WAIT = "time_wait" as const;
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_NETWORK_CONNECTION_SUBTYPE = 'network.connection.subtype' as const;
+export const ATTR_NETWORK_CONNECTION_SUBTYPE =
+  'network.connection.subtype' as const;
 
 /**
  * Enum value "cdma" for attribute {@link ATTR_NETWORK_CONNECTION_SUBTYPE}.
  */
-export const NETWORK_CONNECTION_SUBTYPE_VALUE_CDMA = "cdma" as const;
+export const NETWORK_CONNECTION_SUBTYPE_VALUE_CDMA = 'cdma' as const;
 
 /**
  * Enum value "cdma2000_1xrtt" for attribute {@link ATTR_NETWORK_CONNECTION_SUBTYPE}.
  */
-export const NETWORK_CONNECTION_SUBTYPE_VALUE_CDMA2000_1XRTT = "cdma2000_1xrtt" as const;
+export const NETWORK_CONNECTION_SUBTYPE_VALUE_CDMA2000_1XRTT =
+  'cdma2000_1xrtt' as const;
 
 /**
  * Enum value "edge" for attribute {@link ATTR_NETWORK_CONNECTION_SUBTYPE}.
  */
-export const NETWORK_CONNECTION_SUBTYPE_VALUE_EDGE = "edge" as const;
+export const NETWORK_CONNECTION_SUBTYPE_VALUE_EDGE = 'edge' as const;
 
 /**
  * Enum value "ehrpd" for attribute {@link ATTR_NETWORK_CONNECTION_SUBTYPE}.
  */
-export const NETWORK_CONNECTION_SUBTYPE_VALUE_EHRPD = "ehrpd" as const;
+export const NETWORK_CONNECTION_SUBTYPE_VALUE_EHRPD = 'ehrpd' as const;
 
 /**
  * Enum value "evdo_0" for attribute {@link ATTR_NETWORK_CONNECTION_SUBTYPE}.
  */
-export const NETWORK_CONNECTION_SUBTYPE_VALUE_EVDO_0 = "evdo_0" as const;
+export const NETWORK_CONNECTION_SUBTYPE_VALUE_EVDO_0 = 'evdo_0' as const;
 
 /**
  * Enum value "evdo_a" for attribute {@link ATTR_NETWORK_CONNECTION_SUBTYPE}.
  */
-export const NETWORK_CONNECTION_SUBTYPE_VALUE_EVDO_A = "evdo_a" as const;
+export const NETWORK_CONNECTION_SUBTYPE_VALUE_EVDO_A = 'evdo_a' as const;
 
 /**
  * Enum value "evdo_b" for attribute {@link ATTR_NETWORK_CONNECTION_SUBTYPE}.
  */
-export const NETWORK_CONNECTION_SUBTYPE_VALUE_EVDO_B = "evdo_b" as const;
+export const NETWORK_CONNECTION_SUBTYPE_VALUE_EVDO_B = 'evdo_b' as const;
 
 /**
  * Enum value "gprs" for attribute {@link ATTR_NETWORK_CONNECTION_SUBTYPE}.
  */
-export const NETWORK_CONNECTION_SUBTYPE_VALUE_GPRS = "gprs" as const;
+export const NETWORK_CONNECTION_SUBTYPE_VALUE_GPRS = 'gprs' as const;
 
 /**
  * Enum value "gsm" for attribute {@link ATTR_NETWORK_CONNECTION_SUBTYPE}.
  */
-export const NETWORK_CONNECTION_SUBTYPE_VALUE_GSM = "gsm" as const;
+export const NETWORK_CONNECTION_SUBTYPE_VALUE_GSM = 'gsm' as const;
 
 /**
  * Enum value "hsdpa" for attribute {@link ATTR_NETWORK_CONNECTION_SUBTYPE}.
  */
-export const NETWORK_CONNECTION_SUBTYPE_VALUE_HSDPA = "hsdpa" as const;
+export const NETWORK_CONNECTION_SUBTYPE_VALUE_HSDPA = 'hsdpa' as const;
 
 /**
  * Enum value "hspa" for attribute {@link ATTR_NETWORK_CONNECTION_SUBTYPE}.
  */
-export const NETWORK_CONNECTION_SUBTYPE_VALUE_HSPA = "hspa" as const;
+export const NETWORK_CONNECTION_SUBTYPE_VALUE_HSPA = 'hspa' as const;
 
 /**
  * Enum value "hspap" for attribute {@link ATTR_NETWORK_CONNECTION_SUBTYPE}.
  */
-export const NETWORK_CONNECTION_SUBTYPE_VALUE_HSPAP = "hspap" as const;
+export const NETWORK_CONNECTION_SUBTYPE_VALUE_HSPAP = 'hspap' as const;
 
 /**
  * Enum value "hsupa" for attribute {@link ATTR_NETWORK_CONNECTION_SUBTYPE}.
  */
-export const NETWORK_CONNECTION_SUBTYPE_VALUE_HSUPA = "hsupa" as const;
+export const NETWORK_CONNECTION_SUBTYPE_VALUE_HSUPA = 'hsupa' as const;
 
 /**
  * Enum value "iden" for attribute {@link ATTR_NETWORK_CONNECTION_SUBTYPE}.
  */
-export const NETWORK_CONNECTION_SUBTYPE_VALUE_IDEN = "iden" as const;
+export const NETWORK_CONNECTION_SUBTYPE_VALUE_IDEN = 'iden' as const;
 
 /**
  * Enum value "iwlan" for attribute {@link ATTR_NETWORK_CONNECTION_SUBTYPE}.
  */
-export const NETWORK_CONNECTION_SUBTYPE_VALUE_IWLAN = "iwlan" as const;
+export const NETWORK_CONNECTION_SUBTYPE_VALUE_IWLAN = 'iwlan' as const;
 
 /**
  * Enum value "lte" for attribute {@link ATTR_NETWORK_CONNECTION_SUBTYPE}.
  */
-export const NETWORK_CONNECTION_SUBTYPE_VALUE_LTE = "lte" as const;
+export const NETWORK_CONNECTION_SUBTYPE_VALUE_LTE = 'lte' as const;
 
 /**
  * Enum value "lte_ca" for attribute {@link ATTR_NETWORK_CONNECTION_SUBTYPE}.
  */
-export const NETWORK_CONNECTION_SUBTYPE_VALUE_LTE_CA = "lte_ca" as const;
+export const NETWORK_CONNECTION_SUBTYPE_VALUE_LTE_CA = 'lte_ca' as const;
 
 /**
  * Enum value "nr" for attribute {@link ATTR_NETWORK_CONNECTION_SUBTYPE}.
  */
-export const NETWORK_CONNECTION_SUBTYPE_VALUE_NR = "nr" as const;
+export const NETWORK_CONNECTION_SUBTYPE_VALUE_NR = 'nr' as const;
 
 /**
  * Enum value "nrnsa" for attribute {@link ATTR_NETWORK_CONNECTION_SUBTYPE}.
  */
-export const NETWORK_CONNECTION_SUBTYPE_VALUE_NRNSA = "nrnsa" as const;
+export const NETWORK_CONNECTION_SUBTYPE_VALUE_NRNSA = 'nrnsa' as const;
 
 /**
  * Enum value "td_scdma" for attribute {@link ATTR_NETWORK_CONNECTION_SUBTYPE}.
  */
-export const NETWORK_CONNECTION_SUBTYPE_VALUE_TD_SCDMA = "td_scdma" as const;
+export const NETWORK_CONNECTION_SUBTYPE_VALUE_TD_SCDMA = 'td_scdma' as const;
 
 /**
  * Enum value "umts" for attribute {@link ATTR_NETWORK_CONNECTION_SUBTYPE}.
  */
-export const NETWORK_CONNECTION_SUBTYPE_VALUE_UMTS = "umts" as const;
+export const NETWORK_CONNECTION_SUBTYPE_VALUE_UMTS = 'umts' as const;
 
 /**
  * The internet connection type.
@@ -7501,27 +7745,27 @@ export const ATTR_NETWORK_CONNECTION_TYPE = 'network.connection.type' as const;
 /**
  * Enum value "cell" for attribute {@link ATTR_NETWORK_CONNECTION_TYPE}.
  */
-export const NETWORK_CONNECTION_TYPE_VALUE_CELL = "cell" as const;
+export const NETWORK_CONNECTION_TYPE_VALUE_CELL = 'cell' as const;
 
 /**
  * Enum value "unavailable" for attribute {@link ATTR_NETWORK_CONNECTION_TYPE}.
  */
-export const NETWORK_CONNECTION_TYPE_VALUE_UNAVAILABLE = "unavailable" as const;
+export const NETWORK_CONNECTION_TYPE_VALUE_UNAVAILABLE = 'unavailable' as const;
 
 /**
  * Enum value "unknown" for attribute {@link ATTR_NETWORK_CONNECTION_TYPE}.
  */
-export const NETWORK_CONNECTION_TYPE_VALUE_UNKNOWN = "unknown" as const;
+export const NETWORK_CONNECTION_TYPE_VALUE_UNKNOWN = 'unknown' as const;
 
 /**
  * Enum value "wifi" for attribute {@link ATTR_NETWORK_CONNECTION_TYPE}.
  */
-export const NETWORK_CONNECTION_TYPE_VALUE_WIFI = "wifi" as const;
+export const NETWORK_CONNECTION_TYPE_VALUE_WIFI = 'wifi' as const;
 
 /**
  * Enum value "wired" for attribute {@link ATTR_NETWORK_CONNECTION_TYPE}.
  */
-export const NETWORK_CONNECTION_TYPE_VALUE_WIRED = "wired" as const;
+export const NETWORK_CONNECTION_TYPE_VALUE_WIRED = 'wired' as const;
 
 /**
  * The network interface name.
@@ -7545,12 +7789,12 @@ export const ATTR_NETWORK_IO_DIRECTION = 'network.io.direction' as const;
 /**
  * Enum value "receive" for attribute {@link ATTR_NETWORK_IO_DIRECTION}.
  */
-export const NETWORK_IO_DIRECTION_VALUE_RECEIVE = "receive" as const;
+export const NETWORK_IO_DIRECTION_VALUE_RECEIVE = 'receive' as const;
 
 /**
  * Enum value "transmit" for attribute {@link ATTR_NETWORK_IO_DIRECTION}.
  */
-export const NETWORK_IO_DIRECTION_VALUE_TRANSMIT = "transmit" as const;
+export const NETWORK_IO_DIRECTION_VALUE_TRANSMIT = 'transmit' as const;
 
 /**
  * The state of event loop time.
@@ -7562,12 +7806,12 @@ export const ATTR_NODEJS_EVENTLOOP_STATE = 'nodejs.eventloop.state' as const;
 /**
  * Enum value "active" for attribute {@link ATTR_NODEJS_EVENTLOOP_STATE}.
  */
-export const NODEJS_EVENTLOOP_STATE_VALUE_ACTIVE = "active" as const;
+export const NODEJS_EVENTLOOP_STATE_VALUE_ACTIVE = 'active' as const;
 
 /**
  * Enum value "idle" for attribute {@link ATTR_NODEJS_EVENTLOOP_STATE}.
  */
-export const NODEJS_EVENTLOOP_STATE_VALUE_IDLE = "idle" as const;
+export const NODEJS_EVENTLOOP_STATE_VALUE_IDLE = 'idle' as const;
 
 /**
  * The digest of the OCI image manifest. For container images specifically is the digest by which the container image is known.
@@ -7593,12 +7837,12 @@ export const ATTR_OPENTRACING_REF_TYPE = 'opentracing.ref_type' as const;
 /**
  * Enum value "child_of" for attribute {@link ATTR_OPENTRACING_REF_TYPE}.
  */
-export const OPENTRACING_REF_TYPE_VALUE_CHILD_OF = "child_of" as const;
+export const OPENTRACING_REF_TYPE_VALUE_CHILD_OF = 'child_of' as const;
 
 /**
  * Enum value "follows_from" for attribute {@link ATTR_OPENTRACING_REF_TYPE}.
  */
-export const OPENTRACING_REF_TYPE_VALUE_FOLLOWS_FROM = "follows_from" as const;
+export const OPENTRACING_REF_TYPE_VALUE_FOLLOWS_FROM = 'follows_from' as const;
 
 /**
  * Unique identifier for a particular build or compilation of the operating system.
@@ -7642,57 +7886,57 @@ export const ATTR_OS_TYPE = 'os.type' as const;
 /**
  * Enum value "aix" for attribute {@link ATTR_OS_TYPE}.
  */
-export const OS_TYPE_VALUE_AIX = "aix" as const;
+export const OS_TYPE_VALUE_AIX = 'aix' as const;
 
 /**
  * Enum value "darwin" for attribute {@link ATTR_OS_TYPE}.
  */
-export const OS_TYPE_VALUE_DARWIN = "darwin" as const;
+export const OS_TYPE_VALUE_DARWIN = 'darwin' as const;
 
 /**
  * Enum value "dragonflybsd" for attribute {@link ATTR_OS_TYPE}.
  */
-export const OS_TYPE_VALUE_DRAGONFLYBSD = "dragonflybsd" as const;
+export const OS_TYPE_VALUE_DRAGONFLYBSD = 'dragonflybsd' as const;
 
 /**
  * Enum value "freebsd" for attribute {@link ATTR_OS_TYPE}.
  */
-export const OS_TYPE_VALUE_FREEBSD = "freebsd" as const;
+export const OS_TYPE_VALUE_FREEBSD = 'freebsd' as const;
 
 /**
  * Enum value "hpux" for attribute {@link ATTR_OS_TYPE}.
  */
-export const OS_TYPE_VALUE_HPUX = "hpux" as const;
+export const OS_TYPE_VALUE_HPUX = 'hpux' as const;
 
 /**
  * Enum value "linux" for attribute {@link ATTR_OS_TYPE}.
  */
-export const OS_TYPE_VALUE_LINUX = "linux" as const;
+export const OS_TYPE_VALUE_LINUX = 'linux' as const;
 
 /**
  * Enum value "netbsd" for attribute {@link ATTR_OS_TYPE}.
  */
-export const OS_TYPE_VALUE_NETBSD = "netbsd" as const;
+export const OS_TYPE_VALUE_NETBSD = 'netbsd' as const;
 
 /**
  * Enum value "openbsd" for attribute {@link ATTR_OS_TYPE}.
  */
-export const OS_TYPE_VALUE_OPENBSD = "openbsd" as const;
+export const OS_TYPE_VALUE_OPENBSD = 'openbsd' as const;
 
 /**
  * Enum value "solaris" for attribute {@link ATTR_OS_TYPE}.
  */
-export const OS_TYPE_VALUE_SOLARIS = "solaris" as const;
+export const OS_TYPE_VALUE_SOLARIS = 'solaris' as const;
 
 /**
  * Enum value "windows" for attribute {@link ATTR_OS_TYPE}.
  */
-export const OS_TYPE_VALUE_WINDOWS = "windows" as const;
+export const OS_TYPE_VALUE_WINDOWS = 'windows' as const;
 
 /**
  * Enum value "z_os" for attribute {@link ATTR_OS_TYPE}.
  */
-export const OS_TYPE_VALUE_Z_OS = "z_os" as const;
+export const OS_TYPE_VALUE_Z_OS = 'z_os' as const;
 
 /**
  * The version string of the operating system as defined in [Version Attributes](/docs/resource/README.md#version-attributes).
@@ -7744,72 +7988,86 @@ export const ATTR_OTEL_COMPONENT_TYPE = 'otel.component.type' as const;
 /**
  * Enum value "batching_log_processor" for attribute {@link ATTR_OTEL_COMPONENT_TYPE}.
  */
-export const OTEL_COMPONENT_TYPE_VALUE_BATCHING_LOG_PROCESSOR = "batching_log_processor" as const;
+export const OTEL_COMPONENT_TYPE_VALUE_BATCHING_LOG_PROCESSOR =
+  'batching_log_processor' as const;
 
 /**
  * Enum value "batching_span_processor" for attribute {@link ATTR_OTEL_COMPONENT_TYPE}.
  */
-export const OTEL_COMPONENT_TYPE_VALUE_BATCHING_SPAN_PROCESSOR = "batching_span_processor" as const;
+export const OTEL_COMPONENT_TYPE_VALUE_BATCHING_SPAN_PROCESSOR =
+  'batching_span_processor' as const;
 
 /**
  * Enum value "otlp_grpc_log_exporter" for attribute {@link ATTR_OTEL_COMPONENT_TYPE}.
  */
-export const OTEL_COMPONENT_TYPE_VALUE_OTLP_GRPC_LOG_EXPORTER = "otlp_grpc_log_exporter" as const;
+export const OTEL_COMPONENT_TYPE_VALUE_OTLP_GRPC_LOG_EXPORTER =
+  'otlp_grpc_log_exporter' as const;
 
 /**
  * Enum value "otlp_grpc_metric_exporter" for attribute {@link ATTR_OTEL_COMPONENT_TYPE}.
  */
-export const OTEL_COMPONENT_TYPE_VALUE_OTLP_GRPC_METRIC_EXPORTER = "otlp_grpc_metric_exporter" as const;
+export const OTEL_COMPONENT_TYPE_VALUE_OTLP_GRPC_METRIC_EXPORTER =
+  'otlp_grpc_metric_exporter' as const;
 
 /**
  * Enum value "otlp_grpc_span_exporter" for attribute {@link ATTR_OTEL_COMPONENT_TYPE}.
  */
-export const OTEL_COMPONENT_TYPE_VALUE_OTLP_GRPC_SPAN_EXPORTER = "otlp_grpc_span_exporter" as const;
+export const OTEL_COMPONENT_TYPE_VALUE_OTLP_GRPC_SPAN_EXPORTER =
+  'otlp_grpc_span_exporter' as const;
 
 /**
  * Enum value "otlp_http_json_log_exporter" for attribute {@link ATTR_OTEL_COMPONENT_TYPE}.
  */
-export const OTEL_COMPONENT_TYPE_VALUE_OTLP_HTTP_JSON_LOG_EXPORTER = "otlp_http_json_log_exporter" as const;
+export const OTEL_COMPONENT_TYPE_VALUE_OTLP_HTTP_JSON_LOG_EXPORTER =
+  'otlp_http_json_log_exporter' as const;
 
 /**
  * Enum value "otlp_http_json_metric_exporter" for attribute {@link ATTR_OTEL_COMPONENT_TYPE}.
  */
-export const OTEL_COMPONENT_TYPE_VALUE_OTLP_HTTP_JSON_METRIC_EXPORTER = "otlp_http_json_metric_exporter" as const;
+export const OTEL_COMPONENT_TYPE_VALUE_OTLP_HTTP_JSON_METRIC_EXPORTER =
+  'otlp_http_json_metric_exporter' as const;
 
 /**
  * Enum value "otlp_http_json_span_exporter" for attribute {@link ATTR_OTEL_COMPONENT_TYPE}.
  */
-export const OTEL_COMPONENT_TYPE_VALUE_OTLP_HTTP_JSON_SPAN_EXPORTER = "otlp_http_json_span_exporter" as const;
+export const OTEL_COMPONENT_TYPE_VALUE_OTLP_HTTP_JSON_SPAN_EXPORTER =
+  'otlp_http_json_span_exporter' as const;
 
 /**
  * Enum value "otlp_http_log_exporter" for attribute {@link ATTR_OTEL_COMPONENT_TYPE}.
  */
-export const OTEL_COMPONENT_TYPE_VALUE_OTLP_HTTP_LOG_EXPORTER = "otlp_http_log_exporter" as const;
+export const OTEL_COMPONENT_TYPE_VALUE_OTLP_HTTP_LOG_EXPORTER =
+  'otlp_http_log_exporter' as const;
 
 /**
  * Enum value "otlp_http_metric_exporter" for attribute {@link ATTR_OTEL_COMPONENT_TYPE}.
  */
-export const OTEL_COMPONENT_TYPE_VALUE_OTLP_HTTP_METRIC_EXPORTER = "otlp_http_metric_exporter" as const;
+export const OTEL_COMPONENT_TYPE_VALUE_OTLP_HTTP_METRIC_EXPORTER =
+  'otlp_http_metric_exporter' as const;
 
 /**
  * Enum value "otlp_http_span_exporter" for attribute {@link ATTR_OTEL_COMPONENT_TYPE}.
  */
-export const OTEL_COMPONENT_TYPE_VALUE_OTLP_HTTP_SPAN_EXPORTER = "otlp_http_span_exporter" as const;
+export const OTEL_COMPONENT_TYPE_VALUE_OTLP_HTTP_SPAN_EXPORTER =
+  'otlp_http_span_exporter' as const;
 
 /**
  * Enum value "periodic_metric_reader" for attribute {@link ATTR_OTEL_COMPONENT_TYPE}.
  */
-export const OTEL_COMPONENT_TYPE_VALUE_PERIODIC_METRIC_READER = "periodic_metric_reader" as const;
+export const OTEL_COMPONENT_TYPE_VALUE_PERIODIC_METRIC_READER =
+  'periodic_metric_reader' as const;
 
 /**
  * Enum value "simple_log_processor" for attribute {@link ATTR_OTEL_COMPONENT_TYPE}.
  */
-export const OTEL_COMPONENT_TYPE_VALUE_SIMPLE_LOG_PROCESSOR = "simple_log_processor" as const;
+export const OTEL_COMPONENT_TYPE_VALUE_SIMPLE_LOG_PROCESSOR =
+  'simple_log_processor' as const;
 
 /**
  * Enum value "simple_span_processor" for attribute {@link ATTR_OTEL_COMPONENT_TYPE}.
  */
-export const OTEL_COMPONENT_TYPE_VALUE_SIMPLE_SPAN_PROCESSOR = "simple_span_processor" as const;
+export const OTEL_COMPONENT_TYPE_VALUE_SIMPLE_SPAN_PROCESSOR =
+  'simple_span_processor' as const;
 
 /**
  * Deprecated. Use the `otel.scope.name` attribute
@@ -7838,22 +8096,25 @@ export const ATTR_OTEL_LIBRARY_VERSION = 'otel.library.version' as const;
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_OTEL_SPAN_SAMPLING_RESULT = 'otel.span.sampling_result' as const;
+export const ATTR_OTEL_SPAN_SAMPLING_RESULT =
+  'otel.span.sampling_result' as const;
 
 /**
  * Enum value "DROP" for attribute {@link ATTR_OTEL_SPAN_SAMPLING_RESULT}.
  */
-export const OTEL_SPAN_SAMPLING_RESULT_VALUE_DROP = "DROP" as const;
+export const OTEL_SPAN_SAMPLING_RESULT_VALUE_DROP = 'DROP' as const;
 
 /**
  * Enum value "RECORD_AND_SAMPLE" for attribute {@link ATTR_OTEL_SPAN_SAMPLING_RESULT}.
  */
-export const OTEL_SPAN_SAMPLING_RESULT_VALUE_RECORD_AND_SAMPLE = "RECORD_AND_SAMPLE" as const;
+export const OTEL_SPAN_SAMPLING_RESULT_VALUE_RECORD_AND_SAMPLE =
+  'RECORD_AND_SAMPLE' as const;
 
 /**
  * Enum value "RECORD_ONLY" for attribute {@link ATTR_OTEL_SPAN_SAMPLING_RESULT}.
  */
-export const OTEL_SPAN_SAMPLING_RESULT_VALUE_RECORD_ONLY = "RECORD_ONLY" as const;
+export const OTEL_SPAN_SAMPLING_RESULT_VALUE_RECORD_ONLY =
+  'RECORD_ONLY' as const;
 
 /**
  * The [`service.name`](/docs/resource/README.md#service) of the remote service. **SHOULD** be equal to the actual `service.name` resource attribute of the remote service if any.
@@ -7918,17 +8179,19 @@ export const ATTR_PROCESS_COMMAND_LINE = 'process.command_line' as const;
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_PROCESS_CONTEXT_SWITCH_TYPE = 'process.context_switch_type' as const;
+export const ATTR_PROCESS_CONTEXT_SWITCH_TYPE =
+  'process.context_switch_type' as const;
 
 /**
  * Enum value "involuntary" for attribute {@link ATTR_PROCESS_CONTEXT_SWITCH_TYPE}.
  */
-export const PROCESS_CONTEXT_SWITCH_TYPE_VALUE_INVOLUNTARY = "involuntary" as const;
+export const PROCESS_CONTEXT_SWITCH_TYPE_VALUE_INVOLUNTARY =
+  'involuntary' as const;
 
 /**
  * Enum value "voluntary" for attribute {@link ATTR_PROCESS_CONTEXT_SWITCH_TYPE}.
  */
-export const PROCESS_CONTEXT_SWITCH_TYPE_VALUE_VOLUNTARY = "voluntary" as const;
+export const PROCESS_CONTEXT_SWITCH_TYPE_VALUE_VOLUNTARY = 'voluntary' as const;
 
 /**
  * Deprecated, use `cpu.mode` instead.
@@ -7942,17 +8205,17 @@ export const ATTR_PROCESS_CPU_STATE = 'process.cpu.state' as const;
 /**
  * Enum value "system" for attribute {@link ATTR_PROCESS_CPU_STATE}.
  */
-export const PROCESS_CPU_STATE_VALUE_SYSTEM = "system" as const;
+export const PROCESS_CPU_STATE_VALUE_SYSTEM = 'system' as const;
 
 /**
  * Enum value "user" for attribute {@link ATTR_PROCESS_CPU_STATE}.
  */
-export const PROCESS_CPU_STATE_VALUE_USER = "user" as const;
+export const PROCESS_CPU_STATE_VALUE_USER = 'user' as const;
 
 /**
  * Enum value "wait" for attribute {@link ATTR_PROCESS_CPU_STATE}.
  */
-export const PROCESS_CPU_STATE_VALUE_WAIT = "wait" as const;
+export const PROCESS_CPU_STATE_VALUE_WAIT = 'wait' as const;
 
 /**
  * The date and time the process was created, in ISO 8601 format.
@@ -7979,7 +8242,8 @@ export const ATTR_PROCESS_CREATION_TIME = 'process.creation.time' as const;
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_PROCESS_ENVIRONMENT_VARIABLE = (key: string) => `process.environment_variable.${key}`;
+export const ATTR_PROCESS_ENVIRONMENT_VARIABLE = (key: string) =>
+  `process.environment_variable.${key}`;
 
 /**
  * The GNU build ID as found in the `.note.gnu.build-id` ELF section (hex string).
@@ -7988,7 +8252,8 @@ export const ATTR_PROCESS_ENVIRONMENT_VARIABLE = (key: string) => `process.envir
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_PROCESS_EXECUTABLE_BUILD_ID_GNU = 'process.executable.build_id.gnu' as const;
+export const ATTR_PROCESS_EXECUTABLE_BUILD_ID_GNU =
+  'process.executable.build_id.gnu' as const;
 
 /**
  * The Go build ID as retrieved by `go tool buildid <go executable>`.
@@ -7997,7 +8262,8 @@ export const ATTR_PROCESS_EXECUTABLE_BUILD_ID_GNU = 'process.executable.build_id
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_PROCESS_EXECUTABLE_BUILD_ID_GO = 'process.executable.build_id.go' as const;
+export const ATTR_PROCESS_EXECUTABLE_BUILD_ID_GO =
+  'process.executable.build_id.go' as const;
 
 /**
  * Profiling specific build ID for executables. See the OTel specification for Profiles for more information.
@@ -8006,7 +8272,8 @@ export const ATTR_PROCESS_EXECUTABLE_BUILD_ID_GO = 'process.executable.build_id.
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_PROCESS_EXECUTABLE_BUILD_ID_HTLHASH = 'process.executable.build_id.htlhash' as const;
+export const ATTR_PROCESS_EXECUTABLE_BUILD_ID_HTLHASH =
+  'process.executable.build_id.htlhash' as const;
 
 /**
  * "Deprecated, use `process.executable.build_id.htlhash` instead."
@@ -8017,7 +8284,8 @@ export const ATTR_PROCESS_EXECUTABLE_BUILD_ID_HTLHASH = 'process.executable.buil
  *
  * @deprecated Replaced by `process.executable.build_id.htlhash`.
  */
-export const ATTR_PROCESS_EXECUTABLE_BUILD_ID_PROFILING = 'process.executable.build_id.profiling' as const;
+export const ATTR_PROCESS_EXECUTABLE_BUILD_ID_PROFILING =
+  'process.executable.build_id.profiling' as const;
 
 /**
  * The name of the process executable. On Linux based systems, this **SHOULD** be set to the base name of the target of `/proc/[pid]/exe`. On Windows, this **SHOULD** be set to the base name of `GetProcessImageFileNameW`.
@@ -8062,7 +8330,8 @@ export const ATTR_PROCESS_EXIT_TIME = 'process.exit.time' as const;
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_PROCESS_GROUP_LEADER_PID = 'process.group_leader.pid' as const;
+export const ATTR_PROCESS_GROUP_LEADER_PID =
+  'process.group_leader.pid' as const;
 
 /**
  * Whether the process is connected to an interactive shell.
@@ -8097,17 +8366,18 @@ export const ATTR_PROCESS_OWNER = 'process.owner' as const;
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_PROCESS_PAGING_FAULT_TYPE = 'process.paging.fault_type' as const;
+export const ATTR_PROCESS_PAGING_FAULT_TYPE =
+  'process.paging.fault_type' as const;
 
 /**
  * Enum value "major" for attribute {@link ATTR_PROCESS_PAGING_FAULT_TYPE}.
  */
-export const PROCESS_PAGING_FAULT_TYPE_VALUE_MAJOR = "major" as const;
+export const PROCESS_PAGING_FAULT_TYPE_VALUE_MAJOR = 'major' as const;
 
 /**
  * Enum value "minor" for attribute {@link ATTR_PROCESS_PAGING_FAULT_TYPE}.
  */
-export const PROCESS_PAGING_FAULT_TYPE_VALUE_MINOR = "minor" as const;
+export const PROCESS_PAGING_FAULT_TYPE_VALUE_MINOR = 'minor' as const;
 
 /**
  * Parent Process identifier (PPID).
@@ -8152,7 +8422,8 @@ export const ATTR_PROCESS_REAL_USER_NAME = 'process.real_user.name' as const;
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_PROCESS_RUNTIME_DESCRIPTION = 'process.runtime.description' as const;
+export const ATTR_PROCESS_RUNTIME_DESCRIPTION =
+  'process.runtime.description' as const;
 
 /**
  * The name of the runtime of this process.
@@ -8197,7 +8468,8 @@ export const ATTR_PROCESS_SAVED_USER_NAME = 'process.saved_user.name' as const;
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_PROCESS_SESSION_LEADER_PID = 'process.session_leader.pid' as const;
+export const ATTR_PROCESS_SESSION_LEADER_PID =
+  'process.session_leader.pid' as const;
 
 /**
  * Process title (proctitle)
@@ -8248,7 +8520,8 @@ export const ATTR_PROCESS_VPID = 'process.vpid' as const;
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_PROCESS_WORKING_DIRECTORY = 'process.working_directory' as const;
+export const ATTR_PROCESS_WORKING_DIRECTORY =
+  'process.working_directory' as const;
 
 /**
  * Describes the interpreter or compiler of a single frame.
@@ -8262,149 +8535,160 @@ export const ATTR_PROFILE_FRAME_TYPE = 'profile.frame.type' as const;
 /**
  * Enum value "beam" for attribute {@link ATTR_PROFILE_FRAME_TYPE}.
  */
-export const PROFILE_FRAME_TYPE_VALUE_BEAM = "beam" as const;
+export const PROFILE_FRAME_TYPE_VALUE_BEAM = 'beam' as const;
 
 /**
  * Enum value "cpython" for attribute {@link ATTR_PROFILE_FRAME_TYPE}.
  */
-export const PROFILE_FRAME_TYPE_VALUE_CPYTHON = "cpython" as const;
+export const PROFILE_FRAME_TYPE_VALUE_CPYTHON = 'cpython' as const;
 
 /**
  * Enum value "dotnet" for attribute {@link ATTR_PROFILE_FRAME_TYPE}.
  */
-export const PROFILE_FRAME_TYPE_VALUE_DOTNET = "dotnet" as const;
+export const PROFILE_FRAME_TYPE_VALUE_DOTNET = 'dotnet' as const;
 
 /**
  * Enum value "go" for attribute {@link ATTR_PROFILE_FRAME_TYPE}.
  */
-export const PROFILE_FRAME_TYPE_VALUE_GO = "go" as const;
+export const PROFILE_FRAME_TYPE_VALUE_GO = 'go' as const;
 
 /**
  * Enum value "jvm" for attribute {@link ATTR_PROFILE_FRAME_TYPE}.
  */
-export const PROFILE_FRAME_TYPE_VALUE_JVM = "jvm" as const;
+export const PROFILE_FRAME_TYPE_VALUE_JVM = 'jvm' as const;
 
 /**
  * Enum value "kernel" for attribute {@link ATTR_PROFILE_FRAME_TYPE}.
  */
-export const PROFILE_FRAME_TYPE_VALUE_KERNEL = "kernel" as const;
+export const PROFILE_FRAME_TYPE_VALUE_KERNEL = 'kernel' as const;
 
 /**
  * Enum value "native" for attribute {@link ATTR_PROFILE_FRAME_TYPE}.
  */
-export const PROFILE_FRAME_TYPE_VALUE_NATIVE = "native" as const;
+export const PROFILE_FRAME_TYPE_VALUE_NATIVE = 'native' as const;
 
 /**
  * Enum value "perl" for attribute {@link ATTR_PROFILE_FRAME_TYPE}.
  */
-export const PROFILE_FRAME_TYPE_VALUE_PERL = "perl" as const;
+export const PROFILE_FRAME_TYPE_VALUE_PERL = 'perl' as const;
 
 /**
  * Enum value "php" for attribute {@link ATTR_PROFILE_FRAME_TYPE}.
  */
-export const PROFILE_FRAME_TYPE_VALUE_PHP = "php" as const;
+export const PROFILE_FRAME_TYPE_VALUE_PHP = 'php' as const;
 
 /**
  * Enum value "ruby" for attribute {@link ATTR_PROFILE_FRAME_TYPE}.
  */
-export const PROFILE_FRAME_TYPE_VALUE_RUBY = "ruby" as const;
+export const PROFILE_FRAME_TYPE_VALUE_RUBY = 'ruby' as const;
 
 /**
  * Enum value "rust" for attribute {@link ATTR_PROFILE_FRAME_TYPE}.
  */
-export const PROFILE_FRAME_TYPE_VALUE_RUST = "rust" as const;
+export const PROFILE_FRAME_TYPE_VALUE_RUST = 'rust' as const;
 
 /**
  * Enum value "v8js" for attribute {@link ATTR_PROFILE_FRAME_TYPE}.
  */
-export const PROFILE_FRAME_TYPE_VALUE_V8JS = "v8js" as const;
+export const PROFILE_FRAME_TYPE_VALUE_V8JS = 'v8js' as const;
 
 /**
  * The [error codes](https://connectrpc.com//docs/protocol/#error-codes) of the Connect request. Error codes are always string values.
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_RPC_CONNECT_RPC_ERROR_CODE = 'rpc.connect_rpc.error_code' as const;
+export const ATTR_RPC_CONNECT_RPC_ERROR_CODE =
+  'rpc.connect_rpc.error_code' as const;
 
 /**
  * Enum value "aborted" for attribute {@link ATTR_RPC_CONNECT_RPC_ERROR_CODE}.
  */
-export const RPC_CONNECT_RPC_ERROR_CODE_VALUE_ABORTED = "aborted" as const;
+export const RPC_CONNECT_RPC_ERROR_CODE_VALUE_ABORTED = 'aborted' as const;
 
 /**
  * Enum value "already_exists" for attribute {@link ATTR_RPC_CONNECT_RPC_ERROR_CODE}.
  */
-export const RPC_CONNECT_RPC_ERROR_CODE_VALUE_ALREADY_EXISTS = "already_exists" as const;
+export const RPC_CONNECT_RPC_ERROR_CODE_VALUE_ALREADY_EXISTS =
+  'already_exists' as const;
 
 /**
  * Enum value "cancelled" for attribute {@link ATTR_RPC_CONNECT_RPC_ERROR_CODE}.
  */
-export const RPC_CONNECT_RPC_ERROR_CODE_VALUE_CANCELLED = "cancelled" as const;
+export const RPC_CONNECT_RPC_ERROR_CODE_VALUE_CANCELLED = 'cancelled' as const;
 
 /**
  * Enum value "data_loss" for attribute {@link ATTR_RPC_CONNECT_RPC_ERROR_CODE}.
  */
-export const RPC_CONNECT_RPC_ERROR_CODE_VALUE_DATA_LOSS = "data_loss" as const;
+export const RPC_CONNECT_RPC_ERROR_CODE_VALUE_DATA_LOSS = 'data_loss' as const;
 
 /**
  * Enum value "deadline_exceeded" for attribute {@link ATTR_RPC_CONNECT_RPC_ERROR_CODE}.
  */
-export const RPC_CONNECT_RPC_ERROR_CODE_VALUE_DEADLINE_EXCEEDED = "deadline_exceeded" as const;
+export const RPC_CONNECT_RPC_ERROR_CODE_VALUE_DEADLINE_EXCEEDED =
+  'deadline_exceeded' as const;
 
 /**
  * Enum value "failed_precondition" for attribute {@link ATTR_RPC_CONNECT_RPC_ERROR_CODE}.
  */
-export const RPC_CONNECT_RPC_ERROR_CODE_VALUE_FAILED_PRECONDITION = "failed_precondition" as const;
+export const RPC_CONNECT_RPC_ERROR_CODE_VALUE_FAILED_PRECONDITION =
+  'failed_precondition' as const;
 
 /**
  * Enum value "internal" for attribute {@link ATTR_RPC_CONNECT_RPC_ERROR_CODE}.
  */
-export const RPC_CONNECT_RPC_ERROR_CODE_VALUE_INTERNAL = "internal" as const;
+export const RPC_CONNECT_RPC_ERROR_CODE_VALUE_INTERNAL = 'internal' as const;
 
 /**
  * Enum value "invalid_argument" for attribute {@link ATTR_RPC_CONNECT_RPC_ERROR_CODE}.
  */
-export const RPC_CONNECT_RPC_ERROR_CODE_VALUE_INVALID_ARGUMENT = "invalid_argument" as const;
+export const RPC_CONNECT_RPC_ERROR_CODE_VALUE_INVALID_ARGUMENT =
+  'invalid_argument' as const;
 
 /**
  * Enum value "not_found" for attribute {@link ATTR_RPC_CONNECT_RPC_ERROR_CODE}.
  */
-export const RPC_CONNECT_RPC_ERROR_CODE_VALUE_NOT_FOUND = "not_found" as const;
+export const RPC_CONNECT_RPC_ERROR_CODE_VALUE_NOT_FOUND = 'not_found' as const;
 
 /**
  * Enum value "out_of_range" for attribute {@link ATTR_RPC_CONNECT_RPC_ERROR_CODE}.
  */
-export const RPC_CONNECT_RPC_ERROR_CODE_VALUE_OUT_OF_RANGE = "out_of_range" as const;
+export const RPC_CONNECT_RPC_ERROR_CODE_VALUE_OUT_OF_RANGE =
+  'out_of_range' as const;
 
 /**
  * Enum value "permission_denied" for attribute {@link ATTR_RPC_CONNECT_RPC_ERROR_CODE}.
  */
-export const RPC_CONNECT_RPC_ERROR_CODE_VALUE_PERMISSION_DENIED = "permission_denied" as const;
+export const RPC_CONNECT_RPC_ERROR_CODE_VALUE_PERMISSION_DENIED =
+  'permission_denied' as const;
 
 /**
  * Enum value "resource_exhausted" for attribute {@link ATTR_RPC_CONNECT_RPC_ERROR_CODE}.
  */
-export const RPC_CONNECT_RPC_ERROR_CODE_VALUE_RESOURCE_EXHAUSTED = "resource_exhausted" as const;
+export const RPC_CONNECT_RPC_ERROR_CODE_VALUE_RESOURCE_EXHAUSTED =
+  'resource_exhausted' as const;
 
 /**
  * Enum value "unauthenticated" for attribute {@link ATTR_RPC_CONNECT_RPC_ERROR_CODE}.
  */
-export const RPC_CONNECT_RPC_ERROR_CODE_VALUE_UNAUTHENTICATED = "unauthenticated" as const;
+export const RPC_CONNECT_RPC_ERROR_CODE_VALUE_UNAUTHENTICATED =
+  'unauthenticated' as const;
 
 /**
  * Enum value "unavailable" for attribute {@link ATTR_RPC_CONNECT_RPC_ERROR_CODE}.
  */
-export const RPC_CONNECT_RPC_ERROR_CODE_VALUE_UNAVAILABLE = "unavailable" as const;
+export const RPC_CONNECT_RPC_ERROR_CODE_VALUE_UNAVAILABLE =
+  'unavailable' as const;
 
 /**
  * Enum value "unimplemented" for attribute {@link ATTR_RPC_CONNECT_RPC_ERROR_CODE}.
  */
-export const RPC_CONNECT_RPC_ERROR_CODE_VALUE_UNIMPLEMENTED = "unimplemented" as const;
+export const RPC_CONNECT_RPC_ERROR_CODE_VALUE_UNIMPLEMENTED =
+  'unimplemented' as const;
 
 /**
  * Enum value "unknown" for attribute {@link ATTR_RPC_CONNECT_RPC_ERROR_CODE}.
  */
-export const RPC_CONNECT_RPC_ERROR_CODE_VALUE_UNKNOWN = "unknown" as const;
+export const RPC_CONNECT_RPC_ERROR_CODE_VALUE_UNKNOWN = 'unknown' as const;
 
 /**
  * Connect request metadata, `<key>` being the normalized Connect Metadata key (lowercase), the value being the metadata values.
@@ -8419,7 +8703,8 @@ export const RPC_CONNECT_RPC_ERROR_CODE_VALUE_UNKNOWN = "unknown" as const;
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_RPC_CONNECT_RPC_REQUEST_METADATA = (key: string) => `rpc.connect_rpc.request.metadata.${key}`;
+export const ATTR_RPC_CONNECT_RPC_REQUEST_METADATA = (key: string) =>
+  `rpc.connect_rpc.request.metadata.${key}`;
 
 /**
  * Connect response metadata, `<key>` being the normalized Connect Metadata key (lowercase), the value being the metadata values.
@@ -8434,7 +8719,8 @@ export const ATTR_RPC_CONNECT_RPC_REQUEST_METADATA = (key: string) => `rpc.conne
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_RPC_CONNECT_RPC_RESPONSE_METADATA = (key: string) => `rpc.connect_rpc.response.metadata.${key}`;
+export const ATTR_RPC_CONNECT_RPC_RESPONSE_METADATA = (key: string) =>
+  `rpc.connect_rpc.response.metadata.${key}`;
 
 /**
  * gRPC request metadata, `<key>` being the normalized gRPC Metadata key (lowercase), the value being the metadata values.
@@ -8449,7 +8735,8 @@ export const ATTR_RPC_CONNECT_RPC_RESPONSE_METADATA = (key: string) => `rpc.conn
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_RPC_GRPC_REQUEST_METADATA = (key: string) => `rpc.grpc.request.metadata.${key}`;
+export const ATTR_RPC_GRPC_REQUEST_METADATA = (key: string) =>
+  `rpc.grpc.request.metadata.${key}`;
 
 /**
  * gRPC response metadata, `<key>` being the normalized gRPC Metadata key (lowercase), the value being the metadata values.
@@ -8464,7 +8751,8 @@ export const ATTR_RPC_GRPC_REQUEST_METADATA = (key: string) => `rpc.grpc.request
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_RPC_GRPC_RESPONSE_METADATA = (key: string) => `rpc.grpc.response.metadata.${key}`;
+export const ATTR_RPC_GRPC_RESPONSE_METADATA = (key: string) =>
+  `rpc.grpc.response.metadata.${key}`;
 
 /**
  * The [numeric status code](https://github.com/grpc/grpc/blob/v1.33.2/doc/statuscodes.md) of the gRPC request.
@@ -8576,7 +8864,8 @@ export const ATTR_RPC_JSONRPC_ERROR_CODE = 'rpc.jsonrpc.error_code' as const;
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_RPC_JSONRPC_ERROR_MESSAGE = 'rpc.jsonrpc.error_message' as const;
+export const ATTR_RPC_JSONRPC_ERROR_MESSAGE =
+  'rpc.jsonrpc.error_message' as const;
 
 /**
  * `id` property of request or response. Since protocol allows id to be int, string, `null` or missing (for notifications), value is expected to be cast to string for simplicity. Use empty string in case of `null` value. Omit entirely if this is a notification.
@@ -8604,7 +8893,8 @@ export const ATTR_RPC_JSONRPC_VERSION = 'rpc.jsonrpc.version' as const;
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_RPC_MESSAGE_COMPRESSED_SIZE = 'rpc.message.compressed_size' as const;
+export const ATTR_RPC_MESSAGE_COMPRESSED_SIZE =
+  'rpc.message.compressed_size' as const;
 
 /**
  * **MUST** be calculated as two different counters starting from `1` one for sent messages and one for received message.
@@ -8624,19 +8914,20 @@ export const ATTR_RPC_MESSAGE_TYPE = 'rpc.message.type' as const;
 /**
  * Enum value "RECEIVED" for attribute {@link ATTR_RPC_MESSAGE_TYPE}.
  */
-export const RPC_MESSAGE_TYPE_VALUE_RECEIVED = "RECEIVED" as const;
+export const RPC_MESSAGE_TYPE_VALUE_RECEIVED = 'RECEIVED' as const;
 
 /**
  * Enum value "SENT" for attribute {@link ATTR_RPC_MESSAGE_TYPE}.
  */
-export const RPC_MESSAGE_TYPE_VALUE_SENT = "SENT" as const;
+export const RPC_MESSAGE_TYPE_VALUE_SENT = 'SENT' as const;
 
 /**
  * Uncompressed size of the message in bytes.
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_RPC_MESSAGE_UNCOMPRESSED_SIZE = 'rpc.message.uncompressed_size' as const;
+export const ATTR_RPC_MESSAGE_UNCOMPRESSED_SIZE =
+  'rpc.message.uncompressed_size' as const;
 
 /**
  * The name of the (logical) method being called, must be equal to the $method part in the span name.
@@ -8670,27 +8961,27 @@ export const ATTR_RPC_SYSTEM = 'rpc.system' as const;
 /**
  * Enum value "apache_dubbo" for attribute {@link ATTR_RPC_SYSTEM}.
  */
-export const RPC_SYSTEM_VALUE_APACHE_DUBBO = "apache_dubbo" as const;
+export const RPC_SYSTEM_VALUE_APACHE_DUBBO = 'apache_dubbo' as const;
 
 /**
  * Enum value "connect_rpc" for attribute {@link ATTR_RPC_SYSTEM}.
  */
-export const RPC_SYSTEM_VALUE_CONNECT_RPC = "connect_rpc" as const;
+export const RPC_SYSTEM_VALUE_CONNECT_RPC = 'connect_rpc' as const;
 
 /**
  * Enum value "dotnet_wcf" for attribute {@link ATTR_RPC_SYSTEM}.
  */
-export const RPC_SYSTEM_VALUE_DOTNET_WCF = "dotnet_wcf" as const;
+export const RPC_SYSTEM_VALUE_DOTNET_WCF = 'dotnet_wcf' as const;
 
 /**
  * Enum value "grpc" for attribute {@link ATTR_RPC_SYSTEM}.
  */
-export const RPC_SYSTEM_VALUE_GRPC = "grpc" as const;
+export const RPC_SYSTEM_VALUE_GRPC = 'grpc' as const;
 
 /**
  * Enum value "java_rmi" for attribute {@link ATTR_RPC_SYSTEM}.
  */
-export const RPC_SYSTEM_VALUE_JAVA_RMI = "java_rmi" as const;
+export const RPC_SYSTEM_VALUE_JAVA_RMI = 'java_rmi' as const;
 
 /**
  * A categorization value keyword used by the entity using the rule for detection of this event
@@ -8708,7 +8999,8 @@ export const ATTR_SECURITY_RULE_CATEGORY = 'security_rule.category' as const;
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_SECURITY_RULE_DESCRIPTION = 'security_rule.description' as const;
+export const ATTR_SECURITY_RULE_DESCRIPTION =
+  'security_rule.description' as const;
 
 /**
  * Name of the license under which the rule used to generate this event is made available.
@@ -8746,7 +9038,8 @@ export const ATTR_SECURITY_RULE_REFERENCE = 'security_rule.reference' as const;
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_SECURITY_RULE_RULESET_NAME = 'security_rule.ruleset.name' as const;
+export const ATTR_SECURITY_RULE_RULESET_NAME =
+  'security_rule.ruleset.name' as const;
 
 /**
  * A rule ID that is unique within the scope of a set or group of agents, observers, or other entities using the rule for detection of this event.
@@ -8869,12 +9162,12 @@ export const ATTR_STATE = 'state' as const;
 /**
  * Enum value "idle" for attribute {@link ATTR_STATE}.
  */
-export const STATE_VALUE_IDLE = "idle" as const;
+export const STATE_VALUE_IDLE = 'idle' as const;
 
 /**
  * Enum value "used" for attribute {@link ATTR_STATE}.
  */
-export const STATE_VALUE_USED = "used" as const;
+export const STATE_VALUE_USED = 'used' as const;
 
 /**
  * Deprecated, use `cpu.logical_number` instead.
@@ -8883,7 +9176,8 @@ export const STATE_VALUE_USED = "used" as const;
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_SYSTEM_CPU_LOGICAL_NUMBER = 'system.cpu.logical_number' as const;
+export const ATTR_SYSTEM_CPU_LOGICAL_NUMBER =
+  'system.cpu.logical_number' as const;
 
 /**
  * Deprecated, use `cpu.mode` instead.
@@ -8900,37 +9194,37 @@ export const ATTR_SYSTEM_CPU_STATE = 'system.cpu.state' as const;
 /**
  * Enum value "idle" for attribute {@link ATTR_SYSTEM_CPU_STATE}.
  */
-export const SYSTEM_CPU_STATE_VALUE_IDLE = "idle" as const;
+export const SYSTEM_CPU_STATE_VALUE_IDLE = 'idle' as const;
 
 /**
  * Enum value "interrupt" for attribute {@link ATTR_SYSTEM_CPU_STATE}.
  */
-export const SYSTEM_CPU_STATE_VALUE_INTERRUPT = "interrupt" as const;
+export const SYSTEM_CPU_STATE_VALUE_INTERRUPT = 'interrupt' as const;
 
 /**
  * Enum value "iowait" for attribute {@link ATTR_SYSTEM_CPU_STATE}.
  */
-export const SYSTEM_CPU_STATE_VALUE_IOWAIT = "iowait" as const;
+export const SYSTEM_CPU_STATE_VALUE_IOWAIT = 'iowait' as const;
 
 /**
  * Enum value "nice" for attribute {@link ATTR_SYSTEM_CPU_STATE}.
  */
-export const SYSTEM_CPU_STATE_VALUE_NICE = "nice" as const;
+export const SYSTEM_CPU_STATE_VALUE_NICE = 'nice' as const;
 
 /**
  * Enum value "steal" for attribute {@link ATTR_SYSTEM_CPU_STATE}.
  */
-export const SYSTEM_CPU_STATE_VALUE_STEAL = "steal" as const;
+export const SYSTEM_CPU_STATE_VALUE_STEAL = 'steal' as const;
 
 /**
  * Enum value "system" for attribute {@link ATTR_SYSTEM_CPU_STATE}.
  */
-export const SYSTEM_CPU_STATE_VALUE_SYSTEM = "system" as const;
+export const SYSTEM_CPU_STATE_VALUE_SYSTEM = 'system' as const;
 
 /**
  * Enum value "user" for attribute {@link ATTR_SYSTEM_CPU_STATE}.
  */
-export const SYSTEM_CPU_STATE_VALUE_USER = "user" as const;
+export const SYSTEM_CPU_STATE_VALUE_USER = 'user' as const;
 
 /**
  * The device identifier
@@ -8957,7 +9251,8 @@ export const ATTR_SYSTEM_FILESYSTEM_MODE = 'system.filesystem.mode' as const;
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_SYSTEM_FILESYSTEM_MOUNTPOINT = 'system.filesystem.mountpoint' as const;
+export const ATTR_SYSTEM_FILESYSTEM_MOUNTPOINT =
+  'system.filesystem.mountpoint' as const;
 
 /**
  * The filesystem state
@@ -8971,17 +9266,17 @@ export const ATTR_SYSTEM_FILESYSTEM_STATE = 'system.filesystem.state' as const;
 /**
  * Enum value "free" for attribute {@link ATTR_SYSTEM_FILESYSTEM_STATE}.
  */
-export const SYSTEM_FILESYSTEM_STATE_VALUE_FREE = "free" as const;
+export const SYSTEM_FILESYSTEM_STATE_VALUE_FREE = 'free' as const;
 
 /**
  * Enum value "reserved" for attribute {@link ATTR_SYSTEM_FILESYSTEM_STATE}.
  */
-export const SYSTEM_FILESYSTEM_STATE_VALUE_RESERVED = "reserved" as const;
+export const SYSTEM_FILESYSTEM_STATE_VALUE_RESERVED = 'reserved' as const;
 
 /**
  * Enum value "used" for attribute {@link ATTR_SYSTEM_FILESYSTEM_STATE}.
  */
-export const SYSTEM_FILESYSTEM_STATE_VALUE_USED = "used" as const;
+export const SYSTEM_FILESYSTEM_STATE_VALUE_USED = 'used' as const;
 
 /**
  * The filesystem type
@@ -8995,32 +9290,32 @@ export const ATTR_SYSTEM_FILESYSTEM_TYPE = 'system.filesystem.type' as const;
 /**
  * Enum value "exfat" for attribute {@link ATTR_SYSTEM_FILESYSTEM_TYPE}.
  */
-export const SYSTEM_FILESYSTEM_TYPE_VALUE_EXFAT = "exfat" as const;
+export const SYSTEM_FILESYSTEM_TYPE_VALUE_EXFAT = 'exfat' as const;
 
 /**
  * Enum value "ext4" for attribute {@link ATTR_SYSTEM_FILESYSTEM_TYPE}.
  */
-export const SYSTEM_FILESYSTEM_TYPE_VALUE_EXT4 = "ext4" as const;
+export const SYSTEM_FILESYSTEM_TYPE_VALUE_EXT4 = 'ext4' as const;
 
 /**
  * Enum value "fat32" for attribute {@link ATTR_SYSTEM_FILESYSTEM_TYPE}.
  */
-export const SYSTEM_FILESYSTEM_TYPE_VALUE_FAT32 = "fat32" as const;
+export const SYSTEM_FILESYSTEM_TYPE_VALUE_FAT32 = 'fat32' as const;
 
 /**
  * Enum value "hfsplus" for attribute {@link ATTR_SYSTEM_FILESYSTEM_TYPE}.
  */
-export const SYSTEM_FILESYSTEM_TYPE_VALUE_HFSPLUS = "hfsplus" as const;
+export const SYSTEM_FILESYSTEM_TYPE_VALUE_HFSPLUS = 'hfsplus' as const;
 
 /**
  * Enum value "ntfs" for attribute {@link ATTR_SYSTEM_FILESYSTEM_TYPE}.
  */
-export const SYSTEM_FILESYSTEM_TYPE_VALUE_NTFS = "ntfs" as const;
+export const SYSTEM_FILESYSTEM_TYPE_VALUE_NTFS = 'ntfs' as const;
 
 /**
  * Enum value "refs" for attribute {@link ATTR_SYSTEM_FILESYSTEM_TYPE}.
  */
-export const SYSTEM_FILESYSTEM_TYPE_VALUE_REFS = "refs" as const;
+export const SYSTEM_FILESYSTEM_TYPE_VALUE_REFS = 'refs' as const;
 
 /**
  * The memory state
@@ -9035,27 +9330,27 @@ export const ATTR_SYSTEM_MEMORY_STATE = 'system.memory.state' as const;
 /**
  * Enum value "buffers" for attribute {@link ATTR_SYSTEM_MEMORY_STATE}.
  */
-export const SYSTEM_MEMORY_STATE_VALUE_BUFFERS = "buffers" as const;
+export const SYSTEM_MEMORY_STATE_VALUE_BUFFERS = 'buffers' as const;
 
 /**
  * Enum value "cached" for attribute {@link ATTR_SYSTEM_MEMORY_STATE}.
  */
-export const SYSTEM_MEMORY_STATE_VALUE_CACHED = "cached" as const;
+export const SYSTEM_MEMORY_STATE_VALUE_CACHED = 'cached' as const;
 
 /**
  * Enum value "free" for attribute {@link ATTR_SYSTEM_MEMORY_STATE}.
  */
-export const SYSTEM_MEMORY_STATE_VALUE_FREE = "free" as const;
+export const SYSTEM_MEMORY_STATE_VALUE_FREE = 'free' as const;
 
 /**
  * Enum value "shared" for attribute {@link ATTR_SYSTEM_MEMORY_STATE}.
  */
-export const SYSTEM_MEMORY_STATE_VALUE_SHARED = "shared" as const;
+export const SYSTEM_MEMORY_STATE_VALUE_SHARED = 'shared' as const;
 
 /**
  * Enum value "used" for attribute {@link ATTR_SYSTEM_MEMORY_STATE}.
  */
-export const SYSTEM_MEMORY_STATE_VALUE_USED = "used" as const;
+export const SYSTEM_MEMORY_STATE_VALUE_USED = 'used' as const;
 
 /**
  * Deprecated, use `network.connection.state` instead.
@@ -9071,62 +9366,62 @@ export const ATTR_SYSTEM_NETWORK_STATE = 'system.network.state' as const;
 /**
  * Enum value "close" for attribute {@link ATTR_SYSTEM_NETWORK_STATE}.
  */
-export const SYSTEM_NETWORK_STATE_VALUE_CLOSE = "close" as const;
+export const SYSTEM_NETWORK_STATE_VALUE_CLOSE = 'close' as const;
 
 /**
  * Enum value "close_wait" for attribute {@link ATTR_SYSTEM_NETWORK_STATE}.
  */
-export const SYSTEM_NETWORK_STATE_VALUE_CLOSE_WAIT = "close_wait" as const;
+export const SYSTEM_NETWORK_STATE_VALUE_CLOSE_WAIT = 'close_wait' as const;
 
 /**
  * Enum value "closing" for attribute {@link ATTR_SYSTEM_NETWORK_STATE}.
  */
-export const SYSTEM_NETWORK_STATE_VALUE_CLOSING = "closing" as const;
+export const SYSTEM_NETWORK_STATE_VALUE_CLOSING = 'closing' as const;
 
 /**
  * Enum value "delete" for attribute {@link ATTR_SYSTEM_NETWORK_STATE}.
  */
-export const SYSTEM_NETWORK_STATE_VALUE_DELETE = "delete" as const;
+export const SYSTEM_NETWORK_STATE_VALUE_DELETE = 'delete' as const;
 
 /**
  * Enum value "established" for attribute {@link ATTR_SYSTEM_NETWORK_STATE}.
  */
-export const SYSTEM_NETWORK_STATE_VALUE_ESTABLISHED = "established" as const;
+export const SYSTEM_NETWORK_STATE_VALUE_ESTABLISHED = 'established' as const;
 
 /**
  * Enum value "fin_wait_1" for attribute {@link ATTR_SYSTEM_NETWORK_STATE}.
  */
-export const SYSTEM_NETWORK_STATE_VALUE_FIN_WAIT_1 = "fin_wait_1" as const;
+export const SYSTEM_NETWORK_STATE_VALUE_FIN_WAIT_1 = 'fin_wait_1' as const;
 
 /**
  * Enum value "fin_wait_2" for attribute {@link ATTR_SYSTEM_NETWORK_STATE}.
  */
-export const SYSTEM_NETWORK_STATE_VALUE_FIN_WAIT_2 = "fin_wait_2" as const;
+export const SYSTEM_NETWORK_STATE_VALUE_FIN_WAIT_2 = 'fin_wait_2' as const;
 
 /**
  * Enum value "last_ack" for attribute {@link ATTR_SYSTEM_NETWORK_STATE}.
  */
-export const SYSTEM_NETWORK_STATE_VALUE_LAST_ACK = "last_ack" as const;
+export const SYSTEM_NETWORK_STATE_VALUE_LAST_ACK = 'last_ack' as const;
 
 /**
  * Enum value "listen" for attribute {@link ATTR_SYSTEM_NETWORK_STATE}.
  */
-export const SYSTEM_NETWORK_STATE_VALUE_LISTEN = "listen" as const;
+export const SYSTEM_NETWORK_STATE_VALUE_LISTEN = 'listen' as const;
 
 /**
  * Enum value "syn_recv" for attribute {@link ATTR_SYSTEM_NETWORK_STATE}.
  */
-export const SYSTEM_NETWORK_STATE_VALUE_SYN_RECV = "syn_recv" as const;
+export const SYSTEM_NETWORK_STATE_VALUE_SYN_RECV = 'syn_recv' as const;
 
 /**
  * Enum value "syn_sent" for attribute {@link ATTR_SYSTEM_NETWORK_STATE}.
  */
-export const SYSTEM_NETWORK_STATE_VALUE_SYN_SENT = "syn_sent" as const;
+export const SYSTEM_NETWORK_STATE_VALUE_SYN_SENT = 'syn_sent' as const;
 
 /**
  * Enum value "time_wait" for attribute {@link ATTR_SYSTEM_NETWORK_STATE}.
  */
-export const SYSTEM_NETWORK_STATE_VALUE_TIME_WAIT = "time_wait" as const;
+export const SYSTEM_NETWORK_STATE_VALUE_TIME_WAIT = 'time_wait' as const;
 
 /**
  * The paging access direction
@@ -9140,12 +9435,12 @@ export const ATTR_SYSTEM_PAGING_DIRECTION = 'system.paging.direction' as const;
 /**
  * Enum value "in" for attribute {@link ATTR_SYSTEM_PAGING_DIRECTION}.
  */
-export const SYSTEM_PAGING_DIRECTION_VALUE_IN = "in" as const;
+export const SYSTEM_PAGING_DIRECTION_VALUE_IN = 'in' as const;
 
 /**
  * Enum value "out" for attribute {@link ATTR_SYSTEM_PAGING_DIRECTION}.
  */
-export const SYSTEM_PAGING_DIRECTION_VALUE_OUT = "out" as const;
+export const SYSTEM_PAGING_DIRECTION_VALUE_OUT = 'out' as const;
 
 /**
  * The memory paging state
@@ -9159,12 +9454,12 @@ export const ATTR_SYSTEM_PAGING_STATE = 'system.paging.state' as const;
 /**
  * Enum value "free" for attribute {@link ATTR_SYSTEM_PAGING_STATE}.
  */
-export const SYSTEM_PAGING_STATE_VALUE_FREE = "free" as const;
+export const SYSTEM_PAGING_STATE_VALUE_FREE = 'free' as const;
 
 /**
  * Enum value "used" for attribute {@link ATTR_SYSTEM_PAGING_STATE}.
  */
-export const SYSTEM_PAGING_STATE_VALUE_USED = "used" as const;
+export const SYSTEM_PAGING_STATE_VALUE_USED = 'used' as const;
 
 /**
  * The memory paging type
@@ -9178,12 +9473,12 @@ export const ATTR_SYSTEM_PAGING_TYPE = 'system.paging.type' as const;
 /**
  * Enum value "major" for attribute {@link ATTR_SYSTEM_PAGING_TYPE}.
  */
-export const SYSTEM_PAGING_TYPE_VALUE_MAJOR = "major" as const;
+export const SYSTEM_PAGING_TYPE_VALUE_MAJOR = 'major' as const;
 
 /**
  * Enum value "minor" for attribute {@link ATTR_SYSTEM_PAGING_TYPE}.
  */
-export const SYSTEM_PAGING_TYPE_VALUE_MINOR = "minor" as const;
+export const SYSTEM_PAGING_TYPE_VALUE_MINOR = 'minor' as const;
 
 /**
  * The process state, e.g., [Linux Process State Codes](https://man7.org/linux/man-pages/man1/ps.1.html#PROCESS_STATE_CODES)
@@ -9197,22 +9492,22 @@ export const ATTR_SYSTEM_PROCESS_STATUS = 'system.process.status' as const;
 /**
  * Enum value "defunct" for attribute {@link ATTR_SYSTEM_PROCESS_STATUS}.
  */
-export const SYSTEM_PROCESS_STATUS_VALUE_DEFUNCT = "defunct" as const;
+export const SYSTEM_PROCESS_STATUS_VALUE_DEFUNCT = 'defunct' as const;
 
 /**
  * Enum value "running" for attribute {@link ATTR_SYSTEM_PROCESS_STATUS}.
  */
-export const SYSTEM_PROCESS_STATUS_VALUE_RUNNING = "running" as const;
+export const SYSTEM_PROCESS_STATUS_VALUE_RUNNING = 'running' as const;
 
 /**
  * Enum value "sleeping" for attribute {@link ATTR_SYSTEM_PROCESS_STATUS}.
  */
-export const SYSTEM_PROCESS_STATUS_VALUE_SLEEPING = "sleeping" as const;
+export const SYSTEM_PROCESS_STATUS_VALUE_SLEEPING = 'sleeping' as const;
 
 /**
  * Enum value "stopped" for attribute {@link ATTR_SYSTEM_PROCESS_STATUS}.
  */
-export const SYSTEM_PROCESS_STATUS_VALUE_STOPPED = "stopped" as const;
+export const SYSTEM_PROCESS_STATUS_VALUE_STOPPED = 'stopped' as const;
 
 /**
  * Deprecated, use `system.process.status` instead.
@@ -9228,22 +9523,22 @@ export const ATTR_SYSTEM_PROCESSES_STATUS = 'system.processes.status' as const;
 /**
  * Enum value "defunct" for attribute {@link ATTR_SYSTEM_PROCESSES_STATUS}.
  */
-export const SYSTEM_PROCESSES_STATUS_VALUE_DEFUNCT = "defunct" as const;
+export const SYSTEM_PROCESSES_STATUS_VALUE_DEFUNCT = 'defunct' as const;
 
 /**
  * Enum value "running" for attribute {@link ATTR_SYSTEM_PROCESSES_STATUS}.
  */
-export const SYSTEM_PROCESSES_STATUS_VALUE_RUNNING = "running" as const;
+export const SYSTEM_PROCESSES_STATUS_VALUE_RUNNING = 'running' as const;
 
 /**
  * Enum value "sleeping" for attribute {@link ATTR_SYSTEM_PROCESSES_STATUS}.
  */
-export const SYSTEM_PROCESSES_STATUS_VALUE_SLEEPING = "sleeping" as const;
+export const SYSTEM_PROCESSES_STATUS_VALUE_SLEEPING = 'sleeping' as const;
 
 /**
  * Enum value "stopped" for attribute {@link ATTR_SYSTEM_PROCESSES_STATUS}.
  */
-export const SYSTEM_PROCESSES_STATUS_VALUE_STOPPED = "stopped" as const;
+export const SYSTEM_PROCESSES_STATUS_VALUE_STOPPED = 'stopped' as const;
 
 /**
  * The name of the auto instrumentation agent or distribution, if used.
@@ -9264,7 +9559,8 @@ export const ATTR_TELEMETRY_DISTRO_NAME = 'telemetry.distro.name' as const;
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_TELEMETRY_DISTRO_VERSION = 'telemetry.distro.version' as const;
+export const ATTR_TELEMETRY_DISTRO_VERSION =
+  'telemetry.distro.version' as const;
 
 /**
  * The fully qualified human readable name of the [test case](https://wikipedia.org/wiki/Test_case).
@@ -9290,12 +9586,12 @@ export const ATTR_TEST_CASE_RESULT_STATUS = 'test.case.result.status' as const;
 /**
  * Enum value "fail" for attribute {@link ATTR_TEST_CASE_RESULT_STATUS}.
  */
-export const TEST_CASE_RESULT_STATUS_VALUE_FAIL = "fail" as const;
+export const TEST_CASE_RESULT_STATUS_VALUE_FAIL = 'fail' as const;
 
 /**
  * Enum value "pass" for attribute {@link ATTR_TEST_CASE_RESULT_STATUS}.
  */
-export const TEST_CASE_RESULT_STATUS_VALUE_PASS = "pass" as const;
+export const TEST_CASE_RESULT_STATUS_VALUE_PASS = 'pass' as const;
 
 /**
  * The human readable name of a [test suite](https://wikipedia.org/wiki/Test_suite).
@@ -9323,32 +9619,32 @@ export const ATTR_TEST_SUITE_RUN_STATUS = 'test.suite.run.status' as const;
 /**
  * Enum value "aborted" for attribute {@link ATTR_TEST_SUITE_RUN_STATUS}.
  */
-export const TEST_SUITE_RUN_STATUS_VALUE_ABORTED = "aborted" as const;
+export const TEST_SUITE_RUN_STATUS_VALUE_ABORTED = 'aborted' as const;
 
 /**
  * Enum value "failure" for attribute {@link ATTR_TEST_SUITE_RUN_STATUS}.
  */
-export const TEST_SUITE_RUN_STATUS_VALUE_FAILURE = "failure" as const;
+export const TEST_SUITE_RUN_STATUS_VALUE_FAILURE = 'failure' as const;
 
 /**
  * Enum value "in_progress" for attribute {@link ATTR_TEST_SUITE_RUN_STATUS}.
  */
-export const TEST_SUITE_RUN_STATUS_VALUE_IN_PROGRESS = "in_progress" as const;
+export const TEST_SUITE_RUN_STATUS_VALUE_IN_PROGRESS = 'in_progress' as const;
 
 /**
  * Enum value "skipped" for attribute {@link ATTR_TEST_SUITE_RUN_STATUS}.
  */
-export const TEST_SUITE_RUN_STATUS_VALUE_SKIPPED = "skipped" as const;
+export const TEST_SUITE_RUN_STATUS_VALUE_SKIPPED = 'skipped' as const;
 
 /**
  * Enum value "success" for attribute {@link ATTR_TEST_SUITE_RUN_STATUS}.
  */
-export const TEST_SUITE_RUN_STATUS_VALUE_SUCCESS = "success" as const;
+export const TEST_SUITE_RUN_STATUS_VALUE_SUCCESS = 'success' as const;
 
 /**
  * Enum value "timed_out" for attribute {@link ATTR_TEST_SUITE_RUN_STATUS}.
  */
-export const TEST_SUITE_RUN_STATUS_VALUE_TIMED_OUT = "timed_out" as const;
+export const TEST_SUITE_RUN_STATUS_VALUE_TIMED_OUT = 'timed_out' as const;
 
 /**
  * Current "managed" thread ID (as opposed to OS thread ID).
@@ -9396,7 +9692,8 @@ export const ATTR_TLS_CLIENT_CERTIFICATE = 'tls.client.certificate' as const;
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_TLS_CLIENT_CERTIFICATE_CHAIN = 'tls.client.certificate_chain' as const;
+export const ATTR_TLS_CLIENT_CERTIFICATE_CHAIN =
+  'tls.client.certificate_chain' as const;
 
 /**
  * Certificate fingerprint using the MD5 digest of DER-encoded version of certificate offered by the client. For consistency with other hash values, this value should be formatted as an uppercase hash.
@@ -9488,7 +9785,8 @@ export const ATTR_TLS_CLIENT_SUBJECT = 'tls.client.subject' as const;
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_TLS_CLIENT_SUPPORTED_CIPHERS = 'tls.client.supported_ciphers' as const;
+export const ATTR_TLS_CLIENT_SUPPORTED_CIPHERS =
+  'tls.client.supported_ciphers' as const;
 
 /**
  * String indicating the curve used for the given cipher, when applicable
@@ -9527,12 +9825,12 @@ export const ATTR_TLS_PROTOCOL_NAME = 'tls.protocol.name' as const;
 /**
  * Enum value "ssl" for attribute {@link ATTR_TLS_PROTOCOL_NAME}.
  */
-export const TLS_PROTOCOL_NAME_VALUE_SSL = "ssl" as const;
+export const TLS_PROTOCOL_NAME_VALUE_SSL = 'ssl' as const;
 
 /**
  * Enum value "tls" for attribute {@link ATTR_TLS_PROTOCOL_NAME}.
  */
-export const TLS_PROTOCOL_NAME_VALUE_TLS = "tls" as const;
+export const TLS_PROTOCOL_NAME_VALUE_TLS = 'tls' as const;
 
 /**
  * Numeric part of the version parsed from the original string of the negotiated [SSL/TLS protocol version](https://docs.openssl.org/1.1.1/man3/SSL_get_version/#return-values)
@@ -9569,7 +9867,8 @@ export const ATTR_TLS_SERVER_CERTIFICATE = 'tls.server.certificate' as const;
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_TLS_SERVER_CERTIFICATE_CHAIN = 'tls.server.certificate_chain' as const;
+export const ATTR_TLS_SERVER_CERTIFICATE_CHAIN =
+  'tls.server.certificate_chain' as const;
 
 /**
  * Certificate fingerprint using the MD5 digest of DER-encoded version of certificate offered by the server. For consistency with other hash values, this value should be formatted as an uppercase hash.
@@ -9838,17 +10137,18 @@ export const ATTR_USER_AGENT_OS_VERSION = 'user_agent.os.version' as const;
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_USER_AGENT_SYNTHETIC_TYPE = 'user_agent.synthetic.type' as const;
+export const ATTR_USER_AGENT_SYNTHETIC_TYPE =
+  'user_agent.synthetic.type' as const;
 
 /**
  * Enum value "bot" for attribute {@link ATTR_USER_AGENT_SYNTHETIC_TYPE}.
  */
-export const USER_AGENT_SYNTHETIC_TYPE_VALUE_BOT = "bot" as const;
+export const USER_AGENT_SYNTHETIC_TYPE_VALUE_BOT = 'bot' as const;
 
 /**
  * Enum value "test" for attribute {@link ATTR_USER_AGENT_SYNTHETIC_TYPE}.
  */
-export const USER_AGENT_SYNTHETIC_TYPE_VALUE_TEST = "test" as const;
+export const USER_AGENT_SYNTHETIC_TYPE_VALUE_TEST = 'test' as const;
 
 /**
  * Version of the user-agent extracted from original. Usually refers to the browser's version
@@ -9872,22 +10172,22 @@ export const ATTR_V8JS_GC_TYPE = 'v8js.gc.type' as const;
 /**
  * Enum value "incremental" for attribute {@link ATTR_V8JS_GC_TYPE}.
  */
-export const V8JS_GC_TYPE_VALUE_INCREMENTAL = "incremental" as const;
+export const V8JS_GC_TYPE_VALUE_INCREMENTAL = 'incremental' as const;
 
 /**
  * Enum value "major" for attribute {@link ATTR_V8JS_GC_TYPE}.
  */
-export const V8JS_GC_TYPE_VALUE_MAJOR = "major" as const;
+export const V8JS_GC_TYPE_VALUE_MAJOR = 'major' as const;
 
 /**
  * Enum value "minor" for attribute {@link ATTR_V8JS_GC_TYPE}.
  */
-export const V8JS_GC_TYPE_VALUE_MINOR = "minor" as const;
+export const V8JS_GC_TYPE_VALUE_MINOR = 'minor' as const;
 
 /**
  * Enum value "weakcb" for attribute {@link ATTR_V8JS_GC_TYPE}.
  */
-export const V8JS_GC_TYPE_VALUE_WEAKCB = "weakcb" as const;
+export const V8JS_GC_TYPE_VALUE_WEAKCB = 'weakcb' as const;
 
 /**
  * The name of the space type of heap memory.
@@ -9901,27 +10201,28 @@ export const ATTR_V8JS_HEAP_SPACE_NAME = 'v8js.heap.space.name' as const;
 /**
  * Enum value "code_space" for attribute {@link ATTR_V8JS_HEAP_SPACE_NAME}.
  */
-export const V8JS_HEAP_SPACE_NAME_VALUE_CODE_SPACE = "code_space" as const;
+export const V8JS_HEAP_SPACE_NAME_VALUE_CODE_SPACE = 'code_space' as const;
 
 /**
  * Enum value "large_object_space" for attribute {@link ATTR_V8JS_HEAP_SPACE_NAME}.
  */
-export const V8JS_HEAP_SPACE_NAME_VALUE_LARGE_OBJECT_SPACE = "large_object_space" as const;
+export const V8JS_HEAP_SPACE_NAME_VALUE_LARGE_OBJECT_SPACE =
+  'large_object_space' as const;
 
 /**
  * Enum value "map_space" for attribute {@link ATTR_V8JS_HEAP_SPACE_NAME}.
  */
-export const V8JS_HEAP_SPACE_NAME_VALUE_MAP_SPACE = "map_space" as const;
+export const V8JS_HEAP_SPACE_NAME_VALUE_MAP_SPACE = 'map_space' as const;
 
 /**
  * Enum value "new_space" for attribute {@link ATTR_V8JS_HEAP_SPACE_NAME}.
  */
-export const V8JS_HEAP_SPACE_NAME_VALUE_NEW_SPACE = "new_space" as const;
+export const V8JS_HEAP_SPACE_NAME_VALUE_NEW_SPACE = 'new_space' as const;
 
 /**
  * Enum value "old_space" for attribute {@link ATTR_V8JS_HEAP_SPACE_NAME}.
  */
-export const V8JS_HEAP_SPACE_NAME_VALUE_OLD_SPACE = "old_space" as const;
+export const V8JS_HEAP_SPACE_NAME_VALUE_OLD_SPACE = 'old_space' as const;
 
 /**
  * The ID of the change (pull request/merge request/changelist) if applicable. This is usually a unique (within repository) identifier generated by the VCS system.
@@ -9946,22 +10247,22 @@ export const ATTR_VCS_CHANGE_STATE = 'vcs.change.state' as const;
 /**
  * Enum value "closed" for attribute {@link ATTR_VCS_CHANGE_STATE}.
  */
-export const VCS_CHANGE_STATE_VALUE_CLOSED = "closed" as const;
+export const VCS_CHANGE_STATE_VALUE_CLOSED = 'closed' as const;
 
 /**
  * Enum value "merged" for attribute {@link ATTR_VCS_CHANGE_STATE}.
  */
-export const VCS_CHANGE_STATE_VALUE_MERGED = "merged" as const;
+export const VCS_CHANGE_STATE_VALUE_MERGED = 'merged' as const;
 
 /**
  * Enum value "open" for attribute {@link ATTR_VCS_CHANGE_STATE}.
  */
-export const VCS_CHANGE_STATE_VALUE_OPEN = "open" as const;
+export const VCS_CHANGE_STATE_VALUE_OPEN = 'open' as const;
 
 /**
  * Enum value "wip" for attribute {@link ATTR_VCS_CHANGE_STATE}.
  */
-export const VCS_CHANGE_STATE_VALUE_WIP = "wip" as const;
+export const VCS_CHANGE_STATE_VALUE_WIP = 'wip' as const;
 
 /**
  * The human readable title of the change (pull request/merge request/changelist). This title is often a brief summary of the change and may get merged in to a ref as the commit summary.
@@ -9987,12 +10288,12 @@ export const ATTR_VCS_LINE_CHANGE_TYPE = 'vcs.line_change.type' as const;
 /**
  * Enum value "added" for attribute {@link ATTR_VCS_LINE_CHANGE_TYPE}.
  */
-export const VCS_LINE_CHANGE_TYPE_VALUE_ADDED = "added" as const;
+export const VCS_LINE_CHANGE_TYPE_VALUE_ADDED = 'added' as const;
 
 /**
  * Enum value "removed" for attribute {@link ATTR_VCS_LINE_CHANGE_TYPE}.
  */
-export const VCS_LINE_CHANGE_TYPE_VALUE_REMOVED = "removed" as const;
+export const VCS_LINE_CHANGE_TYPE_VALUE_REMOVED = 'removed' as const;
 
 /**
  * The group owner within the version control system.
@@ -10020,27 +10321,27 @@ export const ATTR_VCS_PROVIDER_NAME = 'vcs.provider.name' as const;
 /**
  * Enum value "bitbucket" for attribute {@link ATTR_VCS_PROVIDER_NAME}.
  */
-export const VCS_PROVIDER_NAME_VALUE_BITBUCKET = "bitbucket" as const;
+export const VCS_PROVIDER_NAME_VALUE_BITBUCKET = 'bitbucket' as const;
 
 /**
  * Enum value "gitea" for attribute {@link ATTR_VCS_PROVIDER_NAME}.
  */
-export const VCS_PROVIDER_NAME_VALUE_GITEA = "gitea" as const;
+export const VCS_PROVIDER_NAME_VALUE_GITEA = 'gitea' as const;
 
 /**
  * Enum value "github" for attribute {@link ATTR_VCS_PROVIDER_NAME}.
  */
-export const VCS_PROVIDER_NAME_VALUE_GITHUB = "github" as const;
+export const VCS_PROVIDER_NAME_VALUE_GITHUB = 'github' as const;
 
 /**
  * Enum value "gitlab" for attribute {@link ATTR_VCS_PROVIDER_NAME}.
  */
-export const VCS_PROVIDER_NAME_VALUE_GITLAB = "gitlab" as const;
+export const VCS_PROVIDER_NAME_VALUE_GITLAB = 'gitlab' as const;
 
 /**
  * Enum value "gittea" for attribute {@link ATTR_VCS_PROVIDER_NAME}.
  */
-export const VCS_PROVIDER_NAME_VALUE_GITTEA = "gittea" as const;
+export const VCS_PROVIDER_NAME_VALUE_GITTEA = 'gittea' as const;
 
 /**
  * The name of the [reference](https://git-scm.com/docs/gitglossary#def_ref) such as **branch** or **tag** in the repository.
@@ -10099,12 +10400,12 @@ export const ATTR_VCS_REF_BASE_TYPE = 'vcs.ref.base.type' as const;
 /**
  * Enum value "branch" for attribute {@link ATTR_VCS_REF_BASE_TYPE}.
  */
-export const VCS_REF_BASE_TYPE_VALUE_BRANCH = "branch" as const;
+export const VCS_REF_BASE_TYPE_VALUE_BRANCH = 'branch' as const;
 
 /**
  * Enum value "tag" for attribute {@link ATTR_VCS_REF_BASE_TYPE}.
  */
-export const VCS_REF_BASE_TYPE_VALUE_TAG = "tag" as const;
+export const VCS_REF_BASE_TYPE_VALUE_TAG = 'tag' as const;
 
 /**
  * The name of the [reference](https://git-scm.com/docs/gitglossary#def_ref) such as **branch** or **tag** in the repository.
@@ -10159,12 +10460,12 @@ export const ATTR_VCS_REF_HEAD_TYPE = 'vcs.ref.head.type' as const;
 /**
  * Enum value "branch" for attribute {@link ATTR_VCS_REF_HEAD_TYPE}.
  */
-export const VCS_REF_HEAD_TYPE_VALUE_BRANCH = "branch" as const;
+export const VCS_REF_HEAD_TYPE_VALUE_BRANCH = 'branch' as const;
 
 /**
  * Enum value "tag" for attribute {@link ATTR_VCS_REF_HEAD_TYPE}.
  */
-export const VCS_REF_HEAD_TYPE_VALUE_TAG = "tag" as const;
+export const VCS_REF_HEAD_TYPE_VALUE_TAG = 'tag' as const;
 
 /**
  * The type of the [reference](https://git-scm.com/docs/gitglossary#def_ref) in the repository.
@@ -10179,12 +10480,12 @@ export const ATTR_VCS_REF_TYPE = 'vcs.ref.type' as const;
 /**
  * Enum value "branch" for attribute {@link ATTR_VCS_REF_TYPE}.
  */
-export const VCS_REF_TYPE_VALUE_BRANCH = "branch" as const;
+export const VCS_REF_TYPE_VALUE_BRANCH = 'branch' as const;
 
 /**
  * Enum value "tag" for attribute {@link ATTR_VCS_REF_TYPE}.
  */
-export const VCS_REF_TYPE_VALUE_TAG = "tag" as const;
+export const VCS_REF_TYPE_VALUE_TAG = 'tag' as const;
 
 /**
  * Deprecated, use `vcs.change.id` instead.
@@ -10195,7 +10496,8 @@ export const VCS_REF_TYPE_VALUE_TAG = "tag" as const;
  *
  * @deprecated Replaced by `vcs.change.id`.
  */
-export const ATTR_VCS_REPOSITORY_CHANGE_ID = 'vcs.repository.change.id' as const;
+export const ATTR_VCS_REPOSITORY_CHANGE_ID =
+  'vcs.repository.change.id' as const;
 
 /**
  * Deprecated, use `vcs.change.title` instead.
@@ -10208,7 +10510,8 @@ export const ATTR_VCS_REPOSITORY_CHANGE_ID = 'vcs.repository.change.id' as const
  *
  * @deprecated Replaced by `vcs.change.title`.
  */
-export const ATTR_VCS_REPOSITORY_CHANGE_TITLE = 'vcs.repository.change.title' as const;
+export const ATTR_VCS_REPOSITORY_CHANGE_TITLE =
+  'vcs.repository.change.title' as const;
 
 /**
  * The human readable name of the repository. It **SHOULD NOT** include any additional identifier like Group/SubGroup in GitLab or organization in GitHub.
@@ -10248,7 +10551,8 @@ export const ATTR_VCS_REPOSITORY_REF_NAME = 'vcs.repository.ref.name' as const;
  *
  * @deprecated Replaced by `vcs.ref.head.revision`.
  */
-export const ATTR_VCS_REPOSITORY_REF_REVISION = 'vcs.repository.ref.revision' as const;
+export const ATTR_VCS_REPOSITORY_REF_REVISION =
+  'vcs.repository.ref.revision' as const;
 
 /**
  * Deprecated, use `vcs.ref.head.type` instead.
@@ -10265,12 +10569,12 @@ export const ATTR_VCS_REPOSITORY_REF_TYPE = 'vcs.repository.ref.type' as const;
 /**
  * Enum value "branch" for attribute {@link ATTR_VCS_REPOSITORY_REF_TYPE}.
  */
-export const VCS_REPOSITORY_REF_TYPE_VALUE_BRANCH = "branch" as const;
+export const VCS_REPOSITORY_REF_TYPE_VALUE_BRANCH = 'branch' as const;
 
 /**
  * Enum value "tag" for attribute {@link ATTR_VCS_REPOSITORY_REF_TYPE}.
  */
-export const VCS_REPOSITORY_REF_TYPE_VALUE_TAG = "tag" as const;
+export const VCS_REPOSITORY_REF_TYPE_VALUE_TAG = 'tag' as const;
 
 /**
  * The [canonical URL](https://support.google.com/webmasters/answer/10347851?hl=en#:~:text=A%20canonical%20URL%20is%20the,Google%20chooses%20one%20as%20canonical.) of the repository providing the complete HTTP(S) address in order to locate and identify the repository through a browser.
@@ -10293,17 +10597,18 @@ export const ATTR_VCS_REPOSITORY_URL_FULL = 'vcs.repository.url.full' as const;
  *
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
-export const ATTR_VCS_REVISION_DELTA_DIRECTION = 'vcs.revision_delta.direction' as const;
+export const ATTR_VCS_REVISION_DELTA_DIRECTION =
+  'vcs.revision_delta.direction' as const;
 
 /**
  * Enum value "ahead" for attribute {@link ATTR_VCS_REVISION_DELTA_DIRECTION}.
  */
-export const VCS_REVISION_DELTA_DIRECTION_VALUE_AHEAD = "ahead" as const;
+export const VCS_REVISION_DELTA_DIRECTION_VALUE_AHEAD = 'ahead' as const;
 
 /**
  * Enum value "behind" for attribute {@link ATTR_VCS_REVISION_DELTA_DIRECTION}.
  */
-export const VCS_REVISION_DELTA_DIRECTION_VALUE_BEHIND = "behind" as const;
+export const VCS_REVISION_DELTA_DIRECTION_VALUE_BEHIND = 'behind' as const;
 
 /**
  * Additional description of the web engine (e.g. detailed version and edition information).
@@ -10331,4 +10636,3 @@ export const ATTR_WEBENGINE_NAME = 'webengine.name' as const;
  * @experimental This attribute is experimental and is subject to breaking changes in minor releases of `@opentelemetry/semantic-conventions`.
  */
 export const ATTR_WEBENGINE_VERSION = 'webengine.version' as const;
-

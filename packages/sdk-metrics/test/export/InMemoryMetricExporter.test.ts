@@ -13,6 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
 import { ExportResultCode } from '@opentelemetry/core';
 import * as metrics from '@opentelemetry/api';
 import * as assert from 'assert';

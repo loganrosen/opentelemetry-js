@@ -13,6 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
 export function urlMatches(url: string, urlToMatch: string | RegExp): boolean {
   if (typeof urlToMatch === 'string') {
     return url === urlToMatch;

@@ -15,10 +15,13 @@
  */
 
 const Benchmark = require('benchmark');
-const { BasicTracerProvider, BatchSpanProcessor } = require('../../../build/src');
+const {
+  BasicTracerProvider,
+  BatchSpanProcessor,
+} = require('../../../build/src');
 const { ExportResultCode } = require('@opentelemetry/core');
 
-class NoopExporter  {
+class NoopExporter {
   export(spans, resultCallback) {
     setTimeout(() => resultCallback({ code: ExportResultCode.SUCCESS }), 0);
   }
@@ -48,9 +51,9 @@ function createSpan() {
 }
 
 const tracerProvider = new BasicTracerProvider({
-  spanProcessors: [new BatchSpanProcessor(new NoopExporter())]
+  spanProcessors: [new BatchSpanProcessor(new NoopExporter())],
 });
-const tracer = tracerProvider.getTracer('test')
+const tracer = tracerProvider.getTracer('test');
 
 const suite = new Benchmark.Suite('BatchSpanProcessor');
 
@@ -58,7 +61,7 @@ suite.on('cycle', event => {
   console.log(String(event.target));
 });
 
-suite.add('BatchSpanProcessor process span', function() {
+suite.add('BatchSpanProcessor process span', function () {
   createSpan();
 });
 

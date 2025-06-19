@@ -13,6 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
 import * as process from 'process';
 
 let getMachineIdImpl: undefined | (() => Promise<string | undefined>);

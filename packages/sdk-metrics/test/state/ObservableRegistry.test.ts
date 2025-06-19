@@ -116,7 +116,7 @@ describe('ObservableRegistry', () => {
 
     it('should ignore callback without associated instruments', () => {
       observableRegistry.addBatchCallback(callback1, []);
-      // eslint-disable-next-line no-sparse-arrays
+
       observableRegistry.addBatchCallback(callback1, [
         1 /* hole */,
         ,

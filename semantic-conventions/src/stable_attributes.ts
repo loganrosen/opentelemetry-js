@@ -24,34 +24,40 @@
  * @example handled
  * @example unhandled
  */
-export const ATTR_ASPNETCORE_DIAGNOSTICS_EXCEPTION_RESULT = 'aspnetcore.diagnostics.exception.result' as const;
+export const ATTR_ASPNETCORE_DIAGNOSTICS_EXCEPTION_RESULT =
+  'aspnetcore.diagnostics.exception.result' as const;
 
 /**
  * Enum value "aborted" for attribute {@link ATTR_ASPNETCORE_DIAGNOSTICS_EXCEPTION_RESULT}.
  */
-export const ASPNETCORE_DIAGNOSTICS_EXCEPTION_RESULT_VALUE_ABORTED = "aborted" as const;
+export const ASPNETCORE_DIAGNOSTICS_EXCEPTION_RESULT_VALUE_ABORTED =
+  'aborted' as const;
 
 /**
  * Enum value "handled" for attribute {@link ATTR_ASPNETCORE_DIAGNOSTICS_EXCEPTION_RESULT}.
  */
-export const ASPNETCORE_DIAGNOSTICS_EXCEPTION_RESULT_VALUE_HANDLED = "handled" as const;
+export const ASPNETCORE_DIAGNOSTICS_EXCEPTION_RESULT_VALUE_HANDLED =
+  'handled' as const;
 
 /**
  * Enum value "skipped" for attribute {@link ATTR_ASPNETCORE_DIAGNOSTICS_EXCEPTION_RESULT}.
  */
-export const ASPNETCORE_DIAGNOSTICS_EXCEPTION_RESULT_VALUE_SKIPPED = "skipped" as const;
+export const ASPNETCORE_DIAGNOSTICS_EXCEPTION_RESULT_VALUE_SKIPPED =
+  'skipped' as const;
 
 /**
  * Enum value "unhandled" for attribute {@link ATTR_ASPNETCORE_DIAGNOSTICS_EXCEPTION_RESULT}.
  */
-export const ASPNETCORE_DIAGNOSTICS_EXCEPTION_RESULT_VALUE_UNHANDLED = "unhandled" as const;
+export const ASPNETCORE_DIAGNOSTICS_EXCEPTION_RESULT_VALUE_UNHANDLED =
+  'unhandled' as const;
 
 /**
  * Full type name of the [`IExceptionHandler`](https://learn.microsoft.com/dotnet/api/microsoft.aspnetcore.diagnostics.iexceptionhandler) implementation that handled the exception.
  *
  * @example Contoso.MyHandler
  */
-export const ATTR_ASPNETCORE_DIAGNOSTICS_HANDLER_TYPE = 'aspnetcore.diagnostics.handler.type' as const;
+export const ATTR_ASPNETCORE_DIAGNOSTICS_HANDLER_TYPE =
+  'aspnetcore.diagnostics.handler.type' as const;
 
 /**
  * Rate limiting policy name.
@@ -60,7 +66,8 @@ export const ATTR_ASPNETCORE_DIAGNOSTICS_HANDLER_TYPE = 'aspnetcore.diagnostics.
  * @example sliding
  * @example token
  */
-export const ATTR_ASPNETCORE_RATE_LIMITING_POLICY = 'aspnetcore.rate_limiting.policy' as const;
+export const ATTR_ASPNETCORE_RATE_LIMITING_POLICY =
+  'aspnetcore.rate_limiting.policy' as const;
 
 /**
  * Rate-limiting result, shows whether the lease was acquired or contains a rejection reason
@@ -68,41 +75,48 @@ export const ATTR_ASPNETCORE_RATE_LIMITING_POLICY = 'aspnetcore.rate_limiting.po
  * @example acquired
  * @example request_canceled
  */
-export const ATTR_ASPNETCORE_RATE_LIMITING_RESULT = 'aspnetcore.rate_limiting.result' as const;
+export const ATTR_ASPNETCORE_RATE_LIMITING_RESULT =
+  'aspnetcore.rate_limiting.result' as const;
 
 /**
  * Enum value "acquired" for attribute {@link ATTR_ASPNETCORE_RATE_LIMITING_RESULT}.
  */
-export const ASPNETCORE_RATE_LIMITING_RESULT_VALUE_ACQUIRED = "acquired" as const;
+export const ASPNETCORE_RATE_LIMITING_RESULT_VALUE_ACQUIRED =
+  'acquired' as const;
 
 /**
  * Enum value "endpoint_limiter" for attribute {@link ATTR_ASPNETCORE_RATE_LIMITING_RESULT}.
  */
-export const ASPNETCORE_RATE_LIMITING_RESULT_VALUE_ENDPOINT_LIMITER = "endpoint_limiter" as const;
+export const ASPNETCORE_RATE_LIMITING_RESULT_VALUE_ENDPOINT_LIMITER =
+  'endpoint_limiter' as const;
 
 /**
  * Enum value "global_limiter" for attribute {@link ATTR_ASPNETCORE_RATE_LIMITING_RESULT}.
  */
-export const ASPNETCORE_RATE_LIMITING_RESULT_VALUE_GLOBAL_LIMITER = "global_limiter" as const;
+export const ASPNETCORE_RATE_LIMITING_RESULT_VALUE_GLOBAL_LIMITER =
+  'global_limiter' as const;
 
 /**
  * Enum value "request_canceled" for attribute {@link ATTR_ASPNETCORE_RATE_LIMITING_RESULT}.
  */
-export const ASPNETCORE_RATE_LIMITING_RESULT_VALUE_REQUEST_CANCELED = "request_canceled" as const;
+export const ASPNETCORE_RATE_LIMITING_RESULT_VALUE_REQUEST_CANCELED =
+  'request_canceled' as const;
 
 /**
  * Flag indicating if request was handled by the application pipeline.
  *
  * @example true
  */
-export const ATTR_ASPNETCORE_REQUEST_IS_UNHANDLED = 'aspnetcore.request.is_unhandled' as const;
+export const ATTR_ASPNETCORE_REQUEST_IS_UNHANDLED =
+  'aspnetcore.request.is_unhandled' as const;
 
 /**
  * A value that indicates whether the matched route is a fallback route.
  *
  * @example true
  */
-export const ATTR_ASPNETCORE_ROUTING_IS_FALLBACK = 'aspnetcore.routing.is_fallback' as const;
+export const ATTR_ASPNETCORE_ROUTING_IS_FALLBACK =
+  'aspnetcore.routing.is_fallback' as const;
 
 /**
  * Match result - success or failure
@@ -110,17 +124,18 @@ export const ATTR_ASPNETCORE_ROUTING_IS_FALLBACK = 'aspnetcore.routing.is_fallba
  * @example success
  * @example failure
  */
-export const ATTR_ASPNETCORE_ROUTING_MATCH_STATUS = 'aspnetcore.routing.match_status' as const;
+export const ATTR_ASPNETCORE_ROUTING_MATCH_STATUS =
+  'aspnetcore.routing.match_status' as const;
 
 /**
  * Enum value "failure" for attribute {@link ATTR_ASPNETCORE_ROUTING_MATCH_STATUS}.
  */
-export const ASPNETCORE_ROUTING_MATCH_STATUS_VALUE_FAILURE = "failure" as const;
+export const ASPNETCORE_ROUTING_MATCH_STATUS_VALUE_FAILURE = 'failure' as const;
 
 /**
  * Enum value "success" for attribute {@link ATTR_ASPNETCORE_ROUTING_MATCH_STATUS}.
  */
-export const ASPNETCORE_ROUTING_MATCH_STATUS_VALUE_SUCCESS = "success" as const;
+export const ASPNETCORE_ROUTING_MATCH_STATUS_VALUE_SUCCESS = 'success' as const;
 
 /**
  * Client address - domain name if available without reverse DNS lookup; otherwise, IP address or Unix domain socket name.
@@ -315,7 +330,8 @@ export const ATTR_DB_RESPONSE_STATUS_CODE = 'db.response.status_code' as const;
  * For batch operations, if the individual operations are known to have the same
  * stored procedure name then that stored procedure name **SHOULD** be used.
  */
-export const ATTR_DB_STORED_PROCEDURE_NAME = 'db.stored_procedure.name' as const;
+export const ATTR_DB_STORED_PROCEDURE_NAME =
+  'db.stored_procedure.name' as const;
 
 /**
  * The database management system (DBMS) product as identified by the client instrumentation.
@@ -327,22 +343,23 @@ export const ATTR_DB_SYSTEM_NAME = 'db.system.name' as const;
 /**
  * Enum value "mariadb" for attribute {@link ATTR_DB_SYSTEM_NAME}.
  */
-export const DB_SYSTEM_NAME_VALUE_MARIADB = "mariadb" as const;
+export const DB_SYSTEM_NAME_VALUE_MARIADB = 'mariadb' as const;
 
 /**
  * Enum value "microsoft.sql_server" for attribute {@link ATTR_DB_SYSTEM_NAME}.
  */
-export const DB_SYSTEM_NAME_VALUE_MICROSOFT_SQL_SERVER = "microsoft.sql_server" as const;
+export const DB_SYSTEM_NAME_VALUE_MICROSOFT_SQL_SERVER =
+  'microsoft.sql_server' as const;
 
 /**
  * Enum value "mysql" for attribute {@link ATTR_DB_SYSTEM_NAME}.
  */
-export const DB_SYSTEM_NAME_VALUE_MYSQL = "mysql" as const;
+export const DB_SYSTEM_NAME_VALUE_MYSQL = 'mysql' as const;
 
 /**
  * Enum value "postgresql" for attribute {@link ATTR_DB_SYSTEM_NAME}.
  */
-export const DB_SYSTEM_NAME_VALUE_POSTGRESQL = "postgresql" as const;
+export const DB_SYSTEM_NAME_VALUE_POSTGRESQL = 'postgresql' as const;
 
 /**
  * Name of the garbage collector managed heap generation.
@@ -351,32 +368,33 @@ export const DB_SYSTEM_NAME_VALUE_POSTGRESQL = "postgresql" as const;
  * @example gen1
  * @example gen2
  */
-export const ATTR_DOTNET_GC_HEAP_GENERATION = 'dotnet.gc.heap.generation' as const;
+export const ATTR_DOTNET_GC_HEAP_GENERATION =
+  'dotnet.gc.heap.generation' as const;
 
 /**
  * Enum value "gen0" for attribute {@link ATTR_DOTNET_GC_HEAP_GENERATION}.
  */
-export const DOTNET_GC_HEAP_GENERATION_VALUE_GEN0 = "gen0" as const;
+export const DOTNET_GC_HEAP_GENERATION_VALUE_GEN0 = 'gen0' as const;
 
 /**
  * Enum value "gen1" for attribute {@link ATTR_DOTNET_GC_HEAP_GENERATION}.
  */
-export const DOTNET_GC_HEAP_GENERATION_VALUE_GEN1 = "gen1" as const;
+export const DOTNET_GC_HEAP_GENERATION_VALUE_GEN1 = 'gen1' as const;
 
 /**
  * Enum value "gen2" for attribute {@link ATTR_DOTNET_GC_HEAP_GENERATION}.
  */
-export const DOTNET_GC_HEAP_GENERATION_VALUE_GEN2 = "gen2" as const;
+export const DOTNET_GC_HEAP_GENERATION_VALUE_GEN2 = 'gen2' as const;
 
 /**
  * Enum value "loh" for attribute {@link ATTR_DOTNET_GC_HEAP_GENERATION}.
  */
-export const DOTNET_GC_HEAP_GENERATION_VALUE_LOH = "loh" as const;
+export const DOTNET_GC_HEAP_GENERATION_VALUE_LOH = 'loh' as const;
 
 /**
  * Enum value "poh" for attribute {@link ATTR_DOTNET_GC_HEAP_GENERATION}.
  */
-export const DOTNET_GC_HEAP_GENERATION_VALUE_POH = "poh" as const;
+export const DOTNET_GC_HEAP_GENERATION_VALUE_POH = 'poh' as const;
 
 /**
  * Describes a class of error the operation ended with.
@@ -411,7 +429,7 @@ export const ATTR_ERROR_TYPE = 'error.type' as const;
 /**
  * Enum value "_OTHER" for attribute {@link ATTR_ERROR_TYPE}.
  */
-export const ERROR_TYPE_VALUE_OTHER = "_OTHER" as const;
+export const ERROR_TYPE_VALUE_OTHER = '_OTHER' as const;
 
 /**
  * Indicates that the exception is escaping the scope of the span.
@@ -466,7 +484,8 @@ export const ATTR_EXCEPTION_TYPE = 'exception.type' as const;
  *   - A header `X-Forwarded-For: 1.2.3.4, 1.2.3.5` **SHOULD** be recorded as the `http.request.header.x-forwarded-for`
  *     attribute with value `["1.2.3.4", "1.2.3.5"]` or `["1.2.3.4, 1.2.3.5"]` depending on the HTTP library.
  */
-export const ATTR_HTTP_REQUEST_HEADER = (key: string) => `http.request.header.${key}`;
+export const ATTR_HTTP_REQUEST_HEADER = (key: string) =>
+  `http.request.header.${key}`;
 
 /**
  * HTTP request method.
@@ -495,52 +514,52 @@ export const ATTR_HTTP_REQUEST_METHOD = 'http.request.method' as const;
 /**
  * Enum value "_OTHER" for attribute {@link ATTR_HTTP_REQUEST_METHOD}.
  */
-export const HTTP_REQUEST_METHOD_VALUE_OTHER = "_OTHER" as const;
+export const HTTP_REQUEST_METHOD_VALUE_OTHER = '_OTHER' as const;
 
 /**
  * Enum value "CONNECT" for attribute {@link ATTR_HTTP_REQUEST_METHOD}.
  */
-export const HTTP_REQUEST_METHOD_VALUE_CONNECT = "CONNECT" as const;
+export const HTTP_REQUEST_METHOD_VALUE_CONNECT = 'CONNECT' as const;
 
 /**
  * Enum value "DELETE" for attribute {@link ATTR_HTTP_REQUEST_METHOD}.
  */
-export const HTTP_REQUEST_METHOD_VALUE_DELETE = "DELETE" as const;
+export const HTTP_REQUEST_METHOD_VALUE_DELETE = 'DELETE' as const;
 
 /**
  * Enum value "GET" for attribute {@link ATTR_HTTP_REQUEST_METHOD}.
  */
-export const HTTP_REQUEST_METHOD_VALUE_GET = "GET" as const;
+export const HTTP_REQUEST_METHOD_VALUE_GET = 'GET' as const;
 
 /**
  * Enum value "HEAD" for attribute {@link ATTR_HTTP_REQUEST_METHOD}.
  */
-export const HTTP_REQUEST_METHOD_VALUE_HEAD = "HEAD" as const;
+export const HTTP_REQUEST_METHOD_VALUE_HEAD = 'HEAD' as const;
 
 /**
  * Enum value "OPTIONS" for attribute {@link ATTR_HTTP_REQUEST_METHOD}.
  */
-export const HTTP_REQUEST_METHOD_VALUE_OPTIONS = "OPTIONS" as const;
+export const HTTP_REQUEST_METHOD_VALUE_OPTIONS = 'OPTIONS' as const;
 
 /**
  * Enum value "PATCH" for attribute {@link ATTR_HTTP_REQUEST_METHOD}.
  */
-export const HTTP_REQUEST_METHOD_VALUE_PATCH = "PATCH" as const;
+export const HTTP_REQUEST_METHOD_VALUE_PATCH = 'PATCH' as const;
 
 /**
  * Enum value "POST" for attribute {@link ATTR_HTTP_REQUEST_METHOD}.
  */
-export const HTTP_REQUEST_METHOD_VALUE_POST = "POST" as const;
+export const HTTP_REQUEST_METHOD_VALUE_POST = 'POST' as const;
 
 /**
  * Enum value "PUT" for attribute {@link ATTR_HTTP_REQUEST_METHOD}.
  */
-export const HTTP_REQUEST_METHOD_VALUE_PUT = "PUT" as const;
+export const HTTP_REQUEST_METHOD_VALUE_PUT = 'PUT' as const;
 
 /**
  * Enum value "TRACE" for attribute {@link ATTR_HTTP_REQUEST_METHOD}.
  */
-export const HTTP_REQUEST_METHOD_VALUE_TRACE = "TRACE" as const;
+export const HTTP_REQUEST_METHOD_VALUE_TRACE = 'TRACE' as const;
 
 /**
  * Original HTTP method sent by the client in the request line.
@@ -549,7 +568,8 @@ export const HTTP_REQUEST_METHOD_VALUE_TRACE = "TRACE" as const;
  * @example ACL
  * @example foo
  */
-export const ATTR_HTTP_REQUEST_METHOD_ORIGINAL = 'http.request.method_original' as const;
+export const ATTR_HTTP_REQUEST_METHOD_ORIGINAL =
+  'http.request.method_original' as const;
 
 /**
  * The ordinal number of request resending attempt (for any reason, including redirects).
@@ -558,7 +578,8 @@ export const ATTR_HTTP_REQUEST_METHOD_ORIGINAL = 'http.request.method_original' 
  *
  * @note The resend count **SHOULD** be updated each time an HTTP request gets resent by the client, regardless of what was the cause of the resending (e.g. redirection, authorization failure, 503 Server Unavailable, network issues, or any other).
  */
-export const ATTR_HTTP_REQUEST_RESEND_COUNT = 'http.request.resend_count' as const;
+export const ATTR_HTTP_REQUEST_RESEND_COUNT =
+  'http.request.resend_count' as const;
 
 /**
  * HTTP response headers, `<key>` being the normalized HTTP Header name (lowercase), the value being the header values.
@@ -582,14 +603,16 @@ export const ATTR_HTTP_REQUEST_RESEND_COUNT = 'http.request.resend_count' as con
  *   - A header `My-custom-header: abc, def` header **SHOULD** be recorded as the `http.response.header.my-custom-header`
  *     attribute with value `["abc", "def"]` or `["abc, def"]` depending on the HTTP library.
  */
-export const ATTR_HTTP_RESPONSE_HEADER = (key: string) => `http.response.header.${key}`;
+export const ATTR_HTTP_RESPONSE_HEADER = (key: string) =>
+  `http.response.header.${key}`;
 
 /**
  * [HTTP response status code](https://tools.ietf.org/html/rfc7231#section-6).
  *
  * @example 200
  */
-export const ATTR_HTTP_RESPONSE_STATUS_CODE = 'http.response.status_code' as const;
+export const ATTR_HTTP_RESPONSE_STATUS_CODE =
+  'http.response.status_code' as const;
 
 /**
  * The matched route, that is, the path template in the format used by the respective server framework.
@@ -644,12 +667,12 @@ export const ATTR_JVM_MEMORY_TYPE = 'jvm.memory.type' as const;
 /**
  * Enum value "heap" for attribute {@link ATTR_JVM_MEMORY_TYPE}.
  */
-export const JVM_MEMORY_TYPE_VALUE_HEAP = "heap" as const;
+export const JVM_MEMORY_TYPE_VALUE_HEAP = 'heap' as const;
 
 /**
  * Enum value "non_heap" for attribute {@link ATTR_JVM_MEMORY_TYPE}.
  */
-export const JVM_MEMORY_TYPE_VALUE_NON_HEAP = "non_heap" as const;
+export const JVM_MEMORY_TYPE_VALUE_NON_HEAP = 'non_heap' as const;
 
 /**
  * Whether the thread is daemon or not.
@@ -667,32 +690,32 @@ export const ATTR_JVM_THREAD_STATE = 'jvm.thread.state' as const;
 /**
  * Enum value "blocked" for attribute {@link ATTR_JVM_THREAD_STATE}.
  */
-export const JVM_THREAD_STATE_VALUE_BLOCKED = "blocked" as const;
+export const JVM_THREAD_STATE_VALUE_BLOCKED = 'blocked' as const;
 
 /**
  * Enum value "new" for attribute {@link ATTR_JVM_THREAD_STATE}.
  */
-export const JVM_THREAD_STATE_VALUE_NEW = "new" as const;
+export const JVM_THREAD_STATE_VALUE_NEW = 'new' as const;
 
 /**
  * Enum value "runnable" for attribute {@link ATTR_JVM_THREAD_STATE}.
  */
-export const JVM_THREAD_STATE_VALUE_RUNNABLE = "runnable" as const;
+export const JVM_THREAD_STATE_VALUE_RUNNABLE = 'runnable' as const;
 
 /**
  * Enum value "terminated" for attribute {@link ATTR_JVM_THREAD_STATE}.
  */
-export const JVM_THREAD_STATE_VALUE_TERMINATED = "terminated" as const;
+export const JVM_THREAD_STATE_VALUE_TERMINATED = 'terminated' as const;
 
 /**
  * Enum value "timed_waiting" for attribute {@link ATTR_JVM_THREAD_STATE}.
  */
-export const JVM_THREAD_STATE_VALUE_TIMED_WAITING = "timed_waiting" as const;
+export const JVM_THREAD_STATE_VALUE_TIMED_WAITING = 'timed_waiting' as const;
 
 /**
  * Enum value "waiting" for attribute {@link ATTR_JVM_THREAD_STATE}.
  */
-export const JVM_THREAD_STATE_VALUE_WAITING = "waiting" as const;
+export const JVM_THREAD_STATE_VALUE_WAITING = 'waiting' as const;
 
 /**
  * Local address of the network connection - IP address or Unix domain socket name.
@@ -743,7 +766,8 @@ export const ATTR_NETWORK_PROTOCOL_NAME = 'network.protocol.name' as const;
  *
  * @note If protocol version is subject to negotiation (for example using [ALPN](https://www.rfc-editor.org/rfc/rfc7301.html)), this attribute **SHOULD** be set to the negotiated version. If the actual protocol version is not known, this attribute **SHOULD NOT** be set.
  */
-export const ATTR_NETWORK_PROTOCOL_VERSION = 'network.protocol.version' as const;
+export const ATTR_NETWORK_PROTOCOL_VERSION =
+  'network.protocol.version' as const;
 
 /**
  * [OSI transport layer](https://wikipedia.org/wiki/Transport_layer) or [inter-process communication method](https://wikipedia.org/wiki/Inter-process_communication).
@@ -762,27 +786,27 @@ export const ATTR_NETWORK_TRANSPORT = 'network.transport' as const;
 /**
  * Enum value "pipe" for attribute {@link ATTR_NETWORK_TRANSPORT}.
  */
-export const NETWORK_TRANSPORT_VALUE_PIPE = "pipe" as const;
+export const NETWORK_TRANSPORT_VALUE_PIPE = 'pipe' as const;
 
 /**
  * Enum value "quic" for attribute {@link ATTR_NETWORK_TRANSPORT}.
  */
-export const NETWORK_TRANSPORT_VALUE_QUIC = "quic" as const;
+export const NETWORK_TRANSPORT_VALUE_QUIC = 'quic' as const;
 
 /**
  * Enum value "tcp" for attribute {@link ATTR_NETWORK_TRANSPORT}.
  */
-export const NETWORK_TRANSPORT_VALUE_TCP = "tcp" as const;
+export const NETWORK_TRANSPORT_VALUE_TCP = 'tcp' as const;
 
 /**
  * Enum value "udp" for attribute {@link ATTR_NETWORK_TRANSPORT}.
  */
-export const NETWORK_TRANSPORT_VALUE_UDP = "udp" as const;
+export const NETWORK_TRANSPORT_VALUE_UDP = 'udp' as const;
 
 /**
  * Enum value "unix" for attribute {@link ATTR_NETWORK_TRANSPORT}.
  */
-export const NETWORK_TRANSPORT_VALUE_UNIX = "unix" as const;
+export const NETWORK_TRANSPORT_VALUE_UNIX = 'unix' as const;
 
 /**
  * [OSI network layer](https://wikipedia.org/wiki/Network_layer) or non-OSI equivalent.
@@ -797,12 +821,12 @@ export const ATTR_NETWORK_TYPE = 'network.type' as const;
 /**
  * Enum value "ipv4" for attribute {@link ATTR_NETWORK_TYPE}.
  */
-export const NETWORK_TYPE_VALUE_IPV4 = "ipv4" as const;
+export const NETWORK_TYPE_VALUE_IPV4 = 'ipv4' as const;
 
 /**
  * Enum value "ipv6" for attribute {@link ATTR_NETWORK_TYPE}.
  */
-export const NETWORK_TYPE_VALUE_IPV6 = "ipv6" as const;
+export const NETWORK_TYPE_VALUE_IPV6 = 'ipv6' as const;
 
 /**
  * The name of the instrumentation scope - (`InstrumentationScope.Name` in OTLP).
@@ -826,12 +850,12 @@ export const ATTR_OTEL_STATUS_CODE = 'otel.status_code' as const;
 /**
  * Enum value "ERROR" for attribute {@link ATTR_OTEL_STATUS_CODE}.
  */
-export const OTEL_STATUS_CODE_VALUE_ERROR = "ERROR" as const;
+export const OTEL_STATUS_CODE_VALUE_ERROR = 'ERROR' as const;
 
 /**
  * Enum value "OK" for attribute {@link ATTR_OTEL_STATUS_CODE}.
  */
-export const OTEL_STATUS_CODE_VALUE_OK = "OK" as const;
+export const OTEL_STATUS_CODE_VALUE_OK = 'OK' as const;
 
 /**
  * Description of the Status if it has a value, otherwise not set.
@@ -885,22 +909,25 @@ export const ATTR_SERVICE_VERSION = 'service.version' as const;
  * @example app_shutdown
  * @example timeout
  */
-export const ATTR_SIGNALR_CONNECTION_STATUS = 'signalr.connection.status' as const;
+export const ATTR_SIGNALR_CONNECTION_STATUS =
+  'signalr.connection.status' as const;
 
 /**
  * Enum value "app_shutdown" for attribute {@link ATTR_SIGNALR_CONNECTION_STATUS}.
  */
-export const SIGNALR_CONNECTION_STATUS_VALUE_APP_SHUTDOWN = "app_shutdown" as const;
+export const SIGNALR_CONNECTION_STATUS_VALUE_APP_SHUTDOWN =
+  'app_shutdown' as const;
 
 /**
  * Enum value "normal_closure" for attribute {@link ATTR_SIGNALR_CONNECTION_STATUS}.
  */
-export const SIGNALR_CONNECTION_STATUS_VALUE_NORMAL_CLOSURE = "normal_closure" as const;
+export const SIGNALR_CONNECTION_STATUS_VALUE_NORMAL_CLOSURE =
+  'normal_closure' as const;
 
 /**
  * Enum value "timeout" for attribute {@link ATTR_SIGNALR_CONNECTION_STATUS}.
  */
-export const SIGNALR_CONNECTION_STATUS_VALUE_TIMEOUT = "timeout" as const;
+export const SIGNALR_CONNECTION_STATUS_VALUE_TIMEOUT = 'timeout' as const;
 
 /**
  * [SignalR transport type](https://github.com/dotnet/aspnetcore/blob/main/src/SignalR/docs/specs/TransportProtocols.md)
@@ -913,17 +940,18 @@ export const ATTR_SIGNALR_TRANSPORT = 'signalr.transport' as const;
 /**
  * Enum value "long_polling" for attribute {@link ATTR_SIGNALR_TRANSPORT}.
  */
-export const SIGNALR_TRANSPORT_VALUE_LONG_POLLING = "long_polling" as const;
+export const SIGNALR_TRANSPORT_VALUE_LONG_POLLING = 'long_polling' as const;
 
 /**
  * Enum value "server_sent_events" for attribute {@link ATTR_SIGNALR_TRANSPORT}.
  */
-export const SIGNALR_TRANSPORT_VALUE_SERVER_SENT_EVENTS = "server_sent_events" as const;
+export const SIGNALR_TRANSPORT_VALUE_SERVER_SENT_EVENTS =
+  'server_sent_events' as const;
 
 /**
  * Enum value "web_sockets" for attribute {@link ATTR_SIGNALR_TRANSPORT}.
  */
-export const SIGNALR_TRANSPORT_VALUE_WEB_SOCKETS = "web_sockets" as const;
+export const SIGNALR_TRANSPORT_VALUE_WEB_SOCKETS = 'web_sockets' as const;
 
 /**
  * The language of the telemetry SDK.
@@ -933,62 +961,62 @@ export const ATTR_TELEMETRY_SDK_LANGUAGE = 'telemetry.sdk.language' as const;
 /**
  * Enum value "cpp" for attribute {@link ATTR_TELEMETRY_SDK_LANGUAGE}.
  */
-export const TELEMETRY_SDK_LANGUAGE_VALUE_CPP = "cpp" as const;
+export const TELEMETRY_SDK_LANGUAGE_VALUE_CPP = 'cpp' as const;
 
 /**
  * Enum value "dotnet" for attribute {@link ATTR_TELEMETRY_SDK_LANGUAGE}.
  */
-export const TELEMETRY_SDK_LANGUAGE_VALUE_DOTNET = "dotnet" as const;
+export const TELEMETRY_SDK_LANGUAGE_VALUE_DOTNET = 'dotnet' as const;
 
 /**
  * Enum value "erlang" for attribute {@link ATTR_TELEMETRY_SDK_LANGUAGE}.
  */
-export const TELEMETRY_SDK_LANGUAGE_VALUE_ERLANG = "erlang" as const;
+export const TELEMETRY_SDK_LANGUAGE_VALUE_ERLANG = 'erlang' as const;
 
 /**
  * Enum value "go" for attribute {@link ATTR_TELEMETRY_SDK_LANGUAGE}.
  */
-export const TELEMETRY_SDK_LANGUAGE_VALUE_GO = "go" as const;
+export const TELEMETRY_SDK_LANGUAGE_VALUE_GO = 'go' as const;
 
 /**
  * Enum value "java" for attribute {@link ATTR_TELEMETRY_SDK_LANGUAGE}.
  */
-export const TELEMETRY_SDK_LANGUAGE_VALUE_JAVA = "java" as const;
+export const TELEMETRY_SDK_LANGUAGE_VALUE_JAVA = 'java' as const;
 
 /**
  * Enum value "nodejs" for attribute {@link ATTR_TELEMETRY_SDK_LANGUAGE}.
  */
-export const TELEMETRY_SDK_LANGUAGE_VALUE_NODEJS = "nodejs" as const;
+export const TELEMETRY_SDK_LANGUAGE_VALUE_NODEJS = 'nodejs' as const;
 
 /**
  * Enum value "php" for attribute {@link ATTR_TELEMETRY_SDK_LANGUAGE}.
  */
-export const TELEMETRY_SDK_LANGUAGE_VALUE_PHP = "php" as const;
+export const TELEMETRY_SDK_LANGUAGE_VALUE_PHP = 'php' as const;
 
 /**
  * Enum value "python" for attribute {@link ATTR_TELEMETRY_SDK_LANGUAGE}.
  */
-export const TELEMETRY_SDK_LANGUAGE_VALUE_PYTHON = "python" as const;
+export const TELEMETRY_SDK_LANGUAGE_VALUE_PYTHON = 'python' as const;
 
 /**
  * Enum value "ruby" for attribute {@link ATTR_TELEMETRY_SDK_LANGUAGE}.
  */
-export const TELEMETRY_SDK_LANGUAGE_VALUE_RUBY = "ruby" as const;
+export const TELEMETRY_SDK_LANGUAGE_VALUE_RUBY = 'ruby' as const;
 
 /**
  * Enum value "rust" for attribute {@link ATTR_TELEMETRY_SDK_LANGUAGE}.
  */
-export const TELEMETRY_SDK_LANGUAGE_VALUE_RUST = "rust" as const;
+export const TELEMETRY_SDK_LANGUAGE_VALUE_RUST = 'rust' as const;
 
 /**
  * Enum value "swift" for attribute {@link ATTR_TELEMETRY_SDK_LANGUAGE}.
  */
-export const TELEMETRY_SDK_LANGUAGE_VALUE_SWIFT = "swift" as const;
+export const TELEMETRY_SDK_LANGUAGE_VALUE_SWIFT = 'swift' as const;
 
 /**
  * Enum value "webjs" for attribute {@link ATTR_TELEMETRY_SDK_LANGUAGE}.
  */
-export const TELEMETRY_SDK_LANGUAGE_VALUE_WEBJS = "webjs" as const;
+export const TELEMETRY_SDK_LANGUAGE_VALUE_WEBJS = 'webjs' as const;
 
 /**
  * The name of the telemetry SDK as defined above.
@@ -1098,4 +1126,3 @@ export const ATTR_URL_SCHEME = 'url.scheme' as const;
  * @example YourApp/1.0.0 grpc-java-okhttp/1.27.2
  */
 export const ATTR_USER_AGENT_ORIGINAL = 'user_agent.original' as const;
-

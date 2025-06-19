@@ -363,7 +363,7 @@ export function normalizeUrl(url: string): string {
  * @param optimised - when id attribute of element is present the xpath can be
  * simplified to contain id
  */
-// eslint-disable-next-line @typescript-eslint/no-explicit-any, @typescript-eslint/explicit-module-boundary-types
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export function getElementXPath(target: any, optimised?: boolean): string {
   if (target.nodeType === Node.DOCUMENT_NODE) {
     return '/';

@@ -14,6 +14,8 @@
  * limitations under the License.
  */
 
+/* eslint-disable @typescript-eslint/no-require-imports */
+
 const assert = require('assert');
 
 // Using `node16` or `nodenext` in `tsconfig.json#moduleResolution`

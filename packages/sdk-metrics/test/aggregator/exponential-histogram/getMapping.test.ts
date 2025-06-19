@@ -13,6 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
 import { ExponentMapping } from '../../../src/aggregator/exponential-histogram/mapping/ExponentMapping';
 import { LogarithmMapping } from '../../../src/aggregator/exponential-histogram/mapping/LogarithmMapping';
 import { getMapping } from '../../../src/aggregator/exponential-histogram/mapping/getMapping';

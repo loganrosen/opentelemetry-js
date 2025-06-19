@@ -13,6 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
 import { INVALID_SPANID, INVALID_TRACEID } from './invalid-span-constants';
 import { NonRecordingSpan } from './NonRecordingSpan';
 import { Span } from './span';

@@ -13,6 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
 export const normalizeArch = (nodeArchString: string): string => {
   // Maps from https://nodejs.org/api/os.html#osarch to arch values in spec:
   // https://github.com/open-telemetry/opentelemetry-specification/blob/main/specification/resource/semantic_conventions/host.md

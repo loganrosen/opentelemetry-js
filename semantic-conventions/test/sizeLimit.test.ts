@@ -117,19 +117,27 @@ describe('size-limits', function () {
         switch (matches[1]) {
           case 'Size':
             result['size'] = matches[2];
-            !result.raw && (result.raw = output);
+            if (!result.raw) {
+              result.raw = output;
+            }
             break;
           case 'Loading time':
             result['loadTime'] = matches[2];
-            !result.raw && (result.raw = output);
+            if (!result.raw) {
+              result.raw = output;
+            }
             break;
           case 'Running time':
             result['runTime'] = matches[2];
-            !result.raw && (result.raw = output);
+            if (!result.raw) {
+              result.raw = output;
+            }
             break;
           case 'Total time':
             result['totalTime'] = matches[2];
-            !result.raw && (result.raw = output);
+            if (!result.raw) {
+              result.raw = output;
+            }
             break;
         }
       }
@@ -252,10 +260,8 @@ describe('size-limits', function () {
 
   entryPoints.forEach(entryPoint => {
     describe('Checking ' + entryPoint.name, function () {
-      // eslint-disable-line no-undef
       autoImports.getGroups().forEach(group => {
         describe('Group ' + group, () => {
-          // eslint-disable-line no-undef
           const checkResults: {
             full?: ISizeResult | null;
             gzip?: ISizeResult | null;

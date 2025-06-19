@@ -13,6 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+
 import * as sinon from 'sinon';
 import { browserDetector } from '../src/BrowserDetector';
 import { assertEmptyResource, assertResource, describeBrowser } from './util';
